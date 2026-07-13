@@ -1,1 +1,1 @@
-launcher release refreshed by launcher-publish run 29274779201 (v1.1.37)
+launcher release refreshed by launcher-publish run 29282779674 (v1.1.38)
