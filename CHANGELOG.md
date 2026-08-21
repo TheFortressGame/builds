@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3512
+
+- MacOS leg stops fetching Docs/ — blobless sparse checkout
+
 ## v0.0.28-P3511
 
 - The OPTIONS chrome is a snap target, so a window can be lined up against it
