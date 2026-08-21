@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3510
+
+- Compress the engine .so via the export preset — 162.8 → 118.2 MB
+
 ## v0.0.28-P3509
 
 - Publish leg can't finish — blobless clone, 30→60 min budget
