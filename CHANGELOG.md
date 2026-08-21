@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3494
+
+- The zoom +/- rail becomes a movable window; the OPTIONS reserve is now exactly its gold edge
+
+Behind the scenes:
+- Record the monotonic build-number decision
+
 ## v0.0.28-P3492
 
 - Maintenance build (no player-facing changes in this range).
