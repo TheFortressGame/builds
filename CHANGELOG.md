@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P1065
+
+- Balance the size<->font ledger so a saved bar reloads at the height it was saved
+
 ## v0.0.28-P1064
 
 - Hearth depth scales with the prop — back on the wall
