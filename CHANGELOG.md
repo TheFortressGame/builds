@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3497
+
+- Skinny windows get a skinny floor - MIN_W no longer reserves width for chrome that isn't there
+
 ## v0.0.28-P3496
 
 - Room composition — chairs, barrel redistribution, painterly hearth 1.8m
