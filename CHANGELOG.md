@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P1061
+
+- Raw pixel + scale fields in the HUD layout capture (P1056 diag)
+
+Behind the scenes:
+- Fire build for HUD-capture diagnostic
+
 ## v0.0.28-P1059
 
 - Scheme-aware release pick — filter legacy tags, then publish time
