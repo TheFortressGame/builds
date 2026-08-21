@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P1070
+
+- Skinny mode must not overwrite a saved window height with the content floor
+
+Behind the scenes:
+- Pick the release by comparing the numbers, version then integer P
+
 ## v0.0.28-P1068
 
 - Discord post reads the repaired release body (single source) + authenticated PREV fetch
