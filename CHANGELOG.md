@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P1068
+
+- Discord post reads the repaired release body (single source) + authenticated PREV fetch
+- Source the release tip authoritatively; make the drift guard see it
+
+Behind the scenes:
+- Final lockdown — frozen-constant rule in CLAUDE.md; regen-program status + next section
+
 ## v0.0.28-P1065
 
 - Balance the size<->font ledger so a saved bar reloads at the height it was saved
