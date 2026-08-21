@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3509
+
+- Publish leg can't finish — blobless clone, 30→60 min budget
+- The OPTIONS drawer sits BESIDE the handle in landscape instead of starving below it
+- The layout capture reports the OPTIONS reserve and per-window PIXEL rects
+- Cutscene texture format: measure VRAM vs fidelity for ETC2 / ASTC / lossy WebP before adopting policy B
+- The OPTIONS reserve pushes out the SHORT way, so a window can rest flush against it
+
+Behind the scenes:
+- Walls & floors — measured scope for the interior envelope
+- Self-check detects stale RDP console markers (post-/clear rotation + 4-day backstop)
+- Art-gap loop reworked and armed — Codex queue, never Flux
+- Close the specified-but-never-armed class — widen check 19b, fix premortem code misread, unblock ruleset-snapshot, deploy *.sh
+- Cut the Android download ~80 MB — drafts out, engine .so compressed, cutscene size cap
+- Cutscene texture policy comparison sheets (issue #4906)
+- Weekly asset-bloat check — policy-aware (cutscene policy B), draft-leak + WAV classes, wired into the weekly digest
+
 ## v0.0.28-P3497
 
 - Skinny windows get a skinny floor - MIN_W no longer reserves width for chrome that isn't there
