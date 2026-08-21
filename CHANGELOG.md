@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P1064
+
+- Hearth depth scales with the prop — back on the wall
+
+Behind the scenes:
+- Deployed-versions coverage grows with the platforms - a new surface ships WITH its stamp
+- Lock the world-art & rendering rules into CLAUDE.md
+
 ## v0.0.28-P1061
 
 - Raw pixel + scale fields in the HUD layout capture (P1056 diag)
