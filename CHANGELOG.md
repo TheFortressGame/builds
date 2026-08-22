@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3527
+
+- His 2026-08-22 arrangement becomes the phone-portrait default, skinny included
+- The nine craftsman cutscene beats get a recorded recipe, and a re-author can carry its own scene forward
+- The OPTIONS drawer clears the bottom info strip
+- Modal still frame is 1.75, matching the art — not 16:9
+- Save commits the window you placed, not the re-abut's version of it
+- The daily brief reads the real release P again - monotonic, no ceiling
+- A self-check that throws can no longer emit nothing *(fix attempt - still being verified)*
+- One digest worktree per routine label - a starting routine no longer deletes a running one's files
+
+Behind the scenes:
+- Map web CRASH on management screen to #4948
+- Tileset regen + Android download size lines (v36)
+
 ## v0.0.28-P3516
 
 - The re-abut never steals the window you just placed
