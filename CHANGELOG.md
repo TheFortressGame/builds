@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3516
+
+- The re-abut never steals the window you just placed
+- Modal still frame is 1.75, matching the art — not 16:9
+
+Behind the scenes:
+- Cutscene 4:3->16:9 crop evidence for the 24 mis-ratio stills
+
 ## v0.0.28-P3513
 
 - The OPTIONS drawer shrinks to the surface it is on - landscape no longer hides its bottom rows
