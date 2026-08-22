@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3529
+
+- His landscape arrangement becomes the THIRD default anchor
+- Bram's build follows the art; /box gains a Codex render lane
+
 ## v0.0.28-P3527
 
 - His 2026-08-22 arrangement becomes the phone-portrait default, skinny included
