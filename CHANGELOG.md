@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3544
+
+- Absorb a transient Android export crash instead of losing the release
+- A broken login beats every capacity number
+- Prior day clears again - split merged routine bursts; verify-after-prune; failed prune files an issue
+- Merged == live, no matter who merges
+- Route cutscene modal textures through ArtCache (overnight queue B)
+- Enforce ArtCache.tex() over bare load() of art paths (ARTCACHE gate)
+- Warn before switching to an unfinished art mode
+- Watch the NPC dossier's CONTENT, not just its builder script
+- Published docs track ALL current artwork - tileset audit regenerates + publishes, silent generator failures alarm, currency in the weekly check
+
+Behind the scenes:
+- Mechanize the ATTEMPT ledger in check-bugfix-shape
+- Batch-fire deterministic empty-queue pre-check
+- Overnight-queue status - D/E done (#4984), I measured-closed (macOS 2min), B/C/G dispatched (#4987/#4988/#4989)
+- Overnight queue D+E - readable *.import diffs; compression check documents the SHIPPED policy
+- Published-currency audit - EVERY published surface verified live, weekly (Nathan 2026-08-22)
+
 ## v0.0.28-P3529
 
 - His landscape arrangement becomes the THIRD default anchor
