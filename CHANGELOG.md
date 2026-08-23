@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3557
+
+- Storybook cottage skin — painterly walls, floor, furniture + mason props
+- The Builder's cottage is a rectangular long hall, not a square
+- Render-cutscenes announces every outcome, not just success
+- CI-throughput store lost 163 runs (08-16..18) and is publishing insights computed on 4 of 30 days ΓÇö backfill, widen the collect window, alarm on the gap
+- Conversion sweep restores a converted chat's title (rename-chat.py, PUT /v1/code/sessions)
+- Pinned chats keep their names across conversions - auto-pin NAME-SYNC keeps each revival launcher's -n equal to the chat's current title
+- Batch-fire consumes the board BY STATE - cap 2/night, nightly cadence made authoritative
+- A read-only errand that posted its report is COMPLETE, not 'FAILED - no branch pushed'
+- Supervisor auth-hold (#5001 class) + DedupJanitor armed with its sources in the repo *(fix attempt - still being verified)*
+- Step4 deploys CONFIG too, and grades itself against main
+- The release gate reads ancestry, not recency
+
+Behind the scenes:
+- Mason + woodsman cutscene re-author review boards
+- Weekly Meta-Review moves Sunday 03:00 to Thursday 05:30; gets its own 7-day brief retention
+
 ## v0.0.28-P3544
 
 - Absorb a transient Android export crash instead of losing the release
