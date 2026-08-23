@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3559
+
+- Promote 9 re-authored cutscene plates at native 1.75 aspect
+
+Behind the scenes:
+- Fire interim build for the re-authored cutscene plates
+
 ## v0.0.28-P3557
 
 - Storybook cottage skin — painterly walls, floor, furniture + mason props
