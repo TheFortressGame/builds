@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3564
+
+- Self-heal the cottage 'frozen with a clean screen' freeze
+
 ## v0.0.28-P3563
 
 - Fit painted interiors to the screen so the cottage fills the view, not a tiny box
