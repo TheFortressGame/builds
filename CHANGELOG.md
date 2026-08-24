@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3563
+
+- Fit painted interiors to the screen so the cottage fills the view, not a tiny box
+
+Behind the scenes:
+- Fill in Doran, Hollis and Sela from their art; fix stale wiring claims
+
 ## v0.0.28-P3560
 
 - The Builder's cottage renders the approved painting AS the room
