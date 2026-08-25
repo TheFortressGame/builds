@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3587
+
+- His desktop arrangement is the third anchor; the zoom buttons stop stretching
+- A wrapper-hosted window can no longer bury the OPTIONS drawer
+- The keystone — desktop uses the phone's scaling path (#4851), rebased and green
+- Pin Mergify's checks_timeout to 45 minutes *(fix attempt - still being verified)*
+- Monthlies clear after 3 days too (Nathan: 'i dont think it should sit for that long. a few days')
+
 ## v0.0.28-P3582
 
 - The soak verdict cannot say PASS about nothing
