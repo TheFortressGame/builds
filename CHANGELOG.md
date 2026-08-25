@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3575
+
+- Name the HUD window whose hitbox vetoes cottage movement
+- A live session stays in the silo it was opened from
+- Weekly-grain digests clear after 3 days, not 7
+- 'full sweeps not green' counts MAIN nightlies only - branch-side dispatch runs are developer-loop, not the release gate
+- Make the hearth depth-coupling guard content-independent
+- Account A OAuth token only refreshes on an A-engine API call, leaving archive-sync token-dark for hours
+- Stop no-op known-bugs-sync runs from cancelling real renders *(fix attempt - still being verified)*
+- Detect a stale merge base once, use it twice; stop freshening PRs already in the merge queue
+- Routine-fleet reliability bundle (#5013, #5063, #5064) *(fix attempt - still being verified)*
+- Codex-usage token feed - name the ephemeral mechanism, fix the double count, alarm on the dark half
+
+Behind the scenes:
+- Record whole-room-painting interior path (#5049), point CLAUDE.md at it
+
 ## v0.0.28-P3564
 
 - Self-heal the cottage 'frozen with a clean screen' freeze
