@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3582
+
+- The soak verdict cannot say PASS about nothing
+- A docked SKINNY window reloads where it was docked, not 64px left
+- A soak harness that measures "left running for a long time"
+- Restore the real user:// directory and rescue what was stranded there
+- Sessions renew themselves instead of expiring
+
 ## v0.0.28-P3577
 
 - Reload snaps a wedged saved position to walkable ground
@@ -19,7 +27,7 @@ publish - do not edit by hand.
 - Account A OAuth token only refreshes on an A-engine API call, leaving archive-sync token-dark for hours
 - Stop no-op known-bugs-sync runs from cancelling real renders *(fix attempt - still being verified)*
 - Detect a stale merge base once, use it twice; stop freshening PRs already in the merge queue
-- Routine-fleet reliability bundle (#5013, #5063, #5064) *(fix attempt - still being verified)*
+- Routine-fleet reliability bundle (#5013, #5063, #5064)
 - Codex-usage token feed - name the ephemeral mechanism, fix the double count, alarm on the dark half
 
 Behind the scenes:
@@ -57,7 +65,7 @@ Behind the scenes:
 - Pinned chats keep their names across conversions - auto-pin NAME-SYNC keeps each revival launcher's -n equal to the chat's current title
 - Batch-fire consumes the board BY STATE - cap 2/night, nightly cadence made authoritative
 - A read-only errand that posted its report is COMPLETE, not 'FAILED - no branch pushed'
-- Supervisor auth-hold (#5001 class) + DedupJanitor armed with its sources in the repo *(fix attempt - still being verified)*
+- Supervisor auth-hold (#5001 class) + DedupJanitor armed with its sources in the repo
 - Step4 deploys CONFIG too, and grades itself against main
 - The release gate reads ancestry, not recency
 
