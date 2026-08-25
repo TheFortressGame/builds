@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3589
+
+- The room IS the mockup + invisible collision (real walkable space)
+- A failed renewal is not a dead session
+
 ## v0.0.28-P3587
 
 - His desktop arrangement is the third anchor; the zoom buttons stop stretching
