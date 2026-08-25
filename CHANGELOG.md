@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3577
+
+- Reload snaps a wedged saved position to walkable ground
+- A lost identity ends the run and says why
+
 ## v0.0.28-P3575
 
 - Name the HUD window whose hitbox vetoes cottage movement
