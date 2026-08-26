@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3603
+
+- The soak drives real navigation, not just idling
+
 ## v0.0.28-P3602
 
 - A saved window placement survives reload; zoom rail always skinny
