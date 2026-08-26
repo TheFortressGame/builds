@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3602
+
+- A saved window placement survives reload; zoom rail always skinny
+- The character bar's buttons wear the Area bar's corners
+- A failing backup says so instead of failing silently
+- Builder's cottage on the DEFAULT art set: 26 invisible walls and 6 walk-through furniture sprites ΓÇö #5116's collision map is traced from a painting only Storybook has
+- Shrinking the health bar leaves a gap above the info bar (P1013) ΓÇö live on main, and the tested fix is stranded on a never-PR'd branch
+
+Behind the scenes:
+- Brief 08-26 follow-ups - roadmap session-renewal truth; steward idle clock ignores label-only updates
+
 ## v0.0.28-P3596
 
 - Mason cottage is a real navigable 2:1 space - collision, depth occlusion, door at the painted door
