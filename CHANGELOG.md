@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3593
+
+- The keystone gave desktop the phone-LANDSCAPE canvas
+- 1-day channel window for EVERY digest grain - the same-day-handling contract
+- The soak judges private bytes, not working set
+- Delivery driver stops crying wolf, freshener stops chasing declines (#5086, #5091) *(fix attempt - still being verified)*
+
 ## v0.0.28-P3589
 
 - The room IS the mockup + invisible collision (real walkable space)
