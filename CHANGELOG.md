@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3604
+
+- IOS app-icon set + generator, wired into the export preset
+
 ## v0.0.28-P3603
 
 - The soak drives real navigation, not just idling
