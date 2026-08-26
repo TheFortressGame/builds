@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3596
+
+- Mason cottage is a real navigable 2:1 space - collision, depth occlusion, door at the painted door
+- Capture-state died to SingleInstanceGuard too - real-game captures never ran
+- The capture harness never rendered - SingleInstanceGuard was killing it
+
 ## v0.0.28-P3593
 
 - The keystone gave desktop the phone-LANDSCAPE canvas
