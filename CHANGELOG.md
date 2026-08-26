@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3605
+
+- Customize keeps a saved placement; zoom always skinny; one corner rule for every bar button
+
 ## v0.0.28-P3604
 
 - IOS app-icon set + generator, wired into the export preset
