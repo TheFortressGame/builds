@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3616
+
+- Patrol 7 - cron repair (Nathan-authorized, #5169)
+- A yielded daily still prunes the channel - only a FAILED run skips
+- Read the CI-throughput day-store as utf-8-sig, not utf-8
+- The auth dead-man's issue lookup ran zero times
+- Unarchive a card thread before writing into it
+
+Behind the scenes:
+- ONE bar-button widget instead of six tuned to match
+- The box PAT CAN workflow-dispatch - the read-only-Actions line was stale and blocked cron repair
+- Week of 2026-08-27 — 1 idea staged
+- Arm a routine whose installer merged but whose task was never registered
+- Conditional Closes, ATTEMPT ledger line, needs-nathan carve-out in the delivery driver
+
 ## v0.0.28-P3605
 
 - Customize keeps a saved placement; zoom always skinny; one corner rule for every bar button
