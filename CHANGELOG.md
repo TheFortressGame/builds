@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3643
+
+- The gear popover is bounded and scrollable, not exactly-fitting
+- The renewal triggers actually fire, and the dead path is gone
+
 ## v0.0.28-P3641
 
 - Chrome big enough to hit, and the X centres because it is an icon
