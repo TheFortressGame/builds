@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3634
+
+- The fake button joins the family; one glyph rule; title bars match
+- Furniture is sized from real metres, not eyeballed against the painting
+- Honor explicit do-not-merge; roadmap/DECISIONS join the review-required paths *(fix attempt - still being verified)*
+- Character bar gear popover overflows screen; bar misaligned with info strip; buttons mismatch Area bar shape (device-only)
+- Gear glyph draws at the shared chip size, at the icon-button seam
+- Pair crash beacon build stamp with delta-applied release
+- Make the Storyline Art Bible render byte-reproducible
+- Widen #4948 mapping to cover HARD-EXIT
+- Stamp bookkeeping comments, drop dead AUTHORED-BY test *(fix attempt - still being verified)*
+- CI-gate tooling accuracy bundle (#4969, #5124, #5128)
+- Recurring cross-suite gdUnit test-pollution / static-state leaks block unrelated PRs
+
+Behind the scenes:
+- VRAM-compress the 3 storybook cottage textures the Aug-13 sweep missed
+- Regenerate Storyline Art Bible + coverage (nightly)
+- Widen patrol 1 to every delivery lane, define patrol 6's clock positively, close the storyline hand-off
+
 ## v0.0.28-P3616
 
 - Patrol 7 - cron repair (Nathan-authorized, #5169)
