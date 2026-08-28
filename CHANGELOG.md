@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3637
+
+- A window cannot be placed hanging below the info strip
+- A failed renewal is not a backup warning either
+- Freshen a stale PR only when a push can change its verdict
+
 ## v0.0.28-P3634
 
 - The fake button joins the family; one glyph rule; title bars match
