@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3641
+
+- Chrome big enough to hit, and the X centres because it is an icon
+- Keep people logged in - device re-login instead of provider refresh
+- The soak leaves the keep - Explore/Defend round trips (#5094, #5208)
+
+Behind the scenes:
+- One tile is one metre - the world stops being anchored to the hero's height
+
 ## v0.0.28-P3637
 
 - A window cannot be placed hanging below the info strip
