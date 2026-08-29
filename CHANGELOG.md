@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3664
+
+- The cheat chip's pink is its rim and icon, not the whole panel
+- Scoped per-session vision opt-in in the image-read block (model-style saga)
+- Restore the working cottage - the room resize, wall-height and painting changes shipped broken
+- The digest self-test counted a substring; now it anchors on the heartbeat write and RUNS it
+- Steward arm 2 marker matches the timestamped opener
+
+Behind the scenes:
+- PRIOR ART FIRST key rule - never rebuild what the world has solved (Nathan 2026-08-29)
+
 ## v0.0.28-P3658
 
 - Maintenance build (no player-facing changes in this range).
