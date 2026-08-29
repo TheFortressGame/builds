@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3653
+
+- Only one inline expansion is open at a time
+- Stamp every script-side issue comment; patrol 6's opener list becomes the backstop, not the path *(fix attempt - still being verified)*
+- An already-signed-in player gets a device key too
+- A real ceiling and door — the room was a crawlspace, not the character a giant
+- Stop hook - a turn may not end on a promise of ongoing work (08-29 meta-review)
+- A hitbox is the size of the thing you can see, and the room has one scale
+- Name the boot orphans, and record that they are not a leak
+
 ## v0.0.28-P3646
 
 - Copy game data reports the wallet's real geometry
