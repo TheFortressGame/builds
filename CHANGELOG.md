@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3646
+
+- Copy game data reports the wallet's real geometry
+- Free the cached Coming-Soon panel with its tab
+
 ## v0.0.28-P3644
 
 - A wrapping expansion stacks in even columns, not ragged rows
