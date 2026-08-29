@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3658
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The cheat menu IS the chip widget, not a third construction
+- Regenerate Storyline Art Bible + coverage (nightly)
+
 ## v0.0.28-P3656
 
 - The gear behaves like the chips; the movement guard names its blocker
