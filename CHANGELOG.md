@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3656
+
+- The gear behaves like the chips; the movement guard names its blocker
+- Registry-restore the root Window's surface — one leaked landscape canvas was reddening two unrelated suites *(fix attempt - still being verified)*
+- 'the next build will have it' is a promise too (the 08-29 4.4h merge-to-build gap)
+
 ## v0.0.28-P3653
 
 - Only one inline expansion is open at a time
