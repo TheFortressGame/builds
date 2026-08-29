@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3644
+
+- A wrapping expansion stacks in even columns, not ragged rows
+
 ## v0.0.28-P3643
 
 - The gear popover is bounded and scrollable, not exactly-fitting
