@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3672
+
+- An open expansion can never push its close button off-screen
+- Agent-authored report comments carry the routine stamp (#5259 arm-1 gap, step 1 of its recommendation) *(fix attempt - still being verified)*
+- The chips claim the width the fit pass measured for them
+- Collapsed rail buttons carry a tooltip
+
+Behind the scenes:
+- Add arm 1b, the author arm, to the automation-author test
+- Add the GitHub Steward and four other unlisted box routines to Infrastructure
+- Order the dispatch-opener check between arm 1 and arm 2, and write the too-BROAD failure direction into the spec
+- PRIOR ART FIRST mechanical backstops - analyzer prior-art check + weekly reinvention scan
+
 ## v0.0.28-P3664
 
 - The cheat chip's pink is its rim and icon, not the whole panel
@@ -78,7 +91,7 @@ Behind the scenes:
 - Pair crash beacon build stamp with delta-applied release
 - Make the Storyline Art Bible render byte-reproducible
 - Widen #4948 mapping to cover HARD-EXIT
-- Stamp bookkeeping comments, drop dead AUTHORED-BY test *(fix attempt - still being verified)*
+- Stamp bookkeeping comments, drop dead AUTHORED-BY test
 - CI-gate tooling accuracy bundle (#4969, #5124, #5128)
 - Recurring cross-suite gdUnit test-pollution / static-state leaks block unrelated PRs
 
