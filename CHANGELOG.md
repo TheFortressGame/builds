@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3677
+
+- Frame-animated walk from mocap-derived skinned frames (Storybook)
+- Walls are 2.74 m, derived from the painting - not 1.35 tiles
+- CronDelivery - the box delivers the repo's own workflow schedule
+
+Behind the scenes:
+- Patrol-7 cap widened per-slot + arm-2 retirement scheduled
+
 ## v0.0.28-P3672
 
 - An open expansion can never push its close button off-screen
