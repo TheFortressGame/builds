@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3696
+
+- The room is the size the design says - all three ratios at target
+- Size per FORMAT, and centre the collapsed rail glyph
+
 ## v0.0.28-P3694
 
 - The game wears its own castle icon, not the Godot logo
