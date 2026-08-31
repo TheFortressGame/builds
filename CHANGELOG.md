@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3689
+
+- Animation moves to Painterly; two back-view frames were front views
+- The FLAKE signature was the crash signature - a crash-shaped red must prove it is non-deterministic
+- Unify screen scaling: one resolution/aspect-independent path (desktop === phone)
+
+Behind the scenes:
+- The Codex token panel reads the account ledger; --ephemeral stays
+
 ## v0.0.28-P3685
 
 - A readable dropdown, and the box can drive the game to a UI state
