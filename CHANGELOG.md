@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3702
+
+- The Windows build's import pass imports the project, and a crash-shaped export gets one retry
+
 ## v0.0.28-P3701
 
 - The macOS bundle, the launcher, and the identity Windows shows
