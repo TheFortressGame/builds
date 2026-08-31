@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3694
+
+- The game wears its own castle icon, not the Godot logo
+- One unit indoors — delete the floor stretch, let the fit-zoom do its job
+
+Behind the scenes:
+- Scope retiring the tiny-swords name + last pack-era art
+- Arm the low-disk alarm - the sampler recorded diskFreeGB for weeks and nothing ever compared it to anything
+- Hero-walk truth in CLAUDE.md + character-animation roadmap line
+
 ## v0.0.28-P3689
 
 - Animation moves to Painterly; two back-view frames were front views
