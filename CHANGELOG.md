@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3681
+
+- The dropdown shows its menu; the test now reads the contents
+
 ## v0.0.28-P3680
 
 - A fit pass must not measure its own output; settings drops from the gear
