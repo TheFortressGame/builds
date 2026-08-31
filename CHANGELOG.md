@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3701
+
+- The macOS bundle, the launcher, and the identity Windows shows
+- You are not asked to leave the moment you walk in
+- The layout dump describes the frame that was captured
+- The gear capture presses the real button and proves the menu opened
+- A broken capture driver says so instead of rendering nothing
+
 ## v0.0.28-P3696
 
 - The room is the size the design says - all three ratios at target
