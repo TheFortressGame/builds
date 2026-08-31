@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3685
+
+- A readable dropdown, and the box can drive the game to a UI state
+
 ## v0.0.28-P3683
 
 - The off-screen guarantee moves to the shared seam, so the wallet gets it too
