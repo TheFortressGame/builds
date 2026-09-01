@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3706
+
+- Back to the last state not reported as disastrous
+- The dump proves renewal RAN, not just that nothing broke
+- The hero walk-frame contract points at the set that actually ships the frames
+- Dismiss every popup class an interior raises, and drain the narrative queue
+
 ## v0.0.28-P3702
 
 - The Windows build's import pass imports the project, and a crash-shaped export gets one retry
