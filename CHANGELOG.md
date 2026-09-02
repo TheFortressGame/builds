@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3721
+
+- The art chip fits the row, and the mobile rail can widen again
+
+Behind the scenes:
+- Instrument stop-promise-guard + close the 09-02 scan's regex gaps
+
 ## v0.0.28-P3719
 
 - Storybook walk faced against travel; redraw as an adult, upright
