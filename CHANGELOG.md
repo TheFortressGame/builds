@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3715
+
+- Storybook gets its own 2D sprite hero; frame counts become per-set
+
 ## v0.0.28-P3714
 
 - The modularity scan can fail again - 'return 0 ADVISORY' never implemented the 2026-06-21 blocking decision
