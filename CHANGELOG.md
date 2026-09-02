@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3729
+
+- The list gets the panel height; the capture lane proves its checkout
+
+Behind the scenes:
+- Self-check watches the stop-guard invocation log
+- Visual-surface PRs require render evidence or a stated exemption
+
 ## v0.0.28-P3726
 
 - Long trousers + a real walk cycle borrowed from CC0 gait reference
