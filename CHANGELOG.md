@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3714
+
+- The modularity scan can fail again - 'return 0 ADVISORY' never implemented the 2026-06-21 blocking decision
+- The bar fits the screen, and the gear obeys one-at-a-time
+
+Behind the scenes:
+- Post the character-animation roadmap line (direction-2 code-to-roadmap gap, #5349)
+- Silhouette-style-guide slot taxonomy matches live StatConfig (17 slots, all unlocked)
+- The capacity model and building roster catch up to the code
+- Put Codex-first into the art pipeline docs
+- Retire citations of deleted/renamed machinery (Monthly Docs Aug action 3)
+- Shadow rule scoped to the 2D renderer (monthly-docs finding 17)
+
 ## v0.0.28-P3706
 
 - Back to the last state not reported as disastrous
