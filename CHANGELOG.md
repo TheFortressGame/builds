@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3732
+
+- The painted room covers the floor, and every piece stands on it
+- Stop-guard installer must not BOM the settings file it edits
+- Nightly production soak lane (churn+scenes vs current main)
+
 ## v0.0.28-P3729
 
 - The list gets the panel height; the capture lane proves its checkout
