@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3719
+
+- Storybook walk faced against travel; redraw as an adult, upright
+- Auth classifier recognizes the live expiry wording (#5348); read-only guard reads comment-fired errands (#5168 false-FAILED) *(fix attempt - still being verified)*
+
 ## v0.0.28-P3717
 
 - One metre of floor is one metre of height
