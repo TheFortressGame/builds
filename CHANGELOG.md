@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3717
+
+- One metre of floor is one metre of height
+- Storybook swing frames (windup + strike) in the 2D sprite style
+
 ## v0.0.28-P3715
 
 - Storybook gets its own 2D sprite hero; frame counts become per-set
