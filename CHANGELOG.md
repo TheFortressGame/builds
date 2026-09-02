@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3726
+
+- Long trousers + a real walk cycle borrowed from CC0 gait reference
+- Non-animating sets now TURN - side-profile companion art
+- His 2026-09-02 arrangement is the default, on all three surfaces
+
+Behind the scenes:
+- Record the app-icon wiring and the exe-waits-for-the-next-epoch decision
+- A read-only errand's FAILED terminal is not a dead run
+
 ## v0.0.28-P3721
 
 - The art chip fits the row, and the mobile rail can widen again
