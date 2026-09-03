@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3736
+
+- The real cause of 'walks backwards' - swapped yaw mapping in the capture rig
+
 ## v0.0.28-P3735
 
 - Storybook hero rebuilt on downloaded motion - adult, flat 2D, no chibi
