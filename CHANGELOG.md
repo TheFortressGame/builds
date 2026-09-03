@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3746
+
+- Minimal keeps its original icon; slow the swing so each pose reads
+- The box is ~28 days from a full C: and 167.84 GB of reclaimable worktrees sits behind a hand-run command that is scheduled nowhere
+
+Behind the scenes:
+- Close the RENDER-EVIDENCE contract's three holes
+- Make the weekly->monthly meta-review handoff mechanical
+- Gdignore the tiny-swords vision-subagent draft dir so its QC crops stop shipping
+- Post acquire-first motion pipeline, refresh hero animation status
+
 ## v0.0.28-P3739
 
 - Standing pose + attack scale (two more defects found by the new tests)
