@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3735
+
+- Storybook hero rebuilt on downloaded motion - adult, flat 2D, no chibi
+- Scrolling rows keep a gutter from the scrollbar
+
+Behind the scenes:
+- ACQUIRE FIRST - download the asset, skin it with Codex (Nathan 09-02)
+
 ## v0.0.28-P3732
 
 - The painted room covers the floor, and every piece stands on it
