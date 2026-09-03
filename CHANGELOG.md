@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3747
+
+- Kill the rim glow and the pedestal illusion
+
 ## v0.0.28-P3746
 
 - Minimal keeps its original icon; slow the swing so each pose reads
