@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3739
+
+- Standing pose + attack scale (two more defects found by the new tests)
+- Box rebuild-contract audit: 6 of its 12 drift findings are checker artifacts, hiding 6 real ones (CronDelivery has no contract row)
+
 ## v0.0.28-P3737
 
 - Furniture sized in the projection it was drawn in, a room in three zones
