@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3749
+
+- One modal layer for every modal; HP bar above his head; the alert flashes again
+
+Behind the scenes:
+- Record Nathan's 09-03 milestone sequencing (GUI to art to story to stat wiring)
+
 ## v0.0.28-P3747
 
 - Kill the rim glow and the pedestal illusion
