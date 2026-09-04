@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3764
+
+- The compare uses the shared modal, and the badge escapes its clip
+- Weekly worktree reap with -Apply (janitorial autonomy, Nathan 09-04)
+- A new game starts clean because the wipe enumerates its own state instead of listing it
+- Four routines that read GitHub state wrong, and the state each one actually needs to read
+
+Behind the scenes:
+- Model releases trigger a same-week routing review (Nathan 09-04)
+- Batch-fire codex bundle (#5434 + #5386 partial)
+- Batch-fire codex bundle (#5321 + siblings)
+
 ## v0.0.28-P3756
 
 - The badge pulse survives its host repainting it every frame
