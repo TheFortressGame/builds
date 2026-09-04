@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3753
+
+- One floor box drives collision, anchor and overlay; the pedestal rule becomes a test
+
+Behind the scenes:
+- Actions-budget.json JSON twin + chart-data-feeds coverage
+- Weekly-meta-review carries the 09-02/03 rethink panel; guard learns two live promise shapes
+
 ## v0.0.28-P3749
 
 - One modal layer for every modal; HP bar above his head; the alert flashes again
