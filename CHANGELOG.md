@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3765
+
+- The compare is visible, complete and consistently labelled
+
 ## v0.0.28-P3764
 
 - The compare uses the shared modal, and the badge escapes its clip
