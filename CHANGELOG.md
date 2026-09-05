@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3775
+
+- The comparison is inline deltas in one modal
+- Promise sweep - the hook-free Stop-guard replacement
+- The card widens with the surface, and Escape backs out of anything hosted
+- Branch cleanup proves tip-on-main, never fires on a daily snapshot push
+- Steward-clock.ps1 -Issues now binds under -File
+- The hitbox is the floor the thing stands on
+
+Behind the scenes:
+- Patrol 6 calls steward-clock.ps1; escape-render lane mentions in comments; codex/* verdict-comment exemption; nightly-suite release-gate truth (#5352, #5386, #5420, #5441)
+
+## v0.0.28-P3768
+
+- The floor is actually square, and the near walls are parapets you see over
+
 ## v0.0.28-P3767
 
 - The room is square because the painting is
