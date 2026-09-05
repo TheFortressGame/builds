@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3779
+
+- Furniture stands at a real position, and the painted pieces stand where their art is
+- The promise sweep nudges DELEGATED ASKS - a permission question is not a decision
+- Acquire-first keystroke gate + plan mode narrowly un-banned
+- Agent-evals v0 - test the agent the way we test the game
+
 ## v0.0.28-P3775
 
 - The comparison is inline deltas in one modal
