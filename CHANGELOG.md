@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3796
+
+- The comparison says what it is comparing, and shows both ends
+- Place decor from its real centre, not its cell corner
+- Capture sidecar reports BOTH coordinate spaces - one number silently scaled every prop measurement by 1.71x
+- Rotation seed capture reads stdout only and verifies the seed file exists
+- Drop two mis-classifying native-coverage tells - the navigation blind spot was not real
+- A real collision world, built from the map and proven against it
+- Ui-layout tell counts Control properties only; BASELINE-REBASE path for detector redefinitions
+- Scope-gate matches git commit at command position only
+- Native-first RATCHET - hand-rolled subsystem counts may only fall
+- Scope-before-commit keystroke gate (rule-audit #5428 item 1)
+- Native-first keystroke gate - prior-art-gate.ps1 with ACQUIRE + NATIVE scopes
+- Pin badge-pulse re-apply invariant by tween identity, not a raced scale snapshot
+- Detect runner-workspace ownership mismatches (item 2 of #5028)
+
+Behind the scenes:
+- Stop-guard self-check line is informational (Stop event dead by verdict); evals spec notes hooks do not run in -p
+
 ## v0.0.28-P3782
 
 - Promise sweep skips routine and sandbox transcripts
