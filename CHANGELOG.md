@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3782
+
+- Promise sweep skips routine and sandbox transcripts
+- Rescue-chat resolves same-dir transcripts by bridge-session id
+
+Behind the scenes:
+- Escape lane triggers in more routine specs, fix steward-clock empty-timeline, log macOS import count
+
 ## v0.0.28-P3779
 
 - Furniture stands at a real position, and the painted pieces stand where their art is
