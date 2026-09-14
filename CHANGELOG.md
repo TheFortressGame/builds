@@ -4,6 +4,43 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3827
+
+- The level-up confirmation draws on top, and a levelled weapon says what it gained (#5656 #5657)
+- The week-away meta batch - soak evidence, scope-gate add, vN replacements, grader negation, filing budget, idle-with-work sweep
+- Startup_failure runs are a broken-workflow-file signal, not a timeout kill *(fix attempt - still being verified)*
+- Chart freshness is read from the publish target, never a staging leftover *(fix attempt - still being verified)*
+- Classify resolved salvage refs so the -box-partial- pile can stop growing *(fix attempt - still being verified)*
+- The box lane's terminal strings are a closed set the driver is total over, an existing-ref update is a delivery, and a bolded bundle member still closes (#5546 #5551 #5629) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Two shipped capabilities have no roadmap line: the box rebuild runbook (28 days) and the green-PR sweep
+
+## v0.0.28-P3819
+
+- Freeze the hero's bob/sway phase when blocked, not just standing
+- Cottage_chair as a real parametric GLB model
+- The full-sweep panel identifies the nightly by workflow, not run title
+- The release gate now requires evidence the suite actually ran
+- Bound the nightly bundle, and end the silence on a repeat turn-cap bust *(fix attempt - still being verified)*
+- Release_notes.py no longer prints untyped issue-headline commits as player features
+- Post-brief.py never emits an over-cap chunk, and a mid-sequence 400 aborts cleanly instead of tracebacking
+- The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564) *(fix attempt - still being verified)*
+- Route the box lane's own pre-push gate through the sanctioned wrapper, and correct the rationale that kept the rule needing restating
+- The delivery driver's five silent-path defects - it waits for THIS branch's verdict, keeps its once-ever promise, escalates where someone reads, stops retrying a deliberate abort, and holds the close on executable infra (#5524 #5525 #5526 #5530 #5531) *(fix attempt - still being verified)*
+- The overnight audits' four gate/sweep defects (#5517 #5529 #5533 #5534) *(fix attempt - still being verified)*
+- One owner applies the three-day flags, needs-nathan can clear, and the >7d arm actually reaches Nathan
+- Rotated chats keep their name plus vN and open with a continuity brief; the promise guard reports the promise nearest the end
+- The three silent disk reapers stamp a heartbeat, so a dead one stops looking quiet *(fix attempt - still being verified)*
+- Green-PR sweep - a green, idle Claude-session PR is merged by cron, wherever its chat lives
+
+Behind the scenes:
+- Record the shipped agent-guardrail workstream (v46)
+- Steward patrol 1 has no supersession test: 2 of its 6 'undelivered' branches were fully delivered by another PR (one within 24 minutes), restated as a decline for 25 passes
+- Correct stale modularity-gate pattern count (v45)
+- Codex usage/capacity collector found broken again this week - possible recurrence of #5067
+- Box lane can post a concurrent job's verdict comment verbatim (/tmp collision) - diagnosed 08-28, recurred 09-06 and reached main
+
 ## v0.0.28-P3796
 
 - The comparison says what it is comparing, and shows both ends
@@ -108,9 +145,9 @@ Behind the scenes:
 ## v0.0.28-P3746
 
 - Minimal keeps its original icon; slow the swing so each pose reads
-- The box is ~28 days from a full C: and 167.84 GB of reclaimable worktrees sits behind a hand-run command that is scheduled nowhere
 
 Behind the scenes:
+- The box is ~28 days from a full C: and 167.84 GB of reclaimable worktrees sits behind a hand-run command that is scheduled nowhere
 - Close the RENDER-EVIDENCE contract's three holes
 - Make the weekly->monthly meta-review handoff mechanical
 - Gdignore the tiny-swords vision-subagent draft dir so its QC crops stop shipping
@@ -119,6 +156,8 @@ Behind the scenes:
 ## v0.0.28-P3739
 
 - Standing pose + attack scale (two more defects found by the new tests)
+
+Behind the scenes:
 - Box rebuild-contract audit: 6 of its 12 drift findings are checker artifacts, hiding 6 real ones (CronDelivery has no contract row)
 
 ## v0.0.28-P3737
@@ -233,10 +272,10 @@ Behind the scenes:
 
 - Animation moves to Painterly; two back-view frames were front views
 - The FLAKE signature was the crash signature - a crash-shaped red must prove it is non-deterministic
-- Unify screen scaling: one resolution/aspect-independent path (desktop === phone)
 
 Behind the scenes:
 - The Codex token panel reads the account ledger; --ephemeral stays
+- Unify screen scaling: one resolution/aspect-independent path (desktop === phone)
 
 ## v0.0.28-P3685
 
@@ -351,19 +390,19 @@ Behind the scenes:
 - The fake button joins the family; one glyph rule; title bars match
 - Furniture is sized from real metres, not eyeballed against the painting
 - Honor explicit do-not-merge; roadmap/DECISIONS join the review-required paths *(fix attempt - still being verified)*
-- Character bar gear popover overflows screen; bar misaligned with info strip; buttons mismatch Area bar shape (device-only)
 - Gear glyph draws at the shared chip size, at the icon-button seam
 - Pair crash beacon build stamp with delta-applied release
 - Make the Storyline Art Bible render byte-reproducible
 - Widen #4948 mapping to cover HARD-EXIT
 - Stamp bookkeeping comments, drop dead AUTHORED-BY test
 - CI-gate tooling accuracy bundle (#4969, #5124, #5128)
-- Recurring cross-suite gdUnit test-pollution / static-state leaks block unrelated PRs
 
 Behind the scenes:
+- Character bar gear popover overflows screen; bar misaligned with info strip; buttons mismatch Area bar shape (device-only)
 - VRAM-compress the 3 storybook cottage textures the Aug-13 sweep missed
 - Regenerate Storyline Art Bible + coverage (nightly)
 - Widen patrol 1 to every delivery lane, define patrol 6's clock positively, close the storyline hand-off
+- Recurring cross-suite gdUnit test-pollution / static-state leaks block unrelated PRs
 
 ## v0.0.28-P3616
 
@@ -397,11 +436,11 @@ Behind the scenes:
 - A saved window placement survives reload; zoom rail always skinny
 - The character bar's buttons wear the Area bar's corners
 - A failing backup says so instead of failing silently
-- Builder's cottage on the DEFAULT art set: 26 invisible walls and 6 walk-through furniture sprites ΓÇö #5116's collision map is traced from a painting only Storybook has
-- Shrinking the health bar leaves a gap above the info bar (P1013) ΓÇö live on main, and the tested fix is stranded on a never-PR'd branch
 
 Behind the scenes:
 - Brief 08-26 follow-ups - roadmap session-renewal truth; steward idle clock ignores label-only updates
+- Builder's cottage on the DEFAULT art set: 26 invisible walls and 6 walk-through furniture sprites ΓÇö #5116's collision map is traced from a painting only Storybook has
+- Shrinking the health bar leaves a gap above the info bar (P1013) ΓÇö live on main, and the tested fix is stranded on a never-PR'd branch
 
 ## v0.0.28-P3596
 
@@ -449,13 +488,13 @@ Behind the scenes:
 - Weekly-grain digests clear after 3 days, not 7
 - 'full sweeps not green' counts MAIN nightlies only - branch-side dispatch runs are developer-loop, not the release gate
 - Make the hearth depth-coupling guard content-independent
-- Account A OAuth token only refreshes on an A-engine API call, leaving archive-sync token-dark for hours
 - Stop no-op known-bugs-sync runs from cancelling real renders *(fix attempt - still being verified)*
 - Detect a stale merge base once, use it twice; stop freshening PRs already in the merge queue
 - Routine-fleet reliability bundle (#5013, #5063, #5064)
 - Codex-usage token feed - name the ephemeral mechanism, fix the double count, alarm on the dark half
 
 Behind the scenes:
+- Account A OAuth token only refreshes on an A-engine API call, leaving archive-sync token-dark for hours
 - Record whole-room-painting interior path (#5049), point CLAUDE.md at it
 
 ## v0.0.28-P3564
@@ -485,7 +524,6 @@ Behind the scenes:
 - Storybook cottage skin — painterly walls, floor, furniture + mason props
 - The Builder's cottage is a rectangular long hall, not a square
 - Render-cutscenes announces every outcome, not just success
-- CI-throughput store lost 163 runs (08-16..18) and is publishing insights computed on 4 of 30 days ΓÇö backfill, widen the collect window, alarm on the gap
 - Conversion sweep restores a converted chat's title (rename-chat.py, PUT /v1/code/sessions)
 - Pinned chats keep their names across conversions - auto-pin NAME-SYNC keeps each revival launcher's -n equal to the chat's current title
 - Batch-fire consumes the board BY STATE - cap 2/night, nightly cadence made authoritative
@@ -496,6 +534,7 @@ Behind the scenes:
 
 Behind the scenes:
 - Mason + woodsman cutscene re-author review boards
+- CI-throughput store lost 163 runs (08-16..18) and is publishing insights computed on 4 of 30 days ΓÇö backfill, widen the collect window, alarm on the gap
 - Weekly Meta-Review moves Sunday 03:00 to Thursday 05:30; gets its own 7-day brief retention
 
 ## v0.0.28-P3544
@@ -504,7 +543,6 @@ Behind the scenes:
 - A broken login beats every capacity number
 - Prior day clears again - split merged routine bursts; verify-after-prune; failed prune files an issue
 - Merged == live, no matter who merges
-- Route cutscene modal textures through ArtCache (overnight queue B)
 - Enforce ArtCache.tex() over bare load() of art paths (ARTCACHE gate)
 - Warn before switching to an unfinished art mode
 - Watch the NPC dossier's CONTENT, not just its builder script
@@ -513,6 +551,7 @@ Behind the scenes:
 Behind the scenes:
 - Mechanize the ATTEMPT ledger in check-bugfix-shape
 - Batch-fire deterministic empty-queue pre-check
+- Route cutscene modal textures through ArtCache (overnight queue B)
 - Overnight-queue status - D/E done (#4984), I measured-closed (macOS 2min), B/C/G dispatched (#4987/#4988/#4989)
 - Overnight queue D+E - readable *.import diffs; compression check documents the SHIPPED policy
 - Published-currency audit - EVERY published surface verified live, weekly (Nathan 2026-08-22)
@@ -530,7 +569,7 @@ Behind the scenes:
 - Modal still frame is 1.75, matching the art — not 16:9
 - Save commits the window you placed, not the re-abut's version of it
 - The daily brief reads the real release P again - monotonic, no ceiling
-- A self-check that throws can no longer emit nothing *(fix attempt - still being verified)*
+- A self-check that throws can no longer emit nothing
 - One digest worktree per routine label - a starting routine no longer deletes a running one's files
 
 Behind the scenes:
@@ -566,13 +605,13 @@ Behind the scenes:
 - Publish leg can't finish — blobless clone, 30→60 min budget
 - The OPTIONS drawer sits BESIDE the handle in landscape instead of starving below it
 - The layout capture reports the OPTIONS reserve and per-window PIXEL rects
-- Cutscene texture format: measure VRAM vs fidelity for ETC2 / ASTC / lossy WebP before adopting policy B
 - The OPTIONS reserve pushes out the SHORT way, so a window can rest flush against it
 
 Behind the scenes:
 - Walls & floors — measured scope for the interior envelope
 - Self-check detects stale RDP console markers (post-/clear rotation + 4-day backstop)
 - Art-gap loop reworked and armed — Codex queue, never Flux
+- Cutscene texture format: measure VRAM vs fidelity for ETC2 / ASTC / lossy WebP before adopting policy B
 - Close the specified-but-never-armed class — widen check 19b, fix premortem code misread, unblock ruleset-snapshot, deploy *.sh
 - Cut the Android download ~80 MB — drafts out, engine .so compressed, cutscene size cap
 - Cutscene texture policy comparison sheets (issue #4906)
@@ -952,7 +991,6 @@ Behind the scenes:
 - Daily board audit - fix-it-or-close-it runs automatically every day (Nathan 08-16)
 - Real field migration ladder + retire the persisted stat 'cap' (#4619, #4665)
 - Tear the dialog nodes down, not just the flag, when clearing Explore's input guards
-- Desktop sign-in: a second sign-in attempt in the same session fails with 'localhost refused to connect'
 - Size the Options edge handle on BOTH axes from the word it holds
 - Propagate the gate's own exit code + one change-set derivation for local and CI (#4625, #4626)
 - Soft-delete fortresses with a 30-day recovery window
@@ -960,6 +998,7 @@ Behind the scenes:
 Behind the scenes:
 - Fire a build for downward-abut bottom-gap fix
 - Lock in accounts sign-in workstream — roadmap, DECISIONS, accounts architecture (08-16)
+- Desktop sign-in: a second sign-in attempt in the same session fails with 'localhost refused to connect'
 - In-game update notification line (moved from issue #4528, board hygiene)
 
 ## v0.0.28-P929
@@ -1000,10 +1039,12 @@ Behind the scenes:
 
 ## v0.0.28-P916
 
-- Email sign-in: CODE flow in-game + chooser rework (ship-ready)
 - Restore window chrome (slim option A did not close the gaps)
 - Weekly supersession sweep - solved-elsewhere issues/PRs get closed, not lingered (Nathan 08-16)
 - Email-code rate-limit TTL 30->60 (Cloudflare KV minimum)
+
+Behind the scenes:
+- Email sign-in: CODE flow in-game + chooser rework (ship-ready)
 
 ## v0.0.28-P912
 
@@ -1052,11 +1093,11 @@ Behind the scenes:
 ## v0.0.28-P896
 
 - Run early-exit is a 3rd Area button in both modes — Explore "Retreat", Defend "Abandon"
-- Code debt: #E8C45A color dup + armament/guard cheat twin + hardcoded MAX_LEVEL ΓÇö weekly 08-13 seed 5
 
 Behind the scenes:
 - Fire a build for the run early-exit rework
 - Chat-harvest archive candidates = FYI note, never a needs-nathan issue (Nathan 08-15)
+- Code debt: #E8C45A color dup + armament/guard cheat twin + hardcoded MAX_LEVEL ΓÇö weekly 08-13 seed 5
 
 ## v0.0.28-P892
 
@@ -1133,11 +1174,11 @@ Behind the scenes:
 - Shrink desktop sign-in flash + recover when the window is closed
 - VRAM-compress 181 of the 183 lossless tileset PNGs
 - Condense Copy-game-data dump and add a movement-diagnostic block
-- Desktop launcher: update fails intermittently ΓÇö GitHub throttles the builds download endpoint (503/empty-reply) and the launcher gives up with no retry
 
 Behind the scenes:
 - Apply the 08-13 weekly review updates - 3 closed, 2 changed, 5 backdated + DA-13 figure refresh
 - Week of 2026-08-13 - 5 ideas, 6 decisions
+- Desktop launcher: update fails intermittently ΓÇö GitHub throttles the builds download endpoint (503/empty-reply) and the launcher gives up with no retry
 
 ## v0.0.28-P858
 
@@ -1794,16 +1835,16 @@ Behind the scenes:
 - Cartoon rock3 still had a jagged spire point, redesigned
 - Minimal log.png was still green, now genuinely brown
 - Conversion-sweep - server recycles convert spawn pins with a silent sidebar dupe
-- Cheat_manager snapshot builders: same ~95-line shape eleven times (monthly finding 8)
 - Weekly recycle exemption for auto-pins was dead code - minted dupe chats every Sunday
 - Backfill disambiguates same-title pins by connection status
 - Benign token-staleness class (#4178) + orphan-detector runaway guards
-- Follow-up: move fresh-new-game reset to GameManager + close the gaps in _reset_state_silent
 - Unstick the merge queue (#4177) + settle the digest posting path
 
 Behind the scenes:
 - Fire interim build for QA6 batch A (6 fixes)
 - Mark #3950 QA round 4 items closed (PART 1, 2 items 6-7, 3 items 10-11)
+- Cheat_manager snapshot builders: same ~95-line shape eleven times (monthly finding 8)
+- Follow-up: move fresh-new-game reset to GameManager + close the gaps in _reset_state_silent
 - Update snowflow manifest — NPC bug resolved, 4 mob types, real corpse pose
 - Update snowflow manifest — resource respawn, Fortress greeting
 - Update snowflow 3D-explore manifest — NPCs + interactions
@@ -1850,9 +1891,11 @@ Behind the scenes:
 - Cottage furniture real art + scatter-variety + cartoon tree_fallen
 - Stable loopback port for Google sign-in redirect_uri
 - Self-check's INLINE web-drift pick uses version+publish-time, not max(P)
-- Monthly code findings: mechanical batch - div-by-zero guard, tautological check, per-frame lookup, stale TODO, dead twins
 - Promote Nathan's picks - fortress tiers, hut, cottage, tree_fallen barrier
 - Delivery driver drops the VERIFY-SUMMARY it is supposed to carry
+
+Behind the scenes:
+- Monthly code findings: mechanical batch - div-by-zero guard, tautological check, per-frame lookup, stale TODO, dead twins
 
 ## v0.0.28-P524
 
@@ -1999,10 +2042,10 @@ Behind the scenes:
 ## v0.0.28-P459
 
 - Nathan's five chart notes - timeout-only alarm, drop daily totals, disk on concurrency, regroup box health
-- Test_phase3_snapshot_relock does not finish in 20 min running alone (probable hang, not slowness)
 - Spawn-ring schema - rarity color, wander icon, path toggle
 
 Behind the scenes:
+- Test_phase3_snapshot_relock does not finish in 20 min running alone (probable hang, not slowness)
 - Log the rare/named spawn-chance idea as an open design question
 
 ## v0.0.28-P2874
@@ -2197,10 +2240,10 @@ Behind the scenes:
 ## v0.0.28-P2715
 
 - Woodsman axe wood cost 20->10 - unblock tonight's playtest for Ike
-- Android entry mirror: boot to entry board, Obtainium updating, one APK runtime QA
 
 Behind the scenes:
 - Fire interim build - axe-cost unblock for tonight's playtest
+- Android entry mirror: boot to entry board, Obtainium updating, one APK runtime QA
 - Frame-pacing probe to map the #3410 headless-Godot oscillation
 
 ## v0.0.28-P2711
@@ -2221,7 +2264,6 @@ Behind the scenes:
 - State-driven PR+issue passes in box-poller - route every state, never rot silently
 - Delivery-driver step2b - the RED-PR consumer (closes the dead zone, #3608)
 - Bramble+hedge refusal popups + seal the bridge walk-around (Nathan 07-21 round 3)
-- Doc style unification: one shared template for the whole published set, mapped to the game style guide
 
 Behind the scenes:
 - Re-fire interim build - android flake retry
@@ -2229,6 +2271,7 @@ Behind the scenes:
 - Promote Nathan-approved arc plates (quarry/cleared/bargain/joins/sharp-pick), re-rendered to Doran dossier
 - Promote Part 2 plates (north-tree found/chopped, sharp-axe, blueprint, house-built)
 - Promote Nathan-approved arc plates (first-seen/tree/after/trade/axe/chopped/hut)
+- Doc style unification: one shared template for the whole published set, mapped to the game style guide
 
 ## v0.0.28-P2688
 
@@ -2246,7 +2289,6 @@ Behind the scenes:
 
 ## v0.0.28-P2682
 
-- Route recipe-shaped dispatches through Codex ΓÇö the grind is burning Fable while the Codex pool sits idle
 - Woodsman Part 2 — practice, north tree, sharpen quest, sharp axe, town blueprint, move-in closer
 - Codex-run.ps1 - one-command Codex-lane driver
 - Merge-pr guards against admin-merging an UNSTABLE PR whose checks have not attached yet
@@ -2260,6 +2302,7 @@ Behind the scenes:
 
 Behind the scenes:
 - Fire interim build - round-2 fixes + Woodsman Part 2 (PRs #3673 #3678)
+- Route recipe-shaped dispatches through Codex ΓÇö the grind is burning Fable while the Codex pool sits idle
 - Woodsman board shows the specced Part 2 as outline rows
 
 ## v0.0.28-P2669
@@ -2308,7 +2351,6 @@ Behind the scenes:
 
 ## v0.0.28-P2639
 
-- Chore(deps)(deps): bump actions/download-artifact from 4 to 8
 - Builder_joined_fort + reusable Blueprint Received popup (Nathan 07-21 review bundle)
 - Mob Audit player document (mobs + NPCs) — render + interaction fixes
 - Playable Audio audit player document
@@ -2322,9 +2364,9 @@ Behind the scenes:
 - Commit .import (mipmaps on) for 6 testing pngs shipped without one
 - Wake_cold_open_a-e .import mipmaps/generate=true
 - Arc review boards v2 — flow, triggers, copy + quest-master taxonomy
-- Chore(deps)(deps): bump actions/setup-python from 5 to 7
 
 Behind the scenes:
+- Chore(deps)(deps): bump actions/download-artifact from 4 to 8
 - Librarian board — vagabonds in-arc, Builder in strip, Blueprint Received milestone, Archer→bramble (Nathan 07-21)
 - Fold Audio audit into ART/STORY (audio is art)
 - Distinct Woodsman appearance brief + Builder arc closer builder_joined_fort, drop fortress_enter (Nathan 07-21)
@@ -2332,6 +2374,7 @@ Behind the scenes:
 - Main Storyline spine + Woodsman resequence + milestone renames (Nathan 07-20)
 - Needs-you items are decision-shaped (problem/options/recommend)
 - Rule - bundle by iteration, split by seam (one PR per surface per QA pass)
+- Chore(deps)(deps): bump actions/setup-python from 5 to 7
 - Accounts & cross-device sync design v1 — Nathan-locked 2026-07-20 (rev 5)
 
 ## v0.0.28-P2616
@@ -2911,7 +2954,6 @@ Behind the scenes:
 - Column auto-compression on navigation (round-4 N1)
 - ONE shared entry source — launcher / F5 / in-game notes / web unified, copies deleted (launcher 1.1.31)
 - Duel arena + map swap, amorphous Vale + SW tendril, per-map respawn, per-mob aggro
-- Discord-posting playbook (memory) + daily brief fetches box-rendered real billing chart
 - One right-edge cluster — zoom row inside the drawer, explore wave details (round 5)
 - Wire Crown of Ashes victory sting (Fighter-duel win) + Forge of Quiet Hands management rotation
 - Suf mode beds — Wandering Vale (explore) + Broken Gate March (defend); reserve Crown of Ashes + Forge of Quiet Hands
@@ -2921,7 +2963,6 @@ Behind the scenes:
 - Walking sprites + enemy separation + Minimal flat art set
 - Opening cutscene beat system + per-captive rescue flavor (Slice A)
 - World Art toggle joins the pending/apply model + clearer label
-- Daily-brief Actions budget chart + real per-day billing, plus fixes
 - Multi-open category accordion + compact-view collapse (N2)
 - D-57 wired — the Throne needs the rescued Fighter
 - Toggleable world art sets + the Storybook (Tiny Swords) set
@@ -3134,8 +3175,10 @@ Behind the scenes:
 - Interim build — Android version/code 6->7 for on-device QA
 - Shared card-width clamp + clipped-label factory — leaf pass of the unified scaling system
 - N6 uniformity sweep — one factory per shape (columns, rounding, green CTAs)
+- Discord-posting playbook (memory) + daily brief fetches box-rendered real billing chart
 - Story-harness item - replay the storyline across all orders, verify every message (Nathan 07-12)
 - B-primary/A-fallback token so a capped account can't freeze merges
+- Daily-brief Actions budget chart + real per-day billing, plus fixes
 - Out-of-game notifications roadmapped (v0.3, wire-ready) + Phase B/C badge contract
 - One shared ModalHeader — icon-first, pin beside ✕, everywhere the grammar exists
 - Pre-play screen placeholders + single-instance + concurrent-session saves
@@ -3394,7 +3437,6 @@ Behind the scenes:
 - Icon/label resolution fix + regression test (rescued from dead chat)
 - Remove the .gdignore that un-imported the zztest portrait fixture
 - Commander #8 + pixel, approval-gate convention, state-doc rewrite, regen
-- Regenerate icon-audit PDF from current main
 
 Behind the scenes:
 - Code-only orchestration - CLAUDE.md current-world rewrite + live-doc staleness sweep
@@ -3407,32 +3449,15 @@ Behind the scenes:
 - Supervisor-managed Remote Control engines (best-practice self-heal)
 - Record browser-direct self-healing AI sessions (in-flight infra)
 - Runner count 4 to 7 (live-verified on the box)
+- Regenerate icon-audit PDF from current main
 
 ## v0.0.27-P383
 
-- Armory/guardhouse/hall painterly T1-T5 + throne re-tier with new ornate T4/T5
-- Gear-slot placement mockups + anchor table for fighter/commander dolls
-- Archer candidate set v2 (screened) + pre-throne icon candidates
-- Restore all historically deleted drafts (full window); content dedupe
-- Restore wrongly deleted drafts; dedupe by image content; fix chunky/painterly tokenizing
-- Classes page: fix mislabeled flat draft + regroup into heroes/soldiers/armaments
-- Commit fighter/commander silhouettes; archer candidates; workstream state doc
-- Style-aware stale-draft sweep + orphan building pixels + audit regen
-- Audit cleanup: stale drafts + promote fix, building pixels, 3-col buildings, silhouette panels
-- Promote forge + treasury pixels; regenerate audit
 - Margin fortress icon points at importable art (P382)
-- Promote forge + treasury flats; add their pixel candidates
 - Label the chunky icon style 'Pixelated' (P381)
 - Center all settings popups (P378, verified)
-- Restore buildings T1-T5 ladder + source loot roster from gear_config
-- Fix build_icon_audit.py: regenerate sheets from live tree before stitching
-- Promote 59 flat-seeded pixel candidates to committed root
 - Center all popups on full screen; fix invisible debug margin content
-- Settings/display: fix Quit hang, Keep/Revert visibility+trigger, center popups, restore desktop margins
-- Infinity tracks: post-max slot UI so maxed buildings surface their 999 track
-- Lock icon-audit format: 5-column sheets, slot recolor, LOOT, audit PDF
 - Vault in 02-08, walls+stonemason in 05-08 (P373)
-- Revert desktop full-width margin layer (black-screen regression); keep other display fixes
 - Add walls and stonemason to _snapshot_build_side_buildings (P371)
 - Promote damage/slots/headers to flat; fix classifier; D-81 gear model
 - Remove Guardhouse empty-state overlay; Builder Improve button own row
@@ -3441,40 +3466,28 @@ Behind the scenes:
 - Missing-art placeholder when painterly absent (Outriders portrait)
 - Promote 10 assets, large-font sheets, pagination, gear fix
 - One dispatch run per issue (stop parallel duplicate re-fires)
-- Infinity tracks: queue wiring + D-39 cheat-placement fix
 - Drive-to-state visual capture (real-game tier)
 - Redesign generator, promote 12 flats, generate candidates, rename sheets
 - Wrap empty-state flavor text; cap Improve button width (P364)
 - First-open picker stacking (P364)
 - Font bump + lock, generalize generator, 8 contact sheets
-- Currency curation: stone rock flat, stone/straw pixel icons, spoils dedupe, classifier fix
 - High-contrast palette maximum-strength pass (P362)
 - Landscape-readiness prep; roadmap lines for font-scaling and landscape UI
 - Quit nav item + comprehensive high-contrast mode
 - Relocate never-ending tracks from Library to buildings
-- Art-review: structural promoted-archive dedupe
 - Unsaved-changes detection, popup cancel, bottom bar, window modes, HC toggle
 - Reap orphan Godot on normal gdunit completion — the tail-wedge
 - Remove resolution control from mobile tab
 - Retire launcher-picker shared-submodule line
-- Art-review: visual-match dedupe + single-element stone/straw flat candidates
 - Enable resolution control on PC tab; remove window-size workaround
-- Art-review: promote 6 pixel icons + content-hash dedupe + stone/straw glyph options
 - Label the picker buttons; picker survives a blocked window resize
-- Art-review: fully enclose every contact-sheet tile in its style frame
-- Art-review: recolor sheet + demote goblet + flat-seeded pixel candidates + expand art-system docs
 - Reload ThemeConstants profile after picker resolves
 - Missing-image fallback in icon_lookup + warning log
-- Art-review: lock generator + promotions + fallback asset + art-system doc
-- Art-gen: fix stone flat glyph (rock fist to stone-pile), part of #2067
 - Launcher picker as a true shared component (deferred infrastructure)
 - Set content_scale_size to PICKER_RES; host screen in MarginContainer
-- F5 shows the real shared launcher selection screen; recreation deleted, drift gate added
-- Art-gen: repoint flat-icon generator + regen lane to assets/art testing/ layout
 - Picker window — 480x440 at picker stage, resize to profile on selection
 - Daily box self-check — PAT expiry + poller/watchdog heartbeats → alert
 - Mechanical chat↔box coordination poller (live)
-- Art-gen: extract icon glyph definitions into icon_defs.py (data-only, behavior-preserving)
 - F5 picker — brand styling, mobile window sizing, profile-aware display defaults
 - Box reads CI logs directly via gh + read-only PAT
 - AUTOLOAD-HANG rule — a boot-pausing autoload can't silently hang CI
@@ -3482,9 +3495,7 @@ Behind the scenes:
 - Phase B building art reorg — single-tree consolidation
 - Single pre-push-gate.ps1 keystone + fix box-only pytest unicode false-fail
 - Full-suite floor on the gdunit pre-push gate so a subset can't false-green
-- Session continuity: QA launcher on roadmap + implementation plan v86
 - Building-lock single-source line + Character pre-throne portrait art line
-- Session docs: settings/gear overhaul shipped on roadmap; open-issues v36
 - Change placeholder text to "Coming soon."
 - P342 device-test bug batch — cold-start, icons, heroes, overflow, locked-flavor, Esc-back
 - Save+Exit buttons; fix chunky icon preview black square
@@ -3499,35 +3510,66 @@ Behind the scenes:
 - Picker compact rows + landed hero build for testing
 
 Behind the scenes:
+- Armory/guardhouse/hall painterly T1-T5 + throne re-tier with new ornate T4/T5
+- Gear-slot placement mockups + anchor table for fighter/commander dolls
+- Archer candidate set v2 (screened) + pre-throne icon candidates
+- Restore all historically deleted drafts (full window); content dedupe
+- Restore wrongly deleted drafts; dedupe by image content; fix chunky/painterly tokenizing
+- Classes page: fix mislabeled flat draft + regroup into heroes/soldiers/armaments
+- Commit fighter/commander silhouettes; archer candidates; workstream state doc
+- Style-aware stale-draft sweep + orphan building pixels + audit regen
+- Audit cleanup: stale drafts + promote fix, building pixels, 3-col buildings, silhouette panels
+- Promote forge + treasury pixels; regenerate audit
 - Player reference PDFs monthly + icon-PDF roadmap line
+- Promote forge + treasury flats; add their pixel candidates
 - Mark never-ending tracks built (existing-slot, #2258)
 - Never-ending tracks become a KIND in the existing queue slots
+- Restore buildings T1-T5 ladder + source loot roster from gear_config
+- Fix build_icon_audit.py: regenerate sheets from live tree before stitching
+- Promote 59 flat-seeded pixel candidates to committed root
+- Settings/display: fix Quit hang, Keep/Revert visibility+trigger, center popups, restore desktop margins
+- Infinity tracks: post-max slot UI so maxed buildings surface their 999 track
+- Lock icon-audit format: 5-column sheets, slot recolor, LOOT, audit PDF
+- Revert desktop full-width margin layer (black-screen regression); keep other display fixes
 - Record session infra wins (7 runners, drive-to-state, dispatch dedup) + watchdog gap
+- Infinity tracks: queue wiring + D-39 cheat-placement fix
 - Exclude .runner_migrated from runner clone (the real runner-5/6/7 cure)
 - Install scripts register tasks windowless (no console flash on reinstall)
 - Runner-add clean-slate + child-process isolation (real fix)
 - Fix add-runner stale-config collision (runner-5 stall)
 - Stamp version v3
+- Currency curation: stone rock flat, stone/straw pixel icons, spoils dedupe, classifier fix
 - Split Infrastructure block; record dispatch-reliability fix
 - Gitignore Python bytecode — the salvage-commit junk
 - Rule 7 — done items stay until build close, migrate to #about by category
 - Visual-testing channel built; drive-to-state next
 - Lock in the /box capture visual channel + the --branch rule
+- Art-review: structural promoted-archive dedupe
 - Weekly committed-art PDF publish to Discord (planned, v0.1.0)
+- Art-review: visual-match dedupe + single-element stone/straw flat candidates
+- Art-review: promote 6 pixel icons + content-hash dedupe + stone/straw glyph options
+- Art-review: fully enclose every contact-sheet tile in its style frame
 - Current with five-style model, reorg, lanes, and review system
 - Promote corrected stone-pile flat + pixel candidate, closes #2067
+- Art-review: recolor sheet + demote goblet + flat-seeded pixel candidates + expand art-system docs
 - On-screen visual testing in progress, mechanism proven
+- Art-review: lock generator + promotions + fallback asset + art-system doc
+- Art-gen: fix stone flat glyph (rock fist to stone-pile), part of #2067
 - Mark gdUnit version-pin shipped
 - Pin gdunit-smoke to gdUnit4 v6.1.3
 - CI failure auto-diagnosis sentinel
+- F5 shows the real shared launcher selection screen; recreation deleted, drift gate added
 - Strike 3 shipped lines; park deferred tooling ideas
 - Archive Project Instructions v128
 - Mark engine-file split shipped, move to #about built record
+- Art-gen: repoint flat-icon generator + regen lane to assets/art testing/ layout
 - Finish open-issues/impl-plan retirement
 - Unify mobile profile into single source of truth
 - Two homes only — collapse implementation-plan + design-backlog into roadmap.md
+- Art-gen: extract icon glyph definitions into icon_defs.py (data-only, behavior-preserving)
 - Single-source roadmap.md, design-backlog rename, bug routing, archive PI v127
 - Extract HeroesBarracksState slice — final D-78 slice
+- Session continuity: QA launcher on roadmap + implementation plan v86
 - Add art-manifest-v1 — full repo image inventory
 - Extract BuildingsMilestonesState slice
 - Phase A icon reorg — one tree under assets/art/
@@ -3536,6 +3578,7 @@ Behind the scenes:
 - Merge-authority rule + run-python-gates helper + box-facing CLAUDE.md rules
 - Lock pass into impl-plan(v85) + open-issues(v37) + DECISIONS + art-roadmap
 - Add art-directory-layout-v1 — one-tree layout spec
+- Session docs: settings/gear overhaul shipped on roadmap; open-issues v36
 - Extract ResearchState slice
 - Add auto-rebase-pr.ps1 dirty-PR recovery reflex
 - Add select-impacted-tests.ps1; run-gdunit-headless -Paths takes a list
@@ -3559,57 +3602,59 @@ Behind the scenes:
 ## v0.0.27-P333
 
 - Compact rows + landed-surface hero
-- Archive project instructions v115 and v116
 - Tabs-to-picker navigation build for testing
+
+Behind the scenes:
+- Archive project instructions v115 and v116
 
 ## v0.0.27-P329
 
 - Tabs-to-picker swap, all four modes
 - Level-aware tier-ladder portrait resolver
+- Remove pre-dispatch lint from both dispatch lanes
+
+Behind the scenes:
 - Per-profile settings 3/3: NumberFormat notation onto the per-profile store
 - Per-profile settings 2/3: ThemeConstants accessibility + appearance onto the per-profile store
 - Per-profile settings 1/3: per-profile store + per-device->per-profile doc reconciliation
-- Remove pre-dispatch lint from both dispatch lanes
-- Gear menu: icon-row destinations, relabels, rename removed, gear glyph swapped
-- Add standard UI menu icons (Tabler MIT) for gear menu restructure
-
-Behind the scenes:
 - Field manual - record the no-investigate lint revert case
 - Entity section-header parallel-naming pass (dev-gui-management v7, game-style-modals v8)
+- Gear menu: icon-row destinations, relabels, rename removed, gear glyph swapped
 - Revert Infinity to in-progress (not confirmed in-game)
+- Add standard UI menu icons (Tabler MIT) for gear menu restructure
 
 ## v0.0.27-P322
 
 - Cut build - entity section-header parallel-naming + Armory pill rename
-- Conformance gate: echo verdict to a connector-readable PR comment
-- BuildingModePicker component + contract test; data-gather in SelectionData adapter
 - Cut build - settings gray-screen fix + two-style icon system
-- Launcher-publish: add a macOS dmg leg (drag-to-Applications install)
 
 Behind the scenes:
+- Conformance gate: echo verdict to a connector-readable PR comment
 - Mark Infinity lab category shipped (P320)
+- BuildingModePicker component + contract test; data-gather in SelectionData adapter
+- Launcher-publish: add a macOS dmg leg (drag-to-Applications install)
 
 ## v0.0.27-P321
 
 - Single scene reload on settings-close (fix gray screen)
 - Cut build - Infinity lab category
 - Infinity lab category - four never-ending 999-level tracks (placeholder effects)
+- Anchor macOS data paths to per-user data dir (App Translocation)
+- Infinity lab category - reframe v0.0.27 never-ending tracks, add Infinity icon art item
+- Building portrait art
+
+Behind the scenes:
 - Launcher-publish: include download links in the #releases announce
 - Two-style icon system: flat/chunky resolver, per-device setting, settings toggle (P320)
 - Launcher-publish: announce launcher updates in #releases on success
 - Launcher SPEC: macOS and self-update are in scope; republishes launcher v1.1.18
-- Anchor macOS data paths to per-user data dir (App Translocation)
-- Infinity lab category - reframe v0.0.27 never-ending tracks, add Infinity icon art item
-- Art roadmap: two currency icon styles (flat + chunky), drop pixel and cloud lane
-- Art roadmap: currency icon style system + stylized-currency cloud lane
-- Fold the two scheduled overnights into the Watchtower routines
-- Building portrait art
-
-Behind the scenes:
 - Reframe delta-download as undetermined-future, low priority
+- Art roadmap: two currency icon styles (flat + chunky), drop pixel and cloud lane
 - Add chunky currency icon set (8 PNGs)
+- Art roadmap: currency icon style system + stylized-currency cloud lane
 - Record GameManager decomposition + scope the doc-edit write-barrier
 - Building portrait hero notes in dev-gui-management-v6
+- Fold the two scheduled overnights into the Watchtower routines
 - Record building-art-into-UI in DECISIONS and roadmap source
 - Mark engine-file split progress on the roadmap (3 self-contained slices done)
 
@@ -3617,32 +3662,15 @@ Behind the scenes:
 
 - Painterly building portrait hero in maker-tab header
 - Building portrait hero in DetailModal
-- Lock down building flat-icons to assets/icons/buildings/ (glyph source 82d9488)
 - Add gold-box stat bonus and never-ending-track gate to Placeholder
 - Regen currency icons with locked glyph set, retire desktop/
 - Strike the two shipped tab-restructure items
 - Add monthly source-file-size regrowth check
 - Add engine-file decomposition workstream to Infrastructure track
-- Remove the dead qa-setup text channel: source doc, sync workflow, and references
-- Qa-setup forum: Mac post uses the launcher (link + flow)
 - Cleaner release notes, Update button above notes, bigger window
-- Qa-setup: Mac uses the launcher (link + flow), matching Windows
-- Fix launcher macOS build: enable ETC2 ASTC import for universal export
-- Fix launcher macOS export path (run from project dir) + self-diagnosing failure alert (#1799, #1801)
 - Bug-mirroring (GitHub <-> #known-bugs) at top of infrastructure
 - Mark modularity items confirmed by P312 QA
-- Promote chosen building tiles + recipe to canonical slots (cloud)
-- Fix launcher macOS build: export on a Linux runner like the game (#1787, #1788)
-- Launcher 1.1.16: rotating tips, resizable window, update line above notes, fix macOS preset (#1781, #1783, #1785)
-- Snapshot top-level Docs baseline 2026-06-23 (pre-index-restructure backup)
-- MacOS launcher (unsigned): export preset, cloud Mac publish leg, Mac install/launch/self-update (#1775, #1776, #1777)
-- Launcher 1.1.14: bigger window, readable release notes, unclip update buttons (#1771, #1772)
-- Add context-payload revert runbook (safety net before slimming always-on context)
-- Add Launcher tip audit to the Weekly Test (#1769, #1770)
-- Launcher 1.1.13: all 17 building images + random startup tip line (#1763, #1768)
 - Cut QA build
-- Art-flux: machine-readable failure signal (issue, not Discord)
-- Fix the #welcome install link (qa-setup forum)
 
 Behind the scenes:
 - Centralize portrait resolution with id/filename normalization
@@ -3651,61 +3679,90 @@ Behind the scenes:
 - Impl-plan v83 - Builder never-ending track parked as a placeholder
 - Extract gear/loot slice into GearState component
 - Add daily reconciliation + monthly god-file review overnights
+- Lock down building flat-icons to assets/icons/buildings/ (glyph source 82d9488)
 - Extract alert/badge slice into AlertState component
 - Implementation plan v82 - correct v0.0.27 close-out STATUS
 - Extract wallet/run-earnings/lifetime-stats into EconomyState component
 - Implementation plan v81 - record v0.0.27 tab restructure
 - Establish instructions archive with v105 baseline
+- Remove the dead qa-setup text channel: source doc, sync workflow, and references
+- Qa-setup forum: Mac post uses the launcher (link + flow)
+- Qa-setup: Mac uses the launcher (link + flow), matching Windows
+- Fix launcher macOS build: enable ETC2 ASTC import for universal export
 - Rename business-infrastructure v12 to v13
+- Fix launcher macOS export path (run from project dir) + self-diagnosing failure alert (#1799, #1801)
 - Record server-authoritative fair play (early groundwork + v1.0 cluster)
 - Scrub change/delta narrative from 12 resident docs; version-bump
+- Promote chosen building tiles + recipe to canonical slots (cloud)
+- Fix launcher macOS build: export on a Linux runner like the game (#1787, #1788)
+- Launcher 1.1.16: rotating tips, resizable window, update line above notes, fix macOS preset (#1781, #1783, #1785)
+- Snapshot top-level Docs baseline 2026-06-23 (pre-index-restructure backup)
+- MacOS launcher (unsigned): export preset, cloud Mac publish leg, Mac install/launch/self-update (#1775, #1776, #1777)
 - Security/competitive-integrity spec + roadmap fair-play update
+- Launcher 1.1.14: bigger window, readable release notes, unclip update buttons (#1771, #1772)
+- Add context-payload revert runbook (safety net before slimming always-on context)
 - Icon-lookup-and-currencies spec v3
+- Add Launcher tip audit to the Weekly Test (#1769, #1770)
+- Launcher 1.1.13: all 17 building images + random startup tip line (#1763, #1768)
+- Art-flux: machine-readable failure signal (issue, not Discord)
+- Fix the #welcome install link (qa-setup forum)
 
 ## v0.0.27-P312
 
-- Launcher 1.1.12: randomize building-art order per launch (#1758, #1760)
-- Add the painterly building-art pipeline doc
-- Launcher 1.1.11: restore real zip filename in download label (#1752, #1755)
 - Incorporate icon-style picker recommendations
-- Launcher 1.1.10: Hearthfire palette + rotating building art + release notes (#1743, #1751)
-- Update binary-art doctrine to the cloud Flux lane (CLAUDE.md + field manual)
-- Icon pipeline v3: cloud art lane in the canonical art doc
-- Parallelize the building-tile Flux generator (2 workers, 429 backoff)
-- Add cloud Flux art lane (art off the box, never blocks releases)
 
 Behind the scenes:
 - Route hero-sheet level-up pill through shared ProgressionButton + contract test
+- Launcher 1.1.12: randomize building-art order per launch (#1758, #1760)
 - Lock unified skill/progression modal field set + testable picker builder
+- Add the painterly building-art pipeline doc
+- Launcher 1.1.11: restore real zip filename in download label (#1752, #1755)
+- Launcher 1.1.10: Hearthfire palette + rotating building art + release notes (#1743, #1751)
+- Update binary-art doctrine to the cloud Flux lane (CLAUDE.md + field manual)
+- Icon pipeline v3: cloud art lane in the canonical art doc
 - Single StatusDisplay resolver for availability status
+- Parallelize the building-tile Flux generator (2 workers, 429 backoff)
+- Add cloud Flux art lane (art off the box, never blocks releases)
 
 ## v0.0.27-P308
 
 - Icon Testing launcher entry + in-game true-size icon preview
 - Built building's picker modal shows build-state only
+- Cut QA build (build-state/level decoupling, green caption)
+
+Behind the scenes:
 - QA forum: iOS post, Android Play Store note, rebuild sync
 - Delta-update step 1: ship hpatchz.exe in the launcher installer (#1630, #1727)
 - QA forum: reorder, rename, pinned overview
 - Mirror icon reference docs into Docs/ (icon pipeline, icon style guide, icon-lookup/currencies spec). These existed only in project knowledge; bringing the repo into sync
 - Trigger qa-forum-sync first run
 - Add qa-setup forum (bot-synced)
-- Cut QA build (build-state/level decoupling, green caption)
 - QA setup: dividers + suppress link previews
 
 ## v0.0.27-P306
 
-- QA setup: rewrite cards with real markdown for readability
-- Art-gen: walls orthographic low-wide iterative; fix battlements t1 and t5
 - Per-device window mode/resolution with boot validation
 - Exempt the test harness from the fork heuristic
 - Add art-style toggle (ASCII / flat icons / painterly) to Placeholder
+- Promote display settings to active (v0.0.29), per-device
+- Render the cap-rise caption in green, not muted
+- Cut QA build for real building level + green cap-rise caption
+- Consolidate modularity and infra embeds; add PC graphics item
+- Desktop preview shows the portrait UI centered instead of stretched
+
+Behind the scenes:
+- Builder picker cards show build-state, not level
+- QA setup: rewrite cards with real markdown for readability
+- Separate build-state from level (derived)
+- Art-gen: walls orthographic low-wide iterative; fix battlements t1 and t5
 - QA setup: re-fire the sync now the bot has permission
 - Art-gen: split castle-section framing into walls (side elevation) and battlements (3/4)
+- Delete superseded game-design-economy-v1
 - QA setup: trigger the sync so the bot posts
 - QA setup: move #qa-setup onto the Fortress bot, rework doc for readability
 - Make #general a clickable link in the welcome message
+- Economy v2 - art/skins framework as the cosmetic monetization vehicle
 - Trigger welcome-sync (bot now has #welcome permission)
-- Promote display settings to active (v0.0.29), per-device
 - Add user-selectable art and skins framework to roadmap Placeholder
 - Art-gen: reframe walls and battlements as single wall sections
 - Roadmap forward-only: remove Foundation, Art before Infrastructure
@@ -3714,133 +3771,123 @@ Behind the scenes:
 - Art-gen: add walls and battlements diorama ladders (set complete)
 - Launcher 1.1.7: compress the self-update download with raw-exe fallback
 - Shipped work migrates to #about; drop Bugs in progress; regroup Infrastructure
-- Render the cap-rise caption in green, not muted
+- Batch-3 building tiles (stonemason, academy, treasury)
 - Launcher 1.1.6: show the file being updated on screen
 - Art-gen: add stonemason, academy, treasury diorama ladders
 - Add #welcome bot sync (source + workflow)
+- Batch-2 building tiles (forge, quarry, thresher)
+- Grant actions: read so @claude can read CI run logs
 - Launcher 1.1.5: desktop boot splash matches the launcher window (480x440)
 - Art-gen: pulled-out diorama style for forge and thresher
 - Desktop QA boot to landscape 16:9 + two roadmap done-marks
 - Art-gen: self-heal sparse cutouts, denser quarry t4 prompt
+- Make build-publish trigger explicit, note SUB_PATCH bump never builds
 - Launcher 1.1.4: download size readout + update log, skip-path notice
 - Pack roadmap embeds into fewer Discord messages
 - Art-gen: drop phantom armory/hall/academy ladders, add forge/quarry/thresher
 - QA setup: Windows now installs via the self-updating launcher
-- Cut QA build for real building level + green cap-rise caption
 - Field manual v9 to v10: box workflow-push capability + android exit-code case
 - Picker/modal: real building level instead of 1/1; cap-rise caption green
+- Android build step exits 0 reliably (aapt2 badging exit-code fix)
 - Art-gen: add armory, hall, academy ladders (batch 2)
 - Launcher v1.1.3: version bump for serial-update demo
-- Consolidate modularity and infra embeds; add PC graphics item
-- Desktop preview shows the portrait UI centered instead of stretched
-
-Behind the scenes:
-- Builder picker cards show build-state, not level
-- Separate build-state from level (derived)
-- Delete superseded game-design-economy-v1
-- Economy v2 - art/skins framework as the cosmetic monetization vehicle
-- Batch-3 building tiles (stonemason, academy, treasury)
-- Batch-2 building tiles (forge, quarry, thresher)
-- Grant actions: read so @claude can read CI run logs
-- Make build-publish trigger explicit, note SUB_PATCH bump never builds
-- Android build step exits 0 reliably (aapt2 badging exit-code fix)
 
 ## v0.0.27-P303
 
+- Tactics lab, cap-raise +10, picker cards, detail-modal fixes
+- QA Desktop opens landscape, QA Mobile opens phone-sized, each with its own graphics
+- Full base fetch so the governed-paths diff always resolves a merge base
+
+Behind the scenes:
 - Desktop preview pillarboxes the portrait UI; phone preview keeps the launcher window
 - Launcher v1.1.2: serial update (launcher gates game) + self-update progress bar
 - Re-fire roadmap sync now that the bot can embed
-- Tactics lab, cap-raise +10, picker cards, detail-modal fixes
 - Skill detail modal: cap-rise caption on a maxed-but-research-raisable skill
 - Building detail modal: omit Effect/Total in build context, populate Total in tab context
+- Batch-1 building tiles (vault, throne, sentry-towers)
 - Launcher v1.1.1: show version in title (self-update test marker)
 - Cap-raise topics: per-level descriptor now reads +10 max level per research
-- QA Desktop opens landscape, QA Mobile opens phone-sized, each with its own graphics
-- Full base fetch so the governed-paths diff always resolves a merge base
 - Launcher self-update: the launcher updates itself in place
-
-Behind the scenes:
-- Batch-1 building tiles (vault, throne, sentry-towers)
 - Modularity Gate promoted from advisory to blocking
 - Add launcher self-update and smaller-update items
 
 ## v0.0.27-P301
 
+- Desktop window opens large and centered, sized to the monitor
+- Build on the box instead of cloud Linux
+
+Behind the scenes:
 - QA form-factor drives both graphics and window: phone-sized portrait vs landscape desktop
 - Roadmap to Discord embeds: one post per section
 - Builder picker cards: 1/1 build status and gold completion for built buildings
 - Library cap-raise: +10 per level across Commander, Fortress, Tactics caps
 - Field manual v8 to v9: record the build-publish release-skip case file
+- Note that workflow-file edits can ride the box lane (CLAUDE.md)
 - Art-gen: walk the seed forward on empty Pollinations responses
 - Box lane: let the box push workflow files via a workflows-scoped PAT
 - Restore the Tactics lab to the Library (party-cap lab re-listed)
-- Desktop window opens large and centered, sized to the monitor
-- Build on the box instead of cloud Linux
-- Art-gen: revise vault and throne ladders, fuller-frame composition
-
-Behind the scenes:
-- Note that workflow-file edits can ride the box lane (CLAUDE.md)
 - Fail on findings so it can serve as a required gate
+- Art-gen: revise vault and throne ladders, fuller-frame composition
 - QA build trigger for v0.0.27-P300 (desktop window opens large)
 
 ## v0.0.27-P300
 
-- Desktop window: open large centered portrait sized to the monitor
-- Revert quick-checks consolidation (skipping it)
 - 3-screen wizard installing the clean build that honors --qa
-- Quick-checks: consolidate the four fast gate checks (step 1, advisory)
-- Art-gen: committed 5-tier building-tile recipe
 - Mark shipped pipeline savers done
 - Pin gate model to claude-sonnet-4-6
 - Add leaner-pipeline savers to infra track
 
 Behind the scenes:
+- Desktop window: open large centered portrait sized to the monitor
 - Add mobile-preview line under v0.0.29
 - Mark self-updating Windows install as done
+- Revert quick-checks consolidation (skipping it)
+- Quick-checks: consolidate the four fast gate checks (step 1, advisory)
+- Art-gen: committed 5-tier building-tile recipe
 - QA build trigger for v0.0.27-P298 (wallet-row boost)
 
 ## v0.0.27-P299
 
-- Cheats gate on dev_features_enabled() honoring a --qa launch flag
-- Gdunit-smoke: short-circuit on no-code PRs
 - Coming-soon flavor line under header-only building cards
 - Split the over-length Placeholder post to unblock the channel sync
-- Currency wallet row: per-platform size boost (phone only)
-- Builder Select Building picker is build-only, no upgrades past level 1
 - Split infrastructure post, add multi-LLM harness investigation
-- Nightly-suite: box-suite shell pwsh to powershell
-- Amend D-75/D-76: sanction per-platform sizing through the IconLookup switch
 - Builder tab is build-only, uniform per-building leveling on each tab
-- Utility tabs use the shared production header card in Discovery
-- Gathering tabs use the shared production header card (Improve), not bare rows
-- Art roadmap: add mobile font/UI scale-up (twin + Art - ahead mirror)
 - Add endlessly repeatable gathering-building queue to placeholder
-- Nightly-suite: box-primary + cloud-fallback + docs
-- Stage 5 painterly building tier ladders (25 PNGs, 5 tiers each)
 - Single tester build, one download
 - Currency phone icons (grad+outline) + desktop flat overrides
-- Add locked phone currency icon generator (grad+outline)
 - Non-destructive publish so the link can't break
 - Download progress bar
 
 Behind the scenes:
+- Cheats gate on dev_features_enabled() honoring a --qa launch flag
+- Gdunit-smoke: short-circuit on no-code PRs
+- Currency wallet row: per-platform size boost (phone only)
 - Note box runner is PowerShell 5.1 only (use shell: powershell)
 - Field manual v8 (binary-art-born-on-box doctrine), drop v7
 - Add before-launch interface reassessment to Placeholder
+- Builder Select Building picker is build-only, no upgrades past level 1
 - Box-born painterly art rule + corrected binary-transfer facts in BOX SESSION
+- Nightly-suite: box-suite shell pwsh to powershell
+- Amend D-75/D-76: sanction per-platform sizing through the IconLookup switch
+- Utility tabs use the shared production header card in Discovery
+- Gathering tabs use the shared production header card (Improve), not bare rows
+- Art roadmap: add mobile font/UI scale-up (twin + Art - ahead mirror)
+- Nightly-suite: box-primary + cloud-fallback + docs
+- Stage 5 painterly building tier ladders (25 PNGs, 5 tiers each)
 - Trigger P293 tester build (render + cheat fixes + currency icons)
+- Add locked phone currency icon generator (grad+outline)
 - Parking-lot v18 + watchtower - drop gh-CLI, record box-nightly, note engine cache already done
 
 ## v0.0.27-P293
 
 - Render PRODUCTION gathering tabs (gate early-return on maker type)
-- QA cheat fix: build gathering/utility buildings (not maxed) in mature snapshots
 - Newest-game-release selection + castle icon
 - Windows export preset + Inno Setup installer script
 - Windows update launcher standalone project
 
 Behind the scenes:
 - Move nightly re-test to the always-on box with a cloud fallback
+- QA cheat fix: build gathering/utility buildings (not maxed) in mature snapshots
 - Mark runner self-heal watchdog LIVE - \Fortress\RunnerWatchdog SYSTEM task installed and registered
 - Launcher-publish workflow (installer at fixed link)
 - Route currency icons through IconLookup
@@ -3850,30 +3897,30 @@ Behind the scenes:
 ## v0.0.27-P290
 
 - Shared per-platform icon lookup
-- Wire queue-leveling into the gathering and utility building tabs (single-source)
 - Truly-headless gdUnit suite runner for the @vzqz lane
-- Wrap the top mode-tab bar onto a second row (native flow, no scroll arrows)
 - Add self-updating Windows install to the infrastructure track
 - Valid watchdog repetition duration + fail-loud registration
 - Add shared combat-HUD-button component to v0.1 Enhance Explore
 - Move passive readout to its own layer below the buttons (P286)
-- Box lane: force truly-headless Godot so engine errands stop hanging
 - Move gear/CHEAT chrome onto its own CanvasLayer above the HUD (P285)
 - Reverse milestone order - Enhance Explore v0.1, Enhance Defense v0.2
 - Gear lower-edge dead zone, passive HUD strip steals the tap (P284)
-- Fix dead row-based spend confirmation (RowRenderer ancestor-search method name)
 
 Behind the scenes:
+- Wire queue-leveling into the gathering and utility building tabs (single-source)
+- Wrap the top mode-tab bar onto a second row (native flow, no scroll arrows)
 - Fold box diagnostics & routing into BOX SESSION
 - Runner health probe + draft diagnostics doctrine
 - Runner self-heal watchdog (recycle script + installer)
 - Rate-limit-aware Discord retrofit (finish remaining posts)
+- Box lane: force truly-headless Godot so engine errands stop hanging
 - Retrofit existing #releases posts with the one-click changelog link
 - One-click changelog link in the #releases post
 - Trigger v0.0.27-P284 build
 - One-off backfill - release bodies to deltas, cumulative CHANGELOG.md, Discord dedup
 - Gate republish + Discord on real delta; changelog link at release bottom
 - Remove debug overlay (Play Protect block)
+- Fix dead row-based spend confirmation (RowRenderer ancestor-search method name)
 - Trigger v0.0.27-P283 QA build
 
 ## v0.0.27-P283
@@ -3897,95 +3944,102 @@ Behind the scenes:
 ## v0.0.27-P281
 
 - Implement UI occlusion gate on Explore screen
-- Release notes: clean, human-readable changelog in releases + Discord
-- Art roadmap: add undated management tab-wrap (twin + Art - ahead mirror)
 - Fold branded startup splash into the v0.0.29 intro-splash item
 - Add startup splash and Android portrait boot splash to placeholder
 - Add custom controls to placeholder (tracked, not scheduled)
 
 Behind the scenes:
+- Release notes: clean, human-readable changelog in releases + Discord
+- Art roadmap: add undated management tab-wrap (twin + Art - ahead mirror)
 - Mark app launcher icon done in art-now roadmap block
 - Add input/gesture architecture requirement for gameplay screens
 
 ## v0.0.27-P280
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Fold Library/Forge/Barracks into the Miscellaneous build category
 - App icon: add zoomed castle launcher icon and wire it into the Android preset
 
 ## v0.0.27-P279
 
+- Corner-as-gear guard for Explore-screen gear taps
+
+Behind the scenes:
 - Add Treasury, Academy, Vault utility tabs (thin, Discovery)
 - Add Quarry and Thresher gathering tabs (thin, Production)
 - Consolidate building improve/detail plumbing into the shared tab base
 - Build-publish: stamp real Android version into export preset (Obtainium fix)
-- Corner-as-gear guard for Explore-screen gear taps
-
-Behind the scenes:
 - Trigger all-platform QA build for v0.0.27-P276
 
 ## v0.0.27-P276
 
-- Proof tab: header-card-only Lumber Mill tab in Production
 - Fold building/tab unification into the modularity-pass block
 - Park the bug-loop back half as a future item
-- Art-roadmap: note placeholder launcher icon and a proper game icon to replace it
 
 Behind the scenes:
+- Proof tab: header-card-only Lumber Mill tab in Production
 - Bump dev-implementation-plan v78 to v79
+- Art-roadmap: note placeholder launcher icon and a proper game icon to replace it
 
 ## v0.0.27-P275
 
-- Replace gear font glyph with bundled SVG icon, fix CHEAT geometry (P275)
 - Reopen v0.0.27 with remaining modularity items as features
-- Fold save-multichar spec into the implementation plan (docs-only, no code)
 
 Behind the scenes:
+- Replace gear font glyph with bundled SVG icon, fix CHEAT geometry (P275)
 - Define the digest icon legend; seed posts as banner + file only
 - Drop the weekly technical appendix entirely, fold ledger lines into the seed
+- Fold save-multichar spec into the implementation plan (docs-only, no code)
 
 ## v0.0.27-P274
 
-- Pin gear button to a square box + arm release
-- Add advisory test-accompaniment gate (game-code PR with no test)
 - Add a quit button in the settings gear to the Placeholder bucket
 
 Behind the scenes:
+- Pin gear button to a square box + arm release
 - WATCHTOWER coherence - daily appendix and branch-cleanup residuals
+- Add advisory test-accompaniment gate (game-code PR with no test)
 - Remove the technical appendix from the channel
 - Weekly schedule on the branch-cleanup errand as a backstop
 
 ## v0.0.27-P273
 
-- Gear glyph fills its box + arm release build
 - Add on-screen (non-headless) testing to the infrastructure track
-- Header + settings: enlarge gear, drop CHEAT below, add Credits menu, fix About
-- Build-publish: correct stale fresh-key release note
 - Expand v0.0.29 save work with multiple characters, QA slot, unified build, and entry flow
-- Modularity gate: advisory check for hand-rolled building-detail popups
 
 Behind the scenes:
+- Gear glyph fills its box + arm release build
 - Extract shared ScreenChrome (gear + CHEAT) across screens
 - Add multiple-characters and unified-QA-build save spec
 - Add game-style-sizing standard and index it
 - Digest icon lists + deterministic reference-PDF staleness check
+- Header + settings: enlarge gear, drop CHEAT below, add Credits menu, fix About
+- Build-publish: correct stale fresh-key release note
 - Daily Digest carries a conditional seed when Needs-you is non-empty
+- Modularity gate: advisory check for hand-rolled building-detail popups
 
 ## v0.0.27-P270
 
 - Remove dead Forge armament-detail path
 - Selection-flow lock-reason consolidation + locked wording
 - Mark phone tap-to-update done
-- Qa-setup: fix POST 3 list rendering, drop auto-update post, add pull-to-refresh
 - Rewrite v0.0.27 block to show the six open must-do items
+- Force portrait at runtime; bump Android version/code
+
+Behind the scenes:
+- Qa-setup: fix POST 3 list rendering, drop auto-update post, add pull-to-refresh
 - Qa-setup: step-by-step Android install + auto-update setup
 - Regenerate currency icons frameless + mipmaps on
-- Force portrait at runtime; bump Android version/code
 - Wallet bar: wrap cells so it can't stretch the screen
 
 ## v0.0.27-P268
 
 - Fund gems/spoils/crowns from the +99,999 All button
 - Add class/magic activatable combat effects to the Placeholder bucket
+
+Behind the scenes:
 - Qa-setup: beginner Android/Obtainium install walkthrough + stable-signing update note
 - Promote 8 currency icons to assets/icons/currencies + fix config path
 - Roadmap header: fix stale art twin filename reference
@@ -3995,54 +4049,26 @@ Behind the scenes:
 
 ## v0.0.27-P266
 
-- Currency single-source correction: config owns all 8 currencies + icon paths
 - Add screen-ratio scaling to the Placeholder bucket
 - Add phone test-delivery and Google Play internal testing to infrastructure track
-- Route confirm modal currency display through CurrencyDisplay (sweep 1)
-- Currency display system: renderer + two registries + tests (stage 1)
-- Remove dead placeholder _open_building_detail from armory and guardhouse tabs
-- Reuse gate: add archetype-routing check to the analyzer subagent (MOVE 3)
-- Builder popup label: Production to Building
 - Add general long-press-for-info feature (Placeholder, no version)
-- Modularity Pass (v0.0.27): fix maker-popup category labels in the shared adapter
-- Modularity Pass (v0.0.27): detail-popup single source - extract building-detail config into DetailConfigBuilder
 - Add detailed-wallet feature under v0.5
-- Impl plan v77: strip the delta changelog; re-cut the Foundation to the roadmap
 - Regression-test discipline; pin and place the alert badge
-- Impl plan v76: fold in run data collection and cheat prevention
 - V0.0.29 run data collection, v1.0 cheat prevention; art-track economy rule
-- CLAUDE.md: v0.0.27 = the Modularity Pass; roadmap: per-version progress rule
-- Reference PDFs: alert #spam-updates when the nightly build fails
 - Hosted-runner sync + real-world-money-only disclosure rule
-- Weekly Digest: one-line status per check (Checks block), detail still in the appendix
-- Weekly Digest: exception-only Technical review, full mechanical output to the appendix, seed 0-5
-- Roadmap-sync: add an hourly schedule so queue-merged roadmap changes reach the forum (bot merges do not trigger the push)
 - Tooling onto the art side path; sync art editorial rule
-- Field manual: box Python generation capability proof (s3) and the v91 chronicle entry (s5)
 - One list, full transparency. Add the tooling and pipeline track; rewrite editorial rules to hold back only economics and monetization
-- CLAUDE.md: record the box as the primary art-generation lane (conda toolchain), cloud as pinned fallback
-- Pin cloud art fallback to the proven glyph commit; mark as fallback to the box lane
-- Bug loop: skip pinned forum posts; correct stale poller workflow comments
-- Bug loop: owner-gated close, verdict disagree-invites, known-bugs thread links, back-half env-strip
-- Regenerate flat icons (glyph source 82d948812bfe3f269ef8f731dcdb07b08160edc4)
-- Icon guide: add storage and movement section (staging, production paths, engine import)
-- Art regen runner: add chat-fireable push trigger (art-regen-run branch) and record glyph-source commit
 - Confirming a bug files it to known-bugs without auto-launching the fix
 - Strip whitespace from all the poller's env reads
 - Strip whitespace from the poller's NATHAN_ID env read
-- Reference-pdfs: nightly schedule + on demand, drop on-change trigger
-- Add the Progression Atlas as a third generated player document
 - Discord User-Agent on all three loop scripts; watcher posts into the forum thread
-- Stamp the build version on the Reference and Manual PDFs
 - Poller reads the bug-reports forum's posts (threads), not channel messages
 - #about self-sync by channel name + milestone-tree roadmap
 - Remove dead build-queue-slot text from Builder alerts
 - Point branch-cleanup at github.repository, not the pre-transfer repo path
-- Docs reconciliation: rarity removed, research multi-slot, Library level 9
 - Watcher matches non-closing Bug-loop-fixes: #N
 - Known-bug label + confirm-to-close on the poller
 - Known-bugs list publisher (with tests)
-- Extend Library to level 9, render research multi-slot
 - Weekly digest reviews the player roadmap
 - Roadmap sync runs on source change (no manual dispatch)
 - Library research queue to level-gated multi-slot
@@ -4050,20 +4076,42 @@ Behind the scenes:
 - Roadmap sync posts before deleting (fail-safe migration)
 - Roadmap sync (bot-posting script + workflow + source of truth)
 - Drop construction queue to a single slot at every level
-- Unify builds: one workflow, one release, one Discord post
 
 Behind the scenes:
+- Currency single-source correction: config owns all 8 currencies + icon paths
+- Route confirm modal currency display through CurrencyDisplay (sweep 1)
+- Currency display system: renderer + two registries + tests (stage 1)
+- Remove dead placeholder _open_building_detail from armory and guardhouse tabs
+- Reuse gate: add archetype-routing check to the analyzer subagent (MOVE 3)
+- Builder popup label: Production to Building
+- Modularity Pass (v0.0.27): fix maker-popup category labels in the shared adapter
 - Implementation plan v78 - realign the 27/28 split to the roadmap
+- Modularity Pass (v0.0.27): detail-popup single source - extract building-detail config into DetailConfigBuilder
 - Monthly Test box-offload self-interrogation
+- Impl plan v77: strip the delta changelog; re-cut the Foundation to the roadmap
+- Impl plan v76: fold in run data collection and cheat prevention
+- CLAUDE.md: v0.0.27 = the Modularity Pass; roadmap: per-version progress rule
+- Reference PDFs: alert #spam-updates when the nightly build fails
 - Weekly digest seed must account for every Needs-you/Watching item
 - Move vision-sync to the vzqz box runner, add daily schedule
 - Restore infrastructure track as its own parallel roadmap section
 - Move roadmap-sync to the vzqz box runner
 - Reference README - add Progression Atlas, correct cadence to nightly+dispatch
+- Weekly Digest: one-line status per check (Checks block), detail still in the appendix
+- Weekly Digest: exception-only Technical review, full mechanical output to the appendix, seed 0-5
+- Roadmap-sync: add an hourly schedule so queue-merged roadmap changes reach the forum (bot merges do not trigger the push)
 - Painterly building generator + 17 placeholder renders
 - One-off workflow to post the bug-forum explainer as the Fortress bot
+- Field manual: box Python generation capability proof (s3) and the v91 chronicle entry (s5)
+- CLAUDE.md: record the box as the primary art-generation lane (conda toolchain), cloud as pinned fallback
+- Pin cloud art fallback to the proven glyph commit; mark as fallback to the box lane
+- Bug loop: skip pinned forum posts; correct stale poller workflow comments
 - Record roadmap canonicalization and decision reversals
+- Bug loop: owner-gated close, verdict disagree-invites, known-bugs thread links, back-half env-strip
 - Add idle loop v0.3, NPC build-out, tournament split, onboarding + achievements
+- Regenerate flat icons (glyph source 82d948812bfe3f269ef8f731dcdb07b08160edc4)
+- Icon guide: add storage and movement section (staging, production paths, engine import)
+- Art regen runner: add chat-fireable push trigger (art-regen-run branch) and record glyph-source commit
 - Reorder side sections to the end, decouple art from versions, add v2.0 biomes + placeholder items
 - Work-model version numbering + full parallel art track
 - Lock flat-icon system, art roadmap, style guides, regeneration runner
@@ -4073,9 +4121,12 @@ Behind the scenes:
 - Stat-rollup reframe, split Explore into three milestones, balance to v0.6.0
 - Merge stat-wiring build, Enhance Defense/Explore, art track up
 - Milestone-based detail, split 27, blueprints to Explore, local-then-cloud saves
+- Reference-pdfs: nightly schedule + on demand, drop on-change trigger
+- Add the Progression Atlas as a third generated player document
 - Future tiers as prose paragraphs, no version numbers
 - Expand the roadmap - evergreen intro + full aspirational tree
 - Business-infrastructure v9 to v10 (roadmap/about bot-sync, art-pipeline fix, tooling note)
+- Stamp the build version on the Reference and Manual PDFs
 - Add workflow to regenerate + publish player PDFs on config change
 - Add config-driven Reference/Manual PDF pipeline (tools/reference)
 - Version tree, versioning defined, Defend/Explore/Throne moved to in-the-build
@@ -4089,9 +4140,11 @@ Behind the scenes:
 - Stage premium-currency and discovery-item placeholder icons in art/icons-wip
 - Stage live-currency placeholder icons in art/icons-wip (gdignored)
 - Correct the #spam-updates mute state in WATCHTOWER.md
+- Docs reconciliation: rarity removed, research multi-slot, Library level 9
 - Spec the full lifecycle and conventions
 - Drop dead state-commit step from the poller workflow
 - Run the known-bugs publisher on issue events and daily
+- Extend Library to level 9, render research multi-slot
 - Remove orphaned state file
 - Stateless watcher, no main write (with tests)
 - Stateless poller, no main write (with tests)
@@ -4102,3 +4155,4 @@ Behind the scenes:
 - Point build/release references at unified build-publish.yml
 - Six assets, two per platform (split Windows) + idempotent publish
 - Remove dead pip ecosystem from dependabot config
+- Unify builds: one workflow, one release, one Discord post
