@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3830
+
+- A top-layer badge stops drawing when it leaves the list, not when its tile does *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A screenshot taken in _process is blank, and content_scale_size does not stay where you put it
+
 ## v0.0.28-P3827
 
 - The level-up confirmation draws on top, and a levelled weapon says what it gained (#5656 #5657)
