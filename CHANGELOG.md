@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3832
+
+- "it'll ride the next one" is a promise, and the sweep fires the next build itself
+- Collision is answered by the physics space, not a second copy of the geometry
+
 ## v0.0.28-P3830
 
 - A top-layer badge stops drawing when it leaves the list, not when its tile does *(fix attempt - still being verified)*
