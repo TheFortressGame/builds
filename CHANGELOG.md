@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3846
+
+- A modal host is identified by what opened it, not by its node name
+- Suppress overlays, freeze sim, and fix overhead framing in the 3D capture lane
+- Render lane + geometry sidecars for the 3D Explore layer
+- Furniture is sorted against furniture, not only against the hero
+- The quiet check never asks a chat that is archived on claude.ai
+- Quiet check reads a STATUS answer before the busy/quiet filters, and asks in one short line
+- Quiet check at 5 quiet / 5 cadence, and a chat waiting on a background task is not quiet
+- The quiet check - ask every quiet chat Nathan's three questions instead of classifying its last message
+- Wire the three orphan self-tests into box-self-check *(fix attempt - still being verified)*
+- A routine's heartbeat must grade its own receipt, name its stand-down, and be readable by its successor (#5630, #5642, #5594) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Delete the dead compare modal and re-point its tests at the live surface
+- The Steward spec has no scratch-file clause: its banked remedy writes and reads two different files, and served this pass a 5-hour-stale board
+- A second, un-versioned copy of patrol 6's clock classifier lives in the deploy dir - the duplication #5352 exists to prevent, and the parity check runs one direction only
+- Correction - the Stop hook has been executing since 09-06 14:43; the 09-05 'dead' verdict was the hook-path corruption
+
 ## v0.0.28-P3832
 
 - "it'll ride the next one" is a promise, and the sweep fires the next build itself
@@ -22,7 +41,7 @@ Behind the scenes:
 - The week-away meta batch - soak evidence, scope-gate add, vN replacements, grader negation, filing budget, idle-with-work sweep
 - Startup_failure runs are a broken-workflow-file signal, not a timeout kill *(fix attempt - still being verified)*
 - Chart freshness is read from the publish target, never a staging leftover *(fix attempt - still being verified)*
-- Classify resolved salvage refs so the -box-partial- pile can stop growing *(fix attempt - still being verified)*
+- Classify resolved salvage refs so the -box-partial- pile can stop growing
 - The box lane's terminal strings are a closed set the driver is total over, an existing-ref update is a delivery, and a bolded bundle member still closes (#5546 #5551 #5629) *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -37,13 +56,13 @@ Behind the scenes:
 - Bound the nightly bundle, and end the silence on a repeat turn-cap bust *(fix attempt - still being verified)*
 - Release_notes.py no longer prints untyped issue-headline commits as player features
 - Post-brief.py never emits an over-cap chunk, and a mid-sequence 400 aborts cleanly instead of tracebacking
-- The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564) *(fix attempt - still being verified)*
+- The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564)
 - Route the box lane's own pre-push gate through the sanctioned wrapper, and correct the rationale that kept the rule needing restating
 - The delivery driver's five silent-path defects - it waits for THIS branch's verdict, keeps its once-ever promise, escalates where someone reads, stops retrying a deliberate abort, and holds the close on executable infra (#5524 #5525 #5526 #5530 #5531) *(fix attempt - still being verified)*
 - The overnight audits' four gate/sweep defects (#5517 #5529 #5533 #5534) *(fix attempt - still being verified)*
 - One owner applies the three-day flags, needs-nathan can clear, and the >7d arm actually reaches Nathan
 - Rotated chats keep their name plus vN and open with a continuity brief; the promise guard reports the promise nearest the end
-- The three silent disk reapers stamp a heartbeat, so a dead one stops looking quiet *(fix attempt - still being verified)*
+- The three silent disk reapers stamp a heartbeat, so a dead one stops looking quiet
 - Green-PR sweep - a green, idle Claude-session PR is merged by cron, wherever its chat lives
 
 Behind the scenes:
