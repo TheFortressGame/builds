@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3861
+
+- Size him by the man, not by his canvas
+- The 3D capture lane was burning out the props it exists to inspect
+
 ## v0.0.28-P3859
 
 - A set whose projection is locked does not get a vote from the pixels
@@ -402,7 +407,7 @@ Behind the scenes:
 ## v0.0.28-P3656
 
 - The gear behaves like the chips; the movement guard names its blocker
-- Registry-restore the root Window's surface — one leaked landscape canvas was reddening two unrelated suites *(fix attempt - still being verified)*
+- Registry-restore the root Window's surface — one leaked landscape canvas was reddening two unrelated suites
 - 'the next build will have it' is a promise too (the 08-29 4.4h merge-to-build gap)
 
 ## v0.0.28-P3653
