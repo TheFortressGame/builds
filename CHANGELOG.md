@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3867
+
+- Furniture is drawn on the box you collide with, not on the cell it is filed under
+- The quiet check reads the STATUS line where it asked for it - the head of the reply, not only the tail
+- The board's freshness panel graded staging leftovers, not publish targets
+- Quiet check backs off on prose replies, persists answers, puts STATUS first; build-on-merge baselines on the last SUCCESSFUL build
+- Gate the hero's walk frames on a VERTICAL contract, with a one-way debt list
+
+Behind the scenes:
+- Two texture quirks that cost real test failures today
+
 ## v0.0.28-P3861
 
 - Size him by the man, not by his canvas
