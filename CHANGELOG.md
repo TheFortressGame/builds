@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3851
+
+- Add --soak-3d mode and emission
+- Square overhead capture and proven occlusion for the 3D capture lane
+- Hide every CanvasLayer generically, tighten overhead framing, and prove per-humanoid frustum membership
+
+Behind the scenes:
+- The capacity gate's data path collapses in bash too
+- Make the routine's own printed recipes runnable
+
 ## v0.0.28-P3846
 
 - A modal host is identified by what opened it, not by its node name
