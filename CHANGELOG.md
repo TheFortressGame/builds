@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3853
+
+- The player's collision box is a real 0.40 m person, not an eyeballed 10 px
+
 ## v0.0.28-P3851
 
 - Add --soak-3d mode and emission
