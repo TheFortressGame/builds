@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3869
+
+- The quiet check's delivery agent gets the spec inline on stdin, never a path it can misread
+- Claude Code on the box updates itself daily at 04:30, ahead of the 05:00 recycle that adopts it
+
 ## v0.0.28-P3867
 
 - Furniture is drawn on the box you collide with, not on the cell it is filed under
