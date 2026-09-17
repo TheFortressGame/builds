@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3870
+
+- Native cottage spike - the Builder's cottage from engine nodes, Classic/Native on entry
+
 ## v0.0.28-P3869
 
 - The quiet check's delivery agent gets the spec inline on stdin, never a path it can misread
