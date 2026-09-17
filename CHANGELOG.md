@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3859
+
+- A set whose projection is locked does not get a vote from the pixels
+
+Behind the scenes:
+- Stale-3d can never re-arm after a non-driver label removal: an orphaned marker blocks the flag and the clearing arm cannot see it (#4782, 22.4d unworked, unflagged 1.4d)
+- Patrol 1's new supersession test exits 2 when run exactly as documented, and the 4 self-test checks that would notice are silently skipped in the only environment that grades them
+
 ## v0.0.28-P3856
 
 - Refuse a scene-cycling soak on a pre-repair save instead of measuring a bounce loop
