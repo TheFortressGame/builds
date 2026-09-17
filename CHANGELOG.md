@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3856
+
+- Refuse a scene-cycling soak on a pre-repair save instead of measuring a bounce loop
+- The native-coverage audit counts CODE, not prose - every row was inflated by commentary
+- Name the scene the driver is stuck on, not just that it is lost
+
 ## v0.0.28-P3853
 
 - The player's collision box is a real 0.40 m person, not an eyeballed 10 px
