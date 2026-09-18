@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3885
+
+- ScreenChrome closed a RefCounted cycle on itself, leaking 4 objects per mode entry
+- Run-soak can force a rendering driver, and voids a silent WARP fallback
+
 ## v0.0.28-P3883
 
 - The native cottage's collision follows what is DRAWN *(fix attempt - still being verified)*
