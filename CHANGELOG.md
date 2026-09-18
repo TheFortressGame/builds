@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3883
+
+- The native cottage's collision follows what is DRAWN *(fix attempt - still being verified)*
+- Probe-scene-leak can force a rendering driver, and voids a silent WARP fallback
+- A soak with no proof of work is INCONCLUSIVE, never PASS - and the nightly picks a save that can actually churn
+
 ## v0.0.28-P3880
 
 - The axe hits for nine, and the card says so once
