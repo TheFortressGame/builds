@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3875
+
+- 'show collision' toggle on the cottage prompt, in both rooms
+- Character pipeline - acquire CC0 rigs, render at real-metre scale, gate the ground contact
+- The quiet check ignores the registration's busy flag - quiet is measured from the transcript only
+- Quiet check composes the exact ask; delivery agent sends it verbatim
+
 ## v0.0.28-P3870
 
 - Native cottage spike - the Builder's cottage from engine nodes, Classic/Native on entry
