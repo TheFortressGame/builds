@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3880
+
+- The axe hits for nine, and the card says so once
+- The quiet check's delivery agent has no file tools; the deployed script self-heals from a golden copy; the installer refuses a stale checkout
+- Tools/ must never ship - #5699 put 14.6 MB of it in every build
+- Overwatch - every 30 min the meta console gets every chat's last message and pushes what a script cannot judge; delivery hardened
+
+Behind the scenes:
+- Add a windowed GPU/native-memory leak probe for issue #5595
+
 ## v0.0.28-P3875
 
 - 'show collision' toggle on the cottage prompt, in both rooms
