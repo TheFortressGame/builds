@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3909
+
+- His weapon shows in his hand - the first visible gear swap
+- The build-landed message names the build head and each merge commit, so the receiving chat can verify ancestry before telling Nathan
+- The Playable message is three plain lines - Playable, Changed, Test
+
 ## v0.0.28-P3906
 
 - The native cottage is walkable end to end, the exit works, and the overlay reads as depth *(fix attempt - still being verified)*
