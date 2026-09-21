@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3921
+
+- Levelling says what it bought, instead of closing the card
+- The equip lesson is taught once, not whenever a slot is empty
+
 ## v0.0.28-P3919
 
 - Every piece's collision box is read off the art it draws; hidden overlay lines recede *(fix attempt - still being verified)*
