@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3901
+
+- Back out one level at a time, and put the values beside their labels
+- The build-on-merge baseline refuses a stale run listing (two redundant builds, P3886 and P3899)
+
 ## v0.0.28-P3899
 
 - The overwatch change key excludes the receiving console, whose own reply changed it every pass
