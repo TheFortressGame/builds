@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3915
+
+- The Stop hook blocks a build-number claim the box has not announced for that chat
+- The static hero is the same man as the one who walks
+
 ## v0.0.28-P3913
 
 - Escape closes an open chip from one place, and the settings window is one colour
