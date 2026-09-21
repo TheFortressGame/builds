@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3913
+
+- Escape closes an open chip from one place, and the settings window is one colour
+- The whole loot area takes a drag-out, not just the tiles in it
+- The quiet check's waiting guard counts only shell tasks under 60 min, never subagent outputs
+
+Behind the scenes:
+- Nathan's 09-21 order - cottage and model, then the story remainder, then stat wiring; the full code review (one owner per shared behavior, native over home-built) after the lanes close
+
 ## v0.0.28-P3909
 
 - His weapon shows in his hand - the first visible gear swap
