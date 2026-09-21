@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3906
+
+- The native cottage is walkable end to end, the exit works, and the overlay reads as depth *(fix attempt - still being verified)*
+
 ## v0.0.28-P3905
 
 - The settings rail gets an edge on every side
