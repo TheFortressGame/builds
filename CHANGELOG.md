@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3919
+
+- Every piece's collision box is read off the art it draws; hidden overlay lines recede *(fix attempt - still being verified)*
+- Build-on-merge baseline is the latest published build's head by commit count, not the gh run listing *(fix attempt - still being verified)*
+- Keep-alive review batch 2 - answers need a live ask, STATUS must lead, backoff bookkeeping, dedupe, merge-path retries *(fix attempt - still being verified)*
+- Keep-alive review batch 1 - no mid-turn asks, relay timeout + pid lock, recycler spares live tools and honours DryRun, quotes are not build claims *(fix attempt - still being verified)*
+
 ## v0.0.28-P3915
 
 - The Stop hook blocks a build-number claim the box has not announced for that chat
