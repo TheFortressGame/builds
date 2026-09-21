@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3899
+
+- The overwatch change key excludes the receiving console, whose own reply changed it every pass
+- An unchanged overwatch digest is not delivered again (fresh copy every 180 min)
+- Step-4 self-test retries a short hash read; six live routines get contract rows
+- Quiet check clocks a chat by its OWN activity and names a stuck turn
+- Branch cleanup must not leak a classification answer as its exit code
+- Narration is not a closing keyword, and a Closes list may not outrun its own diff *(fix attempt - still being verified)*
+- The RUNS-outcome panel folded broken-workflow-file runs into "killed" too *(fix attempt - still being verified)*
+- Steward handoff extractor keeps whole items, plus a committed lane-ref instrument (#5744, #5772)
+- A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch *(fix attempt - still being verified)*
+- A short-circuited nightly can no longer look like a full sweep *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Commit the 16 deploy-dir orphans flagged by deploy-parity
+- STALE banners on game-design-world-v2 and game-design-loop-v3
+
 ## v0.0.28-P3886
 
 - Maintenance build (no player-facing changes in this range).
