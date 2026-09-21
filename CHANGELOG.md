@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3905
+
+- The settings rail gets an edge on every side
+- The build announcer accepts the in-progress run that owns a fresh release
+- A landed build is announced to the chat that made it, with the P-number
+
+Behind the scenes:
+- Mixed gear on the character is deferred, with the cost that defers it
+
 ## v0.0.28-P3901
 
 - Back out one level at a time, and put the values beside their labels
