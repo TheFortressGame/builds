@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3929
+
+- The title keeps its words, and the chip wraps between them
+- An exempted rise must also be recordable, or NATIVE-EXEMPT is unreachable
+- A chat that answered CONTINUING is not asked again until it moves; after an hour unmoved it gets one different question per hour (#5817 item 15) *(fix attempt - still being verified)*
+- He carries his weapon in every room, and holds the axe by its handle
+- Check a PR body against the three gate contracts before opening it
+- The leak probe reaps its OWN orphans instead of being blocked by them
+- A rotated chat's builds are announced to its successor - lineage recorded at rotation, announcer follows it and the pin registry (#5817 item 5) *(fix attempt - still being verified)*
+- The quiet check logs every pre-digest skip and duplicate-registration decision
+
 ## v0.0.28-P3921
 
 - Levelling says what it bought, instead of closing the card
