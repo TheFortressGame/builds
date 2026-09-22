@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3982
+
+- Run-soak gets a real -NoTabChurn switch, and its proof of work asks for scene trips, not tab presses *(fix attempt - still being verified)*
+- The clock hook adds a RETURN BRIEF when Nathan's last message in a chat is 90+ min old
+- The registered height is the WHOLE sprite, not the shoulder *(fix attempt - still being verified)*
+- The cron-slot self-test's "no gh" case made a REAL API call, so its REST fallback had never run *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Post-brief's self-test is asked on every PR whether it still passes
+
 ## v0.0.28-P3977
 
 - A prop's projection is declared per art set, not guessed per variant file
