@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3958
+
+- Restore the acquire tool SOURCES.md tells you to use
+- The lane-escape test asserts ABSENCE, over every spec, and can fail *(fix attempt - still being verified)*
+- A captured message must survive the console it was captured on
+- The render harness can shoot a rig that carries its OWN clips
+- The prop validator reads every declared prop, and can see a foot the canvas cut through *(fix attempt - still being verified)*
+- Delete a refuted claim that was hiding six pieces from the reach test *(fix attempt - still being verified)*
+- Mobs CAN be animated now, and none of them moved
+- Nathan's queue reads pull requests too, and says so when it truncates
+- When nobody captured the visual change, go capture it - and never publish a frame the lane refused
+
 ## v0.0.28-P3948
 
 - A piece is drawn the size of the box that stops him *(fix attempt - still being verified)*
@@ -110,7 +122,7 @@ Behind the scenes:
 - Quiet check clocks a chat by its OWN activity and names a stuck turn
 - Branch cleanup must not leak a classification answer as its exit code
 - Narration is not a closing keyword, and a Closes list may not outrun its own diff *(fix attempt - still being verified)*
-- The RUNS-outcome panel folded broken-workflow-file runs into "killed" too *(fix attempt - still being verified)*
+- The RUNS-outcome panel folded broken-workflow-file runs into "killed" too
 - Steward handoff extractor keeps whole items, plus a committed lane-ref instrument (#5744, #5772)
 - A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch *(fix attempt - still being verified)*
 - A short-circuited nightly can no longer look like a full sweep *(fix attempt - still being verified)*
@@ -242,8 +254,8 @@ Behind the scenes:
 
 - The level-up confirmation draws on top, and a levelled weapon says what it gained (#5656 #5657)
 - The week-away meta batch - soak evidence, scope-gate add, vN replacements, grader negation, filing budget, idle-with-work sweep
-- Startup_failure runs are a broken-workflow-file signal, not a timeout kill *(fix attempt - still being verified)*
-- Chart freshness is read from the publish target, never a staging leftover *(fix attempt - still being verified)*
+- Startup_failure runs are a broken-workflow-file signal, not a timeout kill
+- Chart freshness is read from the publish target, never a staging leftover
 - Classify resolved salvage refs so the -box-partial- pile can stop growing
 - The box lane's terminal strings are a closed set the driver is total over, an existing-ref update is a delivery, and a bolded bundle member still closes (#5546 #5551 #5629) *(fix attempt - still being verified)*
 
@@ -256,7 +268,7 @@ Behind the scenes:
 - Cottage_chair as a real parametric GLB model
 - The full-sweep panel identifies the nightly by workflow, not run title
 - The release gate now requires evidence the suite actually ran
-- Bound the nightly bundle, and end the silence on a repeat turn-cap bust *(fix attempt - still being verified)*
+- Bound the nightly bundle, and end the silence on a repeat turn-cap bust
 - Release_notes.py no longer prints untyped issue-headline commits as player features
 - Post-brief.py never emits an over-cap chunk, and a mid-sequence 400 aborts cleanly instead of tracebacking
 - The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564)
