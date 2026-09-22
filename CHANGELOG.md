@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3985
+
+- Round props stand on a disc, and a wall's grid line stops floating in front of the wall *(fix attempt - still being verified)*
+- Damage types wear their colour, the settings window has four corners, and a clicked rail item stays lit
+- The contention guard tests for a GPU contender, not for any Godot, and the reaper compares paths canonically
+
 ## v0.0.28-P3982
 
 - Run-soak gets a real -NoTabChurn switch, and its proof of work asks for scene trips, not tab presses *(fix attempt - still being verified)*
