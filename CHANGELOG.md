@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4041
+
+- Merge-pr.ps1 holds a game-code PR for the tech lead's review line (and honours TECH-LEAD: BLOCK), so the gate applies to lane merges, not only the sweep's
+- Collision check flags real work only; audit and board find their issue by list-and-match
+- The board leads with the questions and comes INTO the chat (return brief + "board" keyword); merge list removed; Discord-as-one-surface on the roadmap (Nathan 2026-09-22 5:46 PM)
+
+Behind the scenes:
+- The hero in the game is now the downloaded model, rendered
+- Clock-context: a line on every prompt while an account's Claude login is broken (process review 2026-09-22, item 5: account B's OAuth expired for 3.5 h and only Nathan can log in)
+- Structure-audit: the report lists the named target file's own pairs
+- One owner for a roster row's level-up (#5907 brief #1)
+
 ## v0.0.28-P4033
 
 - The hearth is 1.00 m deep, which is what its picture draws *(fix attempt - still being verified)*
