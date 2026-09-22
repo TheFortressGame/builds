@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3937
+
+- The overwatch digest goes to a dedicated pinned chat, and the RDP consoles are never quiet-checked
+- The leak probe's OS summary counted a post-exit sample as its endpoint
+
+Behind the scenes:
+- Hero.png carried the hood too, and it is the texture the live sprite loads
+
 ## v0.0.28-P3934
 
 - The relay retries once on opus when the first model returns an API 5xx - account B's sonnet alias failed every call for an hour
