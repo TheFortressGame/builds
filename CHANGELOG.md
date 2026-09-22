@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4017
+
+- An override of a base hook is not a duplicate
+- One list says which art sets are flat - world_scale.gd stops keeping its own
+- The type-swap row paints both type words, and the capture lane can render a levelled item
+- The nightly records what its subject CONTAINED, not just how old it was *(fix attempt - still being verified)*
+- The ratchet's floor is the lower of the branch file and main's, and the weekly audit lowers the file itself
+- A stale baseline is not a loosened one, and the ratchets stop telling you to undo your own work
+- PRECONDITION - a test that bails instead of failing is caught, not caught by eye
+- The collapsed-chip Escape guard stops reading process-global viewport state
+- The pre-push gate runs all eight static-gates scans, not three *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Render the hero's whole frame set from the rig, anchors and all
+- The engine owns the mob's animation, not a hand-written index
+- Refresh the registry against a day that acted on it
+- One inspect-close refresh on TabBase, and the two seams that were hiding under six copies
+
 ## v0.0.28-P4004
 
 - The timers row counted the accumulate form and missed the countdown form the tree actually uses
