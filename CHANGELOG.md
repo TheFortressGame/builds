@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4004
+
+- The timers row counted the accumulate form and missed the countdown form the tree actually uses
+- An exemption GRANTED is not an exemption DISCUSSED
+- The hand position comes out of the SAME render as the frame
+- Declare the nine prop projections that were CHECKED, so the art inventory stops inferring *(fix attempt - still being verified)*
+- The art inventory measured a front elevation against depth it never draws *(fix attempt - still being verified)*
+- The navigation row read ours=0 while a live BFS router ran every frame
+- The scope gate's block names the two accepted status forms and says a subagent's look does not count
+- WINDOWRADIUS - the corner-radius rule is enforced instead of documented
+
+Behind the scenes:
+- The stylebox and override counters scan code, not comments
+- The surface factory names the gold edge, so the settings rail stops being a special case
+- The native room already owns the footprint, and the art-set row was wrong
+- The window-surface factory takes a body tone, so the settings panel stops hand-building one
+- The owners registry - one file and one function own each shared behavior
+
 ## v0.0.28-P3990
 
 - The soak retains the field that answers the next question, not just the verdict *(fix attempt - still being verified)*
