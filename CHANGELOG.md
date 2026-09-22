@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4021
+
+- The hearth faces its wall, and the red wall marks come off the overlay *(fix attempt - still being verified)*
+- The identifier gate knows a built-in Object member is not a hallucination
+- The structure ratchet judges a PR on its own delta, so main's exempted rise is not charged to the next PR
+
+Behind the scenes:
+- Refresh the registry against #5931, #5947 and #5954 - the mob sprite is native, FLAT_SETS has one owner, hook overrides left the duplicate count
+
 ## v0.0.28-P4017
 
 - An override of a base hook is not a duplicate
