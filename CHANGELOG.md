@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4049
+
+- The hearth stands AGAINST the west wall, not a quarter metre inside it *(fix attempt - still being verified)*
+- The refactor is a PROGRAM - refactor-program.ps1 keeps the next brief flowing at a set pace; daily audit; program line on the board (Nathan 2026-09-22 6:17 PM)
+
+Behind the scenes:
+- Reading pass 1 - the tab family: six new rows, two corrected, the two unreachable branches and the base's own repeats recorded
+- Five lines for Nathan gain AS OF: the date and time copied from the stamp, never computed (Nathan 2026-09-22 6:44 PM)
+- The assignment sheet has an owner (#5984, brief #2), and dup_pairs is a floor - said where the number is read
+- Structure-audit: measure daily, post only when a ratcheted count moved or on Sunday (Nathan 09-22: capacity)
+- One owner for the assignment sheet (#5907 brief #2)
+- The tab level-up row is owned - #5975 put the roster row's level-up on TabBase with the entry point as a Callable
+
 ## v0.0.28-P4041
 
 - Merge-pr.ps1 holds a game-code PR for the tech lead's review line (and honours TECH-LEAD: BLOCK), so the gate applies to lane merges, not only the sweep's
