@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3990
+
+- The soak retains the field that answers the next question, not just the verdict *(fix attempt - still being verified)*
+- The green-PR sweep holds a game-code PR for the tech-lead review up to 60 idle minutes, then merges and counts the gap; DECISIONS: the company model and the structure floor (2026-09-22)
+- The structure ratchet - duplicates, oversized files/functions, code-built styles, data-in-code may only fall
+- The structure audit - structural health as numbers, a committed baseline, a weekly report with a refactor target, and a skill
+- The settings window wears the same chrome as every other window
+
 ## v0.0.28-P3985
 
 - Round props stand on a disc, and a wall's grid line stops floating in front of the wall *(fix attempt - still being verified)*
