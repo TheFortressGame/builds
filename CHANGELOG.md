@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3948
+
+- A piece is drawn the size of the box that stops him *(fix attempt - still being verified)*
+- Soak-no-tab-churn, so scene transitions can be measured without tab churn
+- /box capture renders a freshly-synced tree instead of dying on C:\
+
 ## v0.0.28-P3945
 
 - The classic room's colliders leave the physics space; collision is declared data again *(fix attempt - still being verified)*
