@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4033
+
+- The hearth is 1.00 m deep, which is what its picture draws *(fix attempt - still being verified)*
+- Refactor collision check, DECISION lines + done-in-24h on the board, steward closing arm, new-lane and decisions rules (Nathan 2026-09-22 4:37 PM)
+- Paused lanes are never quiet-checked; the Refactor lane executes what the tech lead briefs (Nathan 2026-09-22 4:17 PM)
+- Render unlit, because a flat texture does not make a flat sprite
+- One title-bar factory, so a new window cannot pick the square-cornered one
+- Five lines for Nathan on every pushed lane message; (work paused) titles; set-lane-state.py (Nathan 2026-09-22 3:55 PM)
+- Lanes registry + Fleet board + fleet naming convention (Nathan 09-22)
+- Restyle on the MODEL, because a repaint moves the geometry
+
+Behind the scenes:
+- Fleet-board: Routines section (overnight digests, audits, sweeps) with last-run and late state
+- The stylebox row lists all 13 factories - create_subtab_style was never in it
+- Lanes.json: the cottage lane is Fort A: Lane - Interiors (Nathan 09-22; the title and launcher already were)
+- The directional wall-art row - one ladder owner since #5952, the wall-side decision still written twice
+
 ## v0.0.28-P4021
 
 - The hearth faces its wall, and the red wall marks come off the overlay *(fix attempt - still being verified)*
@@ -82,7 +99,7 @@ Behind the scenes:
 - Latest-build.json only ever names a game build (v<x>.<y>.<z>-P<n>), never the launcher release
 - The conflict resolver handles the collision that actually happens *(fix attempt - still being verified)*
 - The scope gate's detector consumed its own evidence
-- The invisible-engine report had three producers and an exit keyed on one *(fix attempt - still being verified)*
+- The invisible-engine report had three producers and an exit keyed on one
 - The self-heal guard reverted every deploy of the file it guards
 - The meta-review ledger push reads its exit code, and provisioning never resets over unpushed work
 - The delivery driver keeps a log
@@ -101,7 +118,7 @@ Behind the scenes:
 ## v0.0.28-P3958
 
 - Restore the acquire tool SOURCES.md tells you to use
-- The lane-escape test asserts ABSENCE, over every spec, and can fail *(fix attempt - still being verified)*
+- The lane-escape test asserts ABSENCE, over every spec, and can fail
 - A captured message must survive the console it was captured on
 - The render harness can shoot a rig that carries its OWN clips
 - The prop validator reads every declared prop, and can see a foot the canvas cut through *(fix attempt - still being verified)*
@@ -215,7 +232,7 @@ Behind the scenes:
 - Step-4 self-test retries a short hash read; six live routines get contract rows
 - Quiet check clocks a chat by its OWN activity and names a stuck turn
 - Branch cleanup must not leak a classification answer as its exit code
-- Narration is not a closing keyword, and a Closes list may not outrun its own diff *(fix attempt - still being verified)*
+- Narration is not a closing keyword, and a Closes list may not outrun its own diff
 - The RUNS-outcome panel folded broken-workflow-file runs into "killed" too
 - Steward handoff extractor keeps whole items, plus a committed lane-ref instrument (#5744, #5772)
 - A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch *(fix attempt - still being verified)*
@@ -651,7 +668,7 @@ Behind the scenes:
 ## v0.0.28-P3672
 
 - An open expansion can never push its close button off-screen
-- Agent-authored report comments carry the routine stamp (#5259 arm-1 gap, step 1 of its recommendation) *(fix attempt - still being verified)*
+- Agent-authored report comments carry the routine stamp (#5259 arm-1 gap, step 1 of its recommendation)
 - The chips claim the width the fit pass measured for them
 - Collapsed rail buttons carry a tooltip
 
@@ -793,7 +810,7 @@ Behind the scenes:
 - The keystone gave desktop the phone-LANDSCAPE canvas
 - 1-day channel window for EVERY digest grain - the same-day-handling contract
 - The soak judges private bytes, not working set
-- Delivery driver stops crying wolf, freshener stops chasing declines (#5086, #5091) *(fix attempt - still being verified)*
+- Delivery driver stops crying wolf, freshener stops chasing declines (#5086, #5091)
 
 ## v0.0.28-P3589
 
@@ -805,7 +822,7 @@ Behind the scenes:
 - His desktop arrangement is the third anchor; the zoom buttons stop stretching
 - A wrapper-hosted window can no longer bury the OPTIONS drawer
 - The keystone — desktop uses the phone's scaling path (#4851), rebased and green
-- Pin Mergify's checks_timeout to 45 minutes *(fix attempt - still being verified)*
+- Pin Mergify's checks_timeout to 45 minutes
 - Monthlies clear after 3 days too (Nathan: 'i dont think it should sit for that long. a few days')
 
 ## v0.0.28-P3582
