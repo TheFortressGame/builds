@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3934
+
+- The relay retries once on opus when the first model returns an API 5xx - account B's sonnet alias failed every call for an hour
+- An undelivered ask keeps the chat's prior state so the next pass retries; the hourly re-ask key is spent only on delivery; Stalled-chats note once per hour
+- The Stop hook's promise match ignores blockquotes and fenced code (#5817 item 14) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Get rid of the hood - 29 frames, verified, as an approval-gated draft
+- The keep-alive process as reviewed and rebuilt on 2026-09-21
+
 ## v0.0.28-P3929
 
 - The title keeps its words, and the chip wraps between them
