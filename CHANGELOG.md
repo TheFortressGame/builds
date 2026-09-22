@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3945
+
+- The classic room's colliders leave the physics space; collision is declared data again *(fix attempt - still being verified)*
+- Read-ci-failure prints the REASON first, not 150 lines of the script that failed
+- The stick layer sizes itself, so it stops asking the engine to fight it *(fix attempt - still being verified)*
+- Tag outdoor props so the geometry sidecar can SEE the overworld
+- The component capture lane renders THIS commit, and cannot pass a blank frame
+- The leak probe reports a fitted trend with its noise, not a two-point delta
+
+Behind the scenes:
+- The hero's boots land on the point the room says he stands on
+- The capture lanes share one harness, and a blank PNG is no longer evidence in six of them
+
 ## v0.0.28-P3937
 
 - The overwatch digest goes to a dedicated pinned chat, and the RDP consoles are never quiet-checked
@@ -198,7 +211,7 @@ Behind the scenes:
 - Quiet check reads a STATUS answer before the busy/quiet filters, and asks in one short line
 - Quiet check at 5 quiet / 5 cadence, and a chat waiting on a background task is not quiet
 - The quiet check - ask every quiet chat Nathan's three questions instead of classifying its last message
-- Wire the three orphan self-tests into box-self-check *(fix attempt - still being verified)*
+- Wire the three orphan self-tests into box-self-check
 - A routine's heartbeat must grade its own receipt, name its stand-down, and be readable by its successor (#5630, #5642, #5594) *(fix attempt - still being verified)*
 
 Behind the scenes:
