@@ -4,6 +4,27 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3975
+
+- Latest-build.json only ever names a game build (v<x>.<y>.<z>-P<n>), never the launcher release
+- The conflict resolver handles the collision that actually happens *(fix attempt - still being verified)*
+- The scope gate's detector consumed its own evidence
+- The invisible-engine report had three producers and an exit keyed on one *(fix attempt - still being verified)*
+- The self-heal guard reverted every deploy of the file it guards
+- The meta-review ledger push reads its exit code, and provisioning never resets over unpushed work
+- The delivery driver keeps a log
+- A write that never happened is a failure, not a 0-file success
+- Counters carry ArtCache retention, so the census can kill its own leading suspect
+- A file that is always running never deployed - the step-4 write retries a lock (#5562 follow-up)
+- The JSON-array collapse, fixed once at a shared helper instead of a sixth time in prose
+
+Behind the scenes:
+- A parameter named after a PowerShell automatic variable never binds - now a guard, not a fourth comment
+- The clipped-foot detector is asked on every PR whether it can still fail
+- A mob's size comes from how big it really is (#5864) — DRAFT, needs Nathan on the rat
+- Step 4 says WHICH kind of nothing happened
+- Week of 2026-09-17 - 5 ideas, 2 decisions
+
 ## v0.0.28-P3958
 
 - Restore the acquire tool SOURCES.md tells you to use
