@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P3977
+
+- A prop's projection is declared per art set, not guessed per variant file
+
 ## v0.0.28-P3975
 
 - Latest-build.json only ever names a game build (v<x>.<y>.<z>-P<n>), never the launcher release
