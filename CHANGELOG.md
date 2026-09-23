@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4087
+
+- Redraw the cottage dresser + washstand, per-set geometry — PASS 2
+- Prop conventions are a PR gate - art a PR changes must pass validate_prop_conventions.py (tech lead ask 2026-09-23 2:00 AM)
+- A SECOND codex run for the same issue must not die at setup
+- The validator can read testing/, and a run that reads NOTHING is not a pass
+
+Behind the scenes:
+- The coming-soon modal is owned (brief #5 landed); the prop validator row catches up with #6031/#6034; G item 15 = brief #5b
+- Eight placeholder modals become one opener and data (#5907 brief #5)
+
 ## v0.0.28-P4081
 
 - The hero walks at the pace he did before, whatever the room's zoom
