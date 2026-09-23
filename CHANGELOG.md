@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4093
+
+- The dresser and washstand wear the set's OWN wood - PASS 5
+- One variant must not draw at a different WIDTH from its siblings
+- Capture-state -Content 540x1170 renders 540x1170, graded by the result *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The capture harness row records how capture-assets/ deploys (deploy_subdirs, #6053) and why it had not
+- The capture harness row records #6043 resolved by #6045 - result-graded captures (read-back sidecar + Assert-CaptureSize), verified live
+- The capture harness row records #6043 (540x1170 renders 540x960, routed to the box lane) and the -DebugRedirect-after-driver-change rule
+
 ## v0.0.28-P4087
 
 - Redraw the cottage dresser + washstand, per-set geometry — PASS 2
