@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4119
+
+- A routine never backgrounds a pipeline - no-background-gate.ps1 blocks run_in_background while FORTRESS_ROUTINE is set
+- RENDER-EVIDENCE must carry a link or a capture path, not prose *(fix attempt - still being verified)*
+- The five bare Out-String captures the daily capture-idiom self-test names get -Width 4096 (#5559); one of them was mine
+
+Behind the scenes:
+- Roster row names the third copy of both type orders (cheat_manager.gd:1538-1539) for #8b; source_commit c770c8b4
+- The tab base owns the roster grouping and split template (brief #8, #6083); dup_pairs 24 to 22 in provenance
+- One roster grouping and one split-roster template on the base (#5907 brief #8)
+- Interior rows from the interior pipeline (#6080) - the room as data, the TileSet per art set, the one art path; the #6025 tile generator deprecated as a drawing script
+- The interior pipeline - Describe, Lay out, Skin (Nathan 2026-09-23 12:02 PM)
+- Models 2026-09-23 (Nathan: yes on all): tech lead on Opus 5.5, active lanes at medium effort, refactor pace 2/day; applied on the box at 11:59 AM
+- The tab base owns the per-frame state poll (brief #7, #6076); dup_pairs 43 to 24 in provenance
+- One per-frame state poll on the base (#5907 brief #7)
+- The audit JSON carries every scored pair (dup_all), so a brief is sized on the whole family, not the top-20 window
+- The week's capture and test gotchas land where sessions read them - overlay_parent() is the root, is_visible_in_tree() under a capture Window, capture-state's six facts
+
 ## v0.0.28-P4106
 
 - A gold Level Up from a card confirms like the header's XP one (#5969, #5907 brief #6)
