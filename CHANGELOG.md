@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4057
+
+- The spike is the only cottage, which is why the save now comes back *(fix attempt - still being verified)*
+- The hero's linework, drawn from a rendered part map
+- Skins for the hero - a colour per garment, painted on the model's own atlas
+
+Behind the scenes:
+- One command renders a named skin, its material map and its linework
+- Lanes.json: paused lanes run at medium effort (ops review 2026-09-22 item 4); launchers and registry already carry it
+- The tab's entity has an owner - #5996 put _tab_entity() on TabBase; the pool and building variants stay contested for brief #6
+- The base owns the stat-upgrade path (#5907 brief #3)
+
 ## v0.0.28-P4050
 
 - Maintenance build (no player-facing changes in this range).
