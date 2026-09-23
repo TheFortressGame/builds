@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4127
+
+- The refactor pace cap holds merges - refactor-program.json briefsPerDay is enforced on the merge path (merge-pr.ps1 + the sweep), not only read by the nudge task
+- The Stage 2 blockout - the same room with every piece of art replaced by a flat box
+
+Behind the scenes:
+- The hero is the downloaded model, assembled the way its author says
+- The tab-entity row gains the pool tabs, the one stat-row body and the refresh hook (brief #9, #6087); dup_pairs 22 to 21 in provenance
+- A rotated lane keeps its model, its paused suffix and its lanes.json row
+- The refactor pace holds the briefs, not only the nudges (2/day)
+
 ## v0.0.28-P4121
 
 - Maintenance build (no player-facing changes in this range).
