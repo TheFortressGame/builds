@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4062
+
+- A tab is never handed a mode it is not listed under (#5907 brief #4 PR A) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Warm leather boots, and the finding that this set is painterly rather than flat
+- Box-ops: rotate-management.ps1 - the management chats rotate on their own schedule (overwatch weekly or >8 MB, tech lead >15 MB); lanes are Nathan's, consoles by /clear (Nathan 2026-09-22 9:17 PM)
+- Mode membership has an owner (#6004), and the two "unreachable" branches are recorded as what they were - reachable through a routing defect
+- Ink the hero at final resolution, and measure his colours off the set's own hero
+
 ## v0.0.28-P4057
 
 - The spike is the only cottage, which is why the save now comes back *(fix attempt - still being verified)*
