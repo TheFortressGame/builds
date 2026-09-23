@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4081
+
+- The hero walks at the pace he did before, whatever the room's zoom
+- Put the touch-steer vector into Copy game data (#6020 attempt 2)
+
+Behind the scenes:
+- The validator gains the one cross-file check it could not make
+- Prop art conventions have one validator that no gate runs (G item 14); #6031's second walker is recorded as the copy to fold in
+
 ## v0.0.28-P4077
 
 - Skin the native floor and walls from the painted materials we already own
