@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4066
+
+- Painterly grain, the one lever that reaches this set's texture
+
+Behind the scenes:
+- Delete the LEVELING roster forge never routes to (#5907 brief #4 PR B)
+- The hero's weapon overlay has an owner (#5993) - one placement pass, the turned views and their factors derived from the side art by one generator
+
 ## v0.0.28-P4062
 
 - A tab is never handed a mode it is not listed under (#5907 brief #4 PR A) *(fix attempt - still being verified)*
