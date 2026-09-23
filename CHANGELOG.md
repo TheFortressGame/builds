@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4121
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The pool tabs answer _tab_entity() and lose their private stat-row and upgrade copies (#5907 brief #9)
+
 ## v0.0.28-P4119
 
 - A routine never backgrounds a pipeline - no-background-gate.ps1 blocks run_in_background while FORTRESS_ROUTINE is set
