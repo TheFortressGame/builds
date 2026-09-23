@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4140
+
+- Blockout walls stand at declared metres, not the rejected wall art *(fix attempt - still being verified)*
+- A TECH-LEAD BLOCK holds its commits - a PR built on a blocked branch inherits the BLOCK (#6100 landed #6096's blocked code)
+- The blockout is one command, one spec file and an operator card
+- The collision check counts a lane's OWN unpushed changes, not main's commits it merged in (#6099's false positive)
+
+Behind the scenes:
+- Build-publish macos + publish legs run on the box - zero cloud minutes per interim build
+- The live-model card's height is HERO_WORLD_HEIGHT = 56 px, re-synced from #6110 (the copy carried a stale 32)
+- The live-model plan carries #6110's acceptance card and tripwires verbatim
+- The live-model spike plan - Godot pieces by name, measured acceptance, tripwires
+- Interim builds on demand - a merge fires a build only when its PR names something to TEST
+- Interim builds at least 3 h apart (6 h via build-cadence.json until #6103)
+- Base locks - the wireframe under every skin, named as data and gated
+- Chats rotate by context at a clean spot - rotate-chats.ps1 every 30 min
+- The hero is the pack as its author ships it (#6094); the bone-scale-table rule is marked superseded by rule 4; #6022's remaining items named
+
 ## v0.0.28-P4127
 
 - The refactor pace cap holds merges - refactor-program.json briefsPerDay is enforced on the merge path (merge-pr.ps1 + the sweep), not only read by the nudge task
