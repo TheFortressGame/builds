@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4102
+
+- Native ratchet gets the floor-is-min-of-branch-and-main notice and own-delta bar (#5944, #5955)
+- The issue pass exempts live standing pages by title/label, not closed numbers *(fix attempt - still being verified)*
+- Box-lane terminal checks salvage first and gates COMPLETE on agent success
+- A turn-cap timeout grades INCONCLUSIVE, not FAIL, and leaves pass_all *(fix attempt - still being verified)*
+- Step-4 deploy carries capture-assets/ one level deep
+- The odd hearth was a stray frame and two rows of feather, not a bad drawing
+- A branch that keeps going after its own partial squash must not read STALE *(fix attempt - still being verified)*
+- Steward-handoff reads trigger clauses and marks fired items RETIRE-CANDIDATE
+
 ## v0.0.28-P4093
 
 - The dresser and washstand wear the set's OWN wood - PASS 5
@@ -344,7 +355,7 @@ Behind the scenes:
 - Narration is not a closing keyword, and a Closes list may not outrun its own diff
 - The RUNS-outcome panel folded broken-workflow-file runs into "killed" too
 - Steward handoff extractor keeps whole items, plus a committed lane-ref instrument (#5744, #5772)
-- A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch *(fix attempt - still being verified)*
+- A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch
 - A short-circuited nightly can no longer look like a full sweep *(fix attempt - still being verified)*
 
 Behind the scenes:
