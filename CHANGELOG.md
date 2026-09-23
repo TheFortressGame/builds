@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4106
+
+- A gold Level Up from a card confirms like the header's XP one (#5969, #5907 brief #6)
+
+Behind the scenes:
+- Reading pass 2 (scripts/data) - four new rows (lock conditions, checkpoint singleton keys, progression availability, settings persistence), four rows corrected, G items 15-19, provenance
+- The roster row's gold Level Up confirms (brief #6, #6064); the 06:30 audit numbers and brief #7's target in provenance
+- The floor follows main - floor followed main by the weekly audit: theme_overrides 2542 to 2535. Every count may only fall from here
+
 ## v0.0.28-P4102
 
 - Native ratchet gets the floor-is-min-of-branch-and-main notice and own-delta bar (#5944, #5955)
