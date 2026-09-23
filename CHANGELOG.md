@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4077
+
+- Skin the native floor and walls from the painted materials we already own
+- The tech-lead hold has ONE definition, covers the render pipeline and the vendored roots, and BLOCK holds on any path
+- USE THE SYSTEM AS SHIPPED - vendored-asset manifest gate; lane-scoped return brief so a lane sees only its own questions (Nathan 2026-09-22 11:20-11:22 PM)
+- The modularity scan is a HARD gate locally, because CI blocks on it
+
+Behind the scenes:
+- The hero's on-screen pace (a three-branch contract, #6028), the native cottage's shell tiles (#6025), and the vendored-asset gate's real paths
+- The hero frame source row records the #6022 follow-up owed on main (bone-scale knob + skin-shrink path, defaults off)
+- Render acquired rigs as shipped: all body reshaping defaults OFF
+- Rule 4 - an acquired rig, asset, library or engine feature is used AS SHIPPED
+- The hero's body model is data - a measured proportion table, never paint over an unmeasured body (Nathan 2026-09-22 11:12 PM)
+- Management chats never address Nathan: their status block starts NEEDS CONSOLE and the console routes (Nathan 2026-09-22 11:13 PM)
+- Lanes.json: Character Models is Storybook only (Nathan 09-22 11:05 PM); Interiors' done includes the woodsman built native with the painting as reference
+
 ## v0.0.28-P4066
 
 - Painterly grain, the one lever that reaches this set's texture
