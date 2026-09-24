@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4232
+
+- A wooden plank floor
+- Nathan's P4220 pass and C pick - true-2:1 pieces, hearth masonry, flat tops, see-through corners, windows from outside *(fix attempt - still being verified)*
+- Decision-line-gate reads the verb at a command position and the label as a flag
+- He holds every weapon THROUGH his fist - one measured grip per hand, the arm sets the angle; the bow in his left hand (Nathan 2026-09-24: "they dont actually get held in the hand like a grasping hand")
+- WHEELTAP - a mouse handler that acts on any pressed button
+- Headless arm for the #5595 renderer discriminator
+- Decision-line-gate - a needs-nathan issue cannot be filed without its DECISION: line
+- Temporary un-pause with no PR, and a re-routed ask is one issue carrying the finder's notes
+- A mouse-wheel tick never closes a modal - four backdrops route through the one scrim owner
+- The 09-24 reach review - outputs reach their readers, success signals measure the outcome
+- The stop guard asks for a correction, never a second close - it was doubling every status block it caught
+- Every player-visible merge is build-worthy, and a background-woken turn is told not to close with the status lines
+
 ## v0.0.28-P4220
 
 - All 8 weapons in his hand, a relaxed carry per weapon and the ready stance only on aggro - the sling dangles, the scythe's handle is wood, the axe's edge faces forward
