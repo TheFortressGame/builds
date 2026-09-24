@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4159
+
+- The live hero ships in the build behind the LIVE view - walks, and attacks with the pack's own clip
+
+Behind the scenes:
+- Lanes.json record - Character Models v2 and iOS v2 rotations, tech lead effort high (cost tweaks 2026-09-23)
+
 ## v0.0.28-P4157
 
 - Full-height see-through front walls, with art on and in the block view
