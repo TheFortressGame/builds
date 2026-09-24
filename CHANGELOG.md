@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4169
+
+- The cottage hearth, wardrobe and washstand from the pre-spike painting, blocks grown to them
+- Skins for the live hero - wears B (villager) by default
+- The stone floor and walls, cut from Nathan's picked room onto the grid
+
+Behind the scenes:
+- Interior Stage 3 furniture is lifted from the room's own painting; prespike_pieces.md is the style anchor (Nathan 2026-09-23)
+- Send-to-lane.ps1 - any chat reaches any chat on either account; the routing rule had no cross-account path
+- Skin palettes are data - <name>.palette.json beside each LiveSkin; skin_hero.py is the one fixed tool that applies them
+- How a character skin is made - Nathan describes, Codex writes the palette as data, one fixed tool applies it (Nathan 2026-09-23 10:57 PM)
+- Token ledger - per-chat burn, Nathan vs automation, daily at 21:55 - plus the box offload audit
+- Interior stage 3 step 2 is one reprojected piece per surface, as the cottage did it (#6142); registry records the cutter
+- Quiet check pushes only for a named reason; overwatch every 2 h, on change
+
 ## v0.0.28-P4159
 
 - The live hero ships in the build behind the LIVE view - walks, and attacks with the pack's own clip
