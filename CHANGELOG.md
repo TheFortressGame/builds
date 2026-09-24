@@ -4,6 +4,42 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4208
+
+- The pace reads the WEEK's position, and ahead of the clock HALTS the refactor (Nathan's rule)
+- The refactor pace is derived from the account meters - paced to a bit under 1/7th of the week a day, released on the last day, and it names a swap when the accounts diverge
+- The nightly log is UTF-8 throughout - PowerShell 5.1's Tee-Object -Append wrote UTF-16 into it
+- 'TECH-LEAD: BLOCK lifted' is a lift, not a new block (#6200 was held by its own lift line)
+- The club and axe wear their icons' colours - a palette read off the icon, applied by one fixed path
+- Weapons face the way he faces - the grip socket pins the head side, not just the haft; the axe is the hatchet
+- The live hero is permanent - the LIVE toggle is gone
+- A fresh HUD window is placed at its final font and chrome, so the Character run no longer floats into the Log *(fix attempt - still being verified)*
+- The Builder tab's open Filter row wraps at phone width instead of pushing the screen off the right edge *(fix attempt - still being verified)*
+- Nathan's P4169 pass - thick walls, straight pieces, hearth-stone room, a door and outside faces, the exit square
+
+Behind the scenes:
+- Say it once - the five lines are the only place that states what waits on Nathan, and nothing above them repeats it
+- Interior rule 15 - one geometry change per interior PR (GEOMETRY-EXEMPT)
+- Slice 2 - surprised_by findings, the nightly (journeys + personas, new findings to the standing issue), task installer, Daily Brief line
+- V51 - two more parked UX questions (scroll cue, the Defend run's 4 px) (#6147, #6182)
+- A lane row's identity is owned by the pin registry - never write the repo copy over the deployed one
+- Interior rule 8 mechanized - a static-gates scan fails a PR that adds hand-drawing to a script that writes an image (ART-SCRIPT-EXEMPT to declare)
+- The structure numbers reach Nathan daily, and a lane he does not open routes its asks through the console
+- Story-canon and stat-engine bases locked; hero-base drawn live (Nathan 2026-09-24)
+- 'which wall a decor piece stands against' - MapData.decor_wall_side (#5962, #6189)
+- The cottage's code and test comments name interior stages by NAME, not number
+- Round props stand on a drawn 2:1 base ellipse - rule 14 in the prop validator
+- A wall piece's side is one declared field on its decor entry, read by both renderers
+- The daily Claude Code update retries past EBUSY, files an issue when it gives up, and the self-check's window narrows to one day; Stat Wiring moves to account B
+- The eyes test (scripted prefix + before/after judge), expectation_met findings, the completionist persona (#6147 slice 1b)
+- Progression's done_when in Nathan's 10:53 AM words - his flow is playthrough and feedback, the outline is the lane's playtest map; GUI choice confirmed
+- Interior Stage 4 - when the whole-room edit can't change a surface, per-surface Codex paintings under conditions (#6183, Nathan 2026-09-24)
+- Two lanes minted PAUSED - Progression and Stat Wiring, Nathan's words as goal and done_when (2026-09-24 10:32 AM)
+- V50 - more UX questions from the simulated player's harvest, parked in OPEN DESIGN QUESTIONS (never posted)
+- The cottage's 17 functional mistakes become interior rules - pipeline doc table, blockout checklist, cottage-layout 'never' (Nathan 2026-09-24 9:50 AM)
+- Interior pipeline gains Stage 2 MOCKUP - many whole-room Codex mockups, Nathan picks, the pick sets positions and the skin's reference (Nathan 2026-09-24 9:49 AM)
+- The protagonist's in-world appearance, in Nathan's words - nondescript, short brown hair; silhouette rule scoped to portraits/cutscenes
+
 ## v0.0.28-P4176
 
 - The bar's PANEL button is a toggle that opens and closes the full panel (#6140, #5907 brief #10 PR A) *(fix attempt - still being verified)*
