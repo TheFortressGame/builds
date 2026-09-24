@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4220
+
+- All 8 weapons in his hand, a relaxed carry per weapon and the ready stance only on aggro - the sling dangles, the scythe's handle is wood, the axe's edge faces forward
+- Nathan's P4208 pass - mitred wall tops and outside faces, straight pieces, hearth-stone colour, matching windows *(fix attempt - still being verified)*
+- Five lines close the PAUSE only; recover the say-it-once stamp and daily commentary that never reached main
+- Console resume markers follow /clear - newest same-name transcript wins
+- Interim builds every 45 min, and a TEST line never waits for the cadence; the Discord structure block gains the refactor program's own state
+- Lanes Nathan does not talk to follow the account that can afford them - automatic, slow, and only when worth it
+- The club is the gnarled club Nathan picked - authored by recipe
+
+Behind the scenes:
+- The hero-weapons lock and the owners row name the pick, scythe, sling and the shared glTF writer
+- Slim pass 3 - world-art rules and the five build principles move verbatim into two skills; CLAUDE.md 67 KB to 58 KB
+- Slim pass 2 - DISPATCH PIPELINE moves verbatim into a pipeline skill; CLAUDE.md 85 KB to 69 KB
+- Slim pass 1 - the BOX SESSION section moves verbatim into two skills; CLAUDE.md 127 KB to 85 KB
+- One builder, three kinds, one theme variation (#5907 brief #10 PR B)
+
 ## v0.0.28-P4208
 
 - The pace reads the WEEK's position, and ahead of the clock HALTS the refactor (Nathan's rule)
