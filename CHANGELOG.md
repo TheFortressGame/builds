@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4176
+
+- The bar's PANEL button is a toggle that opens and closes the full panel (#6140, #5907 brief #10 PR A) *(fix attempt - still being verified)*
+- The live hero's weapons are the body author's own pack at real lengths - sword, club stand-in, axe, spear
+
+Behind the scenes:
+- V49 - the simulated player's first harvest's UX questions parked in OPEN DESIGN QUESTIONS (never posted)
+- The player's hands and eyes - a command channel in the capture driver and a blind observe/act agent loop (#6147 slice 1)
+- The entity tabs build their stat rows through the base, and the pool getters fold into _tab_entity() (#5907 brief #9b)
+- Cottage-layout lock's skin_is follows the Stage 3 furniture rule - lifted from the room painting
+- Hero-weapons never is a list and names its gate - the lane prompt stamp printed it letter by letter
+
 ## v0.0.28-P4169
 
 - The cottage hearth, wardrobe and washstand from the pre-spike painting, blocks grown to them
