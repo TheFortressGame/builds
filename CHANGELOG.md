@@ -4,6 +4,28 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4157
+
+- Full-height see-through front walls, with art on and in the block view
+- The LIVE view - a default-off toggle that draws the hero live in the cottage (#6110 cards 7-8)
+- Live-hero slice 3 - a second character is a spec, not code (#6110 card 6), and the board harness
+- Standing pages are never closed, and a new Fleet board unpins the closed one *(fix attempt - still being verified)*
+- Live-hero slice 2 - a weapon in his hand via BoneAttachment3D (#6110 card 4)
+- Live-hero spike slice 1 - drawn live from the model, card 1/2/3/5 measured
+- The rotation's mid-turn guard reads the transcript's turn, not the keepalives
+- The exit is the square inside the door, and the front walls are see-through over the room *(fix attempt - still being verified)*
+- The cottage's gate-2 positions are gated, not written down - base_locks_gate pins locked_values; walls locked; the grow step edits FOOTPRINTS_M; DECISIONS 08-13 superseded for interiors
+- Governance docs are tech-lead-held paths - stream plans, pipeline docs, interior specs, base locks (#6080/#6109/#6111 merged before their review)
+
+Behind the scenes:
+- LiveCharacter is the owner of "a rigged model drawn live in 2D" - trial, default off, with its go-live conditions
+- Board harness writes each clip frame's real game time, so clips play back at true speed
+- Four forward-work lines from closed issues
+- The interior-room row records what gate 2 now enforces - positions locked by base_locks_gate (#6117), sizes grow in FOOTPRINTS_M (#6115), the stage-2 tooling (#6100/#6105/#6118)
+- Who talks to whom - the tech lead owns process; the console is reached for four things
+- Fit blocks to art - positions frozen at gate 2, sizes may grow to approved art; cottage positions LOCKED
+- The live-model plan records the tech lead's readings of the #6110 card
+
 ## v0.0.28-P4140
 
 - Blockout walls stand at declared metres, not the rejected wall art *(fix attempt - still being verified)*
@@ -72,7 +94,7 @@ Behind the scenes:
 - Native ratchet gets the floor-is-min-of-branch-and-main notice and own-delta bar (#5944, #5955)
 - The issue pass exempts live standing pages by title/label, not closed numbers *(fix attempt - still being verified)*
 - Box-lane terminal checks salvage first and gates COMPLETE on agent success
-- A turn-cap timeout grades INCONCLUSIVE, not FAIL, and leaves pass_all *(fix attempt - still being verified)*
+- A turn-cap timeout grades INCONCLUSIVE, not FAIL, and leaves pass_all
 - Step-4 deploy carries capture-assets/ one level deep
 - The odd hearth was a stray frame and two rows of feather, not a bad drawing
 - A branch that keeps going after its own partial squash must not read STALE *(fix attempt - still being verified)*
@@ -280,7 +302,7 @@ Behind the scenes:
 ## v0.0.28-P3975
 
 - Latest-build.json only ever names a game build (v<x>.<y>.<z>-P<n>), never the launcher release
-- The conflict resolver handles the collision that actually happens *(fix attempt - still being verified)*
+- The conflict resolver handles the collision that actually happens
 - The scope gate's detector consumed its own evidence
 - The invisible-engine report had three producers and an exit keyed on one
 - The self-heal guard reverted every deploy of the file it guards
@@ -341,7 +363,7 @@ Behind the scenes:
 
 - The relay retries once on opus when the first model returns an API 5xx - account B's sonnet alias failed every call for an hour
 - An undelivered ask keeps the chat's prior state so the next pass retries; the hourly re-ask key is spent only on delivery; Stalled-chats note once per hour
-- The Stop hook's promise match ignores blockquotes and fenced code (#5817 item 14) *(fix attempt - still being verified)*
+- The Stop hook's promise match ignores blockquotes and fenced code (#5817 item 14)
 
 Behind the scenes:
 - Get rid of the hood - 29 frames, verified, as an approval-gated draft
@@ -351,11 +373,11 @@ Behind the scenes:
 
 - The title keeps its words, and the chip wraps between them
 - An exempted rise must also be recordable, or NATIVE-EXEMPT is unreachable
-- A chat that answered CONTINUING is not asked again until it moves; after an hour unmoved it gets one different question per hour (#5817 item 15) *(fix attempt - still being verified)*
+- A chat that answered CONTINUING is not asked again until it moves; after an hour unmoved it gets one different question per hour (#5817 item 15)
 - He carries his weapon in every room, and holds the axe by its handle
 - Check a PR body against the three gate contracts before opening it
 - The leak probe reaps its OWN orphans instead of being blocked by them
-- A rotated chat's builds are announced to its successor - lineage recorded at rotation, announcer follows it and the pin registry (#5817 item 5) *(fix attempt - still being verified)*
+- A rotated chat's builds are announced to its successor - lineage recorded at rotation, announcer follows it and the pin registry (#5817 item 5)
 - The quiet check logs every pre-digest skip and duplicate-registration decision
 
 ## v0.0.28-P3921
@@ -366,9 +388,9 @@ Behind the scenes:
 ## v0.0.28-P3919
 
 - Every piece's collision box is read off the art it draws; hidden overlay lines recede *(fix attempt - still being verified)*
-- Build-on-merge baseline is the latest published build's head by commit count, not the gh run listing *(fix attempt - still being verified)*
-- Keep-alive review batch 2 - answers need a live ask, STATUS must lead, backoff bookkeeping, dedupe, merge-path retries *(fix attempt - still being verified)*
-- Keep-alive review batch 1 - no mid-turn asks, relay timeout + pid lock, recycler spares live tools and honours DryRun, quotes are not build claims *(fix attempt - still being verified)*
+- Build-on-merge baseline is the latest published build's head by commit count, not the gh run listing
+- Keep-alive review batch 2 - answers need a live ask, STATUS must lead, backoff bookkeeping, dedupe, merge-path retries
+- Keep-alive review batch 1 - no mid-turn asks, relay timeout + pid lock, recycler spares live tools and honours DryRun, quotes are not build claims
 
 ## v0.0.28-P3915
 
@@ -419,7 +441,7 @@ Behind the scenes:
 - The RUNS-outcome panel folded broken-workflow-file runs into "killed" too
 - Steward handoff extractor keeps whole items, plus a committed lane-ref instrument (#5744, #5772)
 - A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch
-- A short-circuited nightly can no longer look like a full sweep *(fix attempt - still being verified)*
+- A short-circuited nightly can no longer look like a full sweep
 
 Behind the scenes:
 - Commit the 16 deploy-dir orphans flagged by deploy-parity
@@ -524,7 +546,7 @@ Behind the scenes:
 - Quiet check at 5 quiet / 5 cadence, and a chat waiting on a background task is not quiet
 - The quiet check - ask every quiet chat Nathan's three questions instead of classifying its last message
 - Wire the three orphan self-tests into box-self-check
-- A routine's heartbeat must grade its own receipt, name its stand-down, and be readable by its successor (#5630, #5642, #5594) *(fix attempt - still being verified)*
+- A routine's heartbeat must grade its own receipt, name its stand-down, and be readable by its successor (#5630, #5642, #5594)
 
 Behind the scenes:
 - Delete the dead compare modal and re-point its tests at the live surface
@@ -551,7 +573,7 @@ Behind the scenes:
 - Startup_failure runs are a broken-workflow-file signal, not a timeout kill
 - Chart freshness is read from the publish target, never a staging leftover
 - Classify resolved salvage refs so the -box-partial- pile can stop growing
-- The box lane's terminal strings are a closed set the driver is total over, an existing-ref update is a delivery, and a bolded bundle member still closes (#5546 #5551 #5629) *(fix attempt - still being verified)*
+- The box lane's terminal strings are a closed set the driver is total over, an existing-ref update is a delivery, and a bolded bundle member still closes (#5546 #5551 #5629)
 
 Behind the scenes:
 - Two shipped capabilities have no roadmap line: the box rebuild runbook (28 days) and the green-PR sweep
@@ -568,7 +590,7 @@ Behind the scenes:
 - The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564)
 - Route the box lane's own pre-push gate through the sanctioned wrapper, and correct the rationale that kept the rule needing restating
 - The delivery driver's five silent-path defects - it waits for THIS branch's verdict, keeps its once-ever promise, escalates where someone reads, stops retrying a deliberate abort, and holds the close on executable infra (#5524 #5525 #5526 #5530 #5531) *(fix attempt - still being verified)*
-- The overnight audits' four gate/sweep defects (#5517 #5529 #5533 #5534) *(fix attempt - still being verified)*
+- The overnight audits' four gate/sweep defects (#5517 #5529 #5533 #5534)
 - One owner applies the three-day flags, needs-nathan can clear, and the >7d arm actually reaches Nathan
 - Rotated chats keep their name plus vN and open with a continuity brief; the promise guard reports the promise nearest the end
 - The three silent disk reapers stamp a heartbeat, so a dead one stops looking quiet
@@ -750,7 +772,7 @@ Behind the scenes:
 ## v0.0.28-P3719
 
 - Storybook walk faced against travel; redraw as an adult, upright
-- Auth classifier recognizes the live expiry wording (#5348); read-only guard reads comment-fired errands (#5168 false-FAILED) *(fix attempt - still being verified)*
+- Auth classifier recognizes the live expiry wording (#5348); read-only guard reads comment-fired errands (#5168 false-FAILED)
 
 ## v0.0.28-P3717
 
@@ -929,7 +951,7 @@ Behind the scenes:
 
 - The fake button joins the family; one glyph rule; title bars match
 - Furniture is sized from real metres, not eyeballed against the painting
-- Honor explicit do-not-merge; roadmap/DECISIONS join the review-required paths *(fix attempt - still being verified)*
+- Honor explicit do-not-merge; roadmap/DECISIONS join the review-required paths
 - Gear glyph draws at the shared chip size, at the icon-button seam
 - Pair crash beacon build stamp with delta-applied release
 - Make the Storyline Art Bible render byte-reproducible
@@ -1660,7 +1682,7 @@ Behind the scenes:
 - Centre the art/wallet chip glyphs
 - Desktop default layout from Nathan's capture; carry captured font
 - Interiors moved ~2.1x too fast — ROOM_SCALE was applied twice (#4607 follow-up)
-- Rehook Codex usage collection to the account usage API *(fix attempt - still being verified)*
+- Rehook Codex usage collection to the account usage API
 
 Behind the scenes:
 - Build for the interior-speed + S Pen movement fixes
