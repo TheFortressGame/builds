@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4257
+
+- Coped wall tops, clean side corners, glazed front windows
+- The built game wears his skin and his kit's own material maps - brown hair, matte cloth, leather that is not metal
+
+Behind the scenes:
+- A Packed*Array export with an default is emptied by export (measured 4.6.1)
+
 ## v0.0.28-P4254
 
 - The delivery driver re-fires a CANCELLED required check itself, by one body edit
