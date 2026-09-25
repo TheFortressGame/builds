@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4254
+
+- The delivery driver re-fires a CANCELLED required check itself, by one body edit
+- The in-game Quit saves first, as the window's X does
+- Gear layers over his own outfit, Patched Hide in its icons' colours, no hood, every weapon carried head-forward
+- Keep the 3D walls - see-through over floor, the hearth's own stone and colour
+- Sync-lanes-registry judges by the end state, so a merge undone by a live override is no change
+- A deploy never regresses live lane identity, and a lane's brief is its own (Nathan 09-25 12:46 PM)
+- Lane-swap delivers its card, re-keys the lanes.json row, and never mints a second live chat (console 09-25)
+- Pick-account honours an account hold - account-hold-<A|B>.txt with an expiry (Nathan 09-25)
+- The worktree reaper can reap trees nested in a repo root, and -Apply never prompts
+- A rotated chat inherits its predecessor's worktree instead of stranding it
+
+Behind the scenes:
+- ONE reply per turn, stamped on every prompt of every chat (Nathan 09-25 12:39 PM)
+
 ## v0.0.28-P4243
 
 - Room_cottage_stone_painting import gets its mip chain back *(fix attempt - still being verified)*
