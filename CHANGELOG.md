@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4240
+
+- #6240 line 7 measured per viewport on the Radeon - the 3D walls cost 0.5 ms a frame *(fix attempt - still being verified)*
+
 ## v0.0.28-P4239
 
 - A 3D WALLS box on the pink bar, and the wall shell's probe hooks
