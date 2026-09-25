@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4238
+
+- The walls as a real 3D shell behind a switch - grey stone, sills, frames (#6240 PR 1)
+
 ## v0.0.28-P4237
 
 - Catch chat and drift problems before Nathan does - daily chat-surface count, weekly reach review
