@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4237
+
+- Catch chat and drift problems before Nathan does - daily chat-surface count, weekly reach review
+- Each garment's cover measured once at load, unioned at equip - no ray cast and no per-combination body when he changes clothes
+- What he wears shows on him - Patched Hide dresses the live hero in his kit's leather parts
+- Check-bugfix-shape gains NATIVE-CHECK and the round counter
+- Run-soak rejects an unknown parameter instead of swallowing it
+
 ## v0.0.28-P4232
 
 - A wooden plank floor
