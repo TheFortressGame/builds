@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4243
+
+- Room_cottage_stone_painting import gets its mip chain back *(fix attempt - still being verified)*
+- The soak- prefix is reserved for harness saves, so no diagnostic copy becomes the nightly's subject *(fix attempt - still being verified)*
+- The nightly judges memory after the first-render ramp - warm-up 10 to 40 min *(fix attempt - still being verified)*
+
 ## v0.0.28-P4240
 
 - #6240 line 7 measured per viewport on the Radeon - the 3D walls cost 0.5 ms a frame *(fix attempt - still being verified)*
