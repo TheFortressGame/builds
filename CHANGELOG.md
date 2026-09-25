@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4258
+
+- In the cottage he is seen as the room is drawn and plants his feet walking up and down
+
 ## v0.0.28-P4257
 
 - Coped wall tops, clean side corners, glazed front windows
