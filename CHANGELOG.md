@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4261
+
+- A live portrait of him in his gear for any window - LiveCharacter.portrait
+- Send-to-lane matches a lane's title with or without " (work paused)"
+
+Behind the scenes:
+- Register LiveCharacter.look_for / portrait and IsoView3D.view_basis / ground_m
+
 ## v0.0.28-P4258
 
 - In the cottage he is seen as the room is drawn and plants his feet walking up and down
