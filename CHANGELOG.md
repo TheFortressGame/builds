@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4269
+
+- The cloaks hang on the back-right wall, between its windows
+- The Equipment window's View button shows the hero large, in his gear
+- A low bench, half the table, the same length
+- The windows Nathan laid out - two front-left, two back-right, one by the door, none on the hearth wall
+- Walls draw on load, and a flush timber beam tops them *(fix attempt - still being verified)*
+
 ## v0.0.28-P4264
 
 - At ease he carries each weapon in the holds pack's own hold - the handle shows past his fist
