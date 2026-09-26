@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4276
+
+- Revert #6283's holds retarget - his arm stays whole; an arm-integrity test guards any future hold *(fix attempt - still being verified)*
+- GLYPH counts a line that only MOVED within a file as not added
+- Every style pick draws Storybook for now, so the cottage is one room *(fix attempt - still being verified)*
+
+Behind the scenes:
+- One method per section, node tree unchanged (#5907 brief #11)
+
 ## v0.0.28-P4271
 
 - A live miniature of the hero in the Equipment gear area opens the big view
