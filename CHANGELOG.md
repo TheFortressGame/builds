@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4271
+
+- A live miniature of the hero in the Equipment gear area opens the big view
+
+Behind the scenes:
+- Console-authority: fail the console role A<->B automatically when an account is out of capacity, and back
+
 ## v0.0.28-P4269
 
 - The cloaks hang on the back-right wall, between its windows
