@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4292
+
+- The expanded map's title row is ModalHeader's - the shared X, and a pink QA-only Reveal map chip
+- The hero view turns him (arrows + drag) and plays Walk/Run/Attack as one-of toggles
+- He holds each weapon in the pack's own hold through Godot's modifiers - arm whole, hand exact *(fix attempt - still being verified)*
+- Only inside draws Storybook; outside keeps your style *(fix attempt - still being verified)*
+- The portrait's frame zoom eases in and out; portrait_turn_target() for arrow steps
+- Tapping the hero in his big view no longer closes it; Escape or the X do
+- The portrait turns and moves on the spot - portrait_turn / portrait_motion, framed per motion
+- The native-coverage ratchet no longer counts Tween.set_ease as hand-rolled easing
+- The hero miniature sits in a fixed corner box, fitted at his own shape
+- The minimap draws an interior as the room is seen
+
+Behind the scenes:
+- The cave lane's target is autotiled grid DATA, not on-screen tile art
+- Register the Interior Cave lane (Nathan's one-shot cave-dungeon experiment)
+- Detailed/Normal/Simple - 'indoors Detailed' names the hero, rooms keep the #6308 Storybook pin; the set mapping is inferred (tech lead)
+- Three art modes Detailed / Normal / Simple - rooms Detailed (3D hero), outdoors Normal (2D hero) (Nathan 2026-09-26)
+- One SlotRoster for slot grow-and-prune, party assign and level-up (#5907 brief #12)
+
 ## v0.0.28-P4276
 
 - Revert #6283's holds retarget - his arm stays whole; an arm-integrity test guards any future hold *(fix attempt - still being verified)*
