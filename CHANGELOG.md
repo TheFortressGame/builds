@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4264
+
+- At ease he carries each weapon in the holds pack's own hold - the handle shows past his fist
+- The urn right of the fire, the barrel by it, and a second barrel
+- Patched Hide wears its icons' colours by colour transfer - the glove is leather, not a painted highlight
+
 ## v0.0.28-P4261
 
 - A live portrait of him in his gear for any window - LiveCharacter.portrait
