@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4385
+
+- The mouth opens on the top-left edge, an arc of exit boxes, daylight spilling in
+
+Behind the scenes:
+- Woodsman-cabin-layout - the re-walk after the bed move passed (P4376)
+- The look - round 6's Roost v2 (flowstone, no grid, the game's raised view), picked on Nathan's word; the over-the-blockout mockup recipe
+- A retired chat with no cse is archived by its exact title, or it alerts
+
 ## v0.0.28-P4381
 
 - He turns to face the mob he hits - the 2D hero outdoors and the live hero both (Nathan 2026-09-27)
