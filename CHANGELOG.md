@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4381
+
+- He turns to face the mob he hits - the 2D hero outdoors and the live hero both (Nathan 2026-09-27)
+- Reveal map / Hide map on the map, Reveal All Maps / Hide All Maps on the panel - the panel's buttons repaint at once
+- A native room re-skins in place when the style changes inside *(fix attempt - still being verified)*
+- Bracers and belt show on him - the outfit pack's own bracer and belt pieces, taken from its whole Ranger outfit
+- The cabin's bed moves to the front corner, away from the door
+- Aggro rings lie on the floor and stop at walls; indoors a mob notices only a hero it can see
+- Floats over the right head, idle mobs drawn where they stand, and the cave keeps its fog *(fix attempt - still being verified)*
+- Every door walk-in lands on its interior's entrance; the cave mouth gets its exit box and daylight
+
+Behind the scenes:
+- The disk RATE alarm names the worktrees made in the window, the net grower
+
 ## v0.0.28-P4372
 
 - Base-locks gate diffs against the merge-base, not main's tip
