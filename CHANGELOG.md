@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4301
+
+- The hero view zooms - +/- and pinch on the portrait camera; one touch convention
+- The minimap zooms inside rooms; the big map keeps its touches, closes only by Escape or X, pinches, and drags by its title
+- A cave-network dungeon off the wolf den - the Roost, the Nest, the Warren, in the dark
+- Portrait_view(zoom, center) - the portrait's camera zooms, the render target keeps its size
+
+Behind the scenes:
+- The refactor halt gets a noise band - ahead means 5+ pts over the clock in a week at least 12 h old
+- An account that is OUT empties itself - every active lane moves, the ones Nathan opens as a rotation
+- The GUI lane's standing state is active - the 09-22 pause is stale
+- The hero's origin is his feet - drawn position unchanged (#6314 PR A)
+- Every X is the one close button, UIHelpers.make_close_button
+
 ## v0.0.28-P4292
 
 - The expanded map's title row is ModalHeader's - the shared X, and a pink QA-only Reveal map chip
