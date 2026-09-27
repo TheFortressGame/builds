@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4349
+
+- The alpha's two popups - he blocks the trail on sight, the way opens when he dies; one spawn-beat table for every guard
+- At ease he wears his weapon - hip or back, tip down - and draws it to fight *(fix attempt - still being verified)*
+- One named mob per common, 5% on any spawn, gold only; commons lowercase, named and bosses capitalised
+- The disk tiers' Overwatch message reaches Overwatch - quote spaced args, and never skip or fake a send (#6386 item 3) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The box contract names `powercfg /h off` as an elevated manual step, so a rebuild keeps hibernation off (#6386 item 4)
+- Box leaks fixed at the source - gdUnit deletes its own temp captures, a nightly sweep, 7-day backups, nightly SAFE-worktree reap, hibernation asserted off (#6386 items 4 and 5)
+- One owner picks the music bed; combat music wherever a fight happens (#5907 brief #15, #6368)
+
 ## v0.0.28-P4342
 
 - A Gameplay settings tab - hit text, heals, both health bars, NPC nameplates, pickup names; all on
