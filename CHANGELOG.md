@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4328
+
+- The broken boulder is whole again after ending Explore and exploring again - outdoor world progress lost between sessions (Nathan 09-26)
+- Reset location at the top of the cheat panel - the hero back to the map start, out of any interior, banked
+- Tap the chest - it glows yellow and says you have no key; the Stonemason's Cottage and the Woodsman's Cabin
+
+Behind the scenes:
+- The party gate and the party leader - interiors are one hero, the outdoors the party (Nathan 2026-09-27)
+- The Woodsman's Cabin spec - his picked painting, mirrored (Stage 1 + 2)
+- Sub-agents run without worktree isolation on the box, and quiet agent-* trees are salvaged and reaped after 2 h
+
 ## v0.0.28-P4322
 
 - The cave is an interior - drawn isometric and to scale like the cottage
@@ -96,7 +107,7 @@ Behind the scenes:
 - The Equipment window's View button shows the hero large, in his gear
 - A low bench, half the table, the same length
 - The windows Nathan laid out - two front-left, two back-right, one by the door, none on the hearth wall
-- Walls draw on load, and a flush timber beam tops them
+- Walls draw on load, and a flush timber beam tops them *(fix attempt - still being verified)*
 
 ## v0.0.28-P4264
 
