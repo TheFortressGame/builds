@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4310
+
+- A function's length is its body, not everything up to the next func
+- The art modes read Detailed / Normal / Simple (Nathan's names; set ids unchanged)
+- Outdoors the hero, mobs and NPCs y-sort by their feet - a tree in front hides him (#6314 PR B) *(fix attempt - still being verified)*
+- The alpha's trail - a weaving path behind the alpha to the cave clearing, shut until he dies; he holds his post
+
+Behind the scenes:
+- Accounts balance at natural times - every rotation picks its account on the known clock gap; the mid-week balancing pass is retired
+- Lanes.json records the live chats - GUI and Overwatch on A after tonight's moves, every rotated row's slug/uuid/cse/name
+- Detailed/Normal/Simple mapping confirmed by Nathan (Painterly/Storybook/Minimal) - no longer inferred
+- _apply_everything_base is one method per bootstrap section, same order (#5907 brief #13)
+- The refactor merge cap reads the derived pace - one pace owner, briefsPerDay only as the fallback
+
 ## v0.0.28-P4301
 
 - The hero view zooms - +/- and pinch on the portrait camera; one touch convention
