@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4322
+
+- The cave is an interior - drawn isometric and to scale like the cottage
+- View and the hero miniature are one boxed toggle; Reset view in the hero view
+- Escape closes the big map, nothing moves him behind it; M and O shortcuts
+
+Behind the scenes:
+- Item 56 widened - three mob tiers (Boss/Named/Common), the Beast as a boss, the no-respawn tutorial popup, boss loot tables (Nathan 2026-09-27)
+- The daily stats commentary reads merged PRs per day, game vs infra, and flags a game share falling three days
+- When Nathan is waiting - lanes put TEST in the PR body and end at PR-open, and merge-pr starts the build the moment a TEST-line PR merges
+- One window area (PlayArea) - windows stop above the info strip
+
 ## v0.0.28-P4315
 
 - Every tap of the small minimap's +/- changes the view - rungs wider than the room are passed over
@@ -84,7 +96,7 @@ Behind the scenes:
 - The Equipment window's View button shows the hero large, in his gear
 - A low bench, half the table, the same length
 - The windows Nathan laid out - two front-left, two back-right, one by the door, none on the hearth wall
-- Walls draw on load, and a flush timber beam tops them *(fix attempt - still being verified)*
+- Walls draw on load, and a flush timber beam tops them
 
 ## v0.0.28-P4264
 
