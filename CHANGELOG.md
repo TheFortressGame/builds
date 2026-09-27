@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4404
+
+- The wall layer reads its packed mask atlas linear, no mipmaps (Tech Lead, #6320) *(fix attempt - still being verified)*
+- Tappable pieces are room data - the cabin's locked chest and both wardrobes
+- The chopped log shows real cut art, not the MISSING ART card
+- A project setting change starts a new epoch - E9, and the guard covers every setting
+
+Behind the scenes:
+- At most 4 Godot jobs under 8 GB free, and a full chat rotates on a 2-minute clean spot
+- Remove the HAND WALLS toggle - the 3D shell is the walls
+- Memory is never Nathan's - the stop guard bounces a memory ask, and the Godot budget yields at 6 GB free
+
 ## v0.0.28-P4396
 
 - Wall variety - three variants per rounded piece mixed by the engine; the cave art imports with mipmaps
