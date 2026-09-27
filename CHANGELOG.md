@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4361
+
+- The Woodsman's Cabin blockout - the same native room as the cottage, built from his spec
+- A Picture test row in the hero view - six live switches for the device-only streaks
+- Outdoors in Normal he is the 2D hero Nathan picked (#5812's set, restored as shipped); Detailed outdoors and every room keep the live 3D hero
+- Worn gear replaces his base part whole, the outfit pack's own way - no more ray-trimmed boots, hands, neck or shoulders
+
+Behind the scenes:
+- The gdUnit timeout ladder is back in order and checked - job caps exceed import + slot wait + suite cap
+
 ## v0.0.28-P4356
 
 - A bar button's label counts toward its width - Reset view and Reset to defaults were empty boxes
