@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4342
+
+- A Gameplay settings tab - hit text, heals, both health bars, NPC nameplates, pickup names; all on
+- Disk tiers skip a reclaim step that is already running, and give a step 45 min, not 15 (#6386 item 3) *(fix attempt - still being verified)*
+- The save records what changed it and which copy a cloud sync kept - instrumentation for the lost boulder (#6367 attempt 2)
+- The Woodsman's Cabin mockups are reference, not game art - .gdignore keeps Godot from importing them without mipmaps (red test_all_art_png_imports_generate_mipmaps)
+- Re-hide fog in the map settings - re-fogs only the map you are on (QA)
+- A locked section keeps you out but never traps you in; a new explore session starts only from the Explore button
+
+Behind the scenes:
+- Disk tiers reclaim automatically - WARN reclaims tier 1, CRITICAL flags Godot off, a fast fall alerts Overwatch with the growers (#6386 items 3 and 7)
+- A box-wide Godot slot budget at the one launch owner - every launcher takes a slot, waits, then refuses rather than overrun (#6386 item 2)
+
 ## v0.0.28-P4334
 
 - The Equipment window fits a phone held sideways
@@ -229,8 +242,8 @@ Behind the scenes:
 - The club and axe wear their icons' colours - a palette read off the icon, applied by one fixed path
 - Weapons face the way he faces - the grip socket pins the head side, not just the haft; the axe is the hatchet
 - The live hero is permanent - the LIVE toggle is gone
-- A fresh HUD window is placed at its final font and chrome, so the Character run no longer floats into the Log *(fix attempt - still being verified)*
-- The Builder tab's open Filter row wraps at phone width instead of pushing the screen off the right edge *(fix attempt - still being verified)*
+- A fresh HUD window is placed at its final font and chrome, so the Character run no longer floats into the Log
+- The Builder tab's open Filter row wraps at phone width instead of pushing the screen off the right edge
 - Nathan's P4169 pass - thick walls, straight pieces, hearth-stone room, a door and outside faces, the exit square
 
 Behind the scenes:
@@ -875,7 +888,7 @@ Behind the scenes:
 - Post-brief.py never emits an over-cap chunk, and a mid-sequence 400 aborts cleanly instead of tracebacking
 - The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564)
 - Route the box lane's own pre-push gate through the sanctioned wrapper, and correct the rationale that kept the rule needing restating
-- The delivery driver's five silent-path defects - it waits for THIS branch's verdict, keeps its once-ever promise, escalates where someone reads, stops retrying a deliberate abort, and holds the close on executable infra (#5524 #5525 #5526 #5530 #5531) *(fix attempt - still being verified)*
+- The delivery driver's five silent-path defects - it waits for THIS branch's verdict, keeps its once-ever promise, escalates where someone reads, stops retrying a deliberate abort, and holds the close on executable infra (#5524 #5525 #5526 #5530 #5531)
 - The overnight audits' four gate/sweep defects (#5517 #5529 #5533 #5534)
 - One owner applies the three-day flags, needs-nathan can clear, and the >7d arm actually reaches Nathan
 - Rotated chats keep their name plus vN and open with a continuity brief; the promise guard reports the promise nearest the end
@@ -1197,7 +1210,7 @@ Behind the scenes:
 ## v0.0.28-P3653
 
 - Only one inline expansion is open at a time
-- Stamp every script-side issue comment; patrol 6's opener list becomes the backstop, not the path *(fix attempt - still being verified)*
+- Stamp every script-side issue comment; patrol 6's opener list becomes the backstop, not the path
 - An already-signed-in player gets a device key too
 - A real ceiling and door — the room was a crawlspace, not the character a giant
 - Stop hook - a turn may not end on a promise of ongoing work (08-29 meta-review)
