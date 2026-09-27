@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4372
+
+- Base-locks gate diffs against the merge-base, not main's tip
+- A press on any window never walks the hero - the GUI decides, not a list
+- The Claude Code update lands with engines running - clear npm's stale retire folder, move running images aside
+- Mechanise the woken-restate rule in the Stop hook
+
+Behind the scenes:
+- Godot-quirks - a top_level Control lets a pointer press through despite MOUSE_FILTER_STOP
+- Wait-pr-green settles from a head-scoped run list, not a silent-fail proxy for "still running"
+- One standing-issue lookup - every alert filer finds its open issue past the newest 50
+- Retire the hero view's Picture test row - the #6352 streaks are fixed
+- Lock the Woodsman's Cabin layout (gate 3, P4361); hero-base records the 2D outdoor hero on Normal and Simple
+- The core smoke set is a named list again - 66 to 44 suites; the arm-stretch test shares its frames
+- DailyStatsCommentary gets a contract row, an installer and a heartbeat check
+
 ## v0.0.28-P4361
 
 - The Woodsman's Cabin blockout - the same native room as the cottage, built from his spec
