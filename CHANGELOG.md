@@ -4,11 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4315
+
+- Every tap of the small minimap's +/- changes the view - rungs wider than the room are passed over
+- The supervisor installer writes the launchers the box actually runs
+
+Behind the scenes:
+- Rm-glob-gate in the repo - deny critical-path rm shapes before they park a lane on an approval prompt
+- PassiveMode._process is one method per combat-tick section, same order (#5907 brief #14)
+- The log records level ups, upgrades, entering and leaving areas (Nathan 2026-09-26)
+
 ## v0.0.28-P4310
 
 - A function's length is its body, not everything up to the next func
 - The art modes read Detailed / Normal / Simple (Nathan's names; set ids unchanged)
-- Outdoors the hero, mobs and NPCs y-sort by their feet - a tree in front hides him (#6314 PR B) *(fix attempt - still being verified)*
+- Outdoors the hero, mobs and NPCs y-sort by their feet - a tree in front hides him (#6314 PR B)
 - The alpha's trail - a weaving path behind the alpha to the cave clearing, shut until he dies; he holds his post
 
 Behind the scenes:
