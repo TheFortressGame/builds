@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4356
+
+- A bar button's label counts toward its width - Reset view and Reset to defaults were empty boxes
+- Portrait A/B switches + GPU fields in Copy game data - instrumentation for the device-only streaks
+- The handle sits in his fist's hole, measured from his curled fingers and palm - not on the finger bones *(fix attempt - still being verified)*
+- A Controls settings tab - every shortcut, rebind by pressing a key, reset to defaults
+- The orphan detector skips a chat a rotation retired, and its log is writable again
+- Repo-backup never uploads a bundle to a public bucket - the only R2 bucket the box reaches is the public website *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A BOX RESOURCES panel in the daily brief - yesterday by hour, the Godot peak against the budget, idle windows, disk-tier trips (#6386 item 6)
+
 ## v0.0.28-P4349
 
 - The alpha's two popups - he blocks the trail on sight, the way opens when he dies; one spawn-beat table for every guard
