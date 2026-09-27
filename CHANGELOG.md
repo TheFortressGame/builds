@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4334
+
+- The Equipment window fits a phone held sideways
+- The item/compare modal is as tall as its content - it re-measures once the card has its width
+- His face is the pack's own skin, the same tone as his arms - the head is no longer recoloured to the tunic's tan
+- Comparing a loot item keeps the slot filter - a replaced modal is not a back-out
+- The /box poller is single-instance with a hung-holder takeover, a /box op has a 120 s cap, and a command is marked seen before it runs (#6386 item 8) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The interim Godot budget gate is in the repo - the console's live build, one retry-advice fix, and its selftest in box-self-check (#6386 item 2)
+
 ## v0.0.28-P4328
 
 - The broken boulder is whole again after ending Explore and exploring again - outdoor world progress lost between sessions (Nathan 09-26)
