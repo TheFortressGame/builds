@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4391
+
+- Indoors he turns to the mob as it is drawn - the swing's direction goes through the iso seam
+- A hip weapon hangs at his belt, swung clear of his leg by the engine's spring bone *(fix attempt - still being verified)*
+- Head cover asked of the meshes a part takes; a swing in aim mode keeps his facing (#6459, #6461)
+- A portrait takes its window's shape - portrait_aspect grows the frame's short side (GUI v7, Nathan 2026-09-27)
+
+Behind the scenes:
+- Week of 2026-09-24 - 4 ideas, 4 decisions
+- Hero-gear locks - Nathan's yes on the live bracers and belt (P4381)
+
 ## v0.0.28-P4385
 
 - The mouth opens on the top-left edge, an arc of exit boxes, daylight spilling in
@@ -21,7 +32,7 @@ Behind the scenes:
 - Bracers and belt show on him - the outfit pack's own bracer and belt pieces, taken from its whole Ranger outfit
 - The cabin's bed moves to the front corner, away from the door
 - Aggro rings lie on the floor and stop at walls; indoors a mob notices only a hero it can see
-- Floats over the right head, idle mobs drawn where they stand, and the cave keeps its fog *(fix attempt - still being verified)*
+- Floats over the right head, idle mobs drawn where they stand, and the cave keeps its fog
 - Every door walk-in lands on its interior's entrance; the cave mouth gets its exit box and daylight
 
 Behind the scenes:
