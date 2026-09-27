@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4396
+
+- Wall variety - three variants per rounded piece mixed by the engine; the cave art imports with mipmaps
+- The hero picture fills its window and the render takes its shape; an item card stands above the loot list
+- The skin - a painted flowstone floor with no grid, rounded rock walls from a terrain set of generated pieces
+
+Behind the scenes:
+- A lane sets its own paused/active state on Nathan's word, and says so (#6481 era, 09-27)
+
 ## v0.0.28-P4391
 
 - Indoors he turns to the mob as it is drawn - the swing's direction goes through the iso seam
