@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4445
+
+- An interior's minimap is one texture, not a polygon per cell - the cave's minimap draw calls 3,160 to 11
+
 ## v0.0.28-P4444
 
 - The NW dragon path - switchbacks, goblins, the chieftain, and a mountain ridge behind the cave
