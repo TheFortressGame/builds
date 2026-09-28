@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4416
+
+- ShellMaterials refuses a texture built in code a row - warns, asserts in debug, never grows per mount *(fix attempt - still being verified)*
+- The map - fog hides a cave's shape, door icons, dotted area lines, wander paths, mob names and timers, tier-coloured mob dots
+
+Behind the scenes:
+- A project setting waits for the release instead of bumping the epoch - one full download per release, not per setting (#6481, #6508)
+
 ## v0.0.28-P4413
 
 - The wall shell builds each material once and shares it - no per-entry memory growth *(fix attempt - still being verified)*
