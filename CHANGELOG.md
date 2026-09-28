@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4432
+
+- The cabin's front walls and its door corner are wood and see-through, from his painting's own logs
+- The NW path's mobs - goblins with Snikkit, The Goblin Chieftain, and The Red Dragon who cannot be killed
+
+Behind the scenes:
+- Every overworld placeable the hero steps into or past is sorted pieces on their feet and enters exactly at its drawn ring (Nathan 09-28)
+
 ## v0.0.28-P4429
 
 - The 2D hero shows his weapon only while he is fighting *(fix attempt - still being verified)*
