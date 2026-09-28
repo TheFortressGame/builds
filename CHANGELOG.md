@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4460
+
+- Both cabins' chests are locked when their owner is away
+- A way a boss kill opened stays open after the boss respawns
+- The Mouth as one baked panel - the 3D rock and floor with painted surfaces, sliced into the y-sort; slice conditions 1-7
+- The Vale's areas are what Nathan's drawn lines enclose *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A rotation carries the pictures its predecessor showed Nathan, and the successor re-sends them before restating the ask
+
 ## v0.0.28-P4455
 
 - Maintenance build (no player-facing changes in this range).
