@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4449
+
+- Three gate suites back under budget - drawn_pose no longer errors per read, the portrait runs on the test's clock, shared frames
+- The simulated-player nightly's console echo can't cost it the post *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Regenerate Storyline Art Bible + coverage (nightly)
+- Index the three content-pipeline docs and give the NW dragon path a roadmap line
+
 ## v0.0.28-P4445
 
 - An interior's minimap is one texture, not a polygon per cell - the cave's minimap draw calls 3,160 to 11
