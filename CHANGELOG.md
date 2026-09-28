@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4444
+
+- The NW dragon path - switchbacks, goblins, the chieftain, and a mountain ridge behind the cave
+- The Equipment window is built once and shown, so I opens it at once
+- The cabins' chests are their owners' and open with no key; the stonemason's wardrobe hides a locked door
+
+Behind the scenes:
+- The West Gate Guards, drafted from Nathan's words
+- The perf readout puts back each SubViewport's own update mode and the window's own vsync before the shot (#6545 follow-up)
+
 ## v0.0.28-P4439
 
 - The castle is two layers - in its yellow ring you stand in front of the keep, behind the front wall
