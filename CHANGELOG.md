@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4455
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The fog-of-war row records the dormant gate and how dormancy clears
+- One fog owner - the world, the minimap and what the world shows all read ExploreFog.fog_field
+- A per-mount memory probe for the cottage's 3D wall shell
+- The hosted macOS verify runs on version closes, a ticked manual run, or once a day - not on every interim build
+- A background-woken close never carries the status block, and a peer's message resets what woke the turn
+
 ## v0.0.28-P4449
 
 - Three gate suites back under budget - drawn_pose no longer errors per read, the portrait runs on the test's clock, shared frames
