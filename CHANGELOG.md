@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4413
+
+- The wall shell builds each material once and shares it - no per-entry memory growth *(fix attempt - still being verified)*
+
 ## v0.0.28-P4412
 
 - Controls - Primary and Secondary keys, an Equipment (I) row; Settings leaves the window where it is
