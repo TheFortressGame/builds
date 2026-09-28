@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4439
+
+- The castle is two layers - in its yellow ring you stand in front of the keep, behind the front wall
+- The round-4 rock shell (#6532) - heavier than P4429 at his cell and its look rejected; round 5 replaces it
+
+Behind the scenes:
+- An opt-in perf readout in the capture driver - frame time, draw calls per viewport, and A/B switch-offs of named nodes, classes or SubViewports (#6320, #6544)
+
 ## v0.0.28-P4436
 
 - The castle half again as large and centred in its road; zone transitions fire on touch inside a yellow ring
