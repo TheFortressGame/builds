@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4429
+
+- The 2D hero shows his weapon only while he is fighting *(fix attempt - still being verified)*
+- The game drops an override.cfg that does not belong to this boot, and restarts once on the base settings *(fix attempt - still being verified)*
+- Only an exported build guards against a second copy - the box's windowed tool runs no longer quit each other
+- The round-trip chief case starts from a live chief, whatever an earlier suite left cleared
+- The Woodsman's Cabin's furniture is lifted from his picked painting (#6240, #6512)
+
+Behind the scenes:
+- One 'this is an interior' - MapData.is_interior() is to_scale, so every interior draws the live hero
+- Install the game patch's override.cfg with the patch, as one unit - 1.1.64
+
 ## v0.0.28-P4422
 
 - He swings at the height he walks - the 2D attack frames re-cut at his standing height *(fix attempt - still being verified)*
