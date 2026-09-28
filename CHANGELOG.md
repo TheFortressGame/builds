@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4422
+
+- He swings at the height he walks - the 2D attack frames re-cut at his standing height *(fix attempt - still being verified)*
+- A cleared barrier is two sprites on either verge - the hero walks between them, in front of the top, behind the bottom
+- A refilling mark is never cleared for good - the camp bandits come back
+
+Behind the scenes:
+- The exterior and character pipelines, and one north star at the top of every content pipeline
+- The Goblin Chieftain, Snikkit and The Red Dragon, drafted from Nathan's words
+- A delta patch carries its project settings in override.cfg - desktop release asset and web preload
+
 ## v0.0.28-P4416
 
 - ShellMaterials refuses a texture built in code a row - warns, asserts in debug, never grows per mount *(fix attempt - still being verified)*
