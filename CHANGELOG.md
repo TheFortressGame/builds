@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4436
+
+- The castle half again as large and centred in its road; zone transitions fire on touch inside a yellow ring
+- The dragon is Ashkarr the Red
+- The 2D weapons are rendered from the 3D models, gripped through one mount
+- The cave walls are one smooth 3D rock shell, not a block per square
+
 ## v0.0.28-P4432
 
 - The cabin's front walls and its door corner are wood and see-through, from his painting's own logs
