@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4412
+
+- Controls - Primary and Secondary keys, an Equipment (I) row; Settings leaves the window where it is
+- The Woodsman's Cabin gets its room cut from his picked painting - walls and floor, the 3D shell
+- The 2D hero swings in every facing, right-handed, with the weapon he holds
+- His held weapon sorts with him - a tree that hides him hides it
+- A named mob never spawns twice at once; the camp bandits respawn
+
+Behind the scenes:
+- The stop guard reads messages queued mid-turn - Build landed counts, a peer's message is not Nathan's
+- The weekly repo backup goes to the private R2 bucket in parts, with a restore test (#6418, #6386 item 4)
+- "Nathan's last message UNANSWERED" counts only Nathan's messages
+
 ## v0.0.28-P4404
 
 - The wall layer reads its packed mask atlas linear, no mipmaps (Tech Lead, #6320) *(fix attempt - still being verified)*
