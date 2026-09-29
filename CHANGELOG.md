@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4470
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- A daily spending line on every lane prompt, and lanes rotate at 25% through Saturday
+- The impacted-test selector never names a changed test HELPER as a suite - it runs its users
+- The painted stalagmites resolved once per build, not once per piece
+
 ## v0.0.28-P4467
 
 - Sharper painted surfaces and the Mouth's stalagmites painted into the panel
