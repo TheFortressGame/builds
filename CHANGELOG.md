@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4499
+
+- The east swamp in its picked look, the east tree band cut with the sharp axe, giant mosquitoes in the grassland
+
+Behind the scenes:
+- NPC less-chibi art review - grades, options and dossier picks for the morning
+
 ## v0.0.28-P4497
 
 - The bow and sling shots fly, walls stop them, and a hit mob comes for him
