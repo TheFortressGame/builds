@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4497
+
+- The bow and sling shots fly, walls stop them, and a hit mob comes for him
+
+Behind the scenes:
+- The floor follows main - floor followed main by the weekly audit: theme_overrides 2500 to 2493. Every count may only fall from here
+- A plain failure is a broken workflow file only when it ran zero jobs
+- V52 - the Interior Cave and the Arena get shipped lines, the Dragon Lair queued, the hero-animation line refreshed
+
 ## v0.0.28-P4493
 
 - A world-space detail map over the painted cave, from the picked mockup
