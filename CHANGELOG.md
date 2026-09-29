@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4506
+
+- Nathan's NPC picks go live - ten villagers and bandits at the hero's proportions
+
 ## v0.0.28-P4505
 
 - The east road runs open through its trees, and the swamp bleeds off the map's edge *(fix attempt - still being verified)*
