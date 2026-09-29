@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4482
+
+- The native room hosts the fight - mobs stand in its y-sorted node, its own walls stop them
+- The 2D hero sweeps the scythe low across his body, its own motion in every facing
+- The Options drawer's Windows, Behavior and World sections fold open and shut, and the drawer scrolls the rest
+
+Behind the scenes:
+- The Character Models lane becomes PC and NPC Models - a rename rides a rotation
+- Defender exclusions for the work trees, from one list, applied elevated and verified daily (#6386 item 10)
+- The Sonnet arm names claude-sonnet-5-5 explicitly, and self-check holds the alias override until the CLI knows it
+- The rebase routines' temp worktrees are deleted on every exit and reaped when left (#6386 item 9)
+
 ## v0.0.28-P4475
 
 - The goblins re-drawn to the hero's proportions, not chibi
