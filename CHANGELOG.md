@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4461
+
+- The 2D hero jabs with a spear, draws a bow and casts a sling, each its own motion in every facing
+
 ## v0.0.28-P4460
 
 - Both cabins' chests are locked when their owner is away
