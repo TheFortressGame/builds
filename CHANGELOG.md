@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4492
+
+- The see-through circle shows the floor behind the rock, and the exit corridor's rock is gone from the bake
+- The whole cave painted as abutting panels from one 3D scene, a floor underlay, and the exit boxes over the floor
+
+Behind the scenes:
+- Godot import / capture harness / killed gdUnit run leaves project.godot dirty (stray blank line, custom_user_dir override) and a blanket git add -A commits it
+
 ## v0.0.28-P4489
 
 - Reveal map and Hide map are saved - a reload keeps the reveal, and a re-hidden room stays fogged when you walk back in
