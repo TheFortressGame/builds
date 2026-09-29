@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4475
+
+- The goblins re-drawn to the hero's proportions, not chibi
+- The goblin and the Goblin Chieftain drawn from Codex, not an ascii g
+
+Behind the scenes:
+- The lane model A/B - rotations mint from the lanes.json row; GUI and Interiors on Sonnet
+
 ## v0.0.28-P4472
 
 - The Vale's three roads run to the edge - north boulders, a west stake gate, an east swamp past a tree band
