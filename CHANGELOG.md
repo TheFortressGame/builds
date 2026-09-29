@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4489
+
+- Reveal map and Hide map are saved - a reload keeps the reveal, and a re-hidden room stays fogged when you walk back in
+- The minimap, the big map and the game view each keep their own mark switches
+- The Arena laid out as a circle of cells from one spec, on the native room
+
+Behind the scenes:
+- The native room's fight queries live in RoomFightSpace
+
 ## v0.0.28-P4485
 
 - The hero's bows and sling reach half as far - 15 m *(fix attempt - still being verified)*
