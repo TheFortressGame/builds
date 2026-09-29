@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4505
+
+- The east road runs open through its trees, and the swamp bleeds off the map's edge *(fix attempt - still being verified)*
+
+Behind the scenes:
+- NPC review round 2 - the Vagabonds, the West Gate Guards, the creatures and the dragon
+- The routines read the daily line - discretionary passes skip past it
+- The daily line throttles autonomous work only - a chat Nathan is in is exempt
+- The daily line accrues by the hour, with a 9 AM reserve
+
 ## v0.0.28-P4499
 
 - The east swamp in its picked look, the east tree band cut with the sharp axe, giant mosquitoes in the grassland
