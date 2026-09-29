@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4485
+
+- The hero's bows and sling reach half as far - 15 m *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Capture-state holds its worktree for the whole run and proves it after the frame
+- Wait-pr-green says FAILED only when a run for the head failed
+
 ## v0.0.28-P4482
 
 - The native room hosts the fight - mobs stand in its y-sorted node, its own walls stop them
