@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4493
+
+- A world-space detail map over the painted cave, from the picked mockup
+
 ## v0.0.28-P4492
 
 - The see-through circle shows the floor behind the rock, and the exit corridor's rock is gone from the bake
