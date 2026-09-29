@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4472
+
+- The Vale's three roads run to the edge - north boulders, a west stake gate, an east swamp past a tree band
+- The goblin chieftain waits deep in the NE rock passage, goblins along the climb, and every entrance ring at least its icon's size
+
 ## v0.0.28-P4470
 
 - Maintenance build (no player-facing changes in this range).
