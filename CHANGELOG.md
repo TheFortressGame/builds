@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4467
+
+- Sharper painted surfaces and the Mouth's stalagmites painted into the panel
+- The map - World switches in Options, Resource Marks and Entrances switches, hover names every mark, arrow cursor
+- The giant mosquito and its rare, Bogsinger
+
+Behind the scenes:
+- One capture run loop - a short render exits 2 instead of warning
+- The mob board has a caller, and the named-mob test reads its commons from the config
+- LockEvaluator.spawn_defeated is the one "was this boss ever beaten" owner
+
 ## v0.0.28-P4461
 
 - The 2D hero jabs with a spear, draws a bow and casts a sling, each its own motion in every facing
