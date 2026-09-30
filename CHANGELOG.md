@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4508
+
+- He stays his own size mid-attack - frames are cut by his head, never his height *(fix attempt - still being verified)*
+
 ## v0.0.28-P4507
 
 - Pinch zooms the game view, and in portrait the hero is at the centre of the screen
