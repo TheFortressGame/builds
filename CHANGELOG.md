@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4507
+
+- Pinch zooms the game view, and in portrait the hero is at the centre of the screen
+
 ## v0.0.28-P4506
 
 - Nathan's NPC picks go live - ten villagers and bandits at the hero's proportions
