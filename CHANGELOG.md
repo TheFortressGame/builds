@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4522
+
+- No Treatise Discovered card when the fortress is repaired
+- Bram stands a little taller than the hero, in the cabin and on the Vale road *(fix attempt - still being verified)*
+
 ## v0.0.28-P4520
 
 - The Vale's area lines go round the road ends
