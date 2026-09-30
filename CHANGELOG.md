@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4514
+
+- In the hero view he stands in the middle of the window, and a zoom stays on him
+- Drawer expand, Mobs switch, minimap repaint, roster double-tap Load, desktop layout
+
+Behind the scenes:
+- Subject-only suites - a hub class no longer drags heavy suites into every PR
+- Judge the throttle on autonomous spend - the ledger splits by the stamp's mode
+
 ## v0.0.28-P4510
 
 - Nathan's creature picks go live, and every creature strikes with its own attack frames
