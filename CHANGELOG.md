@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4520
+
+- The Vale's area lines go round the road ends
+- Subject-only hubs are a NAMED list - a subject can never drift into one
+
 ## v0.0.28-P4518
 
 - A blocked way with nothing in it says why and what to do, every time *(fix attempt - still being verified)*
