@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4518
+
+- A blocked way with nothing in it says why and what to do, every time *(fix attempt - still being verified)*
+- The Vagabonds face west, two West Gate Guards stand at the gate, and Ashkarr rests, then rears and breathes fire
+- Wall tops read as squared timber beams with end grain
+- Every barrier leaves its broken self behind when cleared
+
 ## v0.0.28-P4514
 
 - In the hero view he stands in the middle of the window, and a zoom stays on him
