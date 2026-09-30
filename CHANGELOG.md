@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4539
+
+- The Vale widens west, a mountain range across the north with the avalanche in its pass, locks hold only across the trail (#6656, #6665)
+- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw *(fix attempt - still being verified)*
+- One owner for how tall a character draws, and two counts that may only fall (#6644 part 1)
+- The gates-and-popups rules become counts that may only fall (#6666 part 3)
+- A time-boxed budget surge - B's throttle off until Sat 10-03 6 AM, the refactor at 0-24 h and a ceiling of 12
+
+Behind the scenes:
+- The pool self-check names the display driver, and the leaking AMD version is a problem
+- One opener for the entity inspect modal - fourteen pasted open sequences call TabBase._open_entity_inspect (#5907 brief #16)
+
 ## v0.0.28-P4532
 
 - Tap a zone ring you stand in to act again; the ring breathes while tappable
