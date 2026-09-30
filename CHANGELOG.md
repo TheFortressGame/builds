@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4532
+
+- Tap a zone ring you stand in to act again; the ring breathes while tappable
+- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Gates, costs and popups get one owner each and a rules card (#6666 parts 1-2)
+
 ## v0.0.28-P4529
 
 - An Old framing switch and the camera's framing in Copy game data for the device-only streaks
