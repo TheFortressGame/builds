@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4529
+
+- An Old framing switch and the camera's framing in Copy game data for the device-only streaks
+- "TECH-LEAD: APPROVE WITH CONDITIONS" holds the merge like BLOCK
+
+Behind the scenes:
+- The four teasers at the edge of the world - the avalanche, the western gate, the swamp, the door in the wardrobe
+
 ## v0.0.28-P4526
 
 - The see-through is the cottage's room cut - near rock always at its alpha, the hero circle removed
