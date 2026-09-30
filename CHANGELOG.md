@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4526
+
+- The see-through is the cottage's room cut - near rock always at its alpha, the hero circle removed
+- One alert on the armor icon; unequipped axe re-alerts at the tree
+- The Picture test switches come back to the hero view - the streaks are back and their cause was never named
+
+Behind the scenes:
+- The MediaTek Bluetooth handle leak gets a repo home and a self-check item
+
 ## v0.0.28-P4522
 
 - No Treatise Discovered card when the fortress is repaired
