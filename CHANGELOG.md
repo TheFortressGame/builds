@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4510
+
+- Nathan's creature picks go live, and every creature strikes with its own attack frames
+
 ## v0.0.28-P4509
 
 - He stands in front of his shelf of bowls, with nothing to walk behind *(fix attempt - still being verified)*
