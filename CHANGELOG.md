@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4612
+
+- The action icon is one on-screen size at any world zoom (#6666 part 6 NEXT)
+- Wait-pr-green reads the newest run per check - a green re-run on the same head is no longer FAILED
+
+Behind the scenes:
+- GDScript tools under tools/ are held under 1,500 lines too - tool_gd_files_over_1500 at 0
+- An oversized file can no longer grow through a green ratchet - oversized_file_lines (#6755 part A)
+- The tap-to-act cue is institutionalized - owner row, rules card items 25-29, world_tap_handlers_off_owner held at 0 (#6666 part 6)
+
 ## v0.0.28-P4607
 
 - A floating gold action icon over every tappable cottage piece (#6666 part 6)
