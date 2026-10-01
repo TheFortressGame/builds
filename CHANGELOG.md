@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4568
+
+- The Equipment alert counts only unseen items still in the pack
+- The Storage Chest - the Builder's first build, the Vagabonds' hoard, the Librarian charge on entering the tower
+
 ## v0.0.28-P4566
 
 - Green Load bar on the selected save, Options 'Layout' header, 2x in the cheat bar
