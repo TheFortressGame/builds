@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4598
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Only a body takes a draw tier - a measured guard over every live body's pieces
+- Reach review 09-24: follow-ups (unwatched heartbeats, unread outputs, one-sided contracts)
+- Size-ok reaches the world-object count - the strip spans, 10 to 8 (#5907 brief #20 seam 7d(b))
+
 ## v0.0.28-P4594
 
 - The dragon's lair placeholder - one round cave of the rat cave's rock, 10 m tall, Ashkarr inside
