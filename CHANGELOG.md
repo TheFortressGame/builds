@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4607
+
+- A floating gold action icon over every tappable cottage piece (#6666 part 6)
+
 ## v0.0.28-P4605
 
 - A breathing gold ring under every tappable cottage piece
