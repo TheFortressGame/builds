@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4558
+
+- Piper Fenn draws her own figure at the hero's proportions, not the big-head captive
+- A committed image .import is the one Godot wrote, never a seed
+- The worktree reaper reaps by MERGED, not by age - delivered + clean + 2 quiet hours; routine and lane homes spared
+
+Behind the scenes:
+- World_object_size_outside_owner sees a WorldScale height divided by anything and a .get_size().y divisor - the ArenaStakes shape (#6704 review, #5907 brief #20)
+- One size owner - SpriteScale.object_scale fits the visible body at its WorldScale height; RescueNpc on it (#5907 brief #20 seam 1)
+- ONE back stack for Escape - the top open window or view closes, so the hero view closes (#6680, #5907 brief #19)
+- Settings_path_outside_owner counts any hand-written ConfigFile save outside SettingsFile - crash_beacon and orientation_lock named as the two exceptions (#6700 review, #5907 brief #17)
+- One owner for the settings file - SettingsFile names user://settings.cfg once and every write flushes (#5907 brief #17)
+
 ## v0.0.28-P4550
 
 - The Ruins, Piper's road run, the Alpha Wolf pair and the NW path warning get their plates
