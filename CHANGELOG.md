@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4629
+
+- Pick C on every panel, a neutral torch, and the dragon's lair lit bright (#6649, #6561)
+- The owners digest names each row's co-owner and sanctioned callers - the replay's one false STOP (#6771) read a listed caller as a bypass
+
+Behind the scenes:
+- Nathan's 10-01 order - progression through every NPC, tutorial and area unlock, then the Fortress screen (building, production, units), then stat wiring, now that the game can be played and watched
+- Register the Itemization lane - the leather tier between Patched Hide and Rusty Plate, loot tables per mob, icons and the item docs (Nathan 2026-10-01 6:14 PM)
+- Two room kinds - box rooms keep the tile pipeline, organic rooms are one painting over the blockout render with an outline walkable map (Nathan 2026-10-01, #6796)
+
 ## v0.0.28-P4623
 
 - Patched Hide wears version P - leather browns, dark thread
