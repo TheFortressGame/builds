@@ -4,6 +4,29 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4594
+
+- The dragon's lair placeholder - one round cave of the rat cave's rock, 10 m tall, Ashkarr inside
+- The fist hole tests "inside the loop" by the loop's triangles, not the engine's grazing ray
+- The Woodsman's House is buildable once his blueprint arrives; the keep shows "!" until you collect it
+- Capture-component renders the requested surface, fills it, isolates user://, and never waits forever on a draw (#6709 part 1, #6642) *(fix attempt - still being verified)*
+- The hero-scale suite hands the art set back - every suite after it drew in Painterly
+- Tap a tool-gate barrier to act again, like an entrance; one name for the Mining Pick
+- A carried mob or NPC spot that a layout change made forest comes back on its mark
+- Piper Fenn waits for the Librarian's rescue, stands east of the gate and speaks when you reach her
+
+Behind the scenes:
+- A size-ok marker the character-height count skips, never a floor - the four sites that decide no height are marked; character_height 4 to 0 (#5907 brief #20 seam 4, Tech Lead on #6740)
+- A wall prop sizes and stands through SpriteScale (#5907 brief #20 seam 7c)
+- A native room's pieces size and stand through SpriteScale (#5907 brief #20 seam 7b)
+- Placed furniture sizes and stands through SpriteScale (#5907 brief #20 seam 7a)
+- The 3D layer's heights read WorldScale - no metres typed a second time (#5907 brief #22b)
+- TabConfig.evaluate_check folds into LockEvaluator - the 21 tab check keys are condition data, one gate evaluator (#5907 brief #18)
+- PlayerSprite on the one size owner - object_scale("person") and foot_offset; no typed 1.75 (#5907 brief #20 seam 3)
+- The component Escape handlers answer on the one back stack - key_escape_compares reaches 0 (#5907 brief #23, PR B)
+- Ten modals and sheets answer Escape on the one back stack, not their own KEY_ESCAPE compare (#5907 brief #23, PR A)
+- SpriteScale.margin_below is the one measure of the transparent rows under a body - foot_offset and the castle both call it (#6727 review, #5907 brief #22)
+
 ## v0.0.28-P4573
 
 - Left/Right and A/D turn the hero in his view on desktop
