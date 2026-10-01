@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4573
+
+- Left/Right and A/D turn the hero in his view on desktop
+- Wall-top beams run their grain along the run on every wall
+
+Behind the scenes:
+- Resource nodes and the fortress on the one size owner - visible body at its WorldScale height, the base on the ground (#5907 brief #22)
+- EnemySprite on the one size owner - every mob's visible body at its height, every frame's sole on the anchor (#5907 brief #21)
+
 ## v0.0.28-P4568
 
 - The Equipment alert counts only unseen items still in the pack
