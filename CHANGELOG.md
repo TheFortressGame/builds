@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4550
+
+- The Ruins, Piper's road run, the Alpha Wolf pair and the NW path warning get their plates
+- The Arena's floor is painted mud with a banked-earth rim that covers the grid's steps
+- The pool self-check reads the LOADED display driver, not the installed one *(fix attempt - still being verified)*
+- The reviewer asks "does this job already have an owner?" on every game-code PR - proven by a replay eval first
+- The base-tree measure runs again - owners.json exported, absent counts skipped (#6685 regression)
+
+Behind the scenes:
+- The live-character row is the hero only - NPCs stay 2D cards (Nathan 2026-09-30 6:51 PM, #6644)
+
 ## v0.0.28-P4544
 
 - A wall-top corner shows one beam's cut end, never both
