@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4544
+
+- A wall-top corner shows one beam's cut end, never both
+- The gate-reason format is held at the door - typed-in reasons count, the constants' shape is pinned
+- Every owners-registry row names the count that measures it - the unmeasured rows may only fall
+- One owner for how big ANY world object draws - props, displays and trees join characters (#6644, widened)
+
+Behind the scenes:
+- 3D NPCs parked until bodies can vary
+
 ## v0.0.28-P4539
 
 - The Vale widens west, a mountain range across the north with the avalanche in its pass, locks hold only across the trail (#6656, #6665)
