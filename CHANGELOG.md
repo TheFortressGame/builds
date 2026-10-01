@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4623
+
+- Patched Hide wears version P - leather browns, dark thread
+
+Behind the scenes:
+- Bare_texture_loads (17) and ui_cancel_handlers_off_owner (7) are ratcheted - the two gate gaps duplicate hunt #1 found
+- Interior Cave owns the cave, the lair and the arena; the cottage and cabin are parked with it (Nathan 2026-10-01 4:17 PM)
+- B's refactor pace ceiling 20 to 30 and up to three collision-clean seams at once until the Sat 6 AM reset (Nathan 2026-10-01 4:12 PM: use up B)
+
 ## v0.0.28-P4618
 
 - The cave is a cavern - 6 m rock, stalactites of 2.5 m and 4 m hung from it, fog cleared up seen walls
