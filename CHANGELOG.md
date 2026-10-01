@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4605
+
+- A breathing gold ring under every tappable cottage piece
+- The dragon's lair wall mask keeps its mip chain like every other art png - main's gdunit red since #6719
+
+Behind the scenes:
+- A marker ring sizes from its body's collision shape, margins named beside ZoneRing.radii (#6678 condition 2)
+- Regenerate Storyline Art Bible + coverage (nightly)
+- The round counter skips a box/* routine regeneration with no game code
+- The ruins' discovery card draws through the one world dialog - wallet-read cost, the harness copy deleted (#5907 world-modal step 4)
+
 ## v0.0.28-P4598
 
 - Maintenance build (no player-facing changes in this range).
