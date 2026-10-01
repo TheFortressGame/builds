@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4566
+
+- Green Load bar on the selected save, Options 'Layout' header, 2x in the cheat bar
+- The roster row names the units tabs, not every list of N - #6695's OWNER-HIT was a shared word, not a shared job
+- The back stack stamps an is_open entry after the input that opened it, not one input late (#6699 review, #6680) *(fix attempt - still being verified)*
+- The Vale tool-gate test controls GameManager.north_tree_chopped, so an earlier suite cannot unlock its north tree
+- Retry each wrangler call, so one transient fetch failure cannot fail the web deploy
+- A release build gets a reserved Godot slot and a 90-min wait, so lane jobs cannot starve it
+- The Arena's palisade is stakes on the ring's circle, not square wall blocks
+
+Behind the scenes:
+- B's refactor pace ceiling 12 to 20 for the surge (Nathan 2026-09-30 11:08 PM: push it hard this week til the reset)
+
 ## v0.0.28-P4558
 
 - Piper Fenn draws her own figure at the hero's proportions, not the big-head captive
