@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4618
+
+- The cave is a cavern - 6 m rock, stalactites of 2.5 m and 4 m hung from it, fog cleared up seen walls
+- The A token warm backs off while dark, and the self-check reports login age *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Interiors lane is retired; the cottage and cabin layouts and their skins move to Interior Cave (Nathan 2026-10-01 3:33 PM)
+- Week of 2026-09-24 - 1 idea, 8 decisions
+- Godot-quirks - a space query reads an area's last FLUSHED transform; place before add_child or force_update_transform, and size max_results (#5907 brief #25)
+- The tap-to-act cue is one on-screen size - card item 28 and the owner row record #6777
+
 ## v0.0.28-P4612
 
 - The action icon is one on-screen size at any world zoom (#6666 part 6 NEXT)
@@ -105,7 +116,7 @@ Behind the scenes:
 
 - The Ruins, Piper's road run, the Alpha Wolf pair and the NW path warning get their plates
 - The Arena's floor is painted mud with a banked-earth rim that covers the grid's steps
-- The pool self-check reads the LOADED display driver, not the installed one *(fix attempt - still being verified)*
+- The pool self-check reads the LOADED display driver, not the installed one
 - The reviewer asks "does this job already have an owner?" on every game-code PR - proven by a replay eval first
 - The base-tree measure runs again - owners.json exported, absent counts skipped (#6685 regression)
 
@@ -125,7 +136,7 @@ Behind the scenes:
 ## v0.0.28-P4539
 
 - The Vale widens west, a mountain range across the north with the avalanche in its pass, locks hold only across the trail (#6656, #6665)
-- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw *(fix attempt - still being verified)*
+- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw
 - One owner for how tall a character draws, and two counts that may only fall (#6644 part 1)
 - The gates-and-popups rules become counts that may only fall (#6666 part 3)
 - A time-boxed budget surge - B's throttle off until Sat 10-03 6 AM, the refactor at 0-24 h and a ceiling of 12
@@ -137,7 +148,7 @@ Behind the scenes:
 ## v0.0.28-P4532
 
 - Tap a zone ring you stand in to act again; the ring breathes while tappable
-- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak *(fix attempt - still being verified)*
+- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak
 
 Behind the scenes:
 - Gates, costs and popups get one owner each and a rules card (#6666 parts 1-2)
