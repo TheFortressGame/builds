@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4700
+
+- Cracked Leather ships option 2, the lighter brown
+- The web launcher compiles again - entry_shell names no game class; the portability gate derives its deny-list from the project; the deploy fails a launcher that does not compile (#6845 regression)
+- The self-check reads web lag in one time zone (a 21-min lag read as 261), and the step-4 self-test hashes outside the repo and keeps git's error
+- A stowed hip weapon hangs on the belt he wears - the anchor read off the garment's own belt, the hilt against it *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A blockout is shown beside a layout read of the mockup, never as the look; an organic room is ONE generation cut into chunks; the look merges only on an in-game capture beside the mockup plus a blind grade (Nathan 10-02 10:34 AM, the lair board)
+- Google sign-in and the web text input call their page hooks through WebJs - the 14 remaining hand-spliced sites (#5907 brief #33 PR 2 of 2)
+- Web-hook-check - a headless-Chrome check that GDScript's page-hook calls fire in a real browser (#5907 brief #33 tooling)
+- The build-publish exports take a box-wide Godot slot - Windows and Android steps hold one, macOS runs its export through with-godot-slot.ps1 (15 Godot processes / 8 jobs vs budget 6 at 04:48Z 10-01)
+- Pre-push-gate - a new owner that wraps an engine call lands with callers routed, never unused (the native ratchet counts its one engine call) (#5907 brief #33)
+
 ## v0.0.28-P4690
 
 - WebJs - one shape for calling a page hook from GDScript; the email form routes through it (#5907 brief #33 PR 1 of 2)
@@ -250,7 +264,7 @@ Behind the scenes:
 
 - The Ruins, Piper's road run, the Alpha Wolf pair and the NW path warning get their plates
 - The Arena's floor is painted mud with a banked-earth rim that covers the grid's steps
-- The pool self-check reads the LOADED display driver, not the installed one
+- The pool self-check reads the LOADED display driver, not the installed one *(fix attempt - still being verified)*
 - The reviewer asks "does this job already have an owner?" on every game-code PR - proven by a replay eval first
 - The base-tree measure runs again - owners.json exported, absent counts skipped (#6685 regression)
 
@@ -270,7 +284,7 @@ Behind the scenes:
 ## v0.0.28-P4539
 
 - The Vale widens west, a mountain range across the north with the avalanche in its pass, locks hold only across the trail (#6656, #6665)
-- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw
+- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw *(fix attempt - still being verified)*
 - One owner for how tall a character draws, and two counts that may only fall (#6644 part 1)
 - The gates-and-popups rules become counts that may only fall (#6666 part 3)
 - A time-boxed budget surge - B's throttle off until Sat 10-03 6 AM, the refactor at 0-24 h and a ceiling of 12
@@ -282,7 +296,7 @@ Behind the scenes:
 ## v0.0.28-P4532
 
 - Tap a zone ring you stand in to act again; the ring breathes while tappable
-- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak
+- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak *(fix attempt - still being verified)*
 
 Behind the scenes:
 - Gates, costs and popups get one owner each and a rules card (#6666 parts 1-2)
