@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4731
+
+- The lair laid out as his confirmed read of mockup 6 - his floor at the top, the path up the left, sky down the right, the cave out barred while Ashkarr lives
+
+Behind the scenes:
+- An organic room's painting is COMPOSITED - geometry owns the silhouette, Codex materials per surface class own only the surface; a single whole-room generation does not hold the grid (cave 09-28, lair 10-02)
+- Ashkarr_slain in the cutscene registry and the regenerated storyline coverage
+- The loot row gap is read from the grid's v_separation theme constant, not a repeated 4 (Tech Lead, #6926)
+
 ## v0.0.28-P4727
 
 - The loot grid gets half the doll column, three full rows on the hero inspect, and a LOOT (n) count
