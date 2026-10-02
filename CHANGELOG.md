@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4666
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The presentation half of gear_config.gd moves to GearArtConfig - painterly paths, slot and lock icons, silhouettes, doll anchors and bounds, weapon rest angles, weapon and wear art (#5907 gear_config split)
+- Lock conditions are data on each gated entry - LockEvaluator.conditions_for reads them, the builders deleted (#6666 part 4 seam 3 PR 2)
+- Delete the dead .github/scripts/parse_config.py - nothing calls it; the PDF workflow and the docs regen run tools/reference/scripts/parse_config.py
+- The world-popup standard on every popup, and full screen or card is data on its row - no page moves (#6816 PR a, #6757)
+- Fifteen bare texture loads go through ArtCache.tex (#5907 brief #26 R-A, #6793)
+- A map change selects the process-order golden - #6830 moved the huts, its PR gate never ran the golden, and main went red for every later PR
+- Publish a release as a draft, upload its files, then make it public - a failed upload no longer leaves a half-empty public build (P4645)
+
 ## v0.0.28-P4655
 
 - Cracked Leather - the medium set wears the Ranger outfit in saddle-brown cracked leather
