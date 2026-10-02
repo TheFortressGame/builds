@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4655
+
+- Cracked Leather - the medium set wears the Ranger outfit in saddle-brown cracked leather
+- Weapons roped to the stakes and two lit torches at the north gate, drawn over the palisade, from Nathan's mockup 2
+- The two huts each in a clearing of their own - the Stonemason up front, the Woodsman further in; the area lines follow
+- The swamp dock runs further east, you walk onto it, and its end says the swamp is too deep to cross
+
+Behind the scenes:
+- The Reference pipeline reads the config through game_config
+- The item docs read the config - Gear audit every item, named mobs in the Mob audit, Reference reads the balance tables, design doc on the shipped model
+- The poller's lanes.json merge reads its own deploy dir ($here, not an undefined $DeployDir), and capture_driver.gd drops under the 1,500-line ceiling (duel and fight states to capture_fight.gd)
+
 ## v0.0.28-P4648
 
 - Cloth, leather and plate; a drop table for every creature; boss and named specials; every balance number in a table
