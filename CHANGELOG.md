@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4690
+
+- WebJs - one shape for calling a page hook from GDScript; the email form routes through it (#5907 brief #33 PR 1 of 2)
+
+Behind the scenes:
+- The guard recruit gate enforces the list the UI shows; the unused unlock helpers go (#5907 brief #32)
+- The enemy's combat-log name has one owner - EnemyData.log_name_for (#5907 brief #31)
+
 ## v0.0.28-P4686
 
 - Maintenance build (no player-facing changes in this range).
