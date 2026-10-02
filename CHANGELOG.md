@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4674
+
+- Every 2D attack frame draws the weapon broadside, so a strike toward or away from the camera is never a hairline *(fix attempt - still being verified)*
+- The tap-to-act cue is the ring alone - one centre rule, one sizing rule, ActionIcon removed (#6666 part 6)
+
+Behind the scenes:
+- Region 3 - the Explore HUD wiring leaves active_mode.gd for ExploreHudCoordinator and ExploreHud.build_stats_panel (#5907 brief #27)
+- The craftsman barrier-clear events resolve from CraftsmenConfig's flag_keys in one lookup, not a row per gate
+- Codex drafts for the last four unpainted tools, plus the mining pick on the dark-brown ground - testing/ only, nothing promoted
+- The tab-gate rule has one owner - SelectionData.is_gate_hidden (#6819 follow-up)
+- The Itemization lane's areas include gear_art_config.gd and gear_balance.gd - the files brief #28 splits out of gear_config.gd
+
 ## v0.0.28-P4666
 
 - Maintenance build (no player-facing changes in this range).
