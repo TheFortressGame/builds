@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4727
+
+- The loot grid gets half the doll column, three full rows on the hero inspect, and a LOOT (n) count
+- The needs-nathan decision-line gate reads a body the shell resolves - a variable the command assigns, any env var, --body "$(cat file)", and a relative path after cd or against the hook cwd
+
+Behind the scenes:
+- One respawn-pulse clock - SpawnOverlay.any_respawning / advance_pulse at the one PULSE_HZ; both canvases route through them and the copies go (#5907 brief #37)
+
 ## v0.0.28-P4723
 
 - Rings only where you zone in, icons on what you act on, both only when near
