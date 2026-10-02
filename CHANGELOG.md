@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4686
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The run clock and the run chip have one owner each - GameStrings.format_run_clock and CombatHud.show_run_chip (#5907 brief #30)
+- One stats overlay for both modes - the frame moves verbatim onto CombatHud.build_stats_panel (#5907 brief #29 PR 3 of 3)
+
 ## v0.0.28-P4682
 
 - The three full-height combat overlays stand in the window area through PlayArea.seat (#5907 brief #29 PR 3a) *(fix attempt - still being verified)*
