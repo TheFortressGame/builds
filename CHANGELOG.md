@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4641
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Full screen = an event (seven kinds), and the popup's type is data (Nathan 2026-10-01 8:59-9:28 PM, #6816)
+- The pre-push gate runs the DIRECT gdUnit tier locally; CI keeps the impacted tier (no double runs, Nathan 2026-10-01 9:45 PM)
+- PR gate jobs get two reserved Godot slots, and pre-push-gate is no longer a hook-denied launch (Nathan 2026-10-01 9:45 PM: "things still feel slow")
+- Zones, interiors and barriers leave active_mode.gd; one reach owner, aliases gone, reach is native (#5907 briefs #24-#25; lands #6779 #6781 #6782 #6783)
+
 ## v0.0.28-P4637
 
 - Golden renders of the cottage and cabin, and the box-run diff - the #6797 no-regression prerequisite
