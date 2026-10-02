@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4637
+
+- Golden renders of the cottage and cabin, and the box-run diff - the #6797 no-regression prerequisite
+
+Behind the scenes:
+- DIRTY alarm - a PR in merge conflict reaches its author lane at 30 min and the Tech Lead at 2 h
+- Full screen must earn it - a major beat, a key-NPC first meeting, a major area unlock, or a boss or ending; the pages that stay gain Continue, the X and Escape (Nathan 2026-10-01 8:47 PM, #6812)
+- Hot-file leases - one open PR per hot file, enforced by the pre-push gate for every lane
+- The world-popup standard is locked; the in-world story card and discovery popups join it (Nathan 2026-10-01, #6757)
+- Loot Tables joins the published GUIDE set (#6804) - its proposal overlay is the working surface for loot and gear changes (Nathan 2026-10-01 6:22 PM)
+
 ## v0.0.28-P4631
 
 - Patched Hide wears the Peasant parts in P (light armour); Ranger kept for medium
