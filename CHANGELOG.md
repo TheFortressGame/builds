@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4706
+
+- Per-trip object split and node-class histogram
+- His skeleton stands in the outfit kit's rest, so the Ranger pauldron sits on his shoulder where the pack puts it *(fix attempt - still being verified)*
+
+Behind the scenes:
+- LocalStorage reads and writes have one owner - WebJs.storage_get / storage_set / storage_remove; 15 sites in crash_beacon, cheat_manager and web_update_notifier route through it (#5907 brief #34)
+- Nathan's picks - Archer's Bow, Scythe, Sharp Scythe and Sharp Mining Pick get their paintings
+
 ## v0.0.28-P4700
 
 - Cracked Leather ships option 2, the lighter brown
