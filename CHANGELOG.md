@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4677
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Regenerate Storyline Art Bible + coverage (nightly)
+- The balance tables move to GearBalance (scripts/data/gear_balance.gd) - GearConfig reads them, the Python readers take the file by its own path (#5907 gear_config split seam 2)
+
 ## v0.0.28-P4674
 
 - Every 2D attack frame draws the weapon broadside, so a strike toward or away from the camera is never a hairline *(fix attempt - still being verified)*
