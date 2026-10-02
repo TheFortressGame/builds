@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4722
+
+- The 4th-column first-click report gets device instrumentation + a queued-for-deletion guard (no fix claimed)
+- The first salvage explains itself, and the log says "You salvage the <item> for <n> gold"
+- A house for everyone who joins the fort - one HousingConfig table
+- A death loses half of this trip's haul, and Kept counts only this trip - never banked stock or what you spent
+- MARCH is last, after Housing; a divider line before the doll/inventory column
+- Off the cave's map is cloud, so an explored edge cell never draws a black streak off the map *(fix attempt - still being verified)*
+- The selected save stays a card - only its Load bar is green (option C)
+- The four new loot paintings import with mipmaps, as every assets/art PNG must - main's test_all_art_png_imports_generate_mipmaps is red since #6899
+
+Behind the scenes:
+- At A's automation ceiling the console ROLE goes to B - every cron wake of a console is automated spend
+- The A automation ceiling reaches every relay and every A fallback - a relay on a blocked A is HELD, and no routine fails over onto it
+- The A automation ceiling - no automated work on account A at or over 95% of its week; lanes park on an OUT B instead of pouring onto A
+- By-name lookups have one owner - Node.find_child(name, true, false); the three hand-written recursive finders and four test copies go, with no forwarders (#5907 brief #36)
+- The Mining Pick's own painting re-cut onto the dark-brown ground, grey shadow gone
+- One level-up entry for slot units - GameManager.level_up_unit / get_level_up_cost over SlotRoster's kind to cap table; the eight type-named forwarders go (#5907 brief #35)
+
 ## v0.0.28-P4706
 
 - Per-trip object split and node-class histogram
