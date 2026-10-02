@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4723
+
+- Rings only where you zone in, icons on what you act on, both only when near
+
 ## v0.0.28-P4722
 
 - The 4th-column first-click report gets device instrumentation + a queued-for-deletion guard (no fix claimed)
