@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4682
+
+- The three full-height combat overlays stand in the window area through PlayArea.seat (#5907 brief #29 PR 3a) *(fix attempt - still being verified)*
+
 ## v0.0.28-P4681
 
 - Housing, the itemization pass and the Loot Tables player document shipped with no posted roadmap line
