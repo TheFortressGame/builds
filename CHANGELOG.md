@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4681
+
+- Housing, the itemization pass and the Loot Tables player document shipped with no posted roadmap line
+
+Behind the scenes:
+- The stats overlay's tab buttons take HUD_SURFACE_RADIUS in both modes (2 to 8) (#5907 brief #29 PR 1 of 3)
+
 ## v0.0.28-P4677
 
 - Maintenance build (no player-facing changes in this range).
