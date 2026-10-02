@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4648
+
+- Cloth, leather and plate; a drop table for every creature; boss and named specials; every balance number in a table
+- The fog of war stays fog underground - darkness and the hero's light reach only what is not in fog *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The whole cave repainted in the picked look - every panel one Codex painting, overlapped and blended so no seam shows
+
+## v0.0.28-P4645
+
+- The Bandit Chief's camp - a crowd of guards until the Ranger draws them off, then today's four for good; no bow in this arc
+- Each 2D attack draws at its own factor on his walk scale, so he stays his size when he swings *(fix attempt - still being verified)*
+- Builds take 10 or 30 minutes; a Housing category and a Housing mode
+
+Behind the scenes:
+- The DIRTY alarm finds a lane's job worktree by its prefix (prog-, cm, gui-, hero-...) - its first live alarm (#6818) could only say 'author unknown'
+
 ## v0.0.28-P4641
 
 - Maintenance build (no player-facing changes in this range).
