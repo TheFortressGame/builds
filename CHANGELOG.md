@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4765
+
+- "everything" leaves an existing player and fortress name alone instead of renaming to Debug
+
+Behind the scenes:
+- The daily line exempts a batch Nathan gave a lane - his mid-turn messages count, and the exemption outlives the hour he watches
+
 ## v0.0.28-P4763
 
 - The rock between his ground and the camera stands a low rim, so the hall never hides him
