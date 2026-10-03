@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4760
+
+- A scene change saves again once the new scene is ready, so the fort's plans hand-offs are on disk the moment they fire
+
+Behind the scenes:
+- The player is always visible, in every interior and area, unless on a declared secret path (Nathan 2026-10-03 12:31 PM)
+
 ## v0.0.28-P4757
 
 - Resolve named numeric consts in config fields
