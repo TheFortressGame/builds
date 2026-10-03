@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4757
+
+- Resolve named numeric consts in config fields
+
+Behind the scenes:
+- The one projection owner reads its axes off an isometric TileSet; native-coverage counts the owner's hand-math, never its callers
+- A lane's per-job tree or a Codex job tree idle 14 days is salvaged and removed
+- Lair_open_toward projects through IsoProjection.metre_basis - CaveIsoShell.screen_of goes
+- The conformance verdict comment posts as UTF-8 bytes - a verdict citing the index's section sign made GitHub reject it, so a STOP posted no reason
+- Retired lane homes are reaped (salvaged first) and the disk projection sees a drain behind a reclaim
+- The conformance gate runs on the `sonnet` alias, not a pinned claude-sonnet-4-6 - measured first: it catches an owner hit the pin passed (#6936 item 5)
+- Conformance-flip-rate gains -DiffFile (a known-verdict control), -Model (measure a model before the gate adopts it) and keeps every verdict's text (#6936 item 5)
+- Conformance-flip-rate.ps1 - re-run the required conformance check's own prompt on past governed diffs and count verdict flips (#6936 item 5)
+- The weekly reach review gains a sixth lens - prune by reach: a mechanism no one read or acted on in 14 days is a removal candidate, filed as one issue the Tech Lead acts on (#6936 item 7)
+- The Daily Digest leads with what is playable and what is verified fixed; merges come second (#6936 item 4)
+- The driver's open-issue/PR reads can no longer be silently truncated - one DD-GhList read with a 2000 limit, and a read that returns the limit throws
+
 ## v0.0.28-P4744
 
 - Each panel set wears its own detail swatches - the lair no longer wears the rat cave's grain *(fix attempt - still being verified)*
