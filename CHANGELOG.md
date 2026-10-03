@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4766
+
+- Fortress/Party host the 4th column, no stray doll, aligned section lines, MASTERY tracks, house icon (batch 10-03)
+
 ## v0.0.28-P4765
 
 - "everything" leaves an existing player and fortress name alone instead of renaming to Debug
