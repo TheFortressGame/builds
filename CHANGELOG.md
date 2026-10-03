@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4744
+
+- Each panel set wears its own detail swatches - the lair no longer wears the rat cave's grain *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A relay is DELIVERED only with a receipt - a token at the end of the message, read back from the peer's own transcript; failures never say "delivered" (#6936 item 2, step 3)
+- BillingChartRender publishes what rendered and files its own alert when a generator dies
+- The Overwatch digest carries only the lanes a model is needed for, and goes to the Overwatch's real account; a DEAD lane reaches the console by code (#6936 item 2, step 2)
+- Every lane's state as data - lane_state.py reads the registry, the pin, `claude agents --json` and the last STATUS, and the daily self-check names any DEAD lane (#6936 item 2, step 1)
+- Nathan's queue selects the DECISION: line OR the needs-nathan label, through the one decision-line definition the gate now shares
+- A mid-run account-limit refusal is the guard's yield, not a both-accounts failure; the alert says Unknown instead of guessing
+- A HUD window's shown-state has one owner - HUDWindow.set_window_shown; six Windows-list rows + the layout reset route through it, the lambdas and both widget trios go (#5907 brief #38)
+- The Overwatch is restored on B - the standing row follows its new chat
+- A planned capacity window defers a routine instead of filing needs-nathan; the failure issue's re-run line names -Which (#6937, #6939)
+- The burn window - a time-boxed, per-lane exemption from the A ceiling, so the refactor lane can spend A's last points before its reset; the refactor nudge relays on the lane's own account
+- The MINT MARGIN - no new chat is minted on A at or over 90%; a rotation that cannot mint anywhere is POSTPONED until a reset
+
 ## v0.0.28-P4731
 
 - The lair laid out as his confirmed read of mockup 6 - his floor at the top, the path up the left, sky down the right, the cave out barred while Ashkarr lives
