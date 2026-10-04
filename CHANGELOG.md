@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4779
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Box capture: no lane renders the launcher saves list (RosterScreen) - capture-component collapses it and ignores -H; capture-state drives past it
+- The lease fails closed and the native counter counts aliases - the two gates Codex beat, plus both moves as agent-eval replays
+- The Codex reviewer trial - Codex reviews six diffs with known answers, read-only, graded caught/missed/false alarm (#6936 item 1)
+- Every save-screen and sign-in button is UIHelpers.make_bar_button - doors, New Fortress, soon doors and both Cancels take cant_afford, the identity action maxed; contract test first (#5907 brief #41, #6990)
+
 ## v0.0.28-P4775
 
 - Test_minimap_interior_one_texture failed whenever test_hero_screen_placement_contract ran first - that suite left WorldArtSet on Detailed and never handed it back, and the minimap test's 0.003 colour bound is tighter than set_pixel's 8-bit truncation (up to 1/255), which Detailed's darkened rock exceeds by 0.0033; the placement suite now restores the set and the bound is one 8-bit step (red on main 521db7ee4 with the pair, blocked #6998)
