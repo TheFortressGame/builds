@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4769
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- "confirm a spend, then act" has one owner - ConfirmationModal.confirm_spend; forge, research, building improve and the row cost button route through it (#5907 brief #39)
+- Lanes.json - the Overwatch row follows its rotation to v2, the first bg-pin lane (#6936 item 8)
+- The bg-pin trial - a lanes.json row with "launch": "bg" mints its successor as a native --bg --remote-control session, the supervisor stays the respawner (#6936 item 8)
+
 ## v0.0.28-P4766
 
 - Fortress/Party host the 4th column, no stray doll, aligned section lines, MASTERY tracks, house icon (batch 10-03)
