@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4817
+
+- One badge placement path - a badge under a clipping ancestor is never cut
+- The housing mode icon's import files are committed with mipmaps on - #6989 committed housing-flat.png (and its testing copy) without .import files, so every checkout generated mipmaps/generate=false and test_all_art_png_imports_generate_mipmaps failed on any PR that selected it; the settings copy the sibling mode icons (command-flat: VRAM compressed, mipmaps on)
+
+Behind the scenes:
+- The vision reviewer - a candidate icon judged in place beside its siblings, proof of sight required, replay eval 6/6 (#7069 step 4)
+- The art approval gate - production art merges only with SOURCE.md quoting Nathan's approval (#7069 step 5)
+- Three glyph-pipeline house drafts for Nathan's pick, the testing/ folder ignored by the engine, and the SOURCE.md record (#7069 step 3)
+- The art icon gate - a UI icon meets the art canon and carries its SOURCE.md record, and an exemption's colour claim is measured (#7069 step 2)
+- Docs/art-canon.md - the one art rulebook, newest ruling wins, every rule sourced; the four art guides point to it (#7069 step 1)
+- BADGEPLACE - an alert badge built or re-positioned outside NotificationBadge fails the modularity scan (Nathan 2026-10-04 5:56 PM: "make this formalized so it cannot happen again")
+- The Mason's and Thresher's houses are built (#6911) - quest master §2/§5/§6/§9 caught up; the Walls finale is unblocked
+
 ## v0.0.28-P4808
 
 - A portrait tablet lays the Equipment window out as a phone - the side column only where the hero view fits beside it
