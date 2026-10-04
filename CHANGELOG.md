@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4775
+
+- Test_minimap_interior_one_texture failed whenever test_hero_screen_placement_contract ran first - that suite left WorldArtSet on Detailed and never handed it back, and the minimap test's 0.003 colour bound is tighter than set_pixel's 8-bit truncation (up to 1/255), which Detailed's darkened rock exceeds by 0.0033; the placement suite now restores the set and the bound is one 8-bit step (red on main 521db7ee4 with the pair, blocked #6998)
+
+Behind the scenes:
+- Dimming behind a popup has one owner - UIHelpers.make_scrim; 18 files route through it, gear menu's 0x0 dim deleted, no tap behaviour change (#5907 brief #40)
+- The lean relay - every box relay runs as a 2-3 call Haiku delivery with no CLAUDE.md, memory, hooks, MCP or skills (#6936 item 2)
+- The Codex replay eval - replay past briefs and bugs on Codex in an isolated clone, graded by the gate, the merged PR's tests and a leak check (#6936 item 1)
+- The refactor program reads today's spend from the daily line and matches queued briefs by number
+
 ## v0.0.28-P4769
 
 - Maintenance build (no player-facing changes in this range).
