@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4808
+
+- A portrait tablet lays the Equipment window out as a phone - the side column only where the hero view fits beside it
+
+Behind the scenes:
+- Every build-publish JSON send goes from a file - the failure-issue and delta-base payloads too (#7057, follow-up to #7060)
+- Reach review lens 4 names each automation-filed issue class's ROUTER, not just its label (#6417, #7057)
+
 ## v0.0.28-P4805
 
 - The release and Discord payloads go out from a file - a "§" in a commit title failed every publish since run 701
