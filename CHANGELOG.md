@@ -4,6 +4,33 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4805
+
+- The release and Discord payloads go out from a file - a "§" in a commit title failed every publish since run 701
+- The loot's two view buttons - smaller doll for more loot, smaller icon-only tiles - kept for the player
+- The Equipment window fills a desktop - doll column beside a loot that wraps by its width
+- Every mode-nav entry expands to show its name; stats overlay Close whole at 540 (#6912, #6851) *(fix attempt - still being verified)*
+- Every building gets a milestone - one reusable "built" card, named per building
+- The live stage reads card 1 at 16x - the 4x instrument's row quantisation was the whole 0.5 px bar
+- Merge-pr phantom check prints only the branch's own deletions/reverts; stale-base paths become a count
+
+Behind the scenes:
+- A failed build reaches someone - the CI sentinel folds a streak's issues into one, pages the Tech Lead and the console at the second failure, and alarms when no build has published for 3 h past a merge (#7057, #7028)
+- The cancel is a GOLD OUTLINE - Nathan's mockup pick (#7005, 3:04 PM)
+- Autonomous work caps at 85% of the week, and the last 2 hours before each reset are a standing refactor burn window (Nathan 2026-10-04 2:44 PM)
+- The daily line is CUMULATIVE - 15% a day since the weekly reset, accruing by the hour, unused carried forward (Nathan 2026-10-04)
+- The FINAL button colour rule - green yes, red danger, neutral back-out, grey disabled only
+- Nathan's button colour rule - green yes, red no, grey not clickable - in the gates-and-popups card and DECISIONS.md
+- The item card's content moves whole to GearDetailConfig - gear_doll.gd 1752 to 1449 lines
+- The soak judges engine objects within one phase and the nightly pins its adapter - #6447's "object growth" was the instrument
+- The selector self-test is green again - test_inject_all_gear_coverage was an integration suite by accident of name; plus the deleted-suite case #6768 asked for
+- The Storyline Bible runner judges the STAGED diff - a line-ending false dirty no longer reports an undelivered bible
+- The Archer arc is built - quest master §8 caught up to #3977/#4214/#6787
+- The shipped salvage line in the itemization section
+- Rotate the test ledger by month - split the 59 MB ledger.jsonl by ts, a rejected push files its own alert
+- CODEX-REVIEW - Codex as a read-only, advisory second-family reviewer on game-code and refactor-brief PRs, a week's trial
+- Handbuilt_scrims counts the dim however it is spelled - eight copies stood unseen (rebased 1 to 9)
+
 ## v0.0.28-P4779
 
 - Maintenance build (no player-facing changes in this range).
