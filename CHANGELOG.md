@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2491
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4911
+
+- The five Bash PreToolUse guards run in one process - same verdicts, fail-closed
+- The model A/B counts each merged PR's total cost - the lane, the Tech Lead's review and the rework after a BLOCK
+- The popup door registers SaveConflictDialog - main was red on test_every_popup_file_has_a_row_or_an_exclusion after #7169
+- True line of sight - Ashkarr out of sight until the top of the path, then everything between in view
+- Every box-ops entry point that calls gh sets TZ once - no tzutil per gh call
+
+## v0.0.28-P2486
+
+- The painted skin in the lair as a draft for Nathan's walk (#6796, #6561)
+- When both copies of a fortress changed since they last synced, the roster asks which to keep
+
+Behind the scenes:
+- The accounts doc and the account-sync owner row describe the sync base and packed uploads, not last-write-wins (#7169, #7157)
+
 ## v0.0.28-P2483
 
 - Maintenance build (no player-facing changes in this range).
@@ -129,7 +149,7 @@ Behind the scenes:
 
 ## v0.0.28-P4852
 
-- A weapon he is not using is not drawn - it shows only when drawn *(fix attempt - still being verified)*
+- A weapon he is not using is not drawn - it shows only when drawn
 - The roster waits for the account pull before Load / New Fortress; a pull is dropped if its account changed
 
 Behind the scenes:
@@ -376,7 +396,7 @@ Behind the scenes:
 ## v0.0.28-P4706
 
 - Per-trip object split and node-class histogram
-- His skeleton stands in the outfit kit's rest, so the Ranger pauldron sits on his shoulder where the pack puts it *(fix attempt - still being verified)*
+- His skeleton stands in the outfit kit's rest, so the Ranger pauldron sits on his shoulder where the pack puts it
 
 Behind the scenes:
 - LocalStorage reads and writes have one owner - WebJs.storage_get / storage_set / storage_remove; 15 sites in crash_beacon, cheat_manager and web_update_notifier route through it (#5907 brief #34)
@@ -387,7 +407,7 @@ Behind the scenes:
 - Cracked Leather ships option 2, the lighter brown
 - The web launcher compiles again - entry_shell names no game class; the portability gate derives its deny-list from the project; the deploy fails a launcher that does not compile (#6845 regression)
 - The self-check reads web lag in one time zone (a 21-min lag read as 261), and the step-4 self-test hashes outside the repo and keeps git's error
-- A stowed hip weapon hangs on the belt he wears - the anchor read off the garment's own belt, the hilt against it *(fix attempt - still being verified)*
+- A stowed hip weapon hangs on the belt he wears - the anchor read off the garment's own belt, the hilt against it
 
 Behind the scenes:
 - A blockout is shown beside a layout read of the mockup, never as the look; an organic room is ONE generation cut into chunks; the look merges only on an in-game capture beside the mockup plus a blind grade (Nathan 10-02 10:34 AM, the lair board)
@@ -699,7 +719,7 @@ Behind the scenes:
 ## v0.0.28-P4522
 
 - No Treatise Discovered card when the fortress is repaired
-- Bram stands a little taller than the hero, in the cabin and on the Vale road *(fix attempt - still being verified)*
+- Bram stands a little taller than the hero, in the cabin and on the Vale road
 
 ## v0.0.28-P4520
 
@@ -728,7 +748,7 @@ Behind the scenes:
 
 ## v0.0.28-P4509
 
-- He stands in front of his shelf of bowls, with nothing to walk behind *(fix attempt - still being verified)*
+- He stands in front of his shelf of bowls, with nothing to walk behind
 
 ## v0.0.28-P4508
 
@@ -985,7 +1005,7 @@ Behind the scenes:
 ## v0.0.28-P4391
 
 - Indoors he turns to the mob as it is drawn - the swing's direction goes through the iso seam
-- A hip weapon hangs at his belt, swung clear of his leg by the engine's spring bone *(fix attempt - still being verified)*
+- A hip weapon hangs at his belt, swung clear of his leg by the engine's spring bone
 - Head cover asked of the meshes a part takes; a swing in aim mode keeps his facing (#6459, #6461)
 - A portrait takes its window's shape - portrait_aspect grows the frame's short side (GUI v7, Nathan 2026-09-27)
 
@@ -1046,7 +1066,7 @@ Behind the scenes:
 
 - A bar button's label counts toward its width - Reset view and Reset to defaults were empty boxes
 - Portrait A/B switches + GPU fields in Copy game data - instrumentation for the device-only streaks
-- The handle sits in his fist's hole, measured from his curled fingers and palm - not on the finger bones *(fix attempt - still being verified)*
+- The handle sits in his fist's hole, measured from his curled fingers and palm - not on the finger bones
 - A Controls settings tab - every shortcut, rebind by pressing a key, reset to defaults
 - The orphan detector skips a chat a rotation retired, and its log is writable again
 - Repo-backup never uploads a bundle to a public bucket - the only R2 bucket the box reaches is the public website *(fix attempt - still being verified)*
@@ -1057,7 +1077,7 @@ Behind the scenes:
 ## v0.0.28-P4349
 
 - The alpha's two popups - he blocks the trail on sight, the way opens when he dies; one spawn-beat table for every guard
-- At ease he wears his weapon - hip or back, tip down - and draws it to fight *(fix attempt - still being verified)*
+- At ease he wears his weapon - hip or back, tip down - and draws it to fight
 - One named mob per common, 5% on any spawn, gold only; commons lowercase, named and bosses capitalised
 - The disk tiers' Overwatch message reaches Overwatch - quote spaced args, and never skip or fake a send (#6386 item 3) *(fix attempt - still being verified)*
 
@@ -1155,7 +1175,7 @@ Behind the scenes:
 
 - The expanded map's title row is ModalHeader's - the shared X, and a pink QA-only Reveal map chip
 - The hero view turns him (arrows + drag) and plays Walk/Run/Attack as one-of toggles
-- He holds each weapon in the pack's own hold through Godot's modifiers - arm whole, hand exact *(fix attempt - still being verified)*
+- He holds each weapon in the pack's own hold through Godot's modifiers - arm whole, hand exact
 - Only inside draws Storybook; outside keeps your style *(fix attempt - still being verified)*
 - The portrait's frame zoom eases in and out; portrait_turn_target() for arrow steps
 - Tapping the hero in his big view no longer closes it; Escape or the X do
@@ -1173,7 +1193,7 @@ Behind the scenes:
 
 ## v0.0.28-P4276
 
-- Revert #6283's holds retarget - his arm stays whole; an arm-integrity test guards any future hold *(fix attempt - still being verified)*
+- Revert #6283's holds retarget - his arm stays whole; an arm-integrity test guards any future hold
 - GLYPH counts a line that only MOVED within a file as not added
 - Every style pick draws Storybook for now, so the cottage is one room *(fix attempt - still being verified)*
 
@@ -1650,7 +1670,7 @@ Behind the scenes:
 
 - Run-soak gets a real -NoTabChurn switch, and its proof of work asks for scene trips, not tab presses *(fix attempt - still being verified)*
 - The clock hook adds a RETURN BRIEF when Nathan's last message in a chat is 90+ min old
-- The registered height is the WHOLE sprite, not the shoulder *(fix attempt - still being verified)*
+- The registered height is the WHOLE sprite, not the shoulder
 - The cron-slot self-test's "no gh" case made a REAL API call, so its REST fallback had never run *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -4522,24 +4542,10 @@ Behind the scenes:
 ## v0.0.28-P2495
 
 - Windowing polish (Area rename, Size+Font, three-line resize grip) + Skinny mode
-
-Behind the scenes:
-- Interim — HUD windowing polish + Skinny mode (Area rename, Size+Font gear, three-line resize grip, skinny toggle)
-- Approved craftsman self-task flows + wandering archer + Warrior-before-Archer + map-progression note
-- Add a Usage header for the charts in the Technical review
-
-## v0.0.28-P2491
-
 - Roster round 3 — create-not-start, actions below list, visible QA toggle, level/played/time cards, Switch Fortress, playtime
 - Fold crash analysis into Daily Brief
 - Make the Player Documents post text-free — just the PDFs, no bullets
 - Footsteps way sparser + quieter (Nathan: "too many and too loud")
-
-Behind the scenes:
-- Bigger popup images + Woodsman P2 / Mason / Thresher flows + Librarian unlock correction
-
-## v0.0.28-P2486
-
 - Roster QA round 2 — select/Load/Delete, character naming, 3 slots, session lock, explore persistence; launcher = one Start button (1.1.58)
 - Mute-at-boot actually mutes, version display in sync, door cleanup
 - Session_ms/save_kb + freeze detection in crash beacon
@@ -4928,6 +4934,10 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim — HUD windowing polish + Skinny mode (Area rename, Size+Font gear, three-line resize grip, skinny toggle)
+- Approved craftsman self-task flows + wandering archer + Warrior-before-Archer + map-progression note
+- Add a Usage header for the charts in the Technical review
+- Bigger popup images + Woodsman P2 / Mason / Thresher flows + Librarian unlock correction
 - Charts-only for token usage - drop the 80% prose exception + record HUD windowing on roadmap
 - Add in-game 'Report a bug' button to Placeholder (v24)
 - Interim build — audio wired (SFX batch-2 + music beds + hooves + summaries, v0.0.28)
