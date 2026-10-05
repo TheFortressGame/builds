@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4825
+
+- The Credits screen - Options drawer row, renders assets/credits/credits.json (#7069 part 6)
+- The Mason's Walls quest - three Defend losses after he moves in, he brings the plans
+
+Behind the scenes:
+- The art-branch triage - 34 art/* branches archived to an off-repo bundle and deleted, 550 unpicked images not landed
+- Credit the housing house glyph - #7079 merged on a head cut before the credits gate, which left main red
+- The Housing icon is the glyph-pipeline house (Nathan's pick 1)
+
 ## v0.0.28-P4820
 
 - Maintenance build (no player-facing changes in this range).
