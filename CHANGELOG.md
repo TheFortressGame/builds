@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4921
+
+- Piper's and the Ranger's first meetings read full screen, the 3D warning locks its chrome, the door words come from GameStrings, and the Storyline Art Bible prints presentation and event (#6816 PR b)
+- A mob looks where it walks whichever way its drawing faces - per-set art facing *(fix attempt - still being verified)*
+
 ## v0.0.28-P4919
 
 - Every installer runs from its own deploy dir - one Copy-ToDeploy helper skips the self-copy (50 installers)
