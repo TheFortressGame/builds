@@ -4,10 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4862
+
+- The fleet board lists a decision by label OR an opening DECISION: line *(fix attempt - still being verified)*
+- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap *(fix attempt - still being verified)*
+- The phase1 snapshot suites reset the game they maxed; the window-press suite starts clean
+- Attachments are posts too - PDFs redacted and text files scrubbed at upload, the 6 past attachments replaced in place, the gate refuses an unscrubbed uploader
+- The digest and meta-review agents post only through post-brief.py, the sanitized poster - no more curl recipes (#7114 residual)
+
+Behind the scenes:
+- The daily self-check reports every label a workflow or box-ops script selects on that the repo lacks
+
 ## v0.0.28-P4855
 
-- Every Discord writer goes through the name sanitizer; a static gate refuses a bypass (#7114 part 2) *(fix attempt - still being verified)*
-- One Discord sanitizer replaces every form of Nathan's real name with 'Shard' and refuses a survivor; a sweep fixes past posts (12 bot posts edited; the releases webhook's run as a workflow) *(fix attempt - still being verified)*
+- Every Discord writer goes through the name sanitizer; a static gate refuses a bypass (#7114 part 2)
+- One Discord sanitizer replaces every form of Nathan's real name with 'Shard' and refuses a survivor; a sweep fixes past posts (12 bot posts edited; the releases webhook's run as a workflow)
 
 Behind the scenes:
 - The confirmation button height is derived - ThemeConstants.button_text_height() (the button_text font's line height + the pill margins, 43) replaces the typed 36 that never bound; corners 7 to 9 px; the door test pins it exactly
