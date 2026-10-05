@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2460
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4880
+
+- Knight plate, heavy-rusted, mailed below the breastplate; one wear script for every gear set
+- A picker row tap defers its callback so the press is never left unhandled
+- The window-press suite slides off a control by motion before it releases off-screen
+- MTKBTSVC restarts hourly, not daily - the installer and the box-contract heartbeat agree with the live task *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Re-measure the owner-check on the shipped model (3 runs per case, flips counted) + owner rows for credits, the box-captures publisher and two unowned art jobs
+- Copy game data names every push's outcome and the cloud copies (#7090 instrumentation)
+
 ## v0.0.28-P4874
 
 - A conformance CAUTION merges only with its reason on the PR - a later TECH-LEAD review that rules on it, or a CAUTION-ACCEPTED line (A console's same-job review, 10-05)
@@ -4514,12 +4529,6 @@ Behind the scenes:
 - Trust pass 2 — drop background reaps, add exclusions + release-health counters
 - Options drawer → Windows list, retire Map/Log edge tabs — windowing PR5/6
 - Suf batch-2 SFX (3 combat + 5 redos) + fold sound-coverage audit into the Daily Digest
-
-Behind the scenes:
-- Interim build — telemetry trust pass + iPad memory drop (v0.0.28)
-
-## v0.0.28-P2460
-
 - Unified in-game character roster replaces Continue/New-Game
 - Run-control window (readout + Pause + Run Details), both modes — windowing PR4a/6
 - Meadow/arena split + zone naming + state-map borders
@@ -4890,6 +4899,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim build — telemetry trust pass + iPad memory drop (v0.0.28)
 - Interim build — push unified roster to all surfaces (v0.0.28, base-E4)
 - Gnarled club to 1 damage (match other starters; equipped-clamp still guarantees the tutorial win)
 - Flag Equip/Armed/Builder beats as needing new art so Painterly sees them
