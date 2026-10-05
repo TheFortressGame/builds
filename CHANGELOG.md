@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4837
+
+- The North Road's blizzard plate waits for Nathan's pick (PENDING_ART), the physics baseline takes both exempted hits (43), and merge-pr hands over to the deployed copy and watches ratchet baselines
+
+Behind the scenes:
+- A tap outside a confirmation's card is its cancel and so is Escape - the nine confirm dialogs and the spend card, through wire_dismiss (#5907 brief #42 PR 2)
+- Premise / blocker / note labels on every review finding, and the Codex reviewer counts leaked codex processes per run (#6936, Suf's follow-ups 2 and 4)
+- Every shipped asset resolves to the family that credits it - Tabler, Feather and Material icons join, vendor terms on file, the gate refuses an uncovered file (#7069 part 6)
+- The Saves lane's row (minted 10-04 11:00 PM for #7090); the record check also reports a lane missing from the record
+
 ## v0.0.28-P4832
 
 - The Credits screen renders Godot's licence and bundled components (#7069 part 6)
