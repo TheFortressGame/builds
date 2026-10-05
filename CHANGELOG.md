@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4820
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- One attribution manifest the in-game Credits screen will render, and a gate that every licence is allowed, on file and credited (#7069 part 6)
+- Cutscenes come to Nathan first - ArtAutoPromote stops self-merging, the 112 plates on main are accepted as-is, the approval gate covers cutscenes
+- A retired lane never owns a question, an explicit LANE: line wins; the Equipment window is GUI's and item data Itemization's (lanes scope + owners row)
+
 ## v0.0.28-P4817
 
 - One badge placement path - a badge under a clipping ancestor is never cut
