@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4832
+
+- The Credits screen renders Godot's licence and bundled components (#7069 part 6)
+- The North Road climbs in switchbacks past the avalanche into deep snow - the blizzard card closes it
+
+Behind the scenes:
+- The lanes.json record syncs from the live registry and the daily self-check reports any drift (9 of 15 rows were stale)
+- A retired pin's same-title twin is archived at any age - the 09-27 Overwatch twin outlived its pin's teardown
+
 ## v0.0.28-P4828
 
 - Badges hide behind a raised window; inventory tiles are never styled as equipped
