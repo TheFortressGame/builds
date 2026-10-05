@@ -4,6 +4,31 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2483
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4903
+
+- The game-speed and move-speed cheats are saved with the fortress and come back on reload (Nathan 10-05)
+- A sharpened tool opens every barrier its plain tool opens - one tool ladder in LockEvaluator
+
+Behind the scenes:
+- Four recipe claude -p calls move to haiku; the auth probe names a model at all
+- The lane model A/B report measures per merged PR and guards the Sonnet arm; PC and NPC Models on Sonnet
+
+## v0.0.28-P2479
+
+- The Arena's Fighter is one figure - the duel art and 1.80 m as a person and as a mob
+
+Behind the scenes:
+- The Codex coder pilot runs to 10-17 - the image reserve holds briefs until the weekly reset
+
+## v0.0.28-P2477
+
+- Codex keeps a reserve for images - a coder-pilot run waits when usage passes its share of the window or the week *(fix attempt - still being verified)*
+- Box-poller stops spawning 87 processes a minute - process churn drives the #6661 File leak
+
 ## v0.0.28-P2475
 
 - Maintenance build (no player-facing changes in this range).
@@ -4516,29 +4541,10 @@ Behind the scenes:
 ## v0.0.28-P2486
 
 - Roster QA round 2 — select/Load/Delete, character naming, 3 slots, session lock, explore persistence; launcher = one Start button (1.1.58)
-
-Behind the scenes:
-- Charts-only for token usage - drop the 80% prose exception + record HUD windowing on roadmap
-- Add in-game 'Report a bug' button to Placeholder (v24)
-
-## v0.0.28-P2483
-
 - Mute-at-boot actually mutes, version display in sync, door cleanup
 - Session_ms/save_kb + freeze detection in crash beacon
 - Wire batch-3 beds — combat swap, arena/hut, hooves + mgmt single bed
-
-Behind the scenes:
-- Interim build — audio wired (SFX batch-2 + music beds + hooves + summaries, v0.0.28)
-
-## v0.0.28-P2479
-
 - Overnight close-out — library/retreat plates, wood/stone currency, forge/treasury launcher
-
-Behind the scenes:
-- Interim build — overnight art close-out (library/retreat/currency/launcher, v0.0.28)
-
-## v0.0.28-P2477
-
 - Actions window + visible resize-corner grip — windowing completion
 - Organic area partition — terrain-grown zones + smoothed state-map borders
 - Librarian quest part 2 - Perrin joins the fort, blueprint unlocks the Library
@@ -4922,6 +4928,10 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Charts-only for token usage - drop the 80% prose exception + record HUD windowing on roadmap
+- Add in-game 'Report a bug' button to Placeholder (v24)
+- Interim build — audio wired (SFX batch-2 + music beds + hooves + summaries, v0.0.28)
+- Interim build — overnight art close-out (library/retreat/currency/launcher, v0.0.28)
 - Interim — HUD windowing complete (all 6 windows + Actions + visible resize grip)
 - Interim build — organic area partition + curved state-map borders (v0.0.28)
 - Interim build — Librarian quest + explore-death modal + club balance (v0.0.28)
