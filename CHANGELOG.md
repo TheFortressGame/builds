@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4828
+
+- Badges hide behind a raised window; inventory tiles are never styled as equipped
+
+Behind the scenes:
+- The Godot engine's MIT notice and the OFL fonts join the credits; the gate requires the engine family and a covering family for every shipped font (#7069 part 6)
+- Merge-pr refuses a green that never saw a gate moved on main since its static-gates run; the sweep freshens idle ones (#7079 left main red)
+
 ## v0.0.28-P4825
 
 - The Credits screen - Options drawer row, renders assets/credits/credits.json (#7069 part 6)
