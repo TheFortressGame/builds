@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2467
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4887
+
+- The soak records the session's display state; a console run with no monitor reads INCONCLUSIVE for handles *(fix attempt - still being verified)*
+- The roster's list is dropped when the chooser replaces it; a repopulate with no list on screen waits for the next build
+
+Behind the scenes:
+- INHERIT-CHECK is not machine-checked - 5 of 23 recent PRs name owners that are in no registry
+- Backfill seven owners recent PRs named - AccountSync and StoryBeatsConfig into the JSON twin, BuildingModePicker, the icon generator, SeatBand and the story counters into both (#6414, unblocks #7110)
+- The Codex refactor pilot - mechanical briefs under Suf's contract, 2 a day to 10-12, one gaming flag pauses it (#6936 item 1, #7151)
+- Codex coder trial under Suf's contract (spec + one test, no gate, no commit) and the anti-gaming review lens (#6936 item 1)
+
 ## v0.0.28-P2460
 
 - Maintenance build (no player-facing changes in this range).
@@ -4517,12 +4532,6 @@ Behind the scenes:
 - Web-deploy cancel-in-progress false + lock the one-release-stream invariant
 - Death modal + 50% wallet loss on explore death (gear exempt)
 - Summary-bleed fix + footstep seam + sub-state bed override API
-
-Behind the scenes:
-- Interim build — Librarian quest + explore-death modal + club balance (v0.0.28)
-
-## v0.0.28-P2467
-
 - Batch the downscale-revert git checkout (E14 command-length failure) — epoch E15
 - Tutorial_armor card art — patched-hide leggings (Nathan's Codex pick, cell 1)
 - Drop texture cap 256->128px for 2GB iOS load survival — epoch E14
@@ -4899,6 +4908,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim build — Librarian quest + explore-death modal + club balance (v0.0.28)
 - Interim build — telemetry trust pass + iPad memory drop (v0.0.28)
 - Interim build — push unified roster to all surfaces (v0.0.28, base-E4)
 - Gnarled club to 1 damage (match other starters; equipped-clamp still guarantees the tutorial win)
