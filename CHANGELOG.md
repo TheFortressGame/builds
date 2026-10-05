@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4844
+
+- The blizzard plate is Nathan's v1 pick - north_snow promoted, drafts removed
+- One owner for the credits - the gear menu page renders the manifest (#7069 part 6) *(fix attempt - still being verified)*
+- The way out holds while Ashkarr lives - "You can't leave when the dragon is here"
+
+Behind the scenes:
+- A confirmation button names its role and the role picks its look - ROLE_STATE (main green, destructive a new red pill, cancel a new neutral pill), card tone (default, danger, notice), the tint stopgap goes (#5907 brief #42 PR 4)
+- Merge-pr's freshness guard reads a ratchet baseline as moved only when a number rose - refactors lowering it no longer bounce every open PR
+- One confirmation card - ConfirmationModal.build_card and host_card build and host the nine confirm dialogs and the spend card; per-site differences flattened, every button gains hover and press (#5907 brief #42 PR 3)
+- The worktree reaper counts .import churn and root logs as noise, a pushed branch as delivered after 24 h idle, and publish-data trees as routine homes (154 of 199 trees read KEEP)
+
 ## v0.0.28-P4837
 
 - The North Road's blizzard plate waits for Nathan's pick (PENDING_ART), the physics baseline takes both exempted hits (43), and merge-pr hands over to the deployed copy and watches ratchet baselines
