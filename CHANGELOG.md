@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4852
+
+- A weapon he is not using is not drawn - it shows only when drawn *(fix attempt - still being verified)*
+- The roster waits for the account pull before Load / New Fortress; a pull is dropped if its account changed *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Nathan confirms the four non-ambient tracks are H&O Productions' ('They are his', 10-05 1:31 AM)
+- Landscape = desktop, not portrait - Nathan corrected his first line (1:33 AM: 'I meant landscape = desktop. Portrait makes no sense')
+- Portrait = desktop - one arrangement per screen, chosen by surface size through ScreenHost.is_phone_surface, never by platform (Nathan 10-05)
+- H&O Productions credited with Suf's permission of record and the audited audio list; FreeStylized is a free download (free-commercial), the roadmap's 'bought' corrected; an acquired family must record its source
+- Art-gaps-needsyou.json is written daily for a daily-brief reader that does not exist
+
 ## v0.0.28-P4844
 
 - The blizzard plate is Nathan's v1 pick - north_snow promoted, drafts removed
