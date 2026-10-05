@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4874
+
+- A conformance CAUTION merges only with its reason on the PR - a later TECH-LEAD review that rules on it, or a CAUTION-ACCEPTED line (A console's same-job review, 10-05)
+- The archive-sync status file can no longer stay empty, and the self-check's two silent items speak (archive-sync reader, unarmed-routine reconciliation)
+- A bundle member line needs a real bullet - a bold prose opener (**#N** ...) no longer becomes a Closes line *(fix attempt - still being verified)*
+- The world fog draws no cloud over a whole-room painting's own mountain and sky *(fix attempt - still being verified)*
+- A TEST-line merge never waits for the sweep's idle window; the stale-build alarm follows the real build rule and excuses a merge once a build started after it
+
+Behind the scenes:
+- The swap and pause confirmations build through ConfirmationModal.host_card - make_scrim dim, role buttons, outside tap and Escape the cancel, both hosted by present_modal (#5907 brief #43 PR 2)
+- Regenerate Storyline Art Bible + coverage (nightly)
+
 ## v0.0.28-P4867
 
 - The quarry draws pick #6 on Normal and Detailed; Simple keeps the ovals
