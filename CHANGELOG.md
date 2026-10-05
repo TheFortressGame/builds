@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4890
+
+- A fortress past PlayFab's 30,000-byte argument cap uploads gzip-packed
+- A rotation carries a pending lane rename to the successor; the relay finds a lane's live chat by its session uuid (Saves and iOS)
+
+Behind the scenes:
+- A 3-minute File-tag pool trace read by stack, and the pool reboot at 1.5 GB so it comes daily
+
 ## v0.0.28-P2467
 
 - Maintenance build (no player-facing changes in this range).
@@ -79,7 +87,7 @@ Behind the scenes:
 ## v0.0.28-P4852
 
 - A weapon he is not using is not drawn - it shows only when drawn *(fix attempt - still being verified)*
-- The roster waits for the account pull before Load / New Fortress; a pull is dropped if its account changed *(fix attempt - still being verified)*
+- The roster waits for the account pull before Load / New Fortress; a pull is dropped if its account changed
 
 Behind the scenes:
 - Nathan confirms the four non-ambient tracks are H&O Productions' ('They are his', 10-05 1:31 AM)
