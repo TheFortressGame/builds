@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4867
+
+- The quarry draws pick #6 on Normal and Detailed; Simple keeps the ovals
+- The dragon lair's cave mouth draws its own art - Nathan's pick #6, rock regreyed to the stones beside it
+
 ## v0.0.28-P4865
 
 - Equipment window three up (doll | loot | hero), doll button on the doll slides it beside the hero, better view icons
