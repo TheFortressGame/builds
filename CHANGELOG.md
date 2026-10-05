@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4919
+
+- Every installer runs from its own deploy dir - one Copy-ToDeploy helper skips the self-copy (50 installers)
+- He can always back out while Ashkarr lives, and the way out moves to the lair's far south
+- The console's brief carries meta only - no fleet board, no lane activity, no lane notices meant for Nathan
+
+Behind the scenes:
+- An organic room's painting is laid over the top untouched - walkable polygons traced to it, gameplay gates, no grid composite
+
+## v0.0.28-P2495
+
+- The hook-fold installer runs from its deploy dir - the deploy copy is skipped when source and target are the same
+- The landscape base canvas (960 wide) takes the three-up Equipment window, the hero column keeps the words on its buttons
+- Adding a popup file selects the popup-door suite - a registry-completeness test runs when its registry grows *(fix attempt - still being verified)*
+- Equipment hero opens only from his miniature, bigger corner box, Attack keeps his size, picture-test switches gone
+
 ## v0.0.28-P2491
 
 - Maintenance build (no player-facing changes in this range).
@@ -4535,12 +4551,6 @@ Behind the scenes:
 - Script_errors skips synthetic/gate-test JS errors
 - 07-18 QA batch — overlay toggle matrix, fog-gated rings, stone-respawn fix, tree clarity, geography borders
 - Healthy-session perf baseline + JS-error aggregate + launch privacy notice
-
-Behind the scenes:
-- Interim — HUD windowing iter2 (movement guard, popover clamp, chip removal, coords-on-minimap, skinny rework)
-
-## v0.0.28-P2495
-
 - Windowing polish (Area rename, Size+Font, three-line resize grip) + Skinny mode
 - Roster round 3 — create-not-start, actions below list, visible QA toggle, level/played/time cards, Switch Fortress, playtime
 - Fold crash analysis into Daily Brief
@@ -4934,6 +4944,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim — HUD windowing iter2 (movement guard, popover clamp, chip removal, coords-on-minimap, skinny rework)
 - Interim — HUD windowing polish + Skinny mode (Area rename, Size+Font gear, three-line resize grip, skinny toggle)
 - Approved craftsman self-task flows + wandering archer + Warrior-before-Archer + map-progression note
 - Add a Usage header for the charts in the Technical review
