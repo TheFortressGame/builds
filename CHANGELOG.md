@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2475
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4895
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- A look score never holds art from Nathan - measured pass goes into his build the same day, at most 2 hidden rounds or one working day
+- Hero-gear's heavy set is locked to the shipped rusty Knight plate - Nathan saw it in a build
+
+## v0.0.28-P2473
+
+- A daytime backstop reboot needs real memory pressure and an idle Nathan; otherwise it waits for 4-8 AM *(fix attempt - still being verified)*
+- The wake clearing is the kit - fifteen battle-aftermath pieces at real size replace the big-head figures
+- A skipped 4:40 reboot retries at the next quiet window, never more than 36 h between reboots *(fix attempt - still being verified)*
+
 ## v0.0.28-P4890
 
 - A fortress past PlayFab's 30,000-byte argument cap uploads gzip-packed
@@ -4522,19 +4540,7 @@ Behind the scenes:
 ## v0.0.28-P2477
 
 - Actions window + visible resize-corner grip — windowing completion
-
-Behind the scenes:
-- Interim — HUD windowing complete (all 6 windows + Actions + visible resize grip)
-
-## v0.0.28-P2475
-
 - Organic area partition — terrain-grown zones + smoothed state-map borders
-
-Behind the scenes:
-- Interim build — organic area partition + curved state-map borders (v0.0.28)
-
-## v0.0.28-P2473
-
 - Librarian quest part 2 - Perrin joins the fort, blueprint unlocks the Library
 - Coordinates window (Explore-only), retire minimap inline coords — windowing PR6/6
 - Web-deploy cancel-in-progress false + lock the one-release-stream invariant
@@ -4916,6 +4922,8 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim — HUD windowing complete (all 6 windows + Actions + visible resize grip)
+- Interim build — organic area partition + curved state-map borders (v0.0.28)
 - Interim build — Librarian quest + explore-death modal + club balance (v0.0.28)
 - Interim build — telemetry trust pass + iPad memory drop (v0.0.28)
 - Interim build — push unified roster to all surfaces (v0.0.28, base-E4)
