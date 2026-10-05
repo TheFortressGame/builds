@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4855
+
+- Every Discord writer goes through the name sanitizer; a static gate refuses a bypass (#7114 part 2) *(fix attempt - still being verified)*
+- One Discord sanitizer replaces every form of Nathan's real name with 'Shard' and refuses a survivor; a sweep fixes past posts (12 bot posts edited; the releases webhook's run as a workflow) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The confirmation button height is derived - ThemeConstants.button_text_height() (the button_text font's line height + the pill margins, 43) replaces the typed 36 that never bound; corners 7 to 9 px; the door test pins it exactly
+
 ## v0.0.28-P4852
 
 - A weapon he is not using is not drawn - it shows only when drawn *(fix attempt - still being verified)*
