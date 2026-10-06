@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4929
+
+- One press to leave, and no "go back in?" on the first step outside
+- The daily line has two classes - his lanes run on 20% a day this week, autonomous work keeps 15% (Nathan 10-05 9:08 PM)
+- ONE painting laid over the top, untouched and sharp - the grid is collision underneath
+- The barrier "!" counts a sharpened tool as the tool (#7173 follow-up)
+
+Behind the scenes:
+- Saves owns every platform - web, desktop and iOS exports route to it; renamed Saves and Platforms at its next rotation
+
 ## v0.0.28-P4924
 
 - Walking the Vale is smooth again - CraftsmenConfig.barrier_flag_keys is built once, not rebuilt for every fog cell *(fix attempt - still being verified)*
