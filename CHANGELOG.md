@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4933
+
+- The 36 demoted story pages read as cards - the adopted #6816 table (#6816 PR c)
+- A cloud copy this install uploaded is never a conflict
+
 ## v0.0.28-P4931
 
 - The painting's depth maps keep mipmaps like every art PNG import - main green again *(fix attempt - still being verified)*
