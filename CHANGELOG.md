@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4931
+
+- The painting's depth maps keep mipmaps like every art PNG import - main green again *(fix attempt - still being verified)*
+- The fog's rock mask is built once per room, not on every minimap tick *(fix attempt - still being verified)*
+
 ## v0.0.28-P4929
 
 - One press to leave, and no "go back in?" on the first step outside
