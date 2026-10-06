@@ -4,6 +4,29 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4954
+
+- A mob turns to the hero as DRAWN - Ashkarr looks at him on both sides in the lair
+
+Behind the scenes:
+- Painted interiors formalized - one Codex composition, the picture is the room, a check for it; new characters start from one measured row per mob (new-character card)
+
+## v0.0.28-P2532
+
+- The other three 10-06 self-check reds - two selftests read the deployed dir as a checkout, the lanes record was 32 fields stale
+- The 10-06 self-check reds - sim-player kills its whole tree, the idiom sweeps gate every PR, capture-lanes scans its own tree
+- The runtime-budget nightly writes BOM-free copies and judges python by exit code; a dry-run wire-test mode *(fix attempt - still being verified)*
+- An orphan Godot never blocks the reboot - one orphan rule in godot-proc, reaped by SmartReboot and reap-orphans
+- The structure audit measures runtime cost - shipped waste is ratcheted, content bytes reported every PR
+
+Behind the scenes:
+- A painted room runs picture first - whole-room mockups, his pick IS the room, walkable traced from it
+- The runtime budget - nightly memory and pack-size measurement of the live web build against a baseline that may only fall (#7229, phase 1)
+
+## v0.0.28-P2525
+
+- The launcher hands off with location.replace so its ~300 MB leaves the tab; Xbox skips the launcher; a tab-memory ceiling probe at /memtest/ (#7206, launcher v1.1.65) *(fix attempt - still being verified)*
+
 ## v0.0.28-P4944
 
 - Maintenance build (no player-facing changes in this range).
@@ -4573,26 +4596,9 @@ Behind the scenes:
 
 - QA3 — the Woodsman HARD-blocks the west walk; the NORTH tree returns (two trees) + build
 - Resource sampler reads the real CPU counter, not LoadPercentage
-
-Behind the scenes:
-- GdUnit pool baseline to 3 + timeout headroom; analytics govern scaling (Nathan, 2026-07-18)
-- Content-pipeline entry-point rule (new quest work starts with Story)
-- Content pipeline (Story to Painter to Maps) + published-docs list
-
-## v0.0.28-P2532
-
 - Expanded-Vale QA1+2 — data-driven story triggers, deeper fog, Woodsman #3376 wiring, north-tree gate cut + build
 - CI-throughput chart + narrated insights (queue-vs-work on the gdunit gate)
 - Monotonic update offers, session-only banner, portrait splash manifest (round 6)
-
-Behind the scenes:
-- In-run resource telemetry - the analytics name the binding constraint (CPU vs RAM) per concurrency level
-- GdUnit gate → pool of 2 concurrent suites + concurrency-headroom analytics
-- IsolateUserDir - per-run user:// isolation for gdUnit suites (the 2x-concurrency unblocker, #3381)
-- Run-gdunit-headless gains -SkipWarmup / -SlotWaitMinutes / -FailIfNoSlot (defaults unchanged)
-
-## v0.0.28-P2525
-
 - Woodsman-first gate beats + drop stale library_discovery beat
 - Librarian quest art (locked-face re-renders) + ballista + one build
 - Expanded-Vale v5 — straight roads + content placement (mobs/resources/rings)
@@ -5007,6 +5013,13 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- GdUnit pool baseline to 3 + timeout headroom; analytics govern scaling (Nathan, 2026-07-18)
+- Content-pipeline entry-point rule (new quest work starts with Story)
+- Content pipeline (Story to Painter to Maps) + published-docs list
+- In-run resource telemetry - the analytics name the binding constraint (CPU vs RAM) per concurrency level
+- GdUnit gate → pool of 2 concurrent suites + concurrency-headroom analytics
+- IsolateUserDir - per-run user:// isolation for gdUnit suites (the 2x-concurrency unblocker, #3381)
+- Run-gdunit-headless gains -SkipWarmup / -SlotWaitMinutes / -FailIfNoSlot (defaults unchanged)
 - Interim build — THE EXPANDED VALE live (v0.0.28-wip)
 - Fix stale Library-unlock gate descriptions in popup-audit
 - Race-proof interim-build trigger - per-lane trigger files replace version/code counter bumps
