@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4943
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The west gate's round is closed - its pick moves beside the lift script, the losing candidates and round scripts leave testing/
+
+## v0.0.28-P2522
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- A closed pick closes its round - losers, boards and round scripts leave testing/ (the west gate, #6787)
+- The arena's in-game captures live in evidence/, not testing/ - testing/ holds only open art drafts
+
 ## v0.0.28-P4940
 
 - The hero beside Ashkarr draws over him - a mob in a to-scale room stands its feet on its cell *(fix attempt - still being verified)*
@@ -215,7 +230,7 @@ Behind the scenes:
 ## v0.0.28-P4862
 
 - The fleet board lists a decision by label OR an opening DECISION: line *(fix attempt - still being verified)*
-- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap
+- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap *(fix attempt - still being verified)*
 - The phase1 snapshot suites reset the game they maxed; the window-press suite starts clean
 - Attachments are posts too - PDFs redacted and text files scrubbed at upload, the 6 past attachments replaced in place, the gate refuses an unscrubbed uploader
 - The digest and meta-review agents post only through post-brief.py, the sanitized poster - no more curl recipes (#7114 residual)
@@ -4572,12 +4587,6 @@ Behind the scenes:
 ## v0.0.28-P2525
 
 - Woodsman-first gate beats + drop stale library_discovery beat
-
-Behind the scenes:
-- Interim build — THE EXPANDED VALE live (v0.0.28-wip)
-
-## v0.0.28-P2522
-
 - Librarian quest art (locked-face re-renders) + ballista + one build
 - Expanded-Vale v5 — straight roads + content placement (mobs/resources/rings)
 - Reframe fortress-enter modal as 'end your journey'
@@ -4991,6 +5000,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim build — THE EXPANDED VALE live (v0.0.28-wip)
 - Fix stale Library-unlock gate descriptions in popup-audit
 - Race-proof interim-build trigger - per-lane trigger files replace version/code counter bumps
 - Interim QA build (code 59) - playtest tutorial fight + Librarian quest + death modal
