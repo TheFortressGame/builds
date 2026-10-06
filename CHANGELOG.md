@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4966
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The loot rules - five lines per map, one line per family, 2 / 3 / unique signatures by tier, relics only on map bosses, rates per explore run (Nathan 2026-10-06)
+
+## v0.0.28-P2545
+
+- Hrimgar the White, the yeti boss - his picked look at rest, wind-up and strike, his CombatConfig row and 4 m height
+- The Cartographic Institute - how much of the Vale is charted, and a survey that reveals it all for a cost
+
 ## v0.0.28-P2543
 
 - Maintenance build (no player-facing changes in this range).
@@ -4591,12 +4603,6 @@ Behind the scenes:
 - Tall-phone surface reaches the true bottom + drag top-bar floor + web text bridge emits text_changed
 - Stop the Librarian rescue from queuing a duplicate generic freed modal
 - THE GOLDEN SAVE CONTRACT — production saves are never invalidated
-
-Behind the scenes:
-- Interim - android HUD fixes for device QA
-
-## v0.0.28-P2545
-
 - THE SIGHT-COST MODEL — terrain stretches and shrinks the sight bubble (v0.0.28-wip)
 - Enforce ONE PLAYABLE VERSION at the web publish choke point
 - QA5 — mobile-safe fog shader noise + snapshot spawn-ids on the expanded map + roster-aware capture driver
@@ -5023,6 +5029,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim - android HUD fixes for device QA
 - Interim — HUD windowing iter3 (opaque fog, big-map rework, scaled resize grip, two-section Options, leak fix)
 - GdUnit pool baseline to 3 + timeout headroom; analytics govern scaling (Nathan, 2026-07-18)
 - Content-pipeline entry-point rule (new quest work starts with Story)
