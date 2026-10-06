@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4936
+
+- The map's rim is solid and the deep snow holds even with the reveal cheat
+- The minimap paints mountain, snow, snowy mountain and swamp apart
+
+## v0.0.28-P2514
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Every cost check and every credit goes through the wallet - wallet_affordable_by_currency and wallet_credit on EconomyState; wallet_raw_compares 11 to 0 (#5907 brief #46)
+
 ## v0.0.28-P4933
 
 - The 36 demoted story pages read as cards - the adopted #6816 table (#6816 PR c)
@@ -4555,13 +4567,6 @@ Behind the scenes:
 ## v0.0.28-P2517
 
 - The static light door can't crash — stop the died-young false positives
-
-Behind the scenes:
-- Race-proof interim-build trigger - per-lane trigger files replace version/code counter bumps
-- Interim QA build (code 59) - playtest tutorial fight + Librarian quest + death modal
-
-## v0.0.28-P2514
-
 - Roster round 4 — standard save-screen UX, typed-DELETE modal, segmented Regular|QA; NameEntryScreen retired (release)
 - Ship Nathan's picks — distinct story plates + rotating death art
 - Expanded-Vale draft v3 — fog pull-back + Nathan's v3 layout notes
@@ -4970,6 +4975,8 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Race-proof interim-build trigger - per-lane trigger files replace version/code counter bumps
+- Interim QA build (code 59) - playtest tutorial fight + Librarian quest + death modal
 - Trigger the round-4 release — version/code 57->58
 - Move About-docs regen check weekly to nightly
 - Retire the usage-charts card from #about — Daily-Brief-only (Nathan)
