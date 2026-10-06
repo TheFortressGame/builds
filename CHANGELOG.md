@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4980
+
+- Hrimgar in every direction - front, back, side, walks, attacks, death
+
+Behind the scenes:
+- Daily Brief refactor-progress chart since 09-01, one panel per structure-audit category, on a day-store
+
 ## v0.0.28-P4978
 
 - Desktop and Xbox browsers load packs without the phone-format textures - 20 MB less held in the tab (#7206, #7229) *(fix attempt - still being verified)*
