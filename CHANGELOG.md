@@ -4,6 +4,31 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2543
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4963
+
+- Consoles see their context size each prompt, and a /clear recommendation at 170K
+
+## v0.0.28-P2541
+
+- The night drain - nothing new starts from 03:40, a due box still busy at 06:00 arms and reboots after a grace, a daily 08:30 uptime check
+
+Behind the scenes:
+- The proposal for the three new mobs' items - Hrimgar the White, the frostling and Rimeclaw, the kuo-toa scout and Glubmaw (Nathan 2026-10-06)
+
+## v0.0.28-P2539
+
+- The cheap-model quality replay is prepared on the existing 6-task harness - runs the hour a Fireworks key exists
+- The token ledger measures wake-ups, turn lengths and re-read context per call (#7248 step 1)
+
+## v0.0.28-P2537
+
+- Model and effort policy as registry data with a daily check - high only for judgment roles or a named, dated reason
+- Lanes get no board block in the return brief, and send-to-lane refuses a status-only NEEDS CONSOLE
+
 ## v0.0.28-P4954
 
 - A mob turns to the hero as DRAWN - Ashkarr looks at him on both sides in the lair
@@ -4574,26 +4599,11 @@ Behind the scenes:
 
 - THE SIGHT-COST MODEL — terrain stretches and shrinks the sight bubble (v0.0.28-wip)
 - Enforce ONE PLAYABLE VERSION at the web publish choke point
-
-## v0.0.28-P2543
-
 - QA5 — mobile-safe fog shader noise + snapshot spawn-ids on the expanded map + roster-aware capture driver
 - GdUnit suite cap 15->25 min + phase0 envelope 60 (cap-kills over real failures)
-
-## v0.0.28-P2541
-
 - Windowing iteration 3 (opaque fog, big-map rework, scaled resize, two-section Options) — crash-fixed
-
-Behind the scenes:
-- Interim — HUD windowing iter3 (opaque fog, big-map rework, scaled resize grip, two-section Options, leak fix)
-
-## v0.0.28-P2539
-
 - QA4 — water is sight-transparent + reveal radius 14 (v0.0.28-wip)
 - Mason + Thresher quest beat outlines
-
-## v0.0.28-P2537
-
 - QA3 — the Woodsman HARD-blocks the west walk; the NORTH tree returns (two trees) + build
 - Resource sampler reads the real CPU counter, not LoadPercentage
 - Expanded-Vale QA1+2 — data-driven story triggers, deeper fog, Woodsman #3376 wiring, north-tree gate cut + build
@@ -5013,6 +5023,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim — HUD windowing iter3 (opaque fog, big-map rework, scaled resize grip, two-section Options, leak fix)
 - GdUnit pool baseline to 3 + timeout headroom; analytics govern scaling (Nathan, 2026-07-18)
 - Content-pipeline entry-point rule (new quest work starts with Story)
 - Content pipeline (Story to Painter to Maps) + published-docs list
