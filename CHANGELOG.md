@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2517
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4937
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- MapData.mountain_cells owns where the mountain stands
+
 ## v0.0.28-P4936
 
 - The map's rim is solid and the deep snow holds even with the reveal cheat
@@ -4560,12 +4571,6 @@ Behind the scenes:
 - Expanded-Vale v5 — straight roads + content placement (mobs/resources/rings)
 - Reframe fortress-enter modal as 'end your journey'
 - Expanded-Vale draft v4 — wood-entry restructure + alpha pinch
-
-Behind the scenes:
-- Fix stale Library-unlock gate descriptions in popup-audit
-
-## v0.0.28-P2517
-
 - The static light door can't crash — stop the died-young false positives
 - Roster round 4 — standard save-screen UX, typed-DELETE modal, segmented Regular|QA; NameEntryScreen retired (release)
 - Ship Nathan's picks — distinct story plates + rotating death art
@@ -4975,6 +4980,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Fix stale Library-unlock gate descriptions in popup-audit
 - Race-proof interim-build trigger - per-lane trigger files replace version/code counter bumps
 - Interim QA build (code 59) - playtest tutorial fight + Librarian quest + death modal
 - Trigger the round-4 release — version/code 57->58
