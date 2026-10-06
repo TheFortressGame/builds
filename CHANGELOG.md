@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4940
+
+- The hero beside Ashkarr draws over him - a mob in a to-scale room stands its feet on its cell *(fix attempt - still being verified)*
+
+Behind the scenes:
+- One row for whether an underground room lays any game light - CavePanels.carries_own_light (#6561, the TL review of #7220)
+
+## v0.0.28-P4938
+
+- He can walk up to Ashkarr again, and the lair lays no game light on him - his armour shows its own colour *(fix attempt - still being verified)*
+
 ## v0.0.28-P2517
 
 - Maintenance build (no player-facing changes in this range).
