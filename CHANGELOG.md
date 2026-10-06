@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4944
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Remove the orphan bone_wrap loot drafts - the item left the game 07-07, so the promote-or-delete call is delete
+
 ## v0.0.28-P4943
 
 - Maintenance build (no player-facing changes in this range).
