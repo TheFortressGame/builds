@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4974
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Every popup role button is ConfirmationModal.make_role_button - recruitment, the four forms, Leave cottage's Stay and the build card's cancel; mockup A's words on the four cards (#5907 brief #43 PR 3)
+- Past the daily line the Steward runs patrol 1 only instead of skipping (the console's budget decision, 2026-10-06)
+- Send-to-lane redirects a rotated lane's old title by base name; the storyline-bible clock resets on a landing
+- Point to the per-run rate table instead of copying its formulas; drop the dated status line (Tech Lead review of #7264)
+
+## v0.0.28-P2550
+
+- Equipment follows a phone turn, gear stats show in landscape, the log survives zoning
+
+Behind the scenes:
+- Regenerate Storyline Art Bible + coverage (nightly)
+- The itemization pipeline - Inventory, Lines, Names, Proposal, Build, Art - one map = the exterior plus its connected interiors (Nathan 2026-10-06)
+
 ## v0.0.28-P4966
 
 - Maintenance build (no player-facing changes in this range).
@@ -4591,15 +4609,6 @@ Behind the scenes:
 - Log north + wolf-den pack + barrier modals + 1-yield nodes + vale-enter fix
 - Tiered test gate - impacted selection on PRs, full suite nightly + release gate
 - Await the patch pack at web boot (the P2460 update loop); save-stamp QA authority; Switch Fortress + update-recovery policy
-
-Behind the scenes:
-- Auto-promote 13 rendered plate(s) - mason_after_boulder, mason_boulder_cleared, mason_joined_fort, mason_quarry_intro, mason_sharp_pick, thresher_after_hedge, thresher_bramble_cleared, thresher_field_intro, thresher_hedge_cleared, thresher_joined_fort, thresher_sharp_scythe, woodsman_after_tree, woodsman_first_seen
-- Auto-promote 1 rendered plate(s) - rescue_freed
-- Daily brief carries Nathan's queue (needs-nathan label)
-- Daily brief nags stalled handoff-labeled issues - the prosthetic-memory loop closes cross-lane obligations
-
-## v0.0.28-P2550
-
 - Tall-phone surface reaches the true bottom + drag top-bar floor + web text bridge emits text_changed
 - Stop the Librarian rescue from queuing a duplicate generic freed modal
 - THE GOLDEN SAVE CONTRACT — production saves are never invalidated
@@ -5029,6 +5038,10 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Auto-promote 13 rendered plate(s) - mason_after_boulder, mason_boulder_cleared, mason_joined_fort, mason_quarry_intro, mason_sharp_pick, thresher_after_hedge, thresher_bramble_cleared, thresher_field_intro, thresher_hedge_cleared, thresher_joined_fort, thresher_sharp_scythe, woodsman_after_tree, woodsman_first_seen
+- Auto-promote 1 rendered plate(s) - rescue_freed
+- Daily brief carries Nathan's queue (needs-nathan label)
+- Daily brief nags stalled handoff-labeled issues - the prosthetic-memory loop closes cross-lane obligations
 - Interim - android HUD fixes for device QA
 - Interim — HUD windowing iter3 (opaque fog, big-map rework, scaled resize grip, two-section Options, leak fix)
 - GdUnit pool baseline to 3 + timeout headroom; analytics govern scaling (Nathan, 2026-07-18)
