@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4978
+
+- Desktop and Xbox browsers load packs without the phone-format textures - 20 MB less held in the tab (#7206, #7229) *(fix attempt - still being verified)*
+- A dead mob's corpse fades and is freed after a while, in every path
+
+Behind the scenes:
+- A web/deploy change kicks a build - it reaches players only inside build-publish
+
 ## v0.0.28-P4975
 
 - Treasure teases, the snow glade past the avalanche, the drowning dock
