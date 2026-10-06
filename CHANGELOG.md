@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4924
+
+- Walking the Vale is smooth again - CraftsmenConfig.barrier_flag_keys is built once, not rebuilt for every fog cell *(fix attempt - still being verified)*
+
+## v0.0.28-P2503
+
+- The route blocker frees the main.tscn a reset_all swaps in - one fixture for 22 suites; the scrim probe names what caught its tap
+- Each art-gap pick goes to the lane that owns the art - owner as data, nothing to the console *(fix attempt - still being verified)*
+
 ## v0.0.28-P4921
 
 - Piper's and the Ranger's first meetings read full screen, the 3D warning locks its chrome, the door words come from GameStrings, and the Storyline Art Bible prints presentation and event (#6816 PR b)
@@ -4541,14 +4550,6 @@ Behind the scenes:
 - Rat immune to fists, even 1-dmg trade — win with HP intact
 - Expanded-Vale draft v2 — Nathan's layout notes + bridge/blockade marks + fogged preview
 - NPC dossier — canonical portrait references locked (Nathan's picks)
-
-Behind the scenes:
-- Trigger the round-4 release — version/code 57->58
-- Move About-docs regen check weekly to nightly
-- Retire the usage-charts card from #about — Daily-Brief-only (Nathan)
-
-## v0.0.28-P2503
-
 - Windowing iteration 2 — movement guard, popover clamp, chip removal, coords-on-minimap, skinny rework
 - Incremental gear-doll refresh — reuse the silhouette, kill the per-equip texture burst
 - Expanded-Vale layout DRAFT (#3334) — preview-only generator + guards
@@ -4949,6 +4950,9 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Trigger the round-4 release — version/code 57->58
+- Move About-docs regen check weekly to nightly
+- Retire the usage-charts card from #about — Daily-Brief-only (Nathan)
 - Interim — HUD windowing iter2 (movement guard, popover clamp, chip removal, coords-on-minimap, skinny rework)
 - Interim — HUD windowing polish + Skinny mode (Area rename, Size+Font gear, three-line resize grip, skinny toggle)
 - Approved craftsman self-task flows + wandering archer + Warrior-before-Archer + map-progression note
