@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5095
+
+- Stats level refreshes; every Fortress cost reads have/need (#7298 items 71a, 68) *(fix attempt - still being verified)*
+
 ## v0.0.28-P5094
 
 - Every load heartbeat carries the previous session's memory trail
