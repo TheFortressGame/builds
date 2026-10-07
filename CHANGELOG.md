@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5035
+
+- The kuo-toa's Barbed Fish Spear; the loot proposal empties
+- Every ground ring is the same oval - the woodsman, dock and arena rings matched to the castle's (#7300 item 25) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- State load/apply moves to HudWindowState
+- The options drawer moves to CombatHudDrawer - combat_hud.gd 1819 to 1319 lines
+
 ## v0.0.28-P5031
 
 - Maintenance build (no player-facing changes in this range).
