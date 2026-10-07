@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5094
+
+- Every load heartbeat carries the previous session's memory trail
+
+Behind the scenes:
+- The minimap snapshot moves to ExploreMapSnapshot - active_mode.gd 377046 to 371240 bytes (#5907 brief #48)
+
 ## v0.0.28-P5092
 
 - Maintenance build (no player-facing changes in this range).
