@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4982
+
+- The Vale's loot - lines renamed, boss epics, the dragon's table
+
+## v0.0.28-P2561
+
+- The impacted-test selector exits 0 explicitly - a native probe's code never leaks out as its own
+
 ## v0.0.28-P4980
 
 - Hrimgar in every direction - front, back, side, walks, attacks, death
@@ -4614,13 +4622,6 @@ Behind the scenes:
 
 - Edit Mode PR2 - snapping + grid + Nathan's default layout + Reset
 - Pre-push gate gdUnit step is tiered - impacted selection, same escalations as CI (-FullSuite to force)
-
-Behind the scenes:
-- Interim - HUD Edit Mode complete for device QA
-- Daily-brief CI analytics snapshot + Zapier/narration corrections
-
-## v0.0.28-P2561
-
 - Autosave toast on every surface + cross-milestone reload change note
 - Edit Mode PR1 - Play/Customize gate, drag-anywhere, Lock retired
 - Strip baked-in contact-sheet numbers from shipped plates + flag imageless beats
@@ -5057,6 +5058,8 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim - HUD Edit Mode complete for device QA
+- Daily-brief CI analytics snapshot + Zapier/narration corrections
 - Auto-promote 13 rendered plate(s) - mason_after_boulder, mason_boulder_cleared, mason_joined_fort, mason_quarry_intro, mason_sharp_pick, thresher_after_hedge, thresher_bramble_cleared, thresher_field_intro, thresher_hedge_cleared, thresher_joined_fort, thresher_sharp_scythe, woodsman_after_tree, woodsman_first_seen
 - Auto-promote 1 rendered plate(s) - rescue_freed
 - Daily brief carries Nathan's queue (needs-nathan label)
