@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4999
+
+- The vagabonds' re-arm anchors once; barrier copy assumes no tool and no absent NPC (#7280 item 77, #7301 items 39/82) *(fix attempt - still being verified)*
+
+## v0.0.28-P2578
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Weekly native-check routine - is a box-built tool now native in Claude Code? one decision per match
+- Pipsticks setup-change exchange - weekly sanitized copy-block, inbound decisions, no-Discord routines
+
 ## v0.0.28-P2576
 
 - Maintenance build (no player-facing changes in this range).
@@ -4640,9 +4652,6 @@ Behind the scenes:
 - Oversized windows can pan + grab raises window to front
 - Tutorial aggro-ring cue + woodsman/veil beat ordering (Nathan 07-20 QA)
 - Tiered gate - narrow full-suite escalation to what needs it
-
-## v0.0.28-P2578
-
 - Edit-mode QA — grip/popover follow resize, popover flips up, skinny persists, big-map area toggle
 - Save-loss defense in depth — last-good generation, recovery ladder, pre-migration snapshots, web storage persistence
 - Bridge vagabond gate + scripted first-death lesson
