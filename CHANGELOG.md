@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5079
+
+- The clock stamp goes compact after a chat's first prompt - full on first, compaction, a rule change and every 20th; Nathan's rules stay as a few words each + no five lines where nobody reads them (console relay ae6b49f3, relay 75be4cc2)
+
+Behind the scenes:
+- The run's end - death, the death card, the battle report - moves to ExploreRunEnd (#5907 brief #47)
+- VISUAL WORK, ON-DEVICE DEBUG, DOCUMENTS, CONTENT PIPELINE slimmed; new presenting-to-nathan skill (#7248, 55.1 to 47.5 KB)
+- BOX SESSION, pre-push gate and DISPATCH PIPELINE one-liners; rulings with Nathan's words move to box-ops (#7248, 55.1 to 51.7 KB)
+- KEY RULES detail moved into eight skills (#7248, 55.1 to 48.4 KB)
+- Subagent pipeline, model routing and commit format detail move to the pipeline skill (#7248, 55.1 to 49.2 KB)
+
 ## v0.0.28-P5069
 
 - Springing the bandit camp calls a wave up behind you (#7300 item 76)
