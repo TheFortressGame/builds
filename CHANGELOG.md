@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P4983
+
+- Xbox crash telemetry - the probe's memory trail, and the relay keeps every report raw *(fix attempt - still being verified)*
+
 ## v0.0.28-P4982
 
 - The Vale's loot - lines renamed, boss epics, the dragon's table
