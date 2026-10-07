@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5085
+
+- A mob lands its own authored damage, not the shared action row's 1.0
+- The snow glade is the North Road's, so the Quarry and the Bandit Camp are one piece each *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The terrain area flood moves to ZoneFlood - map_data.gd 164,652 to 156,626 bytes
+- The last trim - duplicate rules stated once (#7248, 31.5 to 29.9 KB)
+
+## v0.0.28-P2660
+
+- A zone re-arms on its own ring, nothing opens mid-fight, the opening beast holds, the woodsman's itinerary (#7280 items 24/33, #7301 4b, #7299 30+41) *(fix attempt - still being verified)*
+
 ## v0.0.28-P5079
 
 - The clock stamp goes compact after a chat's first prompt - full on first, compaction, a rule change and every 20th; Nathan's rules stay as a few words each + no five lines where nobody reads them (console relay ae6b49f3, relay 75be4cc2)
@@ -4700,12 +4713,6 @@ Behind the scenes:
 - Art-auto-promote canonical import profile + declared-plate guard
 - Daily art-gap scan loop (ArtGapScan) #3531
 - Render session_ms/save_kb on the crash report
-
-Behind the scenes:
-- Add backfill scope + archive-candidates duty to Chat Harvest
-
-## v0.0.28-P2660
-
 - Live-QA markers + barriers — aggro cue instant, equip clear, vagabond block+fire, bramble beat, log "!"
 - Retreat = End Run & Return unified — confirm modal + 25% wallet loss
 - Split 6-month dispatch bar into self-hosted vs cloud lanes
@@ -5204,6 +5211,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Add backfill scope + archive-candidates duty to Chat Harvest
 - Fire interim build - QA marker/barrier fixes retest (PR #3620)
 - Billing - gate job off cloud + launcher DMG release-only
 - Lock Woodsman (Bram Thorne) redhead dossier portrait
