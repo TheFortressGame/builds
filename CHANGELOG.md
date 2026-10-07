@@ -4,6 +4,27 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5009
+
+- The first fall names Abandon, and The Archer is recruited from her meadow, not freed (#7292, #7288)
+- Copy game data carries the engine's memory counters
+- A locked Defend tap refuses with a card instead of doing nothing (#7301 item 28) *(fix attempt - still being verified)*
+- One set of settings (the mobile/desktop switch goes) and commas in combat floaters (#7298 items 1, 65) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The COMMAND card and roster-split helpers move to SplitCardsPanel / RosterCardsPanel - tab_base.gd 134 to 131 KB (#5907 surge)
+- Box self-check runs once a day, but its heartbeat windows are 10-45 minutes - a dead poller or sentinel can sit unseen for 24 h
+- The Vale's bake source moves to ValeBakeSource - map_data.gd 229 to ~183 KB (#5907 surge)
+- The SKILLS section becomes a one-line-per-skill table; each skill's own description and body already carry the detail (#7248, 60 to 55 KB)
+
+## v0.0.28-P2581
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Reap-orphans takes the whole tree under a tool-call bash whose chat has exited, every 30 min (#7234 follow-up)
+- The 3D world loads on first use, and a browser never enters 3D
+
 ## v0.0.28-P4999
 
 - The vagabonds' re-arm anchors once; barrier copy assumes no tool and no absent NPC (#7280 item 77, #7301 items 39/82) *(fix attempt - still being verified)*
@@ -4642,13 +4663,6 @@ Behind the scenes:
 - Register woodsman first-seen/after-tree plates — live cutscenes were imageless
 - Branch-freshener state round-trip + pass log
 - Classify CI reds (FLAKE/STALE/REAL) + auto-freshen stale PR branches
-
-Behind the scenes:
-- Canonical quest-master list + log touch-combat / bake-source / channel-merge decisions
-- Track orphan-detector in repo + 'Resurrected' naming (Nathan-approved)
-
-## v0.0.28-P2581
-
 - Oversized windows can pan + grab raises window to front
 - Tutorial aggro-ring cue + woodsman/veil beat ordering (Nathan 07-20 QA)
 - Tiered gate - narrow full-suite escalation to what needs it
@@ -5100,6 +5114,8 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Canonical quest-master list + log touch-combat / bake-source / channel-merge decisions
+- Track orphan-detector in repo + 'Resurrected' naming (Nathan-approved)
 - Interim build - story bridge/death data layer + latest main for morning QA
 - Web is a release platform — the web game compiles in build-publish from the release commit
 - Interim - HUD Edit Mode complete for device QA
