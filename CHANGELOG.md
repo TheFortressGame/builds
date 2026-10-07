@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5016
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The worktree reaper takes delivered capture trees - harness leftovers proven by bytes, detached HEADs by merged PR
+- The Codex PR reviewer sits under the image reserve - .gd PRs only, 10 a day, quota per review in the ledger
+- The interior rooms move to InteriorMaps - map_data.gd 185 to 164 KB (#5907 surge)
+
+## v0.0.28-P2593
+
+- The cave reveals by line of sight, never through rock (#7300 item 49) *(fix attempt - still being verified)*
+- Storage chest costs stone and wood; build times read as h/m/s (#7301 items 23, 27) *(fix attempt - still being verified)*
+
+## v0.0.28-P2591
+
+- Web epoch E20 to E21 - re-cut the web base so the 3D models actually leave the download *(fix attempt - still being verified)*
+
 ## v0.0.28-P5010
 
 - The web export drops the 3D models - a browser never enters 3D (#7206, #7229) *(fix attempt - still being verified)*
@@ -4637,28 +4655,7 @@ Behind the scenes:
 - Name-entry format parity + unified dismissal contract, drop dead BottomSheetHelpers
 - Phone default layout - shared dock resolver + surface predicate
 - Tutorial touch-to-attack mechanics - soldier '!', button-free first fight, lowest-spawn cue
-
-Behind the scenes:
-- Final HUD QA build - full 07-20 GUI push in one build
-- Upgrade configuration to current format
-- Commit Storyline Bible nightly task install script
-- Preserve Nathan-approved Codex Mason render (mason_quarry_intro candidate)
-- The published document set is the canonical interface (categories, format rule)
-- Capital-T title style, The Mason canon + Walls finale, hut materials, map-art roadmap line
-- Manual workflow to purge retired TheFortressQA-* assets from all releases (#3459 follow-up)
-- Auto-promote 5 rendered plate(s) - wake_cold_open_a, wake_cold_open_b, wake_cold_open_c, wake_cold_open_d, wake_cold_open_e
-- Promote cold-open concept A v1 (lone survivor rising)
-- Daily brief pins the ops-cadence card source (Message 0)
-
-## v0.0.28-P2593
-
 - Unified size<->font model + Area/Character wide-reflow + 8-edge resize
-
-Behind the scenes:
-- Interim - HUD window redesign for Nathan QA
-
-## v0.0.28-P2591
-
 - One build per platform — retire TheFortressQA-* debug exports (#3459 phase 1)
 - Daily Cloudflare KV capacity audit
 - Bridge vagabond gate + scripted first bandit-chief death
@@ -5118,6 +5115,17 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Final HUD QA build - full 07-20 GUI push in one build
+- Upgrade configuration to current format
+- Commit Storyline Bible nightly task install script
+- Preserve Nathan-approved Codex Mason render (mason_quarry_intro candidate)
+- The published document set is the canonical interface (categories, format rule)
+- Capital-T title style, The Mason canon + Walls finale, hut materials, map-art roadmap line
+- Manual workflow to purge retired TheFortressQA-* assets from all releases (#3459 follow-up)
+- Auto-promote 5 rendered plate(s) - wake_cold_open_a, wake_cold_open_b, wake_cold_open_c, wake_cold_open_d, wake_cold_open_e
+- Promote cold-open concept A v1 (lone survivor rising)
+- Daily brief pins the ops-cadence card source (Message 0)
+- Interim - HUD window redesign for Nathan QA
 - Canonical quest-master list + log touch-combat / bake-source / channel-merge decisions
 - Track orphan-detector in repo + 'Resurrected' naming (Nathan-approved)
 - Interim build - story bridge/death data layer + latest main for morning QA
