@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5010
+
+- The web export drops the 3D models - a browser never enters 3D (#7206, #7229) *(fix attempt - still being verified)*
+
 ## v0.0.28-P5009
 
 - The first fall names Abandon, and The Archer is recruited from her meadow, not freed (#7292, #7288)
