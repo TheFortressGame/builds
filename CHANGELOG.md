@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5069
+
+- Springing the bandit camp calls a wave up behind you (#7300 item 76)
+
+Behind the scenes:
+- A's surge widens - refactor 30 to 45/day and four seams; the 95% ceiling holds until the reset (console relay f477c2d9)
+- The phase0 creep alarm reads 26 hours, not the last 40 runs
+- Level-up, stat upgrade, upgrade juice, coming-soon and assignment sheet move to TabStatActions
+- Box-ops: MCP write fence - reads open, writes by exact name; build and prove on the Fortress box first
+- Sibling session trees (<repo>-wt-*) count as task trees, so the reaper salvages and removes them
+
 ## v0.0.28-P5063
 
 - Maintenance build (no player-facing changes in this range).
