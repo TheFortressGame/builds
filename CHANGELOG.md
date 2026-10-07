@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5031
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Resize handles move to HudWindowResizeHandles
+- QA watermark + memory watch move to CheatQaWatermark - cheat_manager.gd 1726 to 1497 lines (#5907 surge)
+- CombatHud's layout edit session and re-abut move to CombatHudEditSession - combat_hud.gd 123 to 96 KB (#5907 surge)
+- The QA snapshot engine moves to CheatSnapshots - cheat_manager.gd 130 to 73 KB (#5907 surge)
+
 ## v0.0.28-P5025
 
 - Collision follows the river's drawn edge - you can never stand on the blue (#7300 item 37) *(fix attempt - still being verified)*
