@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5022
+
+- The Vale's frostling and kuo-toa scout - rows, loot, named, placeholder frames, rebake
+- The step-4 self-test computes git blob ids in .NET - the scheduled run's stdin pipe put a BOM on the first path
+- Full-screen art banner capped by surface height so Continue stays on screen (#7298 item 36) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- CombatHud's overlays and build_stats_panel move to CombatHudOverlays
+- The web-epoch guard - a PR that removes files from the Web export bumps web-epoch.txt
+- HUDWindow's pure geometry moves to HudWindowGeometry
+
 ## v0.0.28-P5016
 
 - Maintenance build (no player-facing changes in this range).
