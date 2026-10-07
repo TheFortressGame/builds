@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5042
+
+- Item slots and inventory tiles get a wider, stronger border (#7298 item 32) *(fix attempt - still being verified)*
+- Defend enemies steer round walls, indoor people block the hero (#7290, #7299) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Billing-chart-render refreshes the local ci-throughput.json the daily commentary reads
+- Split view, COMMAND cards, header card and pause modal move to TabSplitView
+- Button builders move to their owner UIButtons; UIHelpers forwards
+- Static-world builders move to Explore3DDecorBuilder; the layer forwards
+
+## v0.0.28-P2616
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Production mode, queue, cards, saved progress and tracks move to TabProductionMode
+
 ## v0.0.28-P5035
 
 - The kuo-toa's Barbed Fish Spear; the loot proposal empties
@@ -4668,21 +4686,6 @@ Behind the scenes:
 - Commit .import (mipmaps on) for 6 testing pngs shipped without one
 - Wake_cold_open_a-e .import mipmaps/generate=true
 - Arc review boards v2 — flow, triggers, copy + quest-master taxonomy
-
-Behind the scenes:
-- Chore(deps)(deps): bump actions/download-artifact from 4 to 8
-- Librarian board — vagabonds in-arc, Builder in strip, Blueprint Received milestone, Archer→bramble (Nathan 07-21)
-- Fold Audio audit into ART/STORY (audio is art)
-- Distinct Woodsman appearance brief + Builder arc closer builder_joined_fort, drop fortress_enter (Nathan 07-21)
-- Four-section Player Documents taxonomy + Quest/Cutscene promotions + Progression tables rename
-- Main Storyline spine + Woodsman resequence + milestone renames (Nathan 07-20)
-- Needs-you items are decision-shaped (problem/options/recommend)
-- Rule - bundle by iteration, split by seam (one PR per surface per QA pass)
-- Chore(deps)(deps): bump actions/setup-python from 5 to 7
-- Accounts & cross-device sync design v1 — Nathan-locked 2026-07-20 (rev 5)
-
-## v0.0.28-P2616
-
 - Batch-3 — watermark band, Top Bar window row, log fit-font, C4 skinny round-trip, C5 gear popover
 - #crash-reporting is a 1-day feed; GitHub is the durable crash record
 - Storyline art review boards + Storyline Art Bible PDF
@@ -5156,6 +5159,16 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Chore(deps)(deps): bump actions/download-artifact from 4 to 8
+- Librarian board — vagabonds in-arc, Builder in strip, Blueprint Received milestone, Archer→bramble (Nathan 07-21)
+- Fold Audio audit into ART/STORY (audio is art)
+- Distinct Woodsman appearance brief + Builder arc closer builder_joined_fort, drop fortress_enter (Nathan 07-21)
+- Four-section Player Documents taxonomy + Quest/Cutscene promotions + Progression tables rename
+- Main Storyline spine + Woodsman resequence + milestone renames (Nathan 07-20)
+- Needs-you items are decision-shaped (problem/options/recommend)
+- Rule - bundle by iteration, split by seam (one PR per surface per QA pass)
+- Chore(deps)(deps): bump actions/setup-python from 5 to 7
+- Accounts & cross-device sync design v1 — Nathan-locked 2026-07-20 (rev 5)
 - Final HUD QA build - full 07-20 GUI push in one build
 - Upgrade configuration to current format
 - Commit Storyline Bible nightly task install script
