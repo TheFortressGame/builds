@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5092
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Movement and pathing move to ExploreMovement (#5907 brief #49)
+- Input handling moves to ExploreInput - active_mode.gd 377,046 to 357,806 bytes (#5907 brief #50)
+
 ## v0.0.28-P5090
 
 - Maintenance build (no player-facing changes in this range).
