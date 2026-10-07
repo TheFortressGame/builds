@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2576
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4996
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Grade the whole closing message and read 'did not pass' as a failure report
+- SELF-VERIFICATION detail moves to a verify-summary skill; merge-gating rules stay as one-liners (#7248, 66 to 60 KB)
+
+## v0.0.28-P2574
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Agent-evals -Ref tests the named ref (a branch spot check ran main twice, #7255); window-mode owner row
+- Delete the dead _generate_vale_procedural and its eleven orphan helpers - map_data.gd 286 to 229 KB (#5907 surge)
+
 ## v0.0.28-P2572
 
 - Maintenance build (no player-facing changes in this range).
@@ -4625,16 +4645,7 @@ Behind the scenes:
 
 - Edit-mode QA — grip/popover follow resize, popover flips up, skinny persists, big-map area toggle
 - Save-loss defense in depth — last-good generation, recovery ladder, pre-migration snapshots, web storage persistence
-
-## v0.0.28-P2576
-
 - Bridge vagabond gate + scripted first-death lesson
-
-Behind the scenes:
-- Interim build - story bridge/death data layer + latest main for morning QA
-
-## v0.0.28-P2574
-
 - Corner-resize shrinks the font past the text floor
 - Create_vale falls back to procedural bake source when vale_map.tscn nulls
 - Android QA pass — glyph tofu, settings dock, map labels, fade, fog gray
@@ -5080,6 +5091,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Interim build - story bridge/death data layer + latest main for morning QA
 - Web is a release platform — the web game compiles in build-publish from the release commit
 - Interim - HUD Edit Mode complete for device QA
 - Daily-brief CI analytics snapshot + Zapier/narration corrections
