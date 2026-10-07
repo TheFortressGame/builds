@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5053
+
+- An NPC who has left is gone from his building - the woodsman when he follows you, the Builder when freed (#7299 item 30) *(fix attempt - still being verified)*
+- The massive boulder stands on the gate's bottom row and taller, so nothing reads open to its south (#7300 item 16) *(fix attempt - still being verified)*
+- A short cost reads have/need per currency (#7298 item 68)
+
+Behind the scenes:
+- The Archer's 'A Ranger' card titles are descriptors, said beside them
+- Header, sub-tabs, content, sections and empty state move to TabLayoutSections
+- Declare 19 registered tasks the contract had no row for
+- Three gh-calling scripts set TZ first; model-effort-check names its launcher
+- Inbound - three Pipsticks round-two items for Monday's adopt decisions
+- A new file exempts itself from FORK with `# fork-ok - <reason>`
+- Lanes.json identity fields synced from live (34 fields)
+
 ## v0.0.28-P5042
 
 - Item slots and inventory tiles get a wider, stronger border (#7298 item 32) *(fix attempt - still being verified)*
