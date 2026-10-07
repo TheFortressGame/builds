@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5090
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The road ends move to ValeRoadEnds - map_data.gd 157,076 to 147,242 bytes
+
+## v0.0.28-P2669
+
+- A held camp shows its aggro rings, and none reaches ground he can stand on (#7296 item 7) *(fix attempt - still being verified)*
+- The quarry pit refuses without a permit, at its edge; Doran stands northwest of it (#7300 item 35)
+
+## v0.0.28-P2667
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-mgmt-tech-lead-v39)
+
 ## v0.0.28-P5085
 
 - A mob lands its own authored damage, not the shared action row's 1.0
@@ -4692,21 +4711,7 @@ Behind the scenes:
 - Test-value ledger slice 1 — per-suite cost/catch capture
 - Wait-pr-green counts only LIVE runs (in_progress/queued) as running
 - Mechanical pre-mortem audit + close self-check watch-list gaps
-
-Behind the scenes:
-- Fire interim build - round-2 fixes + Woodsman Part 2 (PRs #3673 #3678)
-- Route recipe-shaped dispatches through Codex ΓÇö the grind is burning Fable while the Codex pool sits idle
-- Woodsman board shows the specced Part 2 as outline rows
-
-## v0.0.28-P2669
-
 - Backup+snapshot redundancy layers
-
-Behind the scenes:
-- Fire interim build - android retry after herd-pressure crash
-
-## v0.0.28-P2667
-
 - Pack s3tc for web VRAM textures + suppress OS-caused load-stalled dead-man
 - Pins created via new-pinned-chat.ps1 get a cse so archive-sync can track them
 - Capture defaults to native 540x960 portrait, not 480x8xx
@@ -5211,6 +5216,10 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Fire interim build - round-2 fixes + Woodsman Part 2 (PRs #3673 #3678)
+- Route recipe-shaped dispatches through Codex ΓÇö the grind is burning Fable while the Codex pool sits idle
+- Woodsman board shows the specced Part 2 as outline rows
+- Fire interim build - android retry after herd-pressure crash
 - Add backfill scope + archive-candidates duty to Chat Harvest
 - Fire interim build - QA marker/barrier fixes retest (PR #3620)
 - Billing - gate job off cloud + launcher DMG release-only
