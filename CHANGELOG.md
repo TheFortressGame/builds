@@ -4,6 +4,36 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2572
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P4992
+
+- Full screen is always borderless - exclusive full screen retired
+- Held movement drops when the window loses focus
+- Xbox load telemetry - the load reports itself while it runs, and /memtest/ sends its result *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Daily Brief wrong-direction alerts per progress series
+- Burn week on A - pick-account and rotations prefer A, the 95% ceiling lifted until the reset is applied (Nathan 2026-10-06 10:18 PM)
+
+## v0.0.28-P2567
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Register the Ike chat in lanes.json (ike-walkthrough, renaming to 'Fort B: Lane - Ike's Walkthrough')
+- Burn week on A - surge until Sat 10-10 7 PM, the daily lines off and the refactor at its surge ceiling (Nathan 2026-10-06 10:18 PM)
+
+## v0.0.28-P2565
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Gates-and-popups card items 37-40 - one combat suppress state, no silent no-op, a refusal true in every state, presence and name by progression state
+- World alerts - one owner for the '!' and which one mark a thing shows, a rules card and a ratcheted count
+
 ## v0.0.28-P4983
 
 - Xbox crash telemetry - the probe's memory trail, and the relay keeps every report raw *(fix attempt - still being verified)*
@@ -4607,23 +4637,11 @@ Behind the scenes:
 
 - Corner-resize shrinks the font past the text floor
 - Create_vale falls back to procedural bake source when vale_map.tscn nulls
-
-## v0.0.28-P2572
-
 - Android QA pass — glyph tofu, settings dock, map labels, fade, fog gray
 - Nightly box-suite robust seeded import + vale-draft test isolation
 - The Vale's 12 named areas live - approved partition attached
 - Unseen-item "!" badges - loot marks unseen, viewing clears
-
-## v0.0.28-P2567
-
 - Occlusion refactor - tool gates drop the veil, barrier faces go sight-opaque
-
-Behind the scenes:
-- Web is a release platform — the web game compiles in build-publish from the release commit
-
-## v0.0.28-P2565
-
 - Edit Mode PR2 - snapping + grid + Nathan's default layout + Reset
 - Pre-push gate gdUnit step is tiered - impacted selection, same escalations as CI (-FullSuite to force)
 - Autosave toast on every surface + cross-milestone reload change note
@@ -5062,6 +5080,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Web is a release platform — the web game compiles in build-publish from the release commit
 - Interim - HUD Edit Mode complete for device QA
 - Daily-brief CI analytics snapshot + Zapier/narration corrections
 - Auto-promote 13 rendered plate(s) - mason_after_boulder, mason_boulder_cleared, mason_joined_fort, mason_quarry_intro, mason_sharp_pick, thresher_after_hedge, thresher_bramble_cleared, thresher_field_intro, thresher_hedge_cleared, thresher_joined_fort, thresher_sharp_scythe, woodsman_after_tree, woodsman_first_seen
