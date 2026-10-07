@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5025
+
+- Collision follows the river's drawn edge - you can never stand on the blue (#7300 item 37) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- HUDWindow's gear popover moves to HudWindowGearPopover - hud_window.gd 123 to 112 KB (#5907 surge)
+
 ## v0.0.28-P5023
 
 - The big map is fully opaque - no Transparency row, opaque card and panel (#7298 item 2) *(fix attempt - still being verified)*
