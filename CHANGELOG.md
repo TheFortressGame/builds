@@ -4,6 +4,27 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5063
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- An active_mode.gd PR selects 25.5 to 10.3 min of gdUnit - 20 more subject-only suites, and a hub's preload()ed path is its class
+- Wren Cassel is The Archer - the Ranger on the Road and the glade recruit are her (#7296 Archer name)
+- DedupJanitor log collision, Ike lane title, mint pipsticks-setup lane
+- The floor follows main - floor followed main by the weekly audit: oversized_file_lines 29175 to 28552, theme_overrides 2187 to 2178, popup_files_off_owner 9 to 8. Every count may only fall from here
+
+## v0.0.28-P2639
+
+- The Vale's loot paintings - 27 of Nathan's picks from the icon boards
+- Copy game data carries a window log - Options taps and window mode/size changes with fps (#7298 item 5)
+
+Behind the scenes:
+- Building rows, build / improve actions and building detail move to TabBuildingActions
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-mgmt-overwatch-v2)
+- The structure-follow PR body carries its PRIOR-ART line (the PR body contract stops failing #7346-style follows)
+- Lanes.json deploy overwrites runtime lane uuids; lane-swap leaves rows on retired chats
+
 ## v0.0.28-P5053
 
 - An NPC who has left is gone from his building - the woodsman when he follows you, the Builder when freed (#7299 item 30) *(fix attempt - still being verified)*
@@ -4675,19 +4696,6 @@ Behind the scenes:
 - GitHub Steward hourly routine - spec + digest-runner map entry
 - Repair renamed snapshot + dedupe nightly issue spam (#3476 #3477 #3478 #3479)
 - Single _apply_mute_state so icon and audio never disagree (#3297, #3239)
-
-Behind the scenes:
-- Fire interim build - QA marker/barrier fixes retest (PR #3620)
-- Billing - gate job off cloud + launcher DMG release-only
-- Lock Woodsman (Bram Thorne) redhead dossier portrait
-- Idle-offload-lane vs saturating-cap = standing Needs-you
-- Institute holistic cross-chart read step (the point of the loop)
-- Queue-urgent priority lane - incident fixes jump the merge queue
-- Plain-language CI health + dispatch-spike & cap-saturation guards
-- Retire the parked-label class - 13 issues moved to roadmap/queue
-
-## v0.0.28-P2639
-
 - Builder_joined_fort + reusable Blueprint Received popup (Nathan 07-21 review bundle)
 - Mob Audit player document (mobs + NPCs) — render + interaction fixes
 - Playable Audio audit player document
@@ -5174,6 +5182,14 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Fire interim build - QA marker/barrier fixes retest (PR #3620)
+- Billing - gate job off cloud + launcher DMG release-only
+- Lock Woodsman (Bram Thorne) redhead dossier portrait
+- Idle-offload-lane vs saturating-cap = standing Needs-you
+- Institute holistic cross-chart read step (the point of the loop)
+- Queue-urgent priority lane - incident fixes jump the merge queue
+- Plain-language CI health + dispatch-spike & cap-saturation guards
+- Retire the parked-label class - 13 issues moved to roadmap/queue
 - Chore(deps)(deps): bump actions/download-artifact from 4 to 8
 - Librarian board — vagabonds in-arc, Builder in strip, Blueprint Received milestone, Archer→bramble (Nathan 07-21)
 - Fold Audio audit into ART/STORY (audio is art)
