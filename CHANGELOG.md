@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5023
+
+- The big map is fully opaque - no Transparency row, opaque card and panel (#7298 item 2) *(fix attempt - still being verified)*
+
 ## v0.0.28-P5022
 
 - The Vale's frostling and kuo-toa scout - rows, loot, named, placeholder frames, rebake
