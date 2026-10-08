@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5148
+
+- Waves walk the mob factions from a data table, one elite per wave
+- A "TECH-LEAD: CHANGES" line holds the merge like BLOCK and APPROVE WITH CONDITIONS
+- Defend shows the Vale's resource nodes, out of reach, and a tap says gather them in Explore (#7280 item 87)
+- Aldous introduces himself by name and gifts 2 stone + 1 wood as the second card (#7280 item 22d, #7301 item 20)
+- The CI sentinel's stale-build page sits out the night drain, and a QUEUED page counts as sent
+- A held mob with no walls does not swing; wall hits count only what landed (#7290, TL review on #7453)
+
+Behind the scenes:
+- Camera and view move to ExploreView (seam-map region 8) (#5907 brief #55)
+- The floor follows main - floor followed main by the weekly audit: files_over_1500 14 to 9, oversized_file_lines 28552 to 12979, handrolled_frame_steppers 2 to 1. Every count may only fall from here
+
 ## v0.0.28-P5140
 
 - A mob stops at a wall it cannot pass and attacks it - its hits drain the walls pool (#7290, decided (b))
