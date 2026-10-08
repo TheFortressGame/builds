@@ -4,6 +4,27 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5110
+
+- The site home page and play picker carry the load probe
+
+Behind the scenes:
+- The Vale is progression's - Interior Cave narrows to the interiors, lair first
+
+## v0.0.28-P2688
+
+- The Vale's loot paintings import with mipmaps, as every art import must
+
+## v0.0.28-P2687
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The Ike's Walkthrough lane is retired - every item handed to its owner, the last question dropped by Nathan
+- Tailnet fence - the daily self-check proves the box can reach no personal device
+- The procedural interior floor moves to InteriorFloor (seam D) - world_renderer.gd 125231 to 118174 bytes
+- Dev overlays and cheats move to ExploreDevOverlays (seam-map region 12) - active_mode.gd 297777 to 290051 bytes
+
 ## v0.0.28-P5103
 
 - Maintenance build (no player-facing changes in this range).
@@ -4730,21 +4751,7 @@ Behind the scenes:
 - State-driven PR+issue passes in box-poller - route every state, never rot silently
 - Delivery-driver step2b - the RED-PR consumer (closes the dead zone, #3608)
 - Bramble+hedge refusal popups + seal the bridge walk-around (Nathan 07-21 round 3)
-
-Behind the scenes:
-- Re-fire interim build - android flake retry
-- Fire interim build - v0.0.28-wip content batch
-- Promote Nathan-approved arc plates (quarry/cleared/bargain/joins/sharp-pick), re-rendered to Doran dossier
-- Promote Part 2 plates (north-tree found/chopped, sharp-axe, blueprint, house-built)
-- Promote Nathan-approved arc plates (first-seen/tree/after/trade/axe/chopped/hut)
-- Doc style unification: one shared template for the whole published set, mapped to the game style guide
-
-## v0.0.28-P2688
-
 - Pin wrangler exactly + recovery build - registry race killed web run 177
-
-## v0.0.28-P2687
-
 - QA round 7 — kills+time row, title-bar drag, fog-proof transparency, collapse removal, Version row, log font
 - Poller auto-merge is a DENY-list, not an allow-list (#3608 root-cause)
 - Woodsman Part 2 — practice, north tree, sharpen quest, sharp axe, town blueprint, move-in closer
@@ -5262,6 +5269,12 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Re-fire interim build - android flake retry
+- Fire interim build - v0.0.28-wip content batch
+- Promote Nathan-approved arc plates (quarry/cleared/bargain/joins/sharp-pick), re-rendered to Doran dossier
+- Promote Part 2 plates (north-tree found/chopped, sharp-axe, blueprint, house-built)
+- Promote Nathan-approved arc plates (first-seen/tree/after/trade/axe/chopped/hut)
+- Doc style unification: one shared template for the whole published set, mapped to the game style guide
 - HUD QA round 7 build for Nathan re-test
 - Unify all Player Documents on the light parchment theme
 - Plain-text rule for ALL channel blocks + human crash block
