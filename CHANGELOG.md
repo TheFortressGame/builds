@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5149
+
+- A counted gate shows what you have beside what it needs - Requires Barracks Lv 4 (1/4) (#7280 item 68, gate half)
+
 ## v0.0.28-P5148
 
 - Waves walk the mob factions from a data table, one elite per wave
