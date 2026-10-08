@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5231
+
+- The swamp dock is a ruined pier, never a boardwalk (#7300 item 75c) *(fix attempt - still being verified)*
+- The engine keeps the fetched pack instead of copying it into MEMFS *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A refactor finish-line panel heads the progress sheet, and the token panel no longer reads as missing
+- The ratified row look and edge-inset tokens - ROW_BORDER_WIDTH, ROW_RADIUS, INSET_ROW/PANEL/MODAL, GAP_ROW 6 and apply_inset (#5907 UI-1)
+- Refactor Map, Refactor Data and Progression World rows; two items in flight per lane
+- Godot-slot-wait.py prints the add-a-lane governor (p90 gdUnit slot wait)
+- Active_mode.gd is region-leased - two PRs may hold it on hunks that do not overlap
+
 ## v0.0.28-P5224
 
 - Locked picker rows are selectable and long building names wrap *(fix attempt - still being verified)*
