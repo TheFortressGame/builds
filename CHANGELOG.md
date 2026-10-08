@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5224
+
+- Locked picker rows are selectable and long building names wrap *(fix attempt - still being verified)*
+- Music beds stream instead of decoding whole on web *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A same-name get/set property forwarder is not a second site (#5907 brief #72)
+
 ## v0.0.28-P5221
 
 - Add_overlay stands every overlay above the info strip by default *(fix attempt - still being verified)*
