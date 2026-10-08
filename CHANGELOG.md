@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5158
+
+- The native ratchet skips one-line forwarders - a verbatim move no longer raises a row
+- A cottage piece tap mid-fight is refused with the one line (#7298 item 33) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Mob chase step to MobChase (#5907 brief #59)
+- The ambient mob spawner moves to MobSpawner (seam-map region 7) - active_mode.gd 230289 to 225240 bytes (#5907 brief #58)
+
 ## v0.0.28-P5154
 
 - The Builder's fourth column starts empty, opens from the queue slot and closes on a second tap (#7298 items 22a/22b)
