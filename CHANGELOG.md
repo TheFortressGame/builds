@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5188
+
+- 1 damage a level, rising level costs, slower bows, fewer cave drops (#7303 items 42/48/50/57)
+- The daily commentary grades yesterday's bullets first and gives the growth numbers a 7-day direction
+- The quiet check pushes a lane with open work, and a drain-parked lane when the drain ends
+- A named mob appears once per area visit, at 3% (#7303 item 55a)
+
+Behind the scenes:
+- Gear/loot/sentry/party-slot cheats to CheatRoster (#5907 brief #68)
+- Loot paintings ship on the brown backdrop and land only through promote_loot_painting.py
+- Feed/update check to LauncherUpdateCheck, web install to LauncherWebInstall
+- Inbound ledger - round nine mirrors (role write fence, console queue file)
+- Restore A's ceiling lift for the burn week - Nathan 10-08 12:42 PM
+- World/explore/rescue cheats to CheatWorld (#5907 brief #67)
+- Game installer to LauncherGameInstall
+- Lanes.json row for Fort B: Lane - Refactor Tests v1
+
 ## v0.0.28-P5175
 
 - An empty production queue shows its own + symbol, the ! stays for a finished item (#7298 item 69b)
