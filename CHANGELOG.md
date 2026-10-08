@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5198
+
+- The Chipped Longsword, the Fighter's gift
+- A finished house's arc closer waits for the fort instead of popping mid-fight *(fix attempt - still being verified)*
+- The desktop management frame stands above the info strip *(fix attempt - still being verified)*
+- Loot paintings sit on the brown backdrop, never a cream field
+- The structure audit stops counting one-line forwarders as a type fork
+
+Behind the scenes:
+- The snapshot validator to CheatSnapshotValidator (#5907 brief #70)
+- The painted-room method - one scale from the art, black past it, soft unseen ground; a shared scale/void measure
+- Deny five unused tools so their definitions leave every prompt (#7248, #7554)
+- The Maxed bootstrap to CheatMaxedBase (#5907 brief #69)
+- Area keywords stop selecting suites, and MapData is a named hub
+
 ## v0.0.28-P5188
 
 - 1 damage a level, rising level costs, slower bows, fewer cave drops (#7303 items 42/48/50/57)
