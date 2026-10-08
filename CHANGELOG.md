@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5175
+
+- An empty production queue shows its own + symbol, the ! stays for a finished item (#7298 item 69b)
+- O1 at its true scale - the room is the painting, past it is black (#6561 PR 2) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Inbound ledger - host firewall on the Tailscale interface (Pipsticks round eight, #7522)
+- Launcher-publish version-gate checks out only launcher/main.gd
+- Self-updater to LauncherSelfUpdate
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-mgmt-tech-lead-v40)
+
+## v0.0.28-P2749
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Launcher-publish keeps the live assets when LAUNCHER_VERSION is unchanged (#7365 PR 2)
+
 ## v0.0.28-P5168
 
 - Maintenance build (no player-facing changes in this range).
@@ -4779,25 +4797,6 @@ Behind the scenes:
 - Generate the Ops Cadence card from live box state, nightly
 - Mergify config error - priority_rules is top-level, not under queue_rules
 - Monthly digests stamp a heartbeat on their gated no-op days
-
-Behind the scenes:
-- Correct the tiering rules in CLAUDE.md - no PR gate runs the whole suite
-- Record the measured lane-scaling curve on SlotCount
-- Log aim-mode prototype design pattern + open design question
-- Lock in the mob/NPC tileset renderer decision + CI-defer pattern
-- Art-cache rule + narrowed tier rule in CLAUDE.md; brief posts the FIVE SHEETS only
-- CLAUDE.md tells the truth about the gate (five checks, all on box, tiered pre-push)
-- Lock the mob/NPC tileset sprite generation recipe
-- Retract a wrong wedge diagnosis I left in the warmup comment
-- One-off diagnostic to print the Android release signing SHA-1
-- Retire the four workflows superseded by static-gates (decision A)
-- State asserts gate, pixels only inform
-- Retire the two permanent standing-board issues
-- Fast dead-man for expired Claude Code login (2026-07-25 incident)
-- Upgrade configuration to current format
-
-## v0.0.28-P2749
-
 - Make the daily brief fail loudly - account failover, artifact verification, honest heartbeat
 - Add --validate self-check to the storyline board generator
 - Kill the archive-resurrection mint - recycler exempts auto engines, archive-sync sweeps fresh shell dupes
@@ -5356,6 +5355,20 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Correct the tiering rules in CLAUDE.md - no PR gate runs the whole suite
+- Record the measured lane-scaling curve on SlotCount
+- Log aim-mode prototype design pattern + open design question
+- Lock in the mob/NPC tileset renderer decision + CI-defer pattern
+- Art-cache rule + narrowed tier rule in CLAUDE.md; brief posts the FIVE SHEETS only
+- CLAUDE.md tells the truth about the gate (five checks, all on box, tiered pre-push)
+- Lock the mob/NPC tileset sprite generation recipe
+- Retract a wrong wedge diagnosis I left in the warmup comment
+- One-off diagnostic to print the Android release signing SHA-1
+- Retire the four workflows superseded by static-gates (decision A)
+- State asserts gate, pixels only inform
+- Retire the two permanent standing-board issues
+- Fast dead-man for expired Claude Code login (2026-07-25 incident)
+- Upgrade configuration to current format
 - Fire interim build - current build for tonight's dev/QA
 - Finish matching Garrick/Wren/Piper text to approved art (no hedging)
 - Rewrite Garrick/Wren/Piper descriptions to match approved portraits
@@ -5400,7 +5413,6 @@ Behind the scenes:
 - Chore(deps)(deps): bump actions/setup-python from 5 to 7
 - Accounts & cross-device sync design v1 — Nathan-locked 2026-07-20 (rev 5)
 - Final HUD QA build - full 07-20 GUI push in one build
-- Upgrade configuration to current format
 - Commit Storyline Bible nightly task install script
 - Preserve Nathan-approved Codex Mason render (mason_quarry_intro candidate)
 - The published document set is the canonical interface (categories, format rule)
