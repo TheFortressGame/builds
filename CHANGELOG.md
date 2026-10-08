@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5242
+
+- Sight-cut aggro rings, bow root + ranged gate + range ring (#7296 items 52, 63, 64) *(fix attempt - still being verified)*
+- The vagabonds' ring and target go to the swamp dock with them (#7300 item 75a/b) *(fix attempt - still being verified)*
+- Painted_scale reads a one-platform room (the arena) as no walkway, not an error *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Vale's carved trails to ValeTrails - map_data.gd 2,745 to 2,626 lines (#5907 brief M1)
+- Refactor-data and refactor-map rows follow their rotations to v2 on A
+- The blueprint trail to BlueprintTrail (#5907 brief #75)
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-map-v1)
+- Cartographic Institute portrait - Codex draft in testing/
+- The painted room to RoomPainting (#5907 brief #72)
+- Each row carries head + dirty; the audit tells a fix from a flake by commit
+- The one dim - march, throne, stat_breakdown, alert card and entity_inspect through UIHelpers.make_scrim (#5907 brief #45 PR 1)
+
 ## v0.0.28-P5231
 
 - The swamp dock is a ruined pier, never a boardwalk (#7300 item 75c) *(fix attempt - still being verified)*
