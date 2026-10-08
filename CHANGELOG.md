@@ -4,6 +4,35 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5140
+
+- A mob stops at a wall it cannot pass and attacks it - its hits drain the walls pool (#7290, decided (b))
+- The map shows patrol routes by default and the Archer points at the dashed line *(fix attempt - still being verified)*
+- Solid tiles merge into rectangles and the drawn-water rects are memoised by value - Vale collision build ~600 to ~24 ms (#7433 brief #56)
+- Six bosses get names - Old Scarjaw, Red Varrick, Grubnak, Nightmother, Mother Skein, Old Gnaw (#7296 item 9)
+
+Behind the scenes:
+- Box-ops: token-category chart - incremental scan under the 10-min render bound, and per-root store rows (PR #7467 follow-up)
+
+## v0.0.28-P2715
+
+- A promoted loot painting refreshes the gear-art golden, and an added painting selects test_gear_art_contract
+- Run a large gdUnit selection as fresh-process chunks inside one budget; a cut run names its NOT RUN chunks
+- Unseen ground in the painted lair is a soft darkness, not black holes; O1's real scale measured *(fix attempt - still being verified)*
+- The lanes-record-follow PR body carries its PRIOR-ART line - every follow is round 3+ on lanes.json and the body contract held #7464
+
+## v0.0.28-P2711
+
+- Ashkarr's facing suite reads his cell from the lair map - main red since #7424 re-anchored him
+- The console's Watch-AReset-1005 task gets its heartbeat pill
+- The ops-cadence chart finds every live task's heartbeat - five aliases and a BoxSelfCheck heartbeat
+- A red nightly is a verdict, not a missed slot - the guard no longer lets a second producer re-run it
+- The daily commentary reads its charts through one vision subagent and reaches Nathan as a file the console opens with
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-v23)
+- Owner-check eval: pin each case to its recorded base commit - clean_pr6658 drifted once main fixed the copy it tests
+
 ## v0.0.28-P5124
 
 - The Archer and the Fighter say their names - Wren Cassel, Sgt. Garrick Vane *(fix attempt - still being verified)*
@@ -699,7 +728,7 @@ Behind the scenes:
 ## v0.0.28-P4862
 
 - The fleet board lists a decision by label OR an opening DECISION: line *(fix attempt - still being verified)*
-- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap *(fix attempt - still being verified)*
+- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap
 - The phase1 snapshot suites reset the game they maxed; the window-press suite starts clean
 - Attachments are posts too - PDFs redacted and text files scrubbed at upload, the 6 past attachments replaced in place, the gate refuses an unscrubbed uploader
 - The digest and meta-review agents post only through post-brief.py, the sanitized poster - no more curl recipes (#7114 residual)
@@ -4737,28 +4766,7 @@ Behind the scenes:
 - Deterministic daily-brief archive-then-prune
 - Disable gdUnit fail-fast so the full failure surface is always reported
 - Instrument archive-sync reader failures + alert on sustained outage
-
-Behind the scenes:
-- Fire interim build - current build for tonight's dev/QA
-- Finish matching Garrick/Wren/Piper text to approved art (no hedging)
-- Rewrite Garrick/Wren/Piper descriptions to match approved portraits
-- Clear the Woodsman portrait blocker + Builder ship status
-- Mark heroes/guards/armaments/gear inspection in-progress (v25)
-- Record 5 design decisions recovered by the #3558 chat-harvest backfill
-- Week of 2026-07-25 -- 0 ideas, 7 decisions
-- Refresh Mason/Thresher/Warrior/Archer status in quest-master
-
-## v0.0.28-P2715
-
 - Woodsman axe wood cost 20->10 - unblock tonight's playtest for Ike
-
-Behind the scenes:
-- Fire interim build - axe-cost unblock for tonight's playtest
-- Android entry mirror: boot to entry board, Obtainium updating, one APK runtime QA
-- Frame-pacing probe to map the #3410 headless-Godot oscillation
-
-## v0.0.28-P2711
-
 - World Atlas uses the real in-game map render + zone lines
 - Universal "!" markers + resource respawn + Perrin retime + death-card clarity
 - Blueprint-to-build "!" trail + library cost matches camp loot
@@ -5293,6 +5301,17 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Fire interim build - current build for tonight's dev/QA
+- Finish matching Garrick/Wren/Piper text to approved art (no hedging)
+- Rewrite Garrick/Wren/Piper descriptions to match approved portraits
+- Clear the Woodsman portrait blocker + Builder ship status
+- Mark heroes/guards/armaments/gear inspection in-progress (v25)
+- Record 5 design decisions recovered by the #3558 chat-harvest backfill
+- Week of 2026-07-25 -- 0 ideas, 7 decisions
+- Refresh Mason/Thresher/Warrior/Archer status in quest-master
+- Fire interim build - axe-cost unblock for tonight's playtest
+- Android entry mirror: boot to entry board, Obtainium updating, one APK runtime QA
+- Frame-pacing probe to map the #3410 headless-Godot oscillation
 - Re-fire interim build - android flake retry
 - Fire interim build - v0.0.28-wip content batch
 - Promote Nathan-approved arc plates (quarry/cleared/bargain/joins/sharp-pick), re-rendered to Doran dossier
