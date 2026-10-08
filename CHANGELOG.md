@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5221
+
+- Add_overlay stands every overlay above the info strip by default *(fix attempt - still being verified)*
+- Walk only the painted path - the floor hand-traced on O1, a cell walkable at 3/4 cover *(fix attempt - still being verified)*
+- Kept no longer lists XP, and an XP ledger rides Copy game data *(fix attempt - still being verified)*
+- The refactor program counts only a posted brief number as consumed
+- The Fighter's gift is The Sergeant's Longsword
+- Snow-glade log spans the river (#7284 item 80a) *(fix attempt - still being verified)*
+- The runner fails on any engine error (#5907 brief #71) *(fix attempt - still being verified)*
+- No queue maker opens the pane unasked - one routed slot tap in TabBase for Builder, Library, Forge, Barracks; queue slot content clears its rounded border *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The checkpoint assembler to GameCheckpoint (#5907 brief #73)
+- STRIPSEAT - an overlay attached to the root outside ScreenHost.add_overlay
+- Painted-room rule 7 - the walkable floor is one hand-traced polygon, walkable at 3/4 cover
+- The first_salvage beat id is historical (TL ask on #7566)
+- A weekly audit says which selector rule spent each suite-minute
+
 ## v0.0.28-P5207
 
 - The console role reads account_ceiling's blocked verdict, not a re-derived percent
