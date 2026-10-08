@@ -4,6 +4,30 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5124
+
+- The Archer and the Fighter say their names - Wren Cassel, Sgt. Garrick Vane *(fix attempt - still being verified)*
+- Batch-fire codex bundle (#6455 + siblings) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Godot slot pool steps down one level (6 to 5) until the surge ends 10-10 7 PM
+
+## v0.0.28-P5121
+
+- Loot paintings land through promote_loot_painting.py with a mipmaps=true import stub; do_art_tasks_2304 writes true
+- An added art .png.import selects the mipmap walk; the selector self-test is green again
+- The interior fog field walks the revealed cells, not the whole grid - lair fog_field ~28 to ~4.75 ms a step
+- The context meter reads the account's 200K window; context no longer rotates a chat
+
+Behind the scenes:
+- Item 55a - named mobs capped once per area visit, roll 5% to 3%, named gold x8 to x5
+- Ike round 1's proposal - the difficulty ladder, the cave gated by power, slower upgrades, and a Gold by creature section
+- Box-ops: the night drain stops new automated starts but not lane self-wakes, so a drain never reaches quiet (#7243 follow-up)
+- Alpha's Fanged Spear and Flamehorn Helm paintings keep their mipmaps - main red on test_all_art_png_imports_generate_mipmaps after #7446
+- Markers and minimap move to WorldMarkers (seam-map region 15) - active_mode.gd 297777 to 282566 bytes
+- The procedural furniture stand-ins move to FurnitureStandIns (seam B) - world_renderer.gd 125231 to 118223 bytes
+- Alpha's Fanged Spear and Flamehorn Helm paintings (Nathan's #2 picks); drop the alphas_ruff / echo_stone orphan drafts
+
 ## v0.0.28-P5110
 
 - The site home page and play picker carry the load probe
