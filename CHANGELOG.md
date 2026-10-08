@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5164
+
+- The daily commentary falls back to the chart branch when the digest folder is empty (Thursdays)
+- Four self-check self-test FAILs, and archive-code-sessions.py gets a repo home
+
+Behind the scenes:
+- Fog overlay + zone borders to WorldFogLayer (#5907 brief #61)
+- Wave Details overlay to DefendWaveDetails (#5907 brief #62)
+- Outdoor set pieces to ValeSetPieces (#5907 brief #60)
+
 ## v0.0.28-P5158
 
 - The native ratchet skips one-line forwarders - a verbatim move no longer raises a row
