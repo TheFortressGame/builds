@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5168
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Gdunit-smoke runs the launcher suite on launcher/ or scripts/entry/ changes (#7365 PR 1)
+- Management tab-badge decision to ManagementTabBadges (#5907 brief #64)
+- Management screen soak harness to ManagementSoak (#5907 brief #63)
+
 ## v0.0.28-P5164
 
 - The daily commentary falls back to the chart branch when the digest folder is empty (Thursdays)
