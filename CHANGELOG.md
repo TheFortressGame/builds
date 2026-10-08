@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5207
+
+- The console role reads account_ceiling's blocked verdict, not a re-derived percent
+- The hold-cap card fires on the first real pickup and names the number (#7296 item 53) *(fix attempt - still being verified)*
+- No straw before Hollis - repair 5 wood + 3 stone, five straw ring Hollis (#7296 item 60, #7480 A) *(fix attempt - still being verified)*
+- Past the painting is the normal fog of war, the edge feathered into it
+- Goblins and bandits no longer drop the short sword, short bow or sling
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-itemization-v5)
+- A suite that reads a changed file by its res:// path boots the engine and is selected
+- One row look, three edge insets, and SIBLINGS on every UI fix (check-bugfix-shape check 8)
+- Lanes.json row for Fort B: Lane - Refactor UI v1
+
 ## v0.0.28-P5198
 
 - The Chipped Longsword, the Fighter's gift
