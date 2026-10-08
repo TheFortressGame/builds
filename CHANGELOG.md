@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5098
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The zone border overlay becomes its own file, ZoneBorderOverlay - world_renderer.gd 160034 to 152791 bytes
+- The main screen's board and view builders move to LauncherView - launcher/main.gd 2612 to 2273 lines
+
 ## v0.0.28-P5096
 
 - The lair IS O1 - his pick drawn untouched over the whole room, the floor traced from it
