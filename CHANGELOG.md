@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5103
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Premortem audit resolves bare action exes through PATH; RuntimeBudget writes a heartbeat
+
+## v0.0.28-P2682
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- ASK ONCE - NEEDS YOU only when a reply raises a new ask (console relay 528f8a94)
+- Resources move to ExploreResources (seam-map region 17) - active_mode.gd 297777 to 293431 bytes
+
 ## v0.0.28-P5100
 
 - Maintenance build (no player-facing changes in this range).
@@ -2939,7 +2954,7 @@ Behind the scenes:
 - Weekly-grain digests clear after 3 days, not 7
 - 'full sweeps not green' counts MAIN nightlies only - branch-side dispatch runs are developer-loop, not the release gate
 - Make the hearth depth-coupling guard content-independent
-- Stop no-op known-bugs-sync runs from cancelling real renders *(fix attempt - still being verified)*
+- Stop no-op known-bugs-sync runs from cancelling real renders
 - Detect a stale merge base once, use it twice; stop freshening PRs already in the merge queue
 - Routine-fleet reliability bundle (#5013, #5063, #5064)
 - Codex-usage token feed - name the ephemeral mechanism, fix the double count, alarm on the dark half
@@ -4732,14 +4747,6 @@ Behind the scenes:
 
 - QA round 7 — kills+time row, title-bar drag, fog-proof transparency, collapse removal, Version row, log font
 - Poller auto-merge is a DENY-list, not an allow-list (#3608 root-cause)
-
-Behind the scenes:
-- HUD QA round 7 build for Nathan re-test
-- Unify all Player Documents on the light parchment theme
-- Plain-text rule for ALL channel blocks + human crash block
-
-## v0.0.28-P2682
-
 - Woodsman Part 2 — practice, north tree, sharpen quest, sharp axe, town blueprint, move-in closer
 - Codex-run.ps1 - one-command Codex-lane driver
 - Merge-pr guards against admin-merging an UNSTABLE PR whose checks have not attached yet
@@ -5255,6 +5262,9 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- HUD QA round 7 build for Nathan re-test
+- Unify all Player Documents on the light parchment theme
+- Plain-text rule for ALL channel blocks + human crash block
 - Fire interim build - round-2 fixes + Woodsman Part 2 (PRs #3673 #3678)
 - Route recipe-shaped dispatches through Codex ΓÇö the grind is burning Fable while the Codex pool sits idle
 - Woodsman board shows the specced Part 2 as outline rows
