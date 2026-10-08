@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5154
+
+- The Builder's fourth column starts empty, opens from the queue slot and closes on a second tap (#7298 items 22a/22b)
+- The refactor program reads every number in a "REFACTOR BRIEFS #N-#M" header *(fix attempt - still being verified)*
+- A '<Name> finished' toast when a production queue item completes (#7298 item 70)
+
+Behind the scenes:
+- Fog and sections move to ExploreSections (seam-map region 11) (#5907 brief #54)
+- Fixed-spawn roster moves to ExploreFixedSpawns, and its build drops 245-336 to 28-42 ms - active_mode.gd 253211 to 244194 bytes (#5907 brief #57)
+
 ## v0.0.28-P5149
 
 - A counted gate shows what you have beside what it needs - Requires Barracks Lv 4 (1/4) (#7280 item 68, gate half)
