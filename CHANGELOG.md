@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5269
+
+- An exempted structure rise records its number - four exempted rises never moved the floor and main measured over its own ratchet
+- Land the area-faction ladder rows (#7442, #7296 item 61)
+- Cache the gear catalogue and the drop tables
+
+Behind the scenes:
+- The idle share measures working lanes only - MGMT chats work on a cadence
+- Two items in flight - a wait is idle; Overwatch measures each lane's idle share
+- The data-layer skill names BuildingStrings - table row and the grep-first identifier check
+
+## v0.0.28-P2843
+
+- Smart-reboot's graceful close is Ctrl-C on the server's console, exit-checked, FAILED logged
+
+Behind the scenes:
+- During a budget surge the night drain is only the reboot window (05:40, not 03:40)
+- A rotated chat's first prompts find their lane row - no false UNMATCHED
+
 ## v0.0.28-P5260
 
 - Maintenance build (no player-facing changes in this range).
@@ -4841,13 +4860,6 @@ Behind the scenes:
 - Give the web<->release drift check a deploy grace period
 - Repair check 18's corrupted path + gate raw control characters
 - The release gate has been DEAD for 8 nights - raise its timeout, chart it, alert on it
-
-Behind the scenes:
-- Add bramble/SE region to map_preview render tool
-- Fix stale blueprint-popup status + reassess Housing and idle
-
-## v0.0.28-P2843
-
 - Aim-mode facing was stomped every frame by the walk-bob
 - Forced first-defense gate — Explore greyed until one Defend
 - First-defense card + Defend's story pump + TWO popup presentations
@@ -5483,6 +5495,8 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Add bramble/SE region to map_preview render tool
+- Fix stale blueprint-popup status + reassess Housing and idle
 - Mark chapter 5 fully shipped — first-defense card + forced gate
 - Correct the tiering rules in CLAUDE.md - no PR gate runs the whole suite
 - Record the measured lane-scaling curve on SlotCount
