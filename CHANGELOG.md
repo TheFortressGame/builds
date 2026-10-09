@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5302
+
+- The vagabonds' swamp landing is a ruined pier - same reach and targets as the bridge (#7296 line 75) *(fix attempt - still being verified)*
+- A held camp's aggro rings show across the river while its ground is fogged (#7296 line 38) *(fix attempt - still being verified)*
+- A copy only a closing save past the agreed one takes the cloud copy, no prompt
+- Salvage by choice - a Salvage button on the inventory item card (#7296 item 79)
+
+Behind the scenes:
+- The Vale sight and crossing beats to ExploreSightBeats (#5907 brief #78)
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-interior-cave-v23)
+- The Vale's teases to ValeTeases - map_data.gd 2,626 to 2,567 lines (#5907 brief M2)
+
 ## v0.0.28-P5295
 
 - Maintenance build (no player-facing changes in this range).
@@ -28,7 +40,7 @@ Behind the scenes:
 ## v0.0.28-P5289
 
 - Captures-push reports a failed commit as a failure, never a pushed no-op
-- The test tools never default -ProjectDir to C:\fortress - the caller's checkout or a refusal *(fix attempt - still being verified)*
+- The test tools never default -ProjectDir to C:\fortress - the caller's checkout or a refusal
 - The server refuses a push whose sync base the cloud copy has moved past - an offline device can no longer overwrite newer progress
 - Standing-alert filers label their page 'standing' so Test-StandingPageIssue knows it
 - The cave boss chest's roll - 20-40 gold plus two draws of wood or stone (#7296 item 46)
