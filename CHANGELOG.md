@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5400
+
+- Wander trail draws a rescue NPC's patrol and closes each loop *(fix attempt - still being verified)*
+- The chief killed early - her meadow gives the Archer's bow (#7296 line 88) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The hero weapons and model suites lift the headless frame sleep - their frame waits only apply manual-clock poses
+- A retired lanes.json row never re-keys onto a live pin, and send-to-lane prefers the live row of a shared title
+- The dirty alarm routes refactor-map work to Refactor Map, by the longest lane key a worktree or branch prefix names
+- Lane definitions in Nathan's words (2026-10-09 fleet cleanup)
+- The explore-ending copy to ExploreDeathStrings, its run-summary rows to BattleReportStrings (#5907 seam 7)
+- The Python special_split_for mirror becomes is_boss, as GearBalance's (#7631 follow-up)
+
 ## v0.0.28-P5392
 
 - The 2D map hero picks a light/medium/heavy body by chest armour, base art until the tier art ships (#7302 item 62)
