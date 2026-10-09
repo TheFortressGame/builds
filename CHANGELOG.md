@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5348
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- A behind branch is judged on its own delta; a baseline rise stales only a PR that edits it; a wait is never a lane's next step
+- Prop placement to PropPlacer - world_renderer.gd 1,300 to 1,050 lines (#5907 (d))
+- The player auto-attack to PlayerAttackTick (#5907 brief #80.4)
+- TL self-check 10-09 - classifier, contract rows, gh-tz, lanes-record pauses, young-chat idle rule
+- Map_data.gd decor geometry to DecorGeometry - map_data.gd 2,415 to 2,321 lines (#5907 (c))
+- The camp wave's steps come from FlowField, the pathing owner - steps_from removed (#7296 line 76, follow-up to #7691)
+- The combat stance and the spawn timers to CombatStanceTick + SpawnTimerTick (#5907 brief #80.3)
+
 ## v0.0.28-P5341
 
 - The Ranger hands over her bow when she draws off, and the first slinger brings a practice sling on fort entry
