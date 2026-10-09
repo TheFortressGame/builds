@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5275
+
+- Dying before the bandit chief keeps his messages and the draw-away for after him (#7296 line 67) *(fix attempt - still being verified)*
+
+## v0.0.28-P2854
+
+- Snap the walkable outline to the painted trail's real edge + rule 8 *(fix attempt - still being verified)*
+- A PR that edits a ratchet baseline merges only from current main
+
+Behind the scenes:
+- A Godot slot covers its engine's life - taken right before the engine, given back as it exits; engines vs slots held
+- STALL push at 40 min quiet, Overwatch every 30 min with the idle table, non-Godot second item
+- ScreenHost scene-swap seam + the fortress enter-confirm case (#5907 brief #79)
+
 ## v0.0.28-P5269
 
 - An exempted structure rise records its number - four exempted rises never moved the floor and main measured over its own ratchet
@@ -4845,12 +4859,6 @@ Behind the scenes:
 
 - Stage 1 - Google sign-in + backup-all + boundary sync
 - The engines metric still carried a "suites" unit
-
-Behind the scenes:
-- Fire interim build for Accounts Stage 1 (#3534/#3875)
-
-## v0.0.28-P2854
-
 - Stats-overlay exit + convert aim-rail buttons to a real HUDWindow
 - The pool panel counts ENGINES, not slots - say so
 - Separate a KILLED run from a harmlessly superseded one
@@ -5495,6 +5503,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Fire interim build for Accounts Stage 1 (#3534/#3875)
 - Add bramble/SE region to map_preview render tool
 - Fix stale blueprint-popup status + reassess Housing and idle
 - Mark chapter 5 fully shipped — first-defense card + forced gate
