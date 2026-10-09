@@ -4,6 +4,30 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P2869
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.28-P5289
+
+- Captures-push reports a failed commit as a failure, never a pushed no-op
+- The test tools never default -ProjectDir to C:\fortress - the caller's checkout or a refusal *(fix attempt - still being verified)*
+- The server refuses a push whose sync base the cloud copy has moved past - an offline device can no longer overwrite newer progress
+- Standing-alert filers label their page 'standing' so Test-StandingPageIssue knows it
+- The cave boss chest's roll - 20-40 gold plus two draws of wood or stone (#7296 item 46)
+- The gate torches light the stakes and mud *(fix attempt - still being verified)*
+- The slot-life selftest scans only the tools tree on a deployed copy; a test pool never writes live holder records
+
+Behind the scenes:
+- A combat_config or defend_wave_config change selects both process goldens, so the PR that moves a number re-takes them
+- The same code never re-runs - a fresh .godot cache skips the import, a same-tree suite run replays its verdict
+- The gate sprites to GateSprites - world_renderer.gd 1,549 to 1,384 lines (#5907 brief #74)
+- _spawn_edge_enemy takes its mob id; re-take the process golden for the ladder rows
+
+## v0.0.28-P2857
+
+- A crash report of a dead session no longer adopts its trail as the live one *(fix attempt - still being verified)*
+
 ## v0.0.28-P5275
 
 - Dying before the bandit chief keeps his messages and the draw-away for after him (#7296 line 67) *(fix attempt - still being verified)*
@@ -4834,12 +4858,6 @@ Behind the scenes:
 - Wander_points was silently dropped by the bake/load round-trip
 - Two wolves wander, ring color marks which ones
 - Tie the wander-wolf popup to sight, not a fixed row
-
-Behind the scenes:
-- Fire interim build for remember-me sign-in
-
-## v0.0.28-P2869
-
 - Account gate before the roster - sign in or use local saves
 - Desktop Google sign-in redirect_uri must be localhost, not 127.0.0.1
 - Promote Alpha Wolf minimal sprite (pick #5)
@@ -4848,15 +4866,6 @@ Behind the scenes:
 - The Archer's northernmost wolf wanders a patrol loop
 - The Archer's wander ground — river bends west, big open glade
 - Promote Bandit Leader tiny-swords sprite (pick #2)
-
-Behind the scenes:
-- Fire interim build for oauth redirect fix + account gate (#3932/#3933)
-- Pull archerloop's left edge in further, clear an unrelated ring
-- Widen the archerloop preview crop, its top edge clipped the wolf
-- Add a wander-path overlay to the map preview harness
-
-## v0.0.28-P2857
-
 - Stage 1 - Google sign-in + backup-all + boundary sync
 - The engines metric still carried a "suites" unit
 - Stats-overlay exit + convert aim-rail buttons to a real HUDWindow
@@ -5503,6 +5512,11 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Fire interim build for remember-me sign-in
+- Fire interim build for oauth redirect fix + account gate (#3932/#3933)
+- Pull archerloop's left edge in further, clear an unrelated ring
+- Widen the archerloop preview crop, its top edge clipped the wolf
+- Add a wander-path overlay to the map preview harness
 - Fire interim build for Accounts Stage 1 (#3534/#3875)
 - Add bramble/SE region to map_preview render tool
 - Fix stale blueprint-popup status + reassess Housing and idle
