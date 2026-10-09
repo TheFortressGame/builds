@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5353
+
+- HUDWindow, CombatHud and WorldEncounterDialog connect ScreenHost.surface_resized in _enter_tree, paired with their _exit_tree disconnect *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The decor path to DecorPlacer, and _place_decor split - world_renderer.gd 982 to 734 lines (#5907 (e3))
+- An idle FLAG row sends the Overwatch digest on its own and is part of its change key
+- The underground light to CaveLighting - world_renderer.gd 1,050 to 982 lines (#5907 (e2))
+- The mobs' attacks to EnemyAttackTick, the killing hit's return a bool forwarder (#5907 brief #80.5)
+
 ## v0.0.28-P5348
 
 - Maintenance build (no player-facing changes in this range).
