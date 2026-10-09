@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5376
+
+- The blue range ring is on whenever the Range Ring switch is, fight or not (#7296 item 52, #7298) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- One walk of the eleven snapshots - unlock provenance and the ramp axes fold into test_snapshot_state_contract, their two suites go
+- Camp_reinforce and the rescue spawn gates become typed accessors (#7631 PR A)
+- Each runner parks its gdunit-smoke .godot outside the workspace and renames it back, instead of a ~800 MB re-seed every run
+- The account and roster copy to AccountStrings (#5907 seam 5)
+- A stale static-gates green is refreshed at merge time by a label toggle, not re-tested by update-branch
+- WIP is capped AT the Godot PR gate - a gh pr create is held while 6 PRs await gdunit-smoke
+- The cave, lair and native-room corpse cases step the body's own decay tween after proving it runs; the Vale and 3D cases keep the real clock
+- Delete 107 dead GameStrings names
+- The process-order determinism case compares one new midgame trace with the golden case's, not two of its own
+- The cabin walk-into-piece check ends each walk when the hero stalls, not at 2 s (24.5 s to 6.8 s)
+
 ## v0.0.28-P5365
 
 - Codex recipes for the six missing story-beat plates (#7298 item 56b)
