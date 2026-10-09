@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5365
+
+- Codex recipes for the six missing story-beat plates (#7298 item 56b)
+- A room keeps the zoom the player set in it across a walk out and back (#7296 item 19) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The management-tab copy to TabStrings (#5907 seam 3)
+- Test_vale_map builds the baked Vale once for its read-only cases - 62 scene loads to 5
+- Two items in flight is enforced - the Stop hook bounces a lane ending on one wait, and the STALL push drops to 20 min and names the line
+- Delete the dead tutorial-card icon channel - setup_tutorial loses its icon param, _tut_icon and the 12 'icon: placeholder' beat fields go (#7298 56b)
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-tests-v2)
+
 ## v0.0.28-P5357
 
 - One world-alert model - "!" until raised then a reach target, on every character and the gate guards, and an interior piece's glow arms with its target (#7296 lines 6, 7, 8, 10, 12, 13, 18, 58) *(fix attempt - still being verified)*
