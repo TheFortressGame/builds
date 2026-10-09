@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5357
+
+- One world-alert model - "!" until raised then a reach target, on every character and the gate guards, and an interior piece's glow arms with its target (#7296 lines 6, 7, 8, 10, 12, 13, 18, 58) *(fix attempt - still being verified)*
+- The Archer's wander card says the dashed route is drawn over ground you have seen (#7296 line 95, #7289) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Bash guard blocks the checks subcommand of gh pr in every session - the box PAT cannot read it, so a wait loop on it never ends
+- The terrain phases to WorldTerrain - world_renderer.gd 734 to 581 lines (#5907 (e4))
+
 ## v0.0.28-P5353
 
 - HUDWindow, CombatHud and WorldEncounterDialog connect ScreenHost.surface_resized in _enter_tree, paired with their _exit_tree disconnect *(fix attempt - still being verified)*
