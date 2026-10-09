@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5334
+
+- The battle report is a bounded centred column with its button pinned (#7298 item 21) *(fix attempt - still being verified)*
+- The idle picker reads a comment-borne blocked row and skips a spent checklist queue; Progression World waits on Nathan
+- After he meets you the woodsman is called by name - one name formatter (#7296 line 34)
+
+Behind the scenes:
+- The hero's end-of-frame regen to HeroRegenTick (#5907 brief #80.1)
+- The wall-prop cluster to WallProps - world_renderer.gd 1,384 to 1,254 lines
+- The test-only _vale_mouth_row forwarder goes; the sight-beat suites reach ExploreSightBeats through _sight (#5907 brief #78 follow-up)
+- Capture-state -Equip wears gear for a render
+
 ## v0.0.28-P5327
 
 - The auth probes run slim from an empty folder - no transcript, no tools, ~4K tokens, not ~26K every 10 min
