@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5387
+
+- A finger's tap leaves no hover glow behind once its card closes (#7782, Tech Lead's #7790 review) *(fix attempt - still being verified)*
+- A tappable piece glows on mouse hover from anywhere in the room, its target still by reach *(fix attempt - still being verified)*
+- The avalanche names no pick - the found-beat and its card ask for a tool honed keener (#7296 line 39) *(fix attempt - still being verified)*
+- Stone to mine, gold piles and two chests behind each boss (#7296 item 46)
+
+Behind the scenes:
+- The Overwatch digest flags open PRs that edit another lane's files (lane_scope_check.py, flag-only through 2026-10-16), and every brief names its lane scope
+- A UI-only diff keeps only the HUD-booting members of the always-on integration floor (#7512, test-redundancy ask 3)
+- The 2-hour KV capacity check reports the box's own LIST count (crash-raw.py's stamp) next to Cloudflare's account-wide count
+- GearSpecials becomes a const table and split_for an is_boss predicate (#7631 PR B)
+- The merge-time refresh reads the base its static-gates run tested from the run's own checkout log, not GitHub's lazily recomputed merge ref
+- The unwalkable-ground camera case runs its glides at 4x and waits for each to come to rest, not 45 fixed frames (400 to ~110 frames, 5.8 s to 2.6 s)
+- Crash-raw.py counts its KV LISTs per UTC day and refuses past 150, so no loop can burn Cloudflare's 1,000/day cap again
+
 ## v0.0.28-P5376
 
 - The blue range ring is on whenever the Range Ring switch is, fight or not (#7296 item 52, #7298) *(fix attempt - still being verified)*
