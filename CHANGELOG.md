@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5341
+
+- The Ranger hands over her bow when she draws off, and the first slinger brings a practice sling on fort entry
+- A waits-on-Nathan marker lapses when ANY listed ask closes, not when all do
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-gui-v23)
+- The spec's Stage 4 list is done - the walk is what is left
+- Split _build_tiles into an orchestrator plus seven phase helpers - functions_over_150 37 to 36
+- The mobs' flow-field rebuild to ChaseFieldTicker (#5907 brief #80.2)
+- The section-veil fog mask to ExploreFog - map_data.gd 2,471 to 2,415 lines
+
 ## v0.0.28-P5334
 
 - The battle report is a bounded centred column with its button pinned (#7298 item 21) *(fix attempt - still being verified)*
