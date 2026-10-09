@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5392
+
+- The 2D map hero picks a light/medium/heavy body by chest armour, base art until the tier art ships (#7302 item 62)
+
+Behind the scenes:
+- Retire WorldRenderer's lighting forwarders (#7745 part 2)
+- The battle-report copy to BattleReportStrings (#5907 seam 6)
+- The nightly worktree reaper also removes stray folders under each runner's _work (hand-made copies and experiments, 22 found, Jun-Aug)
+- The whole-map scene reader to MapSceneLoader - map_data.gd 2,324 to 2,213 lines (#5907 brief M3)
+
 ## v0.0.28-P5387
 
 - A finger's tap leaves no hover glow behind once its card closes (#7782, Tech Lead's #7790 review) *(fix attempt - still being verified)*
