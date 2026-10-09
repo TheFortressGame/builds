@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5250
+
+- A sound toggle on the post-launcher entry screens, persisted
+
+Behind the scenes:
+- Read the gold - a Stage 4 step for the Gold by creature analysis (#7296 item 54)
+- The lanes record follows the live registry (lane-swap, 1 lane(s) moved)
+- Opening and Woodsman beats to StoryBeatsOpening / StoryBeatsWoodsman
+- The Godot slot pool goes back to auto (6) now, not Sat 7 PM - the step-down is the bottleneck
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-mgmt-tech-lead-v41)
+- The run save and restore to ExploreRunSave (#5907 brief #76)
+- Hero_live_weapons boots each default weapon/stance pair once
+
 ## v0.0.28-P5242
 
 - Sight-cut aggro rings, bow root + ranged gate + range ring (#7296 items 52, 63, 64) *(fix attempt - still being verified)*
