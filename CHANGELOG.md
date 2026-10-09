@@ -4,6 +4,27 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5260
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Runbook Stage 1 gains the firmware Auto Power On step; inbound ledger records the 2026-10-08 cable-pull proof
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-saves-and-platforms-v4)
+- Every boot re-prompts the lanes - post-boot resume task, selftest, self-check heartbeat
+
+## v0.0.28-P2837
+
+- The trip-end math behind the death card rides Copy game data, and the lair swap is pinned (#7296 lines 66, 74) *(fix attempt - still being verified)*
+- A double tap on a spend button buys once (#7296 item 47) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Building copy to BuildingStrings
+- Every lane-swap move is a rotation with a vN name - the retire+mint path minted an unversioned title that collided with an archived chat and took Overwatch down
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-itemization-v6)
+- The fortress discovery, repair and enter prompts to ExploreFortressVisit (#5907 brief #77)
+- No Fortress task stops when the UPS takes over - every installer clears both battery flags, and the self-check counts them
+
 ## v0.0.28-P5250
 
 - A sound toggle on the post-launcher entry screens, persisted
@@ -4832,12 +4853,6 @@ Behind the scenes:
 - First-defense card + Defend's story pump + TWO popup presentations
 - Craftsman first-greeting parity + every character names himself
 - Escalation must ADD the core smoke set, not replace the impacted selection
-
-Behind the scenes:
-- Mark chapter 5 fully shipped — first-defense card + forced gate
-
-## v0.0.28-P2837
-
 - Prototype aim-mode control scheme (zoom-triggered facing)
 - Name gate STARVATION in the daily check, not just gate cost
 - Raise gate slot-wait patience 4 to 7 attempts (~28 min to ~47 min)
@@ -5468,6 +5483,7 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Mark chapter 5 fully shipped — first-defense card + forced gate
 - Correct the tiering rules in CLAUDE.md - no PR gate runs the whole suite
 - Record the measured lane-scaling curve on SlotCount
 - Log aim-mode prototype design pattern + open design question
