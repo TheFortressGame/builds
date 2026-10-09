@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5318
+
+- Springing the bandit camp brings bandits up behind you - the camp cannot be kited (#7296 line 76)
+- Token-category cold start exits 3 'warming', not a bare failure *(fix attempt - still being verified)*
+- Named gold x8 to x5, now the ladder has raised every base
+- The simulated player's first-observation clock starts at engine start, and a night-drain refusal is SKIPPED, never FAIL *(fix attempt - still being verified)*
+- A queue's done-alert clears once seen, and an empty production queue has its own mark (#7296 line 69)
+- A closed wooden double gate stands in the north opening, from Nathan's mockup 2
+- The blue range ring shows only while he fights, is cut at walls, and has a Range Ring switch in Options, the minimap and the big map (#7296 item 52, #7298) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Several ready PRs gate side by side, up to 2 at once - nothing in the gate serializes a lane
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-mgmt-tech-lead-v42)
+- The Arena's MapData to InteriorMaps - map_data.gd 2,567 to 2,471 lines
+- The idle push names its second item from data - unticked, owned, unblocked, no PR, no ledger answer - or FREE SLOT
+- One row look - content-row/header-card/tile factories + SBFNEW/BORDERW gates (#5907 UI-2 + UI-8)
+- Merge-pr updates a behind baseline-editing PR only when main itself edited a baseline
+- A lane whose every open line waits on Nathan is never pushed or counted idle
+- Regenerate Storyline Art Bible + coverage (nightly)
+
 ## v0.0.28-P5302
 
 - The vagabonds' swamp landing is a ruined pier - same reach and targets as the bridge (#7296 line 75) *(fix attempt - still being verified)*
