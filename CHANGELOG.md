@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5295
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Overwatch's idle push names the slot-free second item by issue and line
+
+## v0.0.28-P2874
+
+- A refusal toast is centred above the chrome on its own ground
+
+Behind the scenes:
+- A map scene changes by an edit tool run where the autoloads load, never a full re-bake
+- A push that only merged main skips the local gdUnit selection
+- The Godot queue - a gate goes ahead of captures and probes, waits 45 min, and a refused run's retry keeps its place
+- DefendWaveConfig.WAVES is the first code copy of the area-faction ladder
+
 ## v0.0.28-P2869
 
 - Maintenance build (no player-facing changes in this range).
@@ -4847,13 +4864,6 @@ Behind the scenes:
 
 - Nathan's five chart notes - timeout-only alarm, drop daily totals, disk on concurrency, regroup box health
 - Spawn-ring schema - rarity color, wander icon, path toggle
-
-Behind the scenes:
-- Test_phase3_snapshot_relock does not finish in 20 min running alone (probable hang, not slowness)
-- Log the rare/named spawn-chance idea as an open design question
-
-## v0.0.28-P2874
-
 - Remember-me checkbox persists sign-in across app launches
 - Wander_points was silently dropped by the bake/load round-trip
 - Two wolves wander, ring color marks which ones
@@ -5512,6 +5522,8 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Test_phase3_snapshot_relock does not finish in 20 min running alone (probable hang, not slowness)
+- Log the rare/named spawn-chance idea as an open design question
 - Fire interim build for remember-me sign-in
 - Fire interim build for oauth redirect fix + account gate (#3932/#3933)
 - Pull archerloop's left edge in further, clear an unrelated ring
