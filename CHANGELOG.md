@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5327
+
+- The auth probes run slim from an empty folder - no transcript, no tools, ~4K tokens, not ~26K every 10 min
+- The Equipment window follows a drag-resize by its anchors instead of rebuilding each step (#7495 item 2) *(fix attempt - still being verified)*
+- Miscellaneous first, Storage Chest first in it (#7296 item 22c)
+- Every Godot slot grant is logged, and an empty slot-wait window reads NO SAMPLES, never UNDER
+- A lane's own queue before FREE SLOT, and the drain refusal names a re-check, not 8 AM
+- Upgrade-cost bypass is per type - FREE BLDG / FREE STATS / FREE GEAR (#7296 item 43)
+- The Woodsman's Cabin floor loses the painting's stone front walls - its own planks shifted over them (#7296 item 14) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-v24)
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-pc-and-npc-models-v28)
+
 ## v0.0.28-P5318
 
 - Springing the bandit camp brings bandits up behind you - the camp cannot be kited (#7296 line 76)
