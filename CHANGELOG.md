@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5546
+
+- The Wandering Treant Guardian
+- Codex drafts for the six missing story-beat plates (#7298 item 56b)
+- The gdunit run's drive-drop budget logs instead of killing; kills stay on the run's own bytes and the free floor *(fix attempt - still being verified)*
+- The Kuo-toa's walk B stands at walk A's height - main's heights probe green again *(fix attempt - still being verified)*
+- Reap merged worktrees every 30 min, cap each lane at 2 scratch trees
+- Disk-growers scans worktrees and runner _work trees per child (#7980, #6386) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A screen's arrangement is ScreenHost.orientation_token_for, not is_phone_surface
+- Fortress and party's entity-detail tap is the TabBase default (#5907 Refactor UI item 4a)
+- The forge and guard party assigns to SlotRoster.assign_first_free (#5907 Refactor Systems S9)
+
 ## v0.0.28-P5537
 
 - Test_files joins the structure ratchet - a new test is a case in its owner's suite
