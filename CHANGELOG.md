@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5526
+
+- A const-only append to a soft-core file selects on its class token only the suites that reflect over the constant set (#7980 item 3) *(fix attempt - still being verified)*
+- Gh_api retries 502/503/504 + timeouts; collect skips and counts an unreadable run, fails past 10% *(fix attempt - still being verified)*
+- Four lane-reported errands - the import's stale class cache, the collision check's timeout, the deployed second_item path, the sweep's merge budget
+- The frostling and Kuo-toa scout get real four-direction frame sets
+- The simulated player's channel gets a hover op - the mouse pointer resting on a point, so a box capture can show a hover glow (#7790, #7296 lines 8+10)
+
+Behind the scenes:
+- The five plain progression starts to TabBase._execute_progression_start (#5907 Refactor UI item 4d)
+- Repair_release_notes.main to an orchestrator over verbatim step helpers
+- Crash_facts.build_facts to an orchestrator over verbatim step helpers
+- Structure-audit.py audit to orchestrator over verbatim step helpers
+
 ## v0.0.28-P5517
 
 - The local test tier keeps a hub file's source pins (#7932 went green locally, red in CI)
