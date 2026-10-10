@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5517
+
+- The local test tier keeps a hub file's source pins (#7932 went green locally, red in CI)
+
+Behind the scenes:
+- Actions_series.main to an orchestrator over verbatim step helpers
+- About_releases_sync.main to an orchestrator over verbatim step helpers
+- Token-ledger build to an orchestrator over verbatim step helpers
+- Autoload-epoch-guard check to orchestrator over verbatim step helpers
+- Native_ratchet.compare to an orchestrator over verbatim step helpers
+- Test-selection-audit audit to orchestrator over verbatim step helpers
+- Evaluate_release_gate to an orchestrator over verbatim step helpers
+- Regenerate Storyline Art Bible + coverage (nightly)
+- ProductionHeader.create to the shell + five per-part builders (#5907 brief #90)
+- The section-label family to UIHelpers.make_label (#5907 Refactor UI item 2)
+- GameStateExport._runtime / _merge_movement_debug to ordered section helpers (#5907 Refactor Systems seam 7)
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-v27)
+- _build_decor's sprite route to its own step _add_decor_sprite
+- The at-ease weapon suite lifts the headless frame sleep - ~2,100 manual-clock frames, ~27 s to ~9 s
+
 ## v0.0.28-P5502
 
 - The ranged slot's Shoot - pick a mob, fire until melee reach or Shoot again
@@ -366,7 +386,7 @@ Behind the scenes:
 
 ## v0.0.28-P2857
 
-- A crash report of a dead session no longer adopts its trail as the live one *(fix attempt - still being verified)*
+- A crash report of a dead session no longer adopts its trail as the live one
 
 ## v0.0.28-P5275
 
@@ -454,7 +474,7 @@ Behind the scenes:
 ## v0.0.28-P5231
 
 - The swamp dock is a ruined pier, never a boardwalk (#7300 item 75c) *(fix attempt - still being verified)*
-- The engine keeps the fetched pack instead of copying it into MEMFS *(fix attempt - still being verified)*
+- The engine keeps the fetched pack instead of copying it into MEMFS
 
 Behind the scenes:
 - A refactor finish-line panel heads the progress sheet, and the token panel no longer reads as missing
@@ -466,7 +486,7 @@ Behind the scenes:
 ## v0.0.28-P5224
 
 - Locked picker rows are selectable and long building names wrap *(fix attempt - still being verified)*
-- Music beds stream instead of decoding whole on web *(fix attempt - still being verified)*
+- Music beds stream instead of decoding whole on web
 
 Behind the scenes:
 - A same-name get/set property forwarder is not a second site (#5907 brief #72)
@@ -901,11 +921,11 @@ Behind the scenes:
 
 ## v0.0.28-P2591
 
-- Web epoch E20 to E21 - re-cut the web base so the 3D models actually leave the download *(fix attempt - still being verified)*
+- Web epoch E20 to E21 - re-cut the web base so the 3D models actually leave the download
 
 ## v0.0.28-P5010
 
-- The web export drops the 3D models - a browser never enters 3D (#7206, #7229) *(fix attempt - still being verified)*
+- The web export drops the 3D models - a browser never enters 3D (#7206, #7229)
 
 ## v0.0.28-P5009
 
@@ -968,7 +988,7 @@ Behind the scenes:
 
 - Full screen is always borderless - exclusive full screen retired
 - Held movement drops when the window loses focus
-- Xbox load telemetry - the load reports itself while it runs, and /memtest/ sends its result *(fix attempt - still being verified)*
+- Xbox load telemetry - the load reports itself while it runs, and /memtest/ sends its result
 
 Behind the scenes:
 - Daily Brief wrong-direction alerts per progress series
@@ -992,7 +1012,7 @@ Behind the scenes:
 
 ## v0.0.28-P4983
 
-- Xbox crash telemetry - the probe's memory trail, and the relay keeps every report raw *(fix attempt - still being verified)*
+- Xbox crash telemetry - the probe's memory trail, and the relay keeps every report raw
 
 ## v0.0.28-P4982
 
@@ -1011,7 +1031,7 @@ Behind the scenes:
 
 ## v0.0.28-P4978
 
-- Desktop and Xbox browsers load packs without the phone-format textures - 20 MB less held in the tab (#7206, #7229) *(fix attempt - still being verified)*
+- Desktop and Xbox browsers load packs without the phone-format textures - 20 MB less held in the tab (#7206, #7229)
 - A dead mob's corpse fades and is freed after a while, in every path
 
 Behind the scenes:
@@ -1087,7 +1107,7 @@ Behind the scenes:
 
 - The other three 10-06 self-check reds - two selftests read the deployed dir as a checkout, the lanes record was 32 fields stale
 - The 10-06 self-check reds - sim-player kills its whole tree, the idiom sweeps gate every PR, capture-lanes scans its own tree
-- The runtime-budget nightly writes BOM-free copies and judges python by exit code; a dry-run wire-test mode *(fix attempt - still being verified)*
+- The runtime-budget nightly writes BOM-free copies and judges python by exit code; a dry-run wire-test mode
 - An orphan Godot never blocks the reboot - one orphan rule in godot-proc, reaped by SmartReboot and reap-orphans
 - The structure audit measures runtime cost - shipped waste is ratcheted, content bytes reported every PR
 
@@ -1097,7 +1117,7 @@ Behind the scenes:
 
 ## v0.0.28-P2525
 
-- The launcher hands off with location.replace so its ~300 MB leaves the tab; Xbox skips the launcher; a tab-memory ceiling probe at /memtest/ (#7206, launcher v1.1.65) *(fix attempt - still being verified)*
+- The launcher hands off with location.replace so its ~300 MB leaves the tab; Xbox skips the launcher; a tab-memory ceiling probe at /memtest/ (#7206, launcher v1.1.65)
 
 ## v0.0.28-P4944
 
