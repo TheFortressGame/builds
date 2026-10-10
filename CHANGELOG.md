@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5552
+
+- The cave's dead end ends in a deep pit - a teaser zone that needs a rope
+- The save list reads each save once to sort it - the comparator re-parsed two whole saves per comparison, minutes on a 2,178-save dir *(fix attempt - still being verified)*
+- Escape closes the rename window even with its name field focused (#5907 Refactor UI item 10c) *(fix attempt - still being verified)*
+- A mob's blow that does not fly is held while a wall stands between it and the hero *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Mark_solid_from_footprints to DecorGeometry, the dead _mark_furniture_solid deleted (#5907 map list 7)
+- Loot prose never lists a family's items; a doc-vs-game gap checks the newest ruling first
+
 ## v0.0.28-P5546
 
 - The Wandering Treant Guardian
