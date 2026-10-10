@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5568
+
+- The beacon says why a session is slow, and low-memory browsers render at dpr 1
+- WorldScale.metres_of - one owner for a character's drawn height (#6644 seam 1)
+- The progression walk hands the next suite a new game - it left a full wallet that red the production-header goldens
+
+Behind the scenes:
+- The frostling/Kuo-toa art comment names the real frame sets
+- The building gate chain as built - no Library or Engraving gate on any blueprint; rescue is a won encounter, not an item
+- The UI and architecture docs follow the code on the #8045/#8046 drift findings (GUI share)
+
 ## v0.0.28-P5562
 
 - The Arena drawn as ONE whole-room painting - his pick 3 Festival
