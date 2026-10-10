@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5453
+
+- The dirty alarm reads a lane prefix at any branch segment (claude/refactor-systems/ heads)
+- The refactor merge cap counts every refactor lane, at 48/day until Sat 10-10 7 PM
+- The interim build fires once the OLDEST unbuilt commit is 45 min old - a merge burst never starves it (ci-sentinel #7057)
+- The refactor pace cap counts every refactor lane, not only refactor/ heads
+
+Behind the scenes:
+- The live hero's motion blend graph to LiveMotionGraph
+- _build_forest and _forest_hash to Explore3DDecorBuilder, layer forwards
+- WebTextInput._install_js 236 lines to the _INSTALL_JS const (#5907, Refactor Systems seam 1)
+- _build_tiles splits in place into named phases (#5907 map list 7b)
+- The divider family to ThemeConstants.create_separator() (#5907 Refactor UI v3 item 1)
+- WorldEncounterDialog.setup to the shell + three per-part builders (#5907 brief #85)
+- ZoneFlood.vale_zone_grid to an orchestrator over FloodState's steps, fingerprint identical
+
 ## v0.0.28-P5442
 
 - Two lookout hills - tap, Look, the far tease lifts out of the fog (#7300 line 44)
