@@ -4,6 +4,23 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5412
+
+- In reach of a mob the hero attacks, noticed or not - one reach owner for ring and trigger *(fix attempt - still being verified)*
+- Promote the Cartographic Institute painterly portrait (#7585, painterly only - the picker needs a flat icon)
+- The opening beast stands its ground - not pushable (#7296 line 4b) *(fix attempt - still being verified)*
+- Nothing is gathered mid-fight - a node in reach is held with the one refusal line, once per fight (#7296 line 33) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The throne copy to ThroneStrings, the march-modal copy to MarchStrings (#5907 seam 10)
+- Retire WorldRenderer's DecorPlacer forwarders (#7751 part 2)
+- The depth-sort suite builds the live Vale only in the nine cases that read it, not for all sixteen (15.7 s to 10.4 s)
+- The cave's hero light and mouth daylight build through WorldLight.point
+- The lanes record follows the live registry (tech-lead-dirty-alarm-7817)
+- The interior-door prompts to InteriorDoorStrings, the duel cards to DuelStrings (#5907 seam 9)
+- The Vale map is built once per process and every create_vale() caller gets a deep clone
+- The gear texel measures work out each texel's lightness once and _lab builds no lambdas per call
+
 ## v0.0.28-P5400
 
 - Wander trail draws a rescue NPC's patrol and closes each loop *(fix attempt - still being verified)*
