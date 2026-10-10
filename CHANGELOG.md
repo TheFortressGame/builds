@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5575
+
+- The native ratchet's KEY_ tell counts the engine constant, not any name containing it
+- The vagabonds' target sits over them at the dock on a map load (#7296 line 75) *(fix attempt - still being verified)*
+- Solid rock with a soft see-through circle around the hero - #7931 option 2
+- The Shoot button, key 1 and a crosshair for the ranged slot
+- The earrings are single - one earring per painting, singular names and ids (save v9)
+- A Shoot volley swings the ranged weapon, not the one he holds *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Vale's road-end constants to ValeRoadEnds (#5907 Brief A seam A1)
+
 ## v0.0.28-P5568
 
 - The beacon says why a session is slow, and low-memory browsers render at dpr 1
