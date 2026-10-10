@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5562
+
+- The Arena drawn as ONE whole-room painting - his pick 3 Festival
+- The belt slot moves to the centre column and the Ranged slot shows a diagonal bow (Nathan 10-10, #7999)
+- The controller plays the game - left stick walks, D-pad opens map/equipment and zooms, right stick + A is a pointer
+- A mob in the native room stands its feet on its point
+
+Behind the scenes:
+- The build gap - no interim build within 120 min of the last, 60 for a TEST line
+- The lanes record follows the live registry (rename-fleet-chats)
+- The Equipment window's fill rule is the layout layer's orientation call, no width floor of its own
+- #5907 (c) follow-up: repoint the decor-geometry callers from the MapData forwarders to DecorGeometry, then delete the forwarders
+- The road's centre and the huts' clearings to ValeTrails (#5907 map list 6)
+- Chat names FA:/FB: <name> (Nathan 10-10 2:29 PM)
+
 ## v0.0.28-P5552
 
 - The cave's dead end ends in a deep pit - a teaser zone that needs a rope
@@ -20,7 +35,7 @@ Behind the scenes:
 - The Wandering Treant Guardian
 - Codex drafts for the six missing story-beat plates (#7298 item 56b)
 - The gdunit run's drive-drop budget logs instead of killing; kills stay on the run's own bytes and the free floor *(fix attempt - still being verified)*
-- The Kuo-toa's walk B stands at walk A's height - main's heights probe green again *(fix attempt - still being verified)*
+- The Kuo-toa's walk B stands at walk A's height - main's heights probe green again
 - Reap merged worktrees every 30 min, cap each lane at 2 scratch trees
 - Disk-growers scans worktrees and runner _work trees per child (#7980, #6386) *(fix attempt - still being verified)*
 
