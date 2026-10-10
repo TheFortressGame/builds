@@ -4,6 +4,27 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5442
+
+- Two lookout hills - tap, Look, the far tease lifts out of the fog (#7300 line 44)
+- The Cartographic Institute flat icon - the globe, Nathan's pick
+- The orphan detector never re-mints a lane lanes.json retired
+
+Behind the scenes:
+- The minimap suite resets its settings with one read and one save a case, not 118 load-and-saves (minimap data 43.5 s to 3.4 s)
+- The 3D layer's sky, fog and sun to Explore3DEnvironment (#5907 refactor-world seam 1)
+- The craftsman-house and Walls blueprint names to BuildingStrings (#5907 seam 13)
+- BattleReport._ready to the shell + eight per-section builders, in place (#5907 brief #84b)
+- The decor-geometry, zone-flood and scene-loader forwarders' callers call the owners by name (#5907 g3 part 1)
+- CheatPanel._ready to the shell + nine per-section builders, in place (#5907 brief #83)
+- DesktopTopBar._init to the shell + four per-group builders (#5907 brief #86)
+- TEST names only a published build; a push goes only to an idle lane (Nathan 10-09 9:47 PM)
+- Refactor paceCeiling 6 to 12 for the burn window (Nathan 10-09 9:31 PM via the A console)
+- Refactor Systems v1 and Refactor World v1 on B, Refactor UI un-parked to B - Nathan 10-09 9:31 PM "burn WAY harder"
+- The lock reasons to LockReasonStrings (#5907 seam 12)
+- The cave's whole rock mesh is built once per suite, not in each of three cases (those cases 7.6 s to 4.6 s)
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-ui-v2)
+
 ## v0.0.28-P5425
 
 - The minimap's aggro ring is the world ring's sight-cut outline; ring == latch pinned (#7302 item 63) *(fix attempt - still being verified)*
