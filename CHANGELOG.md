@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5480
+
+- A reaped pre-push gate resumes from the same-tree ledger, never from zero *(fix attempt - still being verified)*
+- A Ranged slot - bows and slings move to it, save v7->v8 rung
+
+Behind the scenes:
+- _build_ground to an orchestrator over mesh / material / slab steps
+- RowConfigBuilder's per-state head to one _fill_row_head + ROW_TEXT_KEYS, every state's key set test-pinned (#5907, Refactor Systems seam 5)
+- The main tab bar's three styles to ThemeConstants.create_main_tab_style; the dead _rebuild_tab_bar_styles removed (#5907 Refactor UI item 5)
+- The Vale's areas and gate-verge clear to ValeMaps (#5907 (f))
+- SelectionCard.create to the shell + four per-part builders, in place (#5907 brief #88)
+- The hero's walk to HeroMovementTick (#5907 brief #80.7)
+- The minimap chrome to MinimapStrings (#5907 seam 17)
+- The live hero's stage (environment + lights) to LiveStage
+
 ## v0.0.28-P5469
 
 - Maintenance build (no player-facing changes in this range).
