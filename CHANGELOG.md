@@ -4,6 +4,25 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5494
+
+- Merge-pr's gate refresh and gate-wip enumerate gh's JSON array (5.1 ConvertFrom-Json emits it as one object)
+- A LOAD-CRASH that reached a screen groups by it, so the web management death joins #4948
+- A hard-killed project.godot borrow gives the tree back - a WMI guard outside the process tree restores and sweeps; testing/ sidecars gitignored *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The gear screen copy to GearStrings (#5907 seam 19)
+- The saves lane row records its wait on Nathan
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-tests-v5)
+- The #5907 refactor program and four governing docs get roadmap lines
+- The map-paint primitives to MapPaint - map_data.gd 2,321 to 2,259 lines (#5907 brief M4)
+- The four maker tabs' _on_cancel_pressed to one TabBase._on_cancel_pressed(slot_index = 0) (#5907 Refactor UI item 4c)
+- The armory/guardhouse twin roster-section and card-config bodies to TabBase._populate_roster_section / _roster_card_config (#5907 Refactor UI item 3)
+- LevelingHeaderCard.create to the shell + five per-part builders (#5907 brief #89)
+- The hero roster copy to HeroRosterStrings (#5907 seam 18)
+- Create_vale and its per-process cache to ValeMaps - map_data.gd 2,191 to 2,145 lines (#5907 brief (f2))
+- The fog suite's detector control rides the Vale journey's boot - six ActiveMode boots, not seven
+
 ## v0.0.28-P5480
 
 - A reaped pre-push gate resumes from the same-tree ledger, never from zero *(fix attempt - still being verified)*
