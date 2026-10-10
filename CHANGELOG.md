@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5537
+
+- Test_files joins the structure ratchet - a new test is a case in its owner's suite
+- The gdunit run's disk cap - 2 GB per process, 15 GB per run, the suite in flight named
+
+Behind the scenes:
+- The crash relay indexes its raw records in idx:raw, so a routine crash-raw read makes zero KV LISTs
+- Delete the unreachable 3D furniture variant pick
+- Orphan-detector write_seed to orchestrator over verbatim step helpers (#5907, #7903)
+- The encounter chain to EncounterProximityChain (#5907 brief #80.8)
+- Set_spawn_entries' per-ring body to its own step _feed_spawn_ring
+- Popup captures set GameManager flags first, and render the Defend battle report (#7296 lines 34, 85)
+- Drop the stale interim loot line - the frostling and kuo-toa rows landed (#7284, #7990)
+- Fleet-board render to orchestrator over verbatim step helpers
+- SoakDriver._step to the decision over five named steps (#5907 Refactor Systems seam 8)
+
 ## v0.0.28-P5526
 
 - A const-only append to a soft-core file selects on its class token only the suites that reflect over the constant set (#7980 item 3) *(fix attempt - still being verified)*
