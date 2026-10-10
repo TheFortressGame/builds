@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5463
+
+- The Builder's Wood runs further south, two loops and the 16 woods re-scattered (#7296 line 75d)
+
+Behind the scenes:
+- RowRenderer.render_row to the shell + seven per-part builders (#5907 brief #87)
+- The Settings Gameplay and Controls copy to SettingsStrings (#5907 seam 15)
+- CheatSnapshotValidator._collect_snapshot_validation_failures 147 lines to ten _check_* functions A..J, in report order (#5907, Refactor Systems seam 3)
+- The mobs' AI to EnemyAiTick (#5907 brief #80.6)
+
 ## v0.0.28-P5458
 
 - GLYPH pardons a glyph literal the same diff removes from another file (a cross-file move is not an add)
