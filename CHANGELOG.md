@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5502
+
+- The ranged slot's Shoot - pick a mob, fire until melee reach or Shoot again
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-map-v3)
+- The re-entry drop to MapDrop (#5907 map list 5)
+- The window-press suite boots one ActiveMode, not nine - each case closes its surface, after_test closes every one again
+- The fog-section stamper to MapPaint (#5907 map list 4)
+- EffectSummary keyed pair get_effect_summary / get_effect_total, per-type bodies private (#5907, Refactor Systems seam 6)
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-data-v5)
+- _place_weapon's foreshortened carry tilt to its own step _foreshorten_carry
+
 ## v0.0.28-P5494
 
 - Merge-pr's gate refresh and gate-wip enumerate gh's JSON array (5.1 ConvertFrom-Json emits it as one object)
