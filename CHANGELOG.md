@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5469
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- 31 HUD and minimap suites reset their settings with one file save a case (HudGlobalReset.restore_defaults)
+- NewGameReset.apply 135 lines to bm.reset + seven section helpers in the old order + the inline tail (#5907, Refactor Systems seam 4)
+- The cheat-snapshots contract proves the Maxed-base forwarder in the end-state case, one ~2 s base run instead of two
+- Settings_panel's six row builders to SettingsRows (#5907 Refactor UI v3 item 6)
+- _sync_player_visual to an orchestrator over place / face / follow steps
+
 ## v0.0.28-P5463
 
 - The Builder's Wood runs further south, two loops and the 16 woods re-scattered (#7296 line 75d)
