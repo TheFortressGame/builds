@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5419
+
+- The entry ring prompts on entry and on a tap of the building, and sits centred on it
+- A suite that calls a changed function is impacted, hub or not - rule 2i
+- Cartographic_institute leaves the picker art exemption - its painterly-t1 landed in #7826 and main went red
+
+Behind the scenes:
+- The native cottage's walks end once he stands still or the control has proved its point, not at a fixed 1.5-3 s (cottage walks 46.6 s to 19.0 s, cottage 17.6 s to 13.2 s)
+- Every caller of the Vale forwarders calls ValeTrails / ValeTeases / ValeRoadEnds by name (#5907 brief g1)
+- The arena's stakes walks start 2 m short of the ring and the no-collision controls end the frame they prove their point (arena 31 s to 15 s)
+
 ## v0.0.28-P5412
 
 - In reach of a mob the hero attacks, noticed or not - one reach owner for ring and trigger *(fix attempt - still being verified)*
@@ -46,8 +57,8 @@ Behind the scenes:
 
 ## v0.0.28-P5387
 
-- A finger's tap leaves no hover glow behind once its card closes (#7782, Tech Lead's #7790 review) *(fix attempt - still being verified)*
-- A tappable piece glows on mouse hover from anywhere in the room, its target still by reach *(fix attempt - still being verified)*
+- A finger's tap leaves no hover glow behind once its card closes (#7782, Tech Lead's #7790 review)
+- A tappable piece glows on mouse hover from anywhere in the room, its target still by reach
 - The avalanche names no pick - the found-beat and its card ask for a tool honed keener (#7296 line 39) *(fix attempt - still being verified)*
 - Stone to mine, gold piles and two chests behind each boss (#7296 item 46)
 
