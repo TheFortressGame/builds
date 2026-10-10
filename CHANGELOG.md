@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5458
+
+- GLYPH pardons a glyph literal the same diff removes from another file (a cross-file move is not an add)
+
+Behind the scenes:
+- Every B-bound lane runs opus/high until B resets - Nathan 12:51 AM "bump up models etc... til B is out" (registry rows)
+- The encounter copy to EncounterStrings (#5907 seam 14)
+- ExploreMapSnapshot.build to an orchestrator over verbatim step helpers
+- CrashBeacon._arm_crash_listener 169 lines to the _CRASH_LISTENER_JS const + crash_listener_js() (#5907, Refactor Systems seam 2)
+
 ## v0.0.28-P5453
 
 - The dirty alarm reads a lane prefix at any branch segment (claude/refactor-systems/ heads)
