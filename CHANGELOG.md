@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5425
+
+- The minimap's aggro ring is the world ring's sight-cut outline; ring == latch pinned (#7302 item 63) *(fix attempt - still being verified)*
+- The refactor pace counts every merge of the day (limit 50 to 300), and the promise sweep holds a pace-parked Refactor lane instead of pinging it
+- Wait-pr-green waits out a PR head that lags the push; dirty_alarm names the lane a branch leaf names
+
+Behind the scenes:
+- Build the research table once - the Maxed base 2.0 s to 0.22 s
+- The milestone narratives and the two standard cards to MilestoneStrings (#5907 seam 11)
+- Combat lane queue += #7302 items 52/63 (ring = reach, ranged fire gate) - re-routed from PC/NPC Models under the 2026-10-09 lane definitions
+
 ## v0.0.28-P5419
 
 - The entry ring prompts on entry and on a tap of the building, and sits centred on it
