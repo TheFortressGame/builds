@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5659
+
+- Mob families rank wolf < mosquito < bandit < cave < frost < goblin; bows and sling reach 11 m
+- Rest campfire toggle in the Actions window beside Shoot, state pushed in
+- Each weapon's gear counts only toward its own attack - the bow's damage no longer reaches the spear *(fix attempt - still being verified)*
+- A slide scrolls a list and a tap opens a row - UIHelpers.connect_row_tap (game-wide)
+- The cave in take 1 with a stream from the top into the well hole
+- The common wolf is the opening's no-risk fight - 14 HP, a 2-damage bite
+
+Behind the scenes:
+- Overworld Art also owns the Fortress screen's Codex painterly art, queued after the Vale
+- Images Nathan must look at go inline via SendUserFile, never as a link - a fixed rule
+- KEY RULES, FIVE LINES and the design-doc rows to one line each, the full text in the skill each names
+
 ## v0.0.28-P5650
 
 - The repaired keep is the one door a fight never holds - it is how he flees
