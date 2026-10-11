@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5604
+
+- The Character card is live on Command to Skills before and after the Throne, and never stays up stale *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Orphan-detector: tombstone says archived (ok: true) but the chat stayed active - duplicate 'FB: 3D v2' chat
+- The save-report copy to SaveReportStrings (#5907 seam 20)
+
 ## v0.0.28-P5600
 
 - Every humanoid sizes by its measured skinned body, so the hero and the humanoid mobs stand their rows, not 83% of them (#6644 seam 3) *(fix attempt - still being verified)*
