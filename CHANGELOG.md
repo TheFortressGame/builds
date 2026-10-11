@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5625
+
+- HeroCell / -Walk move a native room's drawn hero, not only player_pos *(fix attempt - still being verified)*
+- The hot lease finds a detached HEAD's own PR by its first-parent chain, so a lane that merged main in a detached tree is not refused its own lease
+- Exits in front of the gate, fog past the painting, the walk is the painted dirt, the near stakes stand in front
+
 ## v0.0.28-P5622
 
 - Bram's "!" draws inside his cabin, over his head (#7296 line 13) *(fix attempt - still being verified)*
