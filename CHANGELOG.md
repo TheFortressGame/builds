@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5585
+
+- StubMaker frees the selection screens it leaves open - the orphans behind #8083's disk-cap kill
+- Every character sizes by its own measured mesh, so it stands at its WorldScale row (#6644 seam 2) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Fleet chat names drop the F - successors mint 'A: X vN' / 'B: X vN' (Nathan 10-10 9:22 PM)
+- Godot-quirks - an auto-renamed sibling's @<Class>@<n> counter is process-wide; a pin never hashes it
+- Research_total to research_effect_summary, portrait_resolution to portrait_tier_ladder (#5907 RT-B)
+
 ## v0.0.28-P5580
 
 - The see-through circle's radius carries the zoom - it was set in room px and measured in canvas px *(fix attempt - still being verified)*
@@ -1927,7 +1937,7 @@ Behind the scenes:
 - The dragon's lair placeholder - one round cave of the rat cave's rock, 10 m tall, Ashkarr inside
 - The fist hole tests "inside the loop" by the loop's triangles, not the engine's grazing ray
 - The Woodsman's House is buildable once his blueprint arrives; the keep shows "!" until you collect it
-- Capture-component renders the requested surface, fills it, isolates user://, and never waits forever on a draw (#6709 part 1, #6642) *(fix attempt - still being verified)*
+- Capture-component renders the requested surface, fills it, isolates user://, and never waits forever on a draw (#6709 part 1, #6642)
 - The hero-scale suite hands the art set back - every suite after it drew in Painterly
 - Tap a tool-gate barrier to act again, like an entrance; one name for the Mining Pick
 - A carried mob or NPC spot that a layout change made forest comes back on its mark
