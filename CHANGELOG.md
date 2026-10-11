@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5576
+
+- Ask Edge for the raw gamepad - navigator.gamepadInputEmulation='gamepad' where the browser has it, so Xbox Edge may skip Browsing controls
+
 ## v0.0.28-P5575
 
 - The native ratchet's KEY_ tell counts the engine constant, not any name containing it
