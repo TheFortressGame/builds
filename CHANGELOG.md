@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5616
+
+- The Treant Guardian - 10% per session, one of five posts, three looks, five drops
+- The Vale's ground is Nathan's approved painting
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-gui-v25)
+- The lock-reason and research-lock copy to LockReasonStrings and TabStrings (#5907 seam 24)
+- Capture channel: GameStateExport.build_text takes 4-11 min per observation (time it, add state:false, fix the slow section)
+- One row look across the desktop columns - one selected card, GAP_ROW cards, no separator lines, the column panel owns its inset
+
 ## v0.0.28-P5610
 
 - The open-work push counts only second_item.py's fresh lines
