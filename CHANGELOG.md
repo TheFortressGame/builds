@@ -4,6 +4,19 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5600
+
+- Every humanoid sizes by its measured skinned body, so the hero and the humanoid mobs stand their rows, not 83% of them (#6644 seam 3) *(fix attempt - still being verified)*
+- The window rect merges into the patch's override.cfg and keeps its epoch line - no more restart loop on a windowed launch
+- The Vale lookouts are secret and open on the step; Scarjaw chases once his trail is open (#7296 lines 96, 97) *(fix attempt - still being verified)*
+- A passive mob nobody provoked never strikes the hero - the Treant Guardian *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Building level caps, the Vault's Builder gate, the Storage Chest and Institute rows, and the class and Forge research as built - TARGET for the rest
+- Principles, data-core, components, data-systems and the owners registry follow the code (#8045 findings 2-5, 7-11, 13, 20, 22, 25-29)
+- PAD_PANEL and SEP_THICKNESS are named for the callers they keep, not withdrawn (#8046 finding 7)
+- Lanes.json carries the 10-10 rebalance (medium effort, surge lanes retired)
+
 ## v0.0.28-P5591
 
 - One look for every collapsible section header, owned by CategorySectionBuilder - no separator lines
