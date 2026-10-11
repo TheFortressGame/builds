@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5610
+
+- The open-work push counts only second_item.py's fresh lines
+- A Shoot press with no ranged weapon says why, never a dead button *(fix attempt - still being verified)*
+- The ledges left of the long run are rock - the hero no longer walks on top of them *(fix attempt - still being verified)*
+- The map's mob name follows the mob - a live spawn's name rides its dot as it wanders, the mark keeps it while it refills *(fix attempt - still being verified)*
+- The building list keeps whole names and its margins - the cost moves to its own line under the name *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The maker-queue copy to QueueStrings (#5907 seam 21)
+
 ## v0.0.28-P5604
 
 - The Character card is live on Command to Skills before and after the Throne, and never stays up stale *(fix attempt - still being verified)*
