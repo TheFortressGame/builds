@@ -4,9 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5591
+
+- One look for every collapsible section header, owned by CategorySectionBuilder - no separator lines
+- The command channel's hover holds its point each physics frame - Godot's passive hover at the off-window OS cursor undid it *(fix attempt - still being verified)*
+- The audio ring outlasts a slow frame - output_latency.web 50 to 200 so Xbox music stops breaking up *(fix attempt - still being verified)*
+- The Treant Guardian spawns as one of three looks, each with walk, attack and death frames
+- The stranded-saves rescue runs only into the default user dir, never a tool's custom one
+
+Behind the scenes:
+- Lanes-record-follow: 2026-10-10 20:14 UTC
+
 ## v0.0.28-P5585
 
-- StubMaker frees the selection screens it leaves open - the orphans behind #8083's disk-cap kill
+- StubMaker frees the selection screens it leaves open - the orphans behind #8083's disk-cap kill *(fix attempt - still being verified)*
 - Every character sizes by its own measured mesh, so it stands at its WorldScale row (#6644 seam 2) *(fix attempt - still being verified)*
 
 Behind the scenes:
