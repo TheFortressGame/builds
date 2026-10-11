@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5669
+
+- Rest - he sits on a stump and stands back up
+- The dragon's lair has no fog of war - a per-map switch, set map by map
+- Every scroll takes a touch slide and every list row acts on the release (#8227 PR 2)
+- The painted quarry sits in the clearing's lower-right corner against the trees
+- The quarry pit sits on the clearing's right and is solid, and the held bandit camp stands past his shot from the quarry bank (#7300 item 35) *(fix attempt - still being verified)*
+- The TL hold also reads APPROVED WITH ONE CONDITION / CONDITIONS / AMENDMENTS
+
+Behind the scenes:
+- Drop answered #7686/#7689 from Walkthrough's waits; held PRs leave the structure baseline alone
+- One game chat - lane asks go to the Game Desk, never the lane chat
+- Register B: Game Desk, Nathan's one chat for game work
+- The attack slots are read off an attack_slot flag on the slot table, not a second list
+
 ## v0.0.28-P5659
 
 - Mob families rank wolf < mosquito < bandit < cave < frost < goblin; bows and sling reach 11 m
