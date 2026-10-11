@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5643
+
+- A ranged shot roots the hero 1 s, so walking away no longer outpaces a mob *(fix attempt - still being verified)*
+- Shoot flashes gold and the mouse is a crosshair while it is on - armed or firing
+- The cabin's furniture keeps its size in the browser - lifted room pieces skip the web texture cap *(fix attempt - still being verified)*
+- The five Treant item paintings - Nathan's picks D d b d c
+- The rotation's snapshot nudge rides send-to-lane, not a 404 endpoint, and every pass counts nudges N/M
+
+Behind the scenes:
+- The PC/NPC Models lane's done_when says its current goal in plain words
+- The desktop BUILDINGS column's width policy moves verbatim to BuildingsColumnWidth
+
 ## v0.0.28-P5636
 
 - A focused entry button shows a gold ring - the controller's selection is visible *(fix attempt - still being verified)*
