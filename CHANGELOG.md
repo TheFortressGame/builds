@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5580
+
+- The see-through circle's radius carries the zoom - it was set in room px and measured in canvas px *(fix attempt - still being verified)*
+- A stopped background task ("") is over - the Stop guard and the sweep no longer count it as a live wait
+- An import that leaves a tracked sidecar unimported FAILS, and a run on that cache is never ledgered
+
+Behind the scenes:
+- Stat_units_drift + stat_suffix to stat_effect_coverage, stat suites 5 to 3 (#5907 RT-A)
+
 ## v0.0.28-P5576
 
 - Ask Edge for the raw gamepad - navigator.gamepadInputEmulation='gamepad' where the browser has it, so Xbox Edge may skip Browsing controls
