@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5622
+
+- Bram's "!" draws inside his cabin, over his head (#7296 line 13) *(fix attempt - still being verified)*
+- Wallet sets the wallet a capture is taken at, through the wallet owner (TL #7982)
+- The art-gap scan routes story-beat plates (cutscenes/) to Progression, which drafted them in #8020
+- The top bar owns its three info modals - one at a time, a second tap closes, the chip shows selected; the modal title never splits a word *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The floor follows main - floor followed main by the weekly audit: stylebox_new_outside_theme 75 to 73, theme_overrides 2146 to 2107, exemption_comments 172 to 170, gate_flag_reads_outside_evaluator 73 to 72. Every count may only fall from here
+- The combat-log line templates to CombatLogStrings (#5907 seam 16)
+
 ## v0.0.28-P5616
 
 - The Treant Guardian - 10% per session, one of five posts, three looks, five drops
