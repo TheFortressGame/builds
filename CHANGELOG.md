@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5636
+
+- A focused entry button shows a gold ring - the controller's selection is visible *(fix attempt - still being verified)*
+- A controller presses Start - the pad's A joins ui_accept and Start takes the focus *(fix attempt - still being verified)*
+- The native ratchet reads its floor from the main a PR's merge ref was built from, not a newer fetch - #8188's port (#8144's 470 to 471 red)
+- A short soak window judges the private-bytes ceiling, not a slope it cannot resolve *(fix attempt - still being verified)*
+- The worktree cap counts a scratch tree that carries a pinned-* name *(fix attempt - still being verified)*
+- The structure ratchet reads its floor from the main a PR's merge ref was built from, not a newer fetch - the stale-floor reds of 10-10
+- The chart publish survives a vanished capture, the token store is no longer deleted under its own capture, the ops card renders before the sheet composes, and the commentary finds the digest's own chart dir
+- Repo-backup never reports OK over a failed off-box set *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-mgmt-tech-lead-v45)
+- Lanes.json marks refactor-data retired (retired 10-11 6:45 AM; deploy reverted the live state)
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-ui-v6)
+
 ## v0.0.28-P5625
 
 - HeroCell / -Walk move a native room's drawn hero, not only player_pos *(fix attempt - still being verified)*
