@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5650
+
+- The repaired keep is the one door a fight never holds - it is how he flees
+- The lair's cave mouth is a cleft in the lair's own basalt, Nathan's design 3
+- No wall faces the camera and the rock is solid everywhere - the lair's low rim, repainted *(fix attempt - still being verified)*
+- The Equipment window stands in the window area once - no dead space above or below *(fix attempt - still being verified)*
+- The lair's door climbs to the cave painted at the top of the steps
+
+Behind the scenes:
+- Every camera-facing wall is a short wall, sides and back opaque, no runtime see-through, painted PoE style
+- An image Nathan must look at goes inline via SendUserFile, never as a link - a fixed rule
+
 ## v0.0.28-P5643
 
 - A ranged shot roots the hero 1 s, so walking away no longer outpaces a mob *(fix attempt - still being verified)*
