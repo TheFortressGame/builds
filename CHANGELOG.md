@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5673
+
+- The painted huts and lair mouth are the painting's own, with the hero walking behind them
+- A desk rotation posts its new link in both the old desk and its successor
+- The poller deploys before its PR pass; its merges are bounded under the hold cap
+
+Behind the scenes:
+- B: Meta Desk takes the console's meta role; the RDP consoles go emergency-only
+
 ## v0.0.28-P5669
 
 - Rest - he sits on a stump and stands back up
