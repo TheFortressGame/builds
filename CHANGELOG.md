@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5699
+
+- Recruited rosters and their slot assignments survive a reload (#8017 finding 1) *(fix attempt - still being verified)*
+- The quiet check asks for the five lines only at a pause with something new
+- A live lane retirement survives the deploy's repo merge (#8185, #8161) *(fix attempt - still being verified)*
+- Gh-tz selftest exempts the two PreToolUse gates that only match gh in command text
+- Progress "test files" archives test/ (false 0 since #7995); machine sheet renders yesterday's panel before compose
+- Step-4 deploy refreshes the routine prompts the deploy dir already holds (promise-sweep.md, green-pr-sweep.md)
+- A one-call delegation is not a near-duplicate pair; dup_pairs floor 21 to 15
+- The quiet check holds every refactor lane on the pace cap, not only `refactor`
+- Coalesce steady heartbeats to one KV put per ~135s; sweep FG silence 2 to 5 min
+- The KV capacity alert names --repo and judges every day, so a 110% day files
+- A short nightly window fails only when the ceiling AND the floor both rise *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-overworld-art)
+- The cheat gate is dev_features_enabled and the snapshots are 01-11 (#8045 findings 1, 6)
+- The floor follows main - floor followed main by the weekly audit: dup_pairs 22 to 21, test_files 869 to 868, functions_over_150 21 to 18, theme_overrides 2106 to 2078, type_fork_families 12 to 10. Every count may only fall from here
+- ~40% of Tech-Lead-held PRs merge on the 60-minute grace timeout with no TECH-LEAD: review, and nothing counts it (12 of 29 measured)
+
 ## v0.0.28-P5684
 
 - Gdunit-smoke's changed-file diff survives git's multiple-merge-bases warning on a stacked PR
@@ -82,7 +102,7 @@ Behind the scenes:
 - Shoot flashes gold and the mouse is a crosshair while it is on - armed or firing
 - The cabin's furniture keeps its size in the browser - lifted room pieces skip the web texture cap *(fix attempt - still being verified)*
 - The five Treant item paintings - Nathan's picks D d b d c
-- The rotation's snapshot nudge rides send-to-lane, not a 404 endpoint, and every pass counts nudges N/M
+- The rotation's snapshot nudge rides send-to-lane, not a 404 endpoint, and every pass counts nudges N/M *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The PC/NPC Models lane's done_when says its current goal in plain words
