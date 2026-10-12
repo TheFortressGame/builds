@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5676
+
+- Rest - a resting hero heals 5x, and walking, a hit or an attack stands him up
+
+Behind the scenes:
+- The Explore process golden follows the whole Explore runtime, not a file list (#8246 to #8252)
+- Re-take the active-mode process golden for #8246's walk-behind huts
+
 ## v0.0.28-P5673
 
 - The painted huts and lair mouth are the painting's own, with the hero walking behind them
