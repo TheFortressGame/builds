@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5742
+
+- The Loot rules' item and named chances, commons capped at 15%, the cave counted with the Vale *(fix attempt - still being verified)*
+- A cost pill's number keeps its full width; the clip and overrun trim belong to the wrapping row only *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A report routine's new run closes the last one - Submit-ReportIssue + file-report-issue.ps1, reach-review first (#8345 seam 3)
+- Daily-brief-facts: the builds-release read is unauthenticated and 403s from the box, so in_build cannot split playable vs not-yet-built
+- Every Codex caller reads its own run's image; tier frames keep the base canvas (#8335, #7296 item 62)
+- The fleet board finds the pinned board past 200 open issues - list 1000, oldest wins
+- Build-publish and launcher-publish file ONE issue per failing leg for life - reopen + comment on a re-trip (#8345 seam 2b)
+- Auto-rebase-pr runs under Windows PowerShell, and the DIRTY alarm names its real -Branch flag
+- An episodic alert reopens ONE issue per fingerprint - box-capacity-sample first (#8345 seam 2)
+
 ## v0.0.28-P5733
 
 - Garrick's first meeting in the arena gives The Sergeant's Longsword
@@ -2914,7 +2928,7 @@ Behind the scenes:
 ## v0.0.28-P4232
 
 - A wooden plank floor
-- Nathan's P4220 pass and C pick - true-2:1 pieces, hearth masonry, flat tops, see-through corners, windows from outside *(fix attempt - still being verified)*
+- Nathan's P4220 pass and C pick - true-2:1 pieces, hearth masonry, flat tops, see-through corners, windows from outside
 - He holds every weapon THROUGH his fist - one measured grip per hand, the arm sets the angle; the bow in his left hand (Nathan 2026-09-24: "they dont actually get held in the hand like a grasping hand")
 - A mouse-wheel tick never closes a modal - four backdrops route through the one scrim owner
 
@@ -2931,7 +2945,7 @@ Behind the scenes:
 ## v0.0.28-P4220
 
 - All 8 weapons in his hand, a relaxed carry per weapon and the ready stance only on aggro - the sling dangles, the scythe's handle is wood, the axe's edge faces forward
-- Nathan's P4208 pass - mitred wall tops and outside faces, straight pieces, hearth-stone colour, matching windows *(fix attempt - still being verified)*
+- Nathan's P4208 pass - mitred wall tops and outside faces, straight pieces, hearth-stone colour, matching windows
 - The club is the gnarled club Nathan picked - authored by recipe
 
 Behind the scenes:
@@ -3022,7 +3036,7 @@ Behind the scenes:
 - Live-hero slice 3 - a second character is a spec, not code (#6110 card 6), and the board harness
 - Live-hero slice 2 - a weapon in his hand via BoneAttachment3D (#6110 card 4)
 - Live-hero spike slice 1 - drawn live from the model, card 1/2/3/5 measured
-- The exit is the square inside the door, and the front walls are see-through over the room *(fix attempt - still being verified)*
+- The exit is the square inside the door, and the front walls are see-through over the room
 - The cottage's gate-2 positions are gated, not written down - base_locks_gate pins locked_values; walls locked; the grow step edits FOOTPRINTS_M; DECISIONS 08-13 superseded for interiors
 
 Behind the scenes:
@@ -3039,7 +3053,7 @@ Behind the scenes:
 
 ## v0.0.28-P4140
 
-- Blockout walls stand at declared metres, not the rejected wall art *(fix attempt - still being verified)*
+- Blockout walls stand at declared metres, not the rejected wall art
 - The blockout is one command, one spec file and an operator card
 
 Behind the scenes:
@@ -3180,7 +3194,7 @@ Behind the scenes:
 
 ## v0.0.28-P4057
 
-- The spike is the only cottage, which is why the save now comes back *(fix attempt - still being verified)*
+- The spike is the only cottage, which is why the save now comes back
 - The hero's linework, drawn from a rendered part map
 - Skins for the hero - a colour per garment, painted on the model's own atlas
 
@@ -3199,7 +3213,7 @@ Behind the scenes:
 
 ## v0.0.28-P4049
 
-- The hearth stands AGAINST the west wall, not a quarter metre inside it *(fix attempt - still being verified)*
+- The hearth stands AGAINST the west wall, not a quarter metre inside it
 
 Behind the scenes:
 - Reading pass 1 - the tab family: six new rows, two corrected, the two unreachable branches and the base's own repeats recorded
@@ -3225,7 +3239,7 @@ Behind the scenes:
 
 ## v0.0.28-P4033
 
-- The hearth is 1.00 m deep, which is what its picture draws *(fix attempt - still being verified)*
+- The hearth is 1.00 m deep, which is what its picture draws
 - One title-bar factory, so a new window cannot pick the square-cornered one
 
 Behind the scenes:
@@ -3242,7 +3256,7 @@ Behind the scenes:
 
 ## v0.0.28-P4021
 
-- The hearth faces its wall, and the red wall marks come off the overlay *(fix attempt - still being verified)*
+- The hearth faces its wall, and the red wall marks come off the overlay
 - The identifier gate knows a built-in Object member is not a hallucination
 - The structure ratchet judges a PR on its own delta, so main's exempted rise is not charged to the next PR
 
@@ -3270,7 +3284,7 @@ Behind the scenes:
 ## v0.0.28-P4004
 
 - The timers row counted the accumulate form and missed the countdown form the tree actually uses
-- Declare the nine prop projections that were CHECKED, so the art inventory stops inferring *(fix attempt - still being verified)*
+- Declare the nine prop projections that were CHECKED, so the art inventory stops inferring
 - The navigation row read ours=0 while a live BFS router ran every frame
 - WINDOWRADIUS - the corner-radius rule is enforced instead of documented
 
@@ -3297,7 +3311,7 @@ Behind the scenes:
 
 ## v0.0.28-P3985
 
-- Round props stand on a disc, and a wall's grid line stops floating in front of the wall *(fix attempt - still being verified)*
+- Round props stand on a disc, and a wall's grid line stops floating in front of the wall
 - Damage types wear their colour, the settings window has four corners, and a clicked rail item stays lit
 
 Behind the scenes:
@@ -3341,7 +3355,7 @@ Behind the scenes:
 ## v0.0.28-P3958
 
 - The lane-escape test asserts ABSENCE, over every spec, and can fail
-- Delete a refuted claim that was hiding six pieces from the reach test *(fix attempt - still being verified)*
+- Delete a refuted claim that was hiding six pieces from the reach test
 - Mobs CAN be animated now, and none of them moved
 
 Behind the scenes:
@@ -3354,7 +3368,7 @@ Behind the scenes:
 
 ## v0.0.28-P3948
 
-- A piece is drawn the size of the box that stops him *(fix attempt - still being verified)*
+- A piece is drawn the size of the box that stops him
 
 Behind the scenes:
 - Soak-no-tab-churn, so scene transitions can be measured without tab churn
@@ -3362,7 +3376,7 @@ Behind the scenes:
 
 ## v0.0.28-P3945
 
-- The classic room's colliders leave the physics space; collision is declared data again *(fix attempt - still being verified)*
+- The classic room's colliders leave the physics space; collision is declared data again
 - The stick layer sizes itself, so it stops asking the engine to fight it *(fix attempt - still being verified)*
 - Tag outdoor props so the geometry sidecar can SEE the overworld
 
@@ -3413,7 +3427,7 @@ Behind the scenes:
 
 ## v0.0.28-P3919
 
-- Every piece's collision box is read off the art it draws; hidden overlay lines recede *(fix attempt - still being verified)*
+- Every piece's collision box is read off the art it draws; hidden overlay lines recede
 
 Behind the scenes:
 - Build-on-merge baseline is the latest published build's head by commit count, not the gh run listing
@@ -3446,7 +3460,7 @@ Behind the scenes:
 
 ## v0.0.28-P3906
 
-- The native cottage is walkable end to end, the exit works, and the overlay reads as depth *(fix attempt - still being verified)*
+- The native cottage is walkable end to end, the exit works, and the overlay reads as depth
 
 ## v0.0.28-P3905
 
@@ -3498,7 +3512,7 @@ Behind the scenes:
 
 ## v0.0.28-P3883
 
-- The native cottage's collision follows what is DRAWN *(fix attempt - still being verified)*
+- The native cottage's collision follows what is DRAWN
 
 Behind the scenes:
 - Probe-scene-leak can force a rendering driver, and voids a silent WARP fallback
