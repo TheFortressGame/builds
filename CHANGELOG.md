@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5733
+
+- Garrick's first meeting in the arena gives The Sergeant's Longsword
+- Resource scatter round 2 - straw further south of Hollis, a southeast wood, stone across the north (#7581)
+- The Actions buttons grow with the window, and Rest joins Shoot
+- Show All Spawns beside Reveal / Hide All Maps
+- The painting paints the west boulder and the avalanche, a flat patch clears each
+- A pink QA button on the gear doll raises everything worn to +10
+
+Behind the scenes:
+- A chat's gh issue create that repeats an open issue is blocked toward a comment on it (#8345 seam 1)
+- DISCOVERY carries four tabs - the Cartographic Institute row and its live Survey subtab join §C
+- Hero tier generator - light/medium/heavy, and only its own Codex image (#7296 item 62, #8335)
+- Record follow takes the shape on paused-override lanes (supersedes #8333)
+
 ## v0.0.28-P5723
 
 - The near band and fog fall by the painting's own texels, not the loaded texture's size (#8206 item 2) *(fix attempt - still being verified)*
