@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5701
+
+- Upload the macOS release zip only when verify-macos will read it - every other build sent the same 257 MB twice *(fix attempt - still being verified)*
+- Never-ending track levels and their queue markers survive a reload (#8017 finding 2) *(fix attempt - still being verified)*
+
 ## v0.0.28-P5699
 
 - Recruited rosters and their slot assignments survive a reload (#8017 finding 1) *(fix attempt - still being verified)*
