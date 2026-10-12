@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5723
+
+- The near band and fog fall by the painting's own texels, not the loaded texture's size (#8206 item 2) *(fix attempt - still being verified)*
+- The hero walks his base 1 in a fight and every Vale mob chases at 1 or faster
+
+Behind the scenes:
+- The icon generator finds the pinned game-icons clone when run from a fresh worktree
+- The Fortress screen spec restarts from the management screen - Nathan's 10-12 rulings (#8311 #8312 #8313), the placeholder checklist for the inside-Fortress walkthrough
+- Bank the runtime budget after the Vale ground painting (#8147) and the base E24 re-cut
+- Week of 2026-10-08 - 4 ideas, 1 decision
+- Chats Nathan does not talk to are labelled 'Fort A auto: X vN'; his own keep 'Fort B: console' / 'Fort B: RDP'
+- The enemy-AI contract rig parks the minimap feed so its fog pass never clears a hand-set dormant
+- The alert-consistency map helper names the state when it finds the map already hidden at mount
+
 ## v0.0.28-P5714
 
 - A QA snapshot keeps the run's names instead of renaming it Debug *(fix attempt - still being verified)*
@@ -251,7 +265,7 @@ Behind the scenes:
 - Solid rock with a soft see-through circle around the hero - #7931 option 2
 - The Shoot button, key 1 and a crosshair for the ranged slot
 - The earrings are single - one earring per painting, singular names and ids (save v9)
-- A Shoot volley swings the ranged weapon, not the one he holds *(fix attempt - still being verified)*
+- A Shoot volley swings the ranged weapon, not the one he holds
 
 Behind the scenes:
 - The native ratchet's KEY_ tell counts the engine constant, not any name containing it
@@ -288,7 +302,7 @@ Behind the scenes:
 - The cave's dead end ends in a deep pit - a teaser zone that needs a rope
 - The save list reads each save once to sort it - the comparator re-parsed two whole saves per comparison, minutes on a 2,178-save dir *(fix attempt - still being verified)*
 - Escape closes the rename window even with its name field focused (#5907 Refactor UI item 10c) *(fix attempt - still being verified)*
-- A mob's blow that does not fly is held while a wall stands between it and the hero *(fix attempt - still being verified)*
+- A mob's blow that does not fly is held while a wall stands between it and the hero
 
 Behind the scenes:
 - Mark_solid_from_footprints to DecorGeometry, the dead _mark_furniture_solid deleted (#5907 map list 7)
@@ -2045,7 +2059,7 @@ Behind the scenes:
 
 ## v0.0.28-P4674
 
-- Every 2D attack frame draws the weapon broadside, so a strike toward or away from the camera is never a hairline *(fix attempt - still being verified)*
+- Every 2D attack frame draws the weapon broadside, so a strike toward or away from the camera is never a hairline
 - The tap-to-act cue is the ring alone - one centre rule, one sizing rule, ActionIcon removed (#6666 part 6)
 
 Behind the scenes:
@@ -2091,7 +2105,7 @@ Behind the scenes:
 ## v0.0.28-P4645
 
 - The Bandit Chief's camp - a crowd of guards until the Ranger draws them off, then today's four for good; no bow in this arc
-- Each 2D attack draws at its own factor on his walk scale, so he stays his size when he swings *(fix attempt - still being verified)*
+- Each 2D attack draws at its own factor on his walk scale, so he stays his size when he swings
 - Builds take 10 or 30 minutes; a Housing category and a Housing mode
 
 Behind the scenes:
@@ -2322,7 +2336,7 @@ Behind the scenes:
 
 ## v0.0.28-P4518
 
-- A blocked way with nothing in it says why and what to do, every time *(fix attempt - still being verified)*
+- A blocked way with nothing in it says why and what to do, every time
 - The Vagabonds face west, two West Gate Guards stand at the gate, and Ashkarr rests, then rears and breathes fire
 - Wall tops read as squared timber beams with end grain
 - Every barrier leaves its broken self behind when cleared
@@ -2346,7 +2360,7 @@ Behind the scenes:
 
 ## v0.0.28-P4508
 
-- He stays his own size mid-attack - frames are cut by his head, never his height *(fix attempt - still being verified)*
+- He stays his own size mid-attack - frames are cut by his head, never his height
 
 ## v0.0.28-P4507
 
@@ -2405,7 +2419,7 @@ Behind the scenes:
 
 ## v0.0.28-P4485
 
-- The hero's bows and sling reach half as far - 15 m *(fix attempt - still being verified)*
+- The hero's bows and sling reach half as far - 15 m
 
 Behind the scenes:
 - Capture-state holds its worktree for the whole run and proves it after the frame
@@ -2542,7 +2556,7 @@ Behind the scenes:
 
 ## v0.0.28-P4422
 
-- He swings at the height he walks - the 2D attack frames re-cut at his standing height *(fix attempt - still being verified)*
+- He swings at the height he walks - the 2D attack frames re-cut at his standing height
 - A cleared barrier is two sprites on either verge - the hero walks between them, in front of the top, behind the bottom
 - A refilling mark is never cleared for good - the camp bandits come back
 
@@ -2621,7 +2635,7 @@ Behind the scenes:
 
 - He turns to face the mob he hits - the 2D hero outdoors and the live hero both (Nathan 2026-09-27)
 - Reveal map / Hide map on the map, Reveal All Maps / Hide All Maps on the panel - the panel's buttons repaint at once
-- A native room re-skins in place when the style changes inside *(fix attempt - still being verified)*
+- A native room re-skins in place when the style changes inside
 - Bracers and belt show on him - the outfit pack's own bracer and belt pieces, taken from its whole Ranger outfit
 - The cabin's bed moves to the front corner, away from the door
 - Aggro rings lie on the floor and stop at walls; indoors a mob notices only a hero it can see
