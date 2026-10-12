@@ -4,39 +4,59 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5714
+
+- A QA snapshot keeps the run's names instead of renaming it Debug *(fix attempt - still being verified)*
+- Six story-beat plates promoted - first salvage, Ashkarr slain, the Ranger draws off, the chest started, a building built, the Mason's Walls
+- Alert cards the player has not read yet survive a reload (#8017 finding 11) *(fix attempt - still being verified)*
+- The crash beacon sizes the running session's own save (#8012 finding 2) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A feat/fix scoped to box, CI or test machinery lists behind the scenes, not in What's New
+- Send-to-lane never relays to a retired lane; the flush drops its queued entries
+- The Fortress screen spec - current-state inventory, the proposed home screen, three asks (#8311 #8312 #8313)
+- A lane chat never writes tools/box-ops/ or the deployed box-ops dir
+- Lanes match the sidebar - retire five, mint B: Fortress v1 + B: Bugs v1, three scope fences
+- Fort B: console replaces both desks - lanes.json row, send-to-lane aliases, stamps, CLAUDE.md
+- Owner-check eval re-run 10-12 + two seeded cases from Nathan's by-eye catches (#8107 separator rows, #7560 hand-built row box)
+- A TECH-LEAD line posted as a PR review counts - merge-pr, the sweep and the open-BLOCK read fold reviews in; the sweep's live pass now sees review lines at all
+
 ## v0.0.28-P5701
 
-- Upload the macOS release zip only when verify-macos will read it - every other build sent the same 257 MB twice *(fix attempt - still being verified)*
 - Never-ending track levels and their queue markers survive a reload (#8017 finding 2) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Upload the macOS release zip only when verify-macos will read it - every other build sent the same 257 MB twice
 
 ## v0.0.28-P5699
 
 - Recruited rosters and their slot assignments survive a reload (#8017 finding 1) *(fix attempt - still being verified)*
-- The quiet check asks for the five lines only at a pause with something new
-- A live lane retirement survives the deploy's repo merge (#8185, #8161) *(fix attempt - still being verified)*
-- Gh-tz selftest exempts the two PreToolUse gates that only match gh in command text
 - Progress "test files" archives test/ (false 0 since #7995); machine sheet renders yesterday's panel before compose
-- Step-4 deploy refreshes the routine prompts the deploy dir already holds (promise-sweep.md, green-pr-sweep.md)
-- A one-call delegation is not a near-duplicate pair; dup_pairs floor 21 to 15
-- The quiet check holds every refactor lane on the pace cap, not only `refactor`
-- Coalesce steady heartbeats to one KV put per ~135s; sweep FG silence 2 to 5 min
-- The KV capacity alert names --repo and judges every day, so a 110% day files
-- A short nightly window fails only when the ceiling AND the floor both rise *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The quiet check asks for the five lines only at a pause with something new
+- A live lane retirement survives the deploy's repo merge (#8185, #8161)
+- Gh-tz selftest exempts the two PreToolUse gates that only match gh in command text
+- Step-4 deploy refreshes the routine prompts the deploy dir already holds (promise-sweep.md, green-pr-sweep.md)
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-overworld-art)
+- A one-call delegation is not a near-duplicate pair; dup_pairs floor 21 to 15
 - The cheat gate is dev_features_enabled and the snapshots are 01-11 (#8045 findings 1, 6)
+- The quiet check holds every refactor lane on the pace cap, not only `refactor`
 - The floor follows main - floor followed main by the weekly audit: dup_pairs 22 to 21, test_files 869 to 868, functions_over_150 21 to 18, theme_overrides 2106 to 2078, type_fork_families 12 to 10. Every count may only fall from here
+- Coalesce steady heartbeats to one KV put per ~135s; sweep FG silence 2 to 5 min
+- The KV capacity alert names --repo and judges every day, so a 110% day files
+- A short nightly window fails only when the ceiling AND the floor both rise
 - ~40% of Tech-Lead-held PRs merge on the 60-minute grace timeout with no TECH-LEAD: review, and nothing counts it (12 of 29 measured)
 
 ## v0.0.28-P5684
 
-- Gdunit-smoke's changed-file diff survives git's multiple-merge-bases warning on a stacked PR
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - The four slot-cheat forwarders to CheatRoster fill_slots(kind) / clear_slots(kind) (#5907 Refactor Systems S11)
 - Pull the guard/armament inspect skeleton up into UnitInspectContent (#5907 brief #92)
 - _apply_all_state to four named steps (#5907 brief #91)
+- Gdunit-smoke's changed-file diff survives git's multiple-merge-bases warning on a stacked PR
 - The token ledger relays to the Meta Desk through send-to-lane, not the RDP console (#8247 gap)
 
 ## v0.0.28-P5677
@@ -54,11 +74,11 @@ Behind the scenes:
 ## v0.0.28-P5673
 
 - The painted huts and lair mouth are the painting's own, with the hero walking behind them
-- A desk rotation posts its new link in both the old desk and its successor
-- The poller deploys before its PR pass; its merges are bounded under the hold cap
 
 Behind the scenes:
+- A desk rotation posts its new link in both the old desk and its successor
 - B: Meta Desk takes the console's meta role; the RDP consoles go emergency-only
+- The poller deploys before its PR pass; its merges are bounded under the hold cap
 
 ## v0.0.28-P5669
 
@@ -67,12 +87,12 @@ Behind the scenes:
 - Every scroll takes a touch slide and every list row acts on the release (#8227 PR 2)
 - The painted quarry sits in the clearing's lower-right corner against the trees
 - The quarry pit sits on the clearing's right and is solid, and the held bandit camp stands past his shot from the quarry bank (#7300 item 35) *(fix attempt - still being verified)*
-- The TL hold also reads APPROVED WITH ONE CONDITION / CONDITIONS / AMENDMENTS
 
 Behind the scenes:
 - Drop answered #7686/#7689 from Walkthrough's waits; held PRs leave the structure baseline alone
 - One game chat - lane asks go to the Game Desk, never the lane chat
 - Register B: Game Desk, Nathan's one chat for game work
+- The TL hold also reads APPROVED WITH ONE CONDITION / CONDITIONS / AMENDMENTS
 - The attack slots are read off an attack_slot flag on the slot table, not a second list
 
 ## v0.0.28-P5659
@@ -107,43 +127,45 @@ Behind the scenes:
 - Shoot flashes gold and the mouse is a crosshair while it is on - armed or firing
 - The cabin's furniture keeps its size in the browser - lifted room pieces skip the web texture cap *(fix attempt - still being verified)*
 - The five Treant item paintings - Nathan's picks D d b d c
-- The rotation's snapshot nudge rides send-to-lane, not a 404 endpoint, and every pass counts nudges N/M *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The PC/NPC Models lane's done_when says its current goal in plain words
 - The desktop BUILDINGS column's width policy moves verbatim to BuildingsColumnWidth
+- The rotation's snapshot nudge rides send-to-lane, not a 404 endpoint, and every pass counts nudges N/M
 
 ## v0.0.28-P5636
 
 - A focused entry button shows a gold ring - the controller's selection is visible *(fix attempt - still being verified)*
 - A controller presses Start - the pad's A joins ui_accept and Start takes the focus *(fix attempt - still being verified)*
-- The native ratchet reads its floor from the main a PR's merge ref was built from, not a newer fetch - #8188's port (#8144's 470 to 471 red)
-- A short soak window judges the private-bytes ceiling, not a slope it cannot resolve *(fix attempt - still being verified)*
-- The worktree cap counts a scratch tree that carries a pinned-* name *(fix attempt - still being verified)*
-- The structure ratchet reads its floor from the main a PR's merge ref was built from, not a newer fetch - the stale-floor reds of 10-10
-- The chart publish survives a vanished capture, the token store is no longer deleted under its own capture, the ops card renders before the sheet composes, and the commentary finds the digest's own chart dir
-- Repo-backup never reports OK over a failed off-box set *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The native ratchet reads its floor from the main a PR's merge ref was built from, not a newer fetch - #8188's port (#8144's 470 to 471 red)
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-mgmt-tech-lead-v45)
+- A short soak window judges the private-bytes ceiling, not a slope it cannot resolve
+- The worktree cap counts a scratch tree that carries a pinned-* name
+- The structure ratchet reads its floor from the main a PR's merge ref was built from, not a newer fetch - the stale-floor reds of 10-10
+- The chart publish survives a vanished capture, the token store is no longer deleted under its own capture, the ops card renders before the sheet composes, and the commentary finds the digest's own chart dir
+- Repo-backup never reports OK over a failed off-box set
 - Lanes.json marks refactor-data retired (retired 10-11 6:45 AM; deploy reverted the live state)
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-ui-v6)
 
 ## v0.0.28-P5625
 
-- HeroCell / -Walk move a native room's drawn hero, not only player_pos *(fix attempt - still being verified)*
-- The hot lease finds a detached HEAD's own PR by its first-parent chain, so a lane that merged main in a detached tree is not refused its own lease
 - Exits in front of the gate, fog past the painting, the walk is the painted dirt, the near stakes stand in front
+
+Behind the scenes:
+- HeroCell / -Walk move a native room's drawn hero, not only player_pos
+- The hot lease finds a detached HEAD's own PR by its first-parent chain, so a lane that merged main in a detached tree is not refused its own lease
 
 ## v0.0.28-P5622
 
 - Bram's "!" draws inside his cabin, over his head (#7296 line 13) *(fix attempt - still being verified)*
-- Wallet sets the wallet a capture is taken at, through the wallet owner (TL #7982)
-- The art-gap scan routes story-beat plates (cutscenes/) to Progression, which drafted them in #8020
 - The top bar owns its three info modals - one at a time, a second tap closes, the chip shows selected; the modal title never splits a word *(fix attempt - still being verified)*
 
 Behind the scenes:
+- Wallet sets the wallet a capture is taken at, through the wallet owner (TL #7982)
 - The floor follows main - floor followed main by the weekly audit: stylebox_new_outside_theme 75 to 73, theme_overrides 2146 to 2107, exemption_comments 172 to 170, gate_flag_reads_outside_evaluator 73 to 72. Every count may only fall from here
+- The art-gap scan routes story-beat plates (cutscenes/) to Progression, which drafted them in #8020
 - The combat-log line templates to CombatLogStrings (#5907 seam 16)
 
 ## v0.0.28-P5616
@@ -159,7 +181,6 @@ Behind the scenes:
 
 ## v0.0.28-P5610
 
-- The open-work push counts only second_item.py's fresh lines
 - A Shoot press with no ranged weapon says why, never a dead button *(fix attempt - still being verified)*
 - The ledges left of the long run are rock - the hero no longer walks on top of them *(fix attempt - still being verified)*
 - The map's mob name follows the mob - a live spawn's name rides its dot as it wanders, the mark keeps it while it refills *(fix attempt - still being verified)*
@@ -167,6 +188,7 @@ Behind the scenes:
 
 Behind the scenes:
 - The maker-queue copy to QueueStrings (#5907 seam 21)
+- The open-work push counts only second_item.py's fresh lines
 
 ## v0.0.28-P5604
 
@@ -192,31 +214,31 @@ Behind the scenes:
 ## v0.0.28-P5591
 
 - One look for every collapsible section header, owned by CategorySectionBuilder - no separator lines
-- The command channel's hover holds its point each physics frame - Godot's passive hover at the off-window OS cursor undid it *(fix attempt - still being verified)*
 - The audio ring outlasts a slow frame - output_latency.web 50 to 200 so Xbox music stops breaking up *(fix attempt - still being verified)*
 - The Treant Guardian spawns as one of three looks, each with walk, attack and death frames
 - The stranded-saves rescue runs only into the default user dir, never a tool's custom one
 
 Behind the scenes:
 - Lanes-record-follow: 2026-10-10 20:14 UTC
+- The command channel's hover holds its point each physics frame - Godot's passive hover at the off-window OS cursor undid it
 
 ## v0.0.28-P5585
 
-- StubMaker frees the selection screens it leaves open - the orphans behind #8083's disk-cap kill *(fix attempt - still being verified)*
 - Every character sizes by its own measured mesh, so it stands at its WorldScale row (#6644 seam 2) *(fix attempt - still being verified)*
 
 Behind the scenes:
 - Fleet chat names drop the F - successors mint 'A: X vN' / 'B: X vN' (Nathan 10-10 9:22 PM)
+- StubMaker frees the selection screens it leaves open - the orphans behind #8083's disk-cap kill
 - Godot-quirks - an auto-renamed sibling's @<Class>@<n> counter is process-wide; a pin never hashes it
 - Research_total to research_effect_summary, portrait_resolution to portrait_tier_ladder (#5907 RT-B)
 
 ## v0.0.28-P5580
 
 - The see-through circle's radius carries the zoom - it was set in room px and measured in canvas px *(fix attempt - still being verified)*
-- A stopped background task ("") is over - the Stop guard and the sweep no longer count it as a live wait
-- An import that leaves a tracked sidecar unimported FAILS, and a run on that cache is never ledgered
 
 Behind the scenes:
+- A stopped background task ("") is over - the Stop guard and the sweep no longer count it as a live wait
+- An import that leaves a tracked sidecar unimported FAILS, and a run on that cache is never ledgered
 - Stat_units_drift + stat_suffix to stat_effect_coverage, stat suites 5 to 3 (#5907 RT-A)
 
 ## v0.0.28-P5576
@@ -225,7 +247,6 @@ Behind the scenes:
 
 ## v0.0.28-P5575
 
-- The native ratchet's KEY_ tell counts the engine constant, not any name containing it
 - The vagabonds' target sits over them at the dock on a map load (#7296 line 75) *(fix attempt - still being verified)*
 - Solid rock with a soft see-through circle around the hero - #7931 option 2
 - The Shoot button, key 1 and a crosshair for the ranged slot
@@ -233,17 +254,18 @@ Behind the scenes:
 - A Shoot volley swings the ranged weapon, not the one he holds *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The native ratchet's KEY_ tell counts the engine constant, not any name containing it
 - The Vale's road-end constants to ValeRoadEnds (#5907 Brief A seam A1)
 
 ## v0.0.28-P5568
 
 - The beacon says why a session is slow, and low-memory browsers render at dpr 1
 - WorldScale.metres_of - one owner for a character's drawn height (#6644 seam 1)
-- The progression walk hands the next suite a new game - it left a full wallet that red the production-header goldens
 
 Behind the scenes:
 - The frostling/Kuo-toa art comment names the real frame sets
 - The building gate chain as built - no Library or Engraving gate on any blueprint; rescue is a won encounter, not an item
+- The progression walk hands the next suite a new game - it left a full wallet that red the production-header goldens
 - The UI and architecture docs follow the code on the #8045/#8046 drift findings (GUI share)
 
 ## v0.0.28-P5562
@@ -276,25 +298,25 @@ Behind the scenes:
 
 - The Wandering Treant Guardian
 - Codex drafts for the six missing story-beat plates (#7298 item 56b)
-- The gdunit run's drive-drop budget logs instead of killing; kills stay on the run's own bytes and the free floor *(fix attempt - still being verified)*
 - The Kuo-toa's walk B stands at walk A's height - main's heights probe green again
-- Reap merged worktrees every 30 min, cap each lane at 2 scratch trees
-- Disk-growers scans worktrees and runner _work trees per child (#7980, #6386) *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The gdunit run's drive-drop budget logs instead of killing; kills stay on the run's own bytes and the free floor
 - A screen's arrangement is ScreenHost.orientation_token_for, not is_phone_surface
 - Fortress and party's entity-detail tap is the TabBase default (#5907 Refactor UI item 4a)
+- Reap merged worktrees every 30 min, cap each lane at 2 scratch trees
+- Disk-growers scans worktrees and runner _work trees per child (#7980, #6386)
 - The forge and guard party assigns to SlotRoster.assign_first_free (#5907 Refactor Systems S9)
 
 ## v0.0.28-P5537
 
 - Test_files joins the structure ratchet - a new test is a case in its owner's suite
-- The gdunit run's disk cap - 2 GB per process, 15 GB per run, the suite in flight named
 
 Behind the scenes:
 - The crash relay indexes its raw records in idx:raw, so a routine crash-raw read makes zero KV LISTs
 - Delete the unreachable 3D furniture variant pick
 - Orphan-detector write_seed to orchestrator over verbatim step helpers (#5907, #7903)
+- The gdunit run's disk cap - 2 GB per process, 15 GB per run, the suite in flight named
 - The encounter chain to EncounterProximityChain (#5907 brief #80.8)
 - Set_spawn_entries' per-ring body to its own step _feed_spawn_ring
 - Popup captures set GameManager flags first, and render the Defend battle report (#7296 lines 34, 85)
@@ -304,21 +326,21 @@ Behind the scenes:
 
 ## v0.0.28-P5526
 
-- A const-only append to a soft-core file selects on its class token only the suites that reflect over the constant set (#7980 item 3) *(fix attempt - still being verified)*
-- Gh_api retries 502/503/504 + timeouts; collect skips and counts an unreadable run, fails past 10% *(fix attempt - still being verified)*
-- Four lane-reported errands - the import's stale class cache, the collision check's timeout, the deployed second_item path, the sweep's merge budget
 - The frostling and Kuo-toa scout get real four-direction frame sets
-- The simulated player's channel gets a hover op - the mouse pointer resting on a point, so a box capture can show a hover glow (#7790, #7296 lines 8+10)
 
 Behind the scenes:
+- A const-only append to a soft-core file selects on its class token only the suites that reflect over the constant set (#7980 item 3)
+- Gh_api retries 502/503/504 + timeouts; collect skips and counts an unreadable run, fails past 10%
+- Four lane-reported errands - the import's stale class cache, the collision check's timeout, the deployed second_item path, the sweep's merge budget
 - The five plain progression starts to TabBase._execute_progression_start (#5907 Refactor UI item 4d)
 - Repair_release_notes.main to an orchestrator over verbatim step helpers
 - Crash_facts.build_facts to an orchestrator over verbatim step helpers
+- The simulated player's channel gets a hover op - the mouse pointer resting on a point, so a box capture can show a hover glow (#7790, #7296 lines 8+10)
 - Structure-audit.py audit to orchestrator over verbatim step helpers
 
 ## v0.0.28-P5517
 
-- The local test tier keeps a hub file's source pins (#7932 went green locally, red in CI)
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - Actions_series.main to an orchestrator over verbatim step helpers
@@ -332,6 +354,7 @@ Behind the scenes:
 - ProductionHeader.create to the shell + five per-part builders (#5907 brief #90)
 - The section-label family to UIHelpers.make_label (#5907 Refactor UI item 2)
 - GameStateExport._runtime / _merge_movement_debug to ordered section helpers (#5907 Refactor Systems seam 7)
+- The local test tier keeps a hub file's source pins (#7932 went green locally, red in CI)
 - The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-v27)
 - _build_decor's sprite route to its own step _add_decor_sprite
 - The at-ease weapon suite lifts the headless frame sleep - ~2,100 manual-clock frames, ~27 s to ~9 s
@@ -351,18 +374,18 @@ Behind the scenes:
 
 ## v0.0.28-P5494
 
-- Merge-pr's gate refresh and gate-wip enumerate gh's JSON array (5.1 ConvertFrom-Json emits it as one object)
 - A LOAD-CRASH that reached a screen groups by it, so the web management death joins #4948
-- A hard-killed project.godot borrow gives the tree back - a WMI guard outside the process tree restores and sweeps; testing/ sidecars gitignored *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The gear screen copy to GearStrings (#5907 seam 19)
+- Merge-pr's gate refresh and gate-wip enumerate gh's JSON array (5.1 ConvertFrom-Json emits it as one object)
 - The saves lane row records its wait on Nathan
 - The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-refactor-tests-v5)
 - The #5907 refactor program and four governing docs get roadmap lines
 - The map-paint primitives to MapPaint - map_data.gd 2,321 to 2,259 lines (#5907 brief M4)
 - The four maker tabs' _on_cancel_pressed to one TabBase._on_cancel_pressed(slot_index = 0) (#5907 Refactor UI item 4c)
 - The armory/guardhouse twin roster-section and card-config bodies to TabBase._populate_roster_section / _roster_card_config (#5907 Refactor UI item 3)
+- A hard-killed project.godot borrow gives the tree back - a WMI guard outside the process tree restores and sweeps; testing/ sidecars gitignored
 - LevelingHeaderCard.create to the shell + five per-part builders (#5907 brief #89)
 - The hero roster copy to HeroRosterStrings (#5907 seam 18)
 - Create_vale and its per-process cache to ValeMaps - map_data.gd 2,191 to 2,145 lines (#5907 brief (f2))
@@ -370,7 +393,6 @@ Behind the scenes:
 
 ## v0.0.28-P5480
 
-- A reaped pre-push gate resumes from the same-tree ledger, never from zero *(fix attempt - still being verified)*
 - A Ranged slot - bows and slings move to it, save v7->v8 rung
 
 Behind the scenes:
@@ -378,6 +400,7 @@ Behind the scenes:
 - RowConfigBuilder's per-state head to one _fill_row_head + ROW_TEXT_KEYS, every state's key set test-pinned (#5907, Refactor Systems seam 5)
 - The main tab bar's three styles to ThemeConstants.create_main_tab_style; the dead _rebuild_tab_bar_styles removed (#5907 Refactor UI item 5)
 - The Vale's areas and gate-verge clear to ValeMaps (#5907 (f))
+- A reaped pre-push gate resumes from the same-tree ledger, never from zero
 - SelectionCard.create to the shell + four per-part builders, in place (#5907 brief #88)
 - The hero's walk to HeroMovementTick (#5907 brief #80.7)
 - The minimap chrome to MinimapStrings (#5907 seam 17)
@@ -416,25 +439,25 @@ Behind the scenes:
 
 ## v0.0.28-P5453
 
-- The dirty alarm reads a lane prefix at any branch segment (claude/refactor-systems/ heads)
-- The refactor merge cap counts every refactor lane, at 48/day until Sat 10-10 7 PM
-- The interim build fires once the OLDEST unbuilt commit is 45 min old - a merge burst never starves it (ci-sentinel #7057)
-- The refactor pace cap counts every refactor lane, not only refactor/ heads
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - The live hero's motion blend graph to LiveMotionGraph
+- The dirty alarm reads a lane prefix at any branch segment (claude/refactor-systems/ heads)
 - _build_forest and _forest_hash to Explore3DDecorBuilder, layer forwards
 - WebTextInput._install_js 236 lines to the _INSTALL_JS const (#5907, Refactor Systems seam 1)
 - _build_tiles splits in place into named phases (#5907 map list 7b)
+- The refactor merge cap counts every refactor lane, at 48/day until Sat 10-10 7 PM
 - The divider family to ThemeConstants.create_separator() (#5907 Refactor UI v3 item 1)
 - WorldEncounterDialog.setup to the shell + three per-part builders (#5907 brief #85)
+- The interim build fires once the OLDEST unbuilt commit is 45 min old - a merge burst never starves it (ci-sentinel #7057)
+- The refactor pace cap counts every refactor lane, not only refactor/ heads
 - ZoneFlood.vale_zone_grid to an orchestrator over FloodState's steps, fingerprint identical
 
 ## v0.0.28-P5442
 
 - Two lookout hills - tap, Look, the far tease lifts out of the fog (#7300 line 44)
 - The Cartographic Institute flat icon - the globe, Nathan's pick
-- The orphan detector never re-mints a lane lanes.json retired
 
 Behind the scenes:
 - The minimap suite resets its settings with one read and one save a case, not 118 load-and-saves (minimap data 43.5 s to 3.4 s)
@@ -449,29 +472,30 @@ Behind the scenes:
 - Refactor Systems v1 and Refactor World v1 on B, Refactor UI un-parked to B - Nathan 10-09 9:31 PM "burn WAY harder"
 - The lock reasons to LockReasonStrings (#5907 seam 12)
 - The cave's whole rock mesh is built once per suite, not in each of three cases (those cases 7.6 s to 4.6 s)
+- The orphan detector never re-mints a lane lanes.json retired
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-ui-v2)
 
 ## v0.0.28-P5425
 
 - The minimap's aggro ring is the world ring's sight-cut outline; ring == latch pinned (#7302 item 63) *(fix attempt - still being verified)*
-- The refactor pace counts every merge of the day (limit 50 to 300), and the promise sweep holds a pace-parked Refactor lane instead of pinging it
-- Wait-pr-green waits out a PR head that lags the push; dirty_alarm names the lane a branch leaf names
 
 Behind the scenes:
+- The refactor pace counts every merge of the day (limit 50 to 300), and the promise sweep holds a pace-parked Refactor lane instead of pinging it
 - Build the research table once - the Maxed base 2.0 s to 0.22 s
 - The milestone narratives and the two standard cards to MilestoneStrings (#5907 seam 11)
 - Combat lane queue += #7302 items 52/63 (ring = reach, ranged fire gate) - re-routed from PC/NPC Models under the 2026-10-09 lane definitions
+- Wait-pr-green waits out a PR head that lags the push; dirty_alarm names the lane a branch leaf names
 
 ## v0.0.28-P5419
 
 - The entry ring prompts on entry and on a tap of the building, and sits centred on it
-- A suite that calls a changed function is impacted, hub or not - rule 2i
-- Cartographic_institute leaves the picker art exemption - its painterly-t1 landed in #7826 and main went red
 
 Behind the scenes:
 - The native cottage's walks end once he stands still or the control has proved its point, not at a fixed 1.5-3 s (cottage walks 46.6 s to 19.0 s, cottage 17.6 s to 13.2 s)
+- A suite that calls a changed function is impacted, hub or not - rule 2i
 - Every caller of the Vale forwarders calls ValeTrails / ValeTeases / ValeRoadEnds by name (#5907 brief g1)
 - The arena's stakes walks start 2 m short of the ring and the no-collision controls end the frame they prove their point (arena 31 s to 15 s)
+- Cartographic_institute leaves the picker art exemption - its painterly-t1 landed in #7826 and main went red
 
 ## v0.0.28-P5412
 
@@ -592,7 +616,6 @@ Behind the scenes:
 ## v0.0.28-P5341
 
 - The Ranger hands over her bow when she draws off, and the first slinger brings a practice sling on fort entry
-- A waits-on-Nathan marker lapses when ANY listed ask closes, not when all do
 
 Behind the scenes:
 - The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-gui-v23)
@@ -600,14 +623,15 @@ Behind the scenes:
 - Split _build_tiles into an orchestrator plus seven phase helpers - functions_over_150 37 to 36
 - The mobs' flow-field rebuild to ChaseFieldTicker (#5907 brief #80.2)
 - The section-veil fog mask to ExploreFog - map_data.gd 2,471 to 2,415 lines
+- A waits-on-Nathan marker lapses when ANY listed ask closes, not when all do
 
 ## v0.0.28-P5334
 
 - The battle report is a bounded centred column with its button pinned (#7298 item 21) *(fix attempt - still being verified)*
-- The idle picker reads a comment-borne blocked row and skips a spent checklist queue; Progression World waits on Nathan
 - After he meets you the woodsman is called by name - one name formatter (#7296 line 34)
 
 Behind the scenes:
+- The idle picker reads a comment-borne blocked row and skips a spent checklist queue; Progression World waits on Nathan
 - The hero's end-of-frame regen to HeroRegenTick (#5907 brief #80.1)
 - The wall-prop cluster to WallProps - world_renderer.gd 1,384 to 1,254 lines
 - The test-only _vale_mouth_row forwarder goes; the sight-beat suites reach ExploreSightBeats through _sight (#5907 brief #78 follow-up)
@@ -615,30 +639,30 @@ Behind the scenes:
 
 ## v0.0.28-P5327
 
-- The auth probes run slim from an empty folder - no transcript, no tools, ~4K tokens, not ~26K every 10 min
 - The Equipment window follows a drag-resize by its anchors instead of rebuilding each step (#7495 item 2) *(fix attempt - still being verified)*
 - Miscellaneous first, Storage Chest first in it (#7296 item 22c)
-- Every Godot slot grant is logged, and an empty slot-wait window reads NO SAMPLES, never UNDER
-- A lane's own queue before FREE SLOT, and the drain refusal names a re-check, not 8 AM
 - Upgrade-cost bypass is per type - FREE BLDG / FREE STATS / FREE GEAR (#7296 item 43)
 - The Woodsman's Cabin floor loses the painting's stone front walls - its own planks shifted over them (#7296 item 14) *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The auth probes run slim from an empty folder - no transcript, no tools, ~4K tokens, not ~26K every 10 min
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-v24)
+- Every Godot slot grant is logged, and an empty slot-wait window reads NO SAMPLES, never UNDER
+- A lane's own queue before FREE SLOT, and the drain refusal names a re-check, not 8 AM
 - The lanes record follows the live registry (rotate-pinned-chat b-fort-b-lane-pc-and-npc-models-v28)
 
 ## v0.0.28-P5318
 
 - Springing the bandit camp brings bandits up behind you - the camp cannot be kited (#7296 line 76)
-- Token-category cold start exits 3 'warming', not a bare failure *(fix attempt - still being verified)*
 - Named gold x8 to x5, now the ladder has raised every base
-- The simulated player's first-observation clock starts at engine start, and a night-drain refusal is SKIPPED, never FAIL *(fix attempt - still being verified)*
 - A queue's done-alert clears once seen, and an empty production queue has its own mark (#7296 line 69)
 - A closed wooden double gate stands in the north opening, from Nathan's mockup 2
 - The blue range ring shows only while he fights, is cut at walls, and has a Range Ring switch in Options, the minimap and the big map (#7296 item 52, #7298) *(fix attempt - still being verified)*
 
 Behind the scenes:
 - Several ready PRs gate side by side, up to 2 at once - nothing in the gate serializes a lane
+- Token-category cold start exits 3 'warming', not a bare failure
+- The simulated player's first-observation clock starts at engine start, and a night-drain refusal is SKIPPED, never FAIL
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-mgmt-tech-lead-v42)
 - The Arena's MapData to InteriorMaps - map_data.gd 2,567 to 2,471 lines
 - The idle push names its second item from data - unticked, owned, unblocked, no PR, no ledger answer - or FREE SLOT
@@ -682,19 +706,19 @@ Behind the scenes:
 
 ## v0.0.28-P5289
 
-- Captures-push reports a failed commit as a failure, never a pushed no-op
-- The test tools never default -ProjectDir to C:\fortress - the caller's checkout or a refusal
 - The server refuses a push whose sync base the cloud copy has moved past - an offline device can no longer overwrite newer progress
-- Standing-alert filers label their page 'standing' so Test-StandingPageIssue knows it
 - The cave boss chest's roll - 20-40 gold plus two draws of wood or stone (#7296 item 46)
 - The gate torches light the stakes and mud *(fix attempt - still being verified)*
-- The slot-life selftest scans only the tools tree on a deployed copy; a test pool never writes live holder records
 
 Behind the scenes:
 - A combat_config or defend_wave_config change selects both process goldens, so the PR that moves a number re-takes them
 - The same code never re-runs - a fresh .godot cache skips the import, a same-tree suite run replays its verdict
 - The gate sprites to GateSprites - world_renderer.gd 1,549 to 1,384 lines (#5907 brief #74)
+- Captures-push reports a failed commit as a failure, never a pushed no-op
 - _spawn_edge_enemy takes its mob id; re-take the process golden for the ladder rows
+- The test tools never default -ProjectDir to C:\fortress - the caller's checkout or a refusal
+- Standing-alert filers label their page 'standing' so Test-StandingPageIssue knows it
+- The slot-life selftest scans only the tools tree on a deployed copy; a test pool never writes live holder records
 
 ## v0.0.28-P2857
 
@@ -707,29 +731,30 @@ Behind the scenes:
 ## v0.0.28-P2854
 
 - Snap the walkable outline to the painted trail's real edge + rule 8 *(fix attempt - still being verified)*
-- A PR that edits a ratchet baseline merges only from current main
 
 Behind the scenes:
 - A Godot slot covers its engine's life - taken right before the engine, given back as it exits; engines vs slots held
 - STALL push at 40 min quiet, Overwatch every 30 min with the idle table, non-Godot second item
 - ScreenHost scene-swap seam + the fortress enter-confirm case (#5907 brief #79)
+- A PR that edits a ratchet baseline merges only from current main
 
 ## v0.0.28-P5269
 
-- An exempted structure rise records its number - four exempted rises never moved the floor and main measured over its own ratchet
 - Land the area-faction ladder rows (#7442, #7296 item 61)
 - Cache the gear catalogue and the drop tables
 
 Behind the scenes:
 - The idle share measures working lanes only - MGMT chats work on a cadence
+- An exempted structure rise records its number - four exempted rises never moved the floor and main measured over its own ratchet
 - Two items in flight - a wait is idle; Overwatch measures each lane's idle share
 - The data-layer skill names BuildingStrings - table row and the grep-first identifier check
 
 ## v0.0.28-P2843
 
-- Smart-reboot's graceful close is Ctrl-C on the server's console, exit-checked, FAILED logged
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- Smart-reboot's graceful close is Ctrl-C on the server's console, exit-checked, FAILED logged
 - During a budget surge the night drain is only the reboot window (05:40, not 03:40)
 - A rotated chat's first prompts find their lane row - no false UNMATCHED
 
@@ -808,10 +833,8 @@ Behind the scenes:
 - Add_overlay stands every overlay above the info strip by default *(fix attempt - still being verified)*
 - Walk only the painted path - the floor hand-traced on O1, a cell walkable at 3/4 cover *(fix attempt - still being verified)*
 - Kept no longer lists XP, and an XP ledger rides Copy game data *(fix attempt - still being verified)*
-- The refactor program counts only a posted brief number as consumed
 - The Fighter's gift is The Sergeant's Longsword
 - Snow-glade log spans the river (#7284 item 80a) *(fix attempt - still being verified)*
-- The runner fails on any engine error (#5907 brief #71) *(fix attempt - still being verified)*
 - No queue maker opens the pane unasked - one routed slot tap in TabBase for Builder, Library, Forge, Barracks; queue slot content clears its rounded border *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -819,17 +842,19 @@ Behind the scenes:
 - STRIPSEAT - an overlay attached to the root outside ScreenHost.add_overlay
 - Painted-room rule 7 - the walkable floor is one hand-traced polygon, walkable at 3/4 cover
 - The first_salvage beat id is historical (TL ask on #7566)
+- The refactor program counts only a posted brief number as consumed
 - A weekly audit says which selector rule spent each suite-minute
+- The runner fails on any engine error (#5907 brief #71)
 
 ## v0.0.28-P5207
 
-- The console role reads account_ceiling's blocked verdict, not a re-derived percent
 - The hold-cap card fires on the first real pickup and names the number (#7296 item 53) *(fix attempt - still being verified)*
 - No straw before Hollis - repair 5 wood + 3 stone, five straw ring Hollis (#7296 item 60, #7480 A) *(fix attempt - still being verified)*
 - Past the painting is the normal fog of war, the edge feathered into it
 - Goblins and bandits no longer drop the short sword, short bow or sling
 
 Behind the scenes:
+- The console role reads account_ceiling's blocked verdict, not a re-derived percent
 - The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-itemization-v5)
 - A suite that reads a changed file by its res:// path boots the engine and is selected
 - One row look, three edge insets, and SIBLINGS on every UI fix (check-bugfix-shape check 8)
@@ -841,7 +866,6 @@ Behind the scenes:
 - A finished house's arc closer waits for the fort instead of popping mid-fight *(fix attempt - still being verified)*
 - The desktop management frame stands above the info strip *(fix attempt - still being verified)*
 - Loot paintings sit on the brown backdrop, never a cream field
-- The structure audit stops counting one-line forwarders as a type fork
 
 Behind the scenes:
 - The snapshot validator to CheatSnapshotValidator (#5907 brief #70)
@@ -849,21 +873,22 @@ Behind the scenes:
 - Deny five unused tools so their definitions leave every prompt (#7248, #7554)
 - The Maxed bootstrap to CheatMaxedBase (#5907 brief #69)
 - Area keywords stop selecting suites, and MapData is a named hub
+- The structure audit stops counting one-line forwarders as a type fork
 
 ## v0.0.28-P5188
 
 - 1 damage a level, rising level costs, slower bows, fewer cave drops (#7303 items 42/48/50/57)
-- The daily commentary grades yesterday's bullets first and gives the growth numbers a 7-day direction
-- The quiet check pushes a lane with open work, and a drain-parked lane when the drain ends
 - A named mob appears once per area visit, at 3% (#7303 item 55a)
 
 Behind the scenes:
 - Gear/loot/sentry/party-slot cheats to CheatRoster (#5907 brief #68)
 - Loot paintings ship on the brown backdrop and land only through promote_loot_painting.py
 - Feed/update check to LauncherUpdateCheck, web install to LauncherWebInstall
+- The daily commentary grades yesterday's bullets first and gives the growth numbers a 7-day direction
 - Inbound ledger - round nine mirrors (role write fence, console queue file)
 - Restore A's ceiling lift for the burn week - Nathan 10-08 12:42 PM
 - World/explore/rescue cheats to CheatWorld (#5907 brief #67)
+- The quiet check pushes a lane with open work, and a drain-parked lane when the drain ends
 - Game installer to LauncherGameInstall
 - Lanes.json row for Fort B: Lane - Refactor Tests v1
 
@@ -896,30 +921,31 @@ Behind the scenes:
 
 ## v0.0.28-P5164
 
-- The daily commentary falls back to the chart branch when the digest folder is empty (Thursdays)
-- Four self-check self-test FAILs, and archive-code-sessions.py gets a repo home
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- The daily commentary falls back to the chart branch when the digest folder is empty (Thursdays)
 - Fog overlay + zone borders to WorldFogLayer (#5907 brief #61)
+- Four self-check self-test FAILs, and archive-code-sessions.py gets a repo home
 - Wave Details overlay to DefendWaveDetails (#5907 brief #62)
 - Outdoor set pieces to ValeSetPieces (#5907 brief #60)
 
 ## v0.0.28-P5158
 
-- The native ratchet skips one-line forwarders - a verbatim move no longer raises a row
 - A cottage piece tap mid-fight is refused with the one line (#7298 item 33) *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The native ratchet skips one-line forwarders - a verbatim move no longer raises a row
 - Mob chase step to MobChase (#5907 brief #59)
 - The ambient mob spawner moves to MobSpawner (seam-map region 7) - active_mode.gd 230289 to 225240 bytes (#5907 brief #58)
 
 ## v0.0.28-P5154
 
 - The Builder's fourth column starts empty, opens from the queue slot and closes on a second tap (#7298 items 22a/22b)
-- The refactor program reads every number in a "REFACTOR BRIEFS #N-#M" header *(fix attempt - still being verified)*
 - A '<Name> finished' toast when a production queue item completes (#7298 item 70)
 
 Behind the scenes:
+- The refactor program reads every number in a "REFACTOR BRIEFS #N-#M" header
 - Fog and sections move to ExploreSections (seam-map region 11) (#5907 brief #54)
 - Fixed-spawn roster moves to ExploreFixedSpawns, and its build drops 245-336 to 28-42 ms - active_mode.gd 253211 to 244194 bytes (#5907 brief #57)
 
@@ -930,15 +956,15 @@ Behind the scenes:
 ## v0.0.28-P5148
 
 - Waves walk the mob factions from a data table, one elite per wave
-- A "TECH-LEAD: CHANGES" line holds the merge like BLOCK and APPROVE WITH CONDITIONS
 - Defend shows the Vale's resource nodes, out of reach, and a tap says gather them in Explore (#7280 item 87)
 - Aldous introduces himself by name and gifts 2 stone + 1 wood as the second card (#7280 item 22d, #7301 item 20)
-- The CI sentinel's stale-build page sits out the night drain, and a QUEUED page counts as sent
 - A held mob with no walls does not swing; wall hits count only what landed (#7290, TL review on #7453)
 
 Behind the scenes:
 - Camera and view move to ExploreView (seam-map region 8) (#5907 brief #55)
 - The floor follows main - floor followed main by the weekly audit: files_over_1500 14 to 9, oversized_file_lines 28552 to 12979, handrolled_frame_steppers 2 to 1. Every count may only fall from here
+- A "TECH-LEAD: CHANGES" line holds the merge like BLOCK and APPROVE WITH CONDITIONS
+- The CI sentinel's stale-build page sits out the night drain, and a QUEUED page counts as sent
 
 ## v0.0.28-P5140
 
@@ -952,45 +978,48 @@ Behind the scenes:
 
 ## v0.0.28-P2715
 
+- Unseen ground in the painted lair is a soft darkness, not black holes; O1's real scale measured *(fix attempt - still being verified)*
+
+Behind the scenes:
 - A promoted loot painting refreshes the gear-art golden, and an added painting selects test_gear_art_contract
 - Run a large gdUnit selection as fresh-process chunks inside one budget; a cut run names its NOT RUN chunks
-- Unseen ground in the painted lair is a soft darkness, not black holes; O1's real scale measured *(fix attempt - still being verified)*
 - The lanes-record-follow PR body carries its PRIOR-ART line - every follow is round 3+ on lanes.json and the body contract held #7464
 
 ## v0.0.28-P2711
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-v23)
+- Owner-check eval: pin each case to its recorded base commit - clean_pr6658 drifted once main fixed the copy it tests
 - Ashkarr's facing suite reads his cell from the lair map - main red since #7424 re-anchored him
 - The console's Watch-AReset-1005 task gets its heartbeat pill
 - The ops-cadence chart finds every live task's heartbeat - five aliases and a BoxSelfCheck heartbeat
 - A red nightly is a verdict, not a missed slot - the guard no longer lets a second producer re-run it
 - The daily commentary reads its charts through one vision subagent and reaches Nathan as a file the console opens with
 
-Behind the scenes:
-- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-refactor-v23)
-- Owner-check eval: pin each case to its recorded base commit - clean_pr6658 drifted once main fixed the copy it tests
-
 ## v0.0.28-P5124
 
 - The Archer and the Fighter say their names - Wren Cassel, Sgt. Garrick Vane *(fix attempt - still being verified)*
-- Batch-fire codex bundle (#6455 + siblings) *(fix attempt - still being verified)*
 
 Behind the scenes:
+- Batch-fire codex bundle (#6455 + siblings)
 - The Godot slot pool steps down one level (6 to 5) until the surge ends 10-10 7 PM
 
 ## v0.0.28-P5121
 
-- Loot paintings land through promote_loot_painting.py with a mipmaps=true import stub; do_art_tasks_2304 writes true
-- An added art .png.import selects the mipmap walk; the selector self-test is green again
 - The interior fog field walks the revealed cells, not the whole grid - lair fog_field ~28 to ~4.75 ms a step
-- The context meter reads the account's 200K window; context no longer rotates a chat
 
 Behind the scenes:
 - Item 55a - named mobs capped once per area visit, roll 5% to 3%, named gold x8 to x5
+- Loot paintings land through promote_loot_painting.py with a mipmaps=true import stub; do_art_tasks_2304 writes true
+- An added art .png.import selects the mipmap walk; the selector self-test is green again
 - Ike round 1's proposal - the difficulty ladder, the cave gated by power, slower upgrades, and a Gold by creature section
 - Box-ops: the night drain stops new automated starts but not lane self-wakes, so a drain never reaches quiet (#7243 follow-up)
 - Alpha's Fanged Spear and Flamehorn Helm paintings keep their mipmaps - main red on test_all_art_png_imports_generate_mipmaps after #7446
 - Markers and minimap move to WorldMarkers (seam-map region 15) - active_mode.gd 297777 to 282566 bytes
 - The procedural furniture stand-ins move to FurnitureStandIns (seam B) - world_renderer.gd 125231 to 118223 bytes
+- The context meter reads the account's 200K window; context no longer rotates a chat
 - Alpha's Fanged Spear and Flamehorn Helm paintings (Nathan's #2 picks); drop the alphas_ruff / echo_stone orphan drafts
 
 ## v0.0.28-P5110
@@ -1102,10 +1131,11 @@ Behind the scenes:
 
 ## v0.0.28-P5079
 
-- The clock stamp goes compact after a chat's first prompt - full on first, compaction, a rule change and every 20th; Nathan's rules stay as a few words each + no five lines where nobody reads them (console relay ae6b49f3, relay 75be4cc2)
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - The run's end - death, the death card, the battle report - moves to ExploreRunEnd (#5907 brief #47)
+- The clock stamp goes compact after a chat's first prompt - full on first, compaction, a rule change and every 20th; Nathan's rules stay as a few words each + no five lines where nobody reads them (console relay ae6b49f3, relay 75be4cc2)
 - VISUAL WORK, ON-DEVICE DEBUG, DOCUMENTS, CONTENT PIPELINE slimmed; new presenting-to-nathan skill (#7248, 55.1 to 47.5 KB)
 - BOX SESSION, pre-push gate and DISPATCH PIPELINE one-liners; rulings with Nathan's words move to box-ops (#7248, 55.1 to 51.7 KB)
 - KEY RULES detail moved into eight skills (#7248, 55.1 to 48.4 KB)
@@ -1209,13 +1239,13 @@ Behind the scenes:
 ## v0.0.28-P5022
 
 - The Vale's frostling and kuo-toa scout - rows, loot, named, placeholder frames, rebake
-- The step-4 self-test computes git blob ids in .NET - the scheduled run's stdin pipe put a BOM on the first path
 - Full-screen art banner capped by surface height so Continue stays on screen (#7298 item 36) *(fix attempt - still being verified)*
 
 Behind the scenes:
 - CombatHud's overlays and build_stats_panel move to CombatHudOverlays
 - The web-epoch guard - a PR that removes files from the Web export bumps web-epoch.txt
 - HUDWindow's pure geometry moves to HudWindowGeometry
+- The step-4 self-test computes git blob ids in .NET - the scheduled run's stdin pipe put a BOM on the first path
 
 ## v0.0.28-P5016
 
@@ -1332,6 +1362,9 @@ Behind the scenes:
 
 ## v0.0.28-P2561
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - The impacted-test selector exits 0 explicitly - a native probe's code never leaks out as its own
 
 ## v0.0.28-P4980
@@ -1389,22 +1422,32 @@ Behind the scenes:
 
 ## v0.0.28-P4963
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Consoles see their context size each prompt, and a /clear recommendation at 170K
 
 ## v0.0.28-P2541
 
-- The night drain - nothing new starts from 03:40, a due box still busy at 06:00 arms and reboots after a grace, a daily 08:30 uptime check
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - The proposal for the three new mobs' items - Hrimgar the White, the frostling and Rimeclaw, the kuo-toa scout and Glubmaw (Nathan 2026-10-06)
+- The night drain - nothing new starts from 03:40, a due box still busy at 06:00 arms and reboots after a grace, a daily 08:30 uptime check
 
 ## v0.0.28-P2539
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - The cheap-model quality replay is prepared on the existing 6-task harness - runs the hour a Fireworks key exists
 - The token ledger measures wake-ups, turn lengths and re-read context per call (#7248 step 1)
 
 ## v0.0.28-P2537
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Model and effort policy as registry data with a daily check - high only for judgment roles or a named, dated reason
 - Lanes get no board block in the return brief, and send-to-lane refuses a status-only NEEDS CONSOLE
 
@@ -1417,15 +1460,16 @@ Behind the scenes:
 
 ## v0.0.28-P2532
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - The other three 10-06 self-check reds - two selftests read the deployed dir as a checkout, the lanes record was 32 fields stale
 - The 10-06 self-check reds - sim-player kills its whole tree, the idiom sweeps gate every PR, capture-lanes scans its own tree
 - The runtime-budget nightly writes BOM-free copies and judges python by exit code; a dry-run wire-test mode
 - An orphan Godot never blocks the reboot - one orphan rule in godot-proc, reaped by SmartReboot and reap-orphans
-- The structure audit measures runtime cost - shipped waste is ratcheted, content bytes reported every PR
-
-Behind the scenes:
 - A painted room runs picture first - whole-room mockups, his pick IS the room, walkable traced from it
 - The runtime budget - nightly memory and pack-size measurement of the live web build against a baseline that may only fall (#7229, phase 1)
+- The structure audit measures runtime cost - shipped waste is ratcheted, content bytes reported every PR
 
 ## v0.0.28-P2525
 
@@ -1500,11 +1544,11 @@ Behind the scenes:
 ## v0.0.28-P4929
 
 - One press to leave, and no "go back in?" on the first step outside
-- The daily line has two classes - his lanes run on 20% a day this week, autonomous work keeps 15% (Nathan 10-05 9:08 PM)
 - ONE painting laid over the top, untouched and sharp - the grid is collision underneath
 - The barrier "!" counts a sharpened tool as the tool (#7173 follow-up)
 
 Behind the scenes:
+- The daily line has two classes - his lanes run on 20% a day this week, autonomous work keeps 15% (Nathan 10-05 9:08 PM)
 - Saves owns every platform - web, desktop and iOS exports route to it; renamed Saves and Platforms at its next rotation
 
 ## v0.0.28-P4924
@@ -1513,8 +1557,11 @@ Behind the scenes:
 
 ## v0.0.28-P2503
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - The route blocker frees the main.tscn a reset_all swaps in - one fixture for 22 suites; the scrim probe names what caught its tap
-- Each art-gap pick goes to the lane that owns the art - owner as data, nothing to the console *(fix attempt - still being verified)*
+- Each art-gap pick goes to the lane that owns the art - owner as data, nothing to the console
 
 ## v0.0.28-P4921
 
@@ -1523,19 +1570,21 @@ Behind the scenes:
 
 ## v0.0.28-P4919
 
-- Every installer runs from its own deploy dir - one Copy-ToDeploy helper skips the self-copy (50 installers)
 - He can always back out while Ashkarr lives, and the way out moves to the lair's far south
-- The console's brief carries meta only - no fleet board, no lane activity, no lane notices meant for Nathan
 
 Behind the scenes:
+- Every installer runs from its own deploy dir - one Copy-ToDeploy helper skips the self-copy (50 installers)
 - An organic room's painting is laid over the top untouched - walkable polygons traced to it, gameplay gates, no grid composite
+- The console's brief carries meta only - no fleet board, no lane activity, no lane notices meant for Nathan
 
 ## v0.0.28-P2495
 
-- The hook-fold installer runs from its deploy dir - the deploy copy is skipped when source and target are the same
 - The landscape base canvas (960 wide) takes the three-up Equipment window, the hero column keeps the words on its buttons
-- Adding a popup file selects the popup-door suite - a registry-completeness test runs when its registry grows *(fix attempt - still being verified)*
 - Equipment hero opens only from his miniature, bigger corner box, Attack keeps his size, picture-test switches gone
+
+Behind the scenes:
+- The hook-fold installer runs from its deploy dir - the deploy copy is skipped when source and target are the same
+- Adding a popup file selects the popup-door suite - a registry-completeness test runs when its registry grows
 
 ## v0.0.28-P2491
 
@@ -1543,10 +1592,12 @@ Behind the scenes:
 
 ## v0.0.28-P4911
 
+- True line of sight - Ashkarr out of sight until the top of the path, then everything between in view
+
+Behind the scenes:
 - The five Bash PreToolUse guards run in one process - same verdicts, fail-closed
 - The model A/B counts each merged PR's total cost - the lane, the Tech Lead's review and the rework after a BLOCK
 - The popup door registers SaveConflictDialog - main was red on test_every_popup_file_has_a_row_or_an_exclusion after #7169
-- True line of sight - Ashkarr out of sight until the top of the path, then everything between in view
 - Every box-ops entry point that calls gh sets TZ once - no tzutil per gh call
 
 ## v0.0.28-P2486
@@ -1579,7 +1630,10 @@ Behind the scenes:
 
 ## v0.0.28-P2477
 
-- Codex keeps a reserve for images - a coder-pilot run waits when usage passes its share of the window or the week *(fix attempt - still being verified)*
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Codex keeps a reserve for images - a coder-pilot run waits when usage passes its share of the window or the week
 - Box-poller stops spawning 87 processes a minute - process churn drives the #6661 File leak
 
 ## v0.0.28-P2475
@@ -1596,17 +1650,19 @@ Behind the scenes:
 
 ## v0.0.28-P2473
 
-- A daytime backstop reboot needs real memory pressure and an idle Nathan; otherwise it waits for 4-8 AM *(fix attempt - still being verified)*
 - The wake clearing is the kit - fifteen battle-aftermath pieces at real size replace the big-head figures
-- A skipped 4:40 reboot retries at the next quiet window, never more than 36 h between reboots *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A daytime backstop reboot needs real memory pressure and an idle Nathan; otherwise it waits for 4-8 AM
+- A skipped 4:40 reboot retries at the next quiet window, never more than 36 h between reboots
 
 ## v0.0.28-P4890
 
 - A fortress past PlayFab's 30,000-byte argument cap uploads gzip-packed
-- A rotation carries a pending lane rename to the successor; the relay finds a lane's live chat by its session uuid (Saves and iOS)
 
 Behind the scenes:
 - A 3-minute File-tag pool trace read by stack, and the pool reboot at 1.5 GB so it comes daily
+- A rotation carries a pending lane rename to the successor; the relay finds a lane's live chat by its session uuid (Saves and iOS)
 
 ## v0.0.28-P2467
 
@@ -1614,10 +1670,10 @@ Behind the scenes:
 
 ## v0.0.28-P4887
 
-- The soak records the session's display state; a console run with no monitor reads INCONCLUSIVE for handles *(fix attempt - still being verified)*
 - The roster's list is dropped when the chooser replaces it; a repopulate with no list on screen waits for the next build
 
 Behind the scenes:
+- The soak records the session's display state; a console run with no monitor reads INCONCLUSIVE for handles
 - INHERIT-CHECK is not machine-checked - 5 of 23 recent PRs name owners that are in no registry
 - Backfill seven owners recent PRs named - AccountSync and StoryBeatsConfig into the JSON twin, BuildingModePicker, the icon generator, SeatBand and the story counters into both (#6414, unblocks #7110)
 - The Codex refactor pilot - mechanical briefs under Suf's contract, 2 a day to 10-12, one gaming flag pauses it (#6936 item 1, #7151)
@@ -1631,24 +1687,24 @@ Behind the scenes:
 
 - Knight plate, heavy-rusted, mailed below the breastplate; one wear script for every gear set
 - A picker row tap defers its callback so the press is never left unhandled
-- The window-press suite slides off a control by motion before it releases off-screen
-- MTKBTSVC restarts hourly, not daily - the installer and the box-contract heartbeat agree with the live task *(fix attempt - still being verified)*
 
 Behind the scenes:
 - Re-measure the owner-check on the shipped model (3 runs per case, flips counted) + owner rows for credits, the box-captures publisher and two unowned art jobs
+- The window-press suite slides off a control by motion before it releases off-screen
 - Copy game data names every push's outcome and the cloud copies (#7090 instrumentation)
+- MTKBTSVC restarts hourly, not daily - the installer and the box-contract heartbeat agree with the live task
 
 ## v0.0.28-P4874
 
-- A conformance CAUTION merges only with its reason on the PR - a later TECH-LEAD review that rules on it, or a CAUTION-ACCEPTED line (A console's same-job review, 10-05)
-- The archive-sync status file can no longer stay empty, and the self-check's two silent items speak (archive-sync reader, unarmed-routine reconciliation)
-- A bundle member line needs a real bullet - a bold prose opener (**#N** ...) no longer becomes a Closes line *(fix attempt - still being verified)*
 - The world fog draws no cloud over a whole-room painting's own mountain and sky *(fix attempt - still being verified)*
-- A TEST-line merge never waits for the sweep's idle window; the stale-build alarm follows the real build rule and excuses a merge once a build started after it
 
 Behind the scenes:
 - The swap and pause confirmations build through ConfirmationModal.host_card - make_scrim dim, role buttons, outside tap and Escape the cancel, both hosted by present_modal (#5907 brief #43 PR 2)
+- A conformance CAUTION merges only with its reason on the PR - a later TECH-LEAD review that rules on it, or a CAUTION-ACCEPTED line (A console's same-job review, 10-05)
+- The archive-sync status file can no longer stay empty, and the self-check's two silent items speak (archive-sync reader, unarmed-routine reconciliation)
+- A bundle member line needs a real bullet - a bold prose opener (**#N** ...) no longer becomes a Closes line
 - Regenerate Storyline Art Bible + coverage (nightly)
+- A TEST-line merge never waits for the sweep's idle window; the stale-build alarm follows the real build rule and excuses a merge once a build started after it
 
 ## v0.0.28-P4867
 
@@ -1658,19 +1714,21 @@ Behind the scenes:
 ## v0.0.28-P4865
 
 - Equipment window three up (doll | loot | hero), doll button on the doll slides it beside the hero, better view icons
+
+Behind the scenes:
 - The polluter cleans up - the 23 suites that max the run reset it in after(), and a static gate refuses a new one that doesn't
 - The stale-build alarm pages only for a merge that should have built - a TEST-line merge 1 h unbuilt, or visible code past the daily catch-up + 3 h (on-demand builds, 09-23)
 
 ## v0.0.28-P4862
 
-- The fleet board lists a decision by label OR an opening DECISION: line *(fix attempt - still being verified)*
-- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap
-- The phase1 snapshot suites reset the game they maxed; the window-press suite starts clean
 - Attachments are posts too - PDFs redacted and text files scrubbed at upload, the 6 past attachments replaced in place, the gate refuses an unscrubbed uploader
 - The digest and meta-review agents post only through post-brief.py, the sanitized poster - no more curl recipes (#7114 residual)
 
 Behind the scenes:
+- The fleet board lists a decision by label OR an opening DECISION: line
+- The maxed-completeness pool check expects the maxed never-ending tracks' bonus above the cap
 - The daily self-check reports every label a workflow or box-ops script selects on that the repo lacks
+- The phase1 snapshot suites reset the game they maxed; the window-press suite starts clean
 
 ## v0.0.28-P4855
 
@@ -1774,15 +1832,14 @@ Behind the scenes:
 
 ## v0.0.28-P4805
 
-- The release and Discord payloads go out from a file - a "§" in a commit title failed every publish since run 701
 - The loot's two view buttons - smaller doll for more loot, smaller icon-only tiles - kept for the player
 - The Equipment window fills a desktop - doll column beside a loot that wraps by its width
 - Every mode-nav entry expands to show its name; stats overlay Close whole at 540 (#6912, #6851) *(fix attempt - still being verified)*
 - Every building gets a milestone - one reusable "built" card, named per building
 - The live stage reads card 1 at 16x - the 4x instrument's row quantisation was the whole 0.5 px bar
-- Merge-pr phantom check prints only the branch's own deletions/reverts; stale-base paths become a count
 
 Behind the scenes:
+- The release and Discord payloads go out from a file - a "§" in a commit title failed every publish since run 701
 - A failed build reaches someone - the CI sentinel folds a streak's issues into one, pages the Tech Lead and the console at the second failure, and alarms when no build has published for 3 h past a merge (#7057, #7028)
 - The cancel is a GOLD OUTLINE - Nathan's mockup pick (#7005, 3:04 PM)
 - Autonomous work caps at 85% of the week, and the last 2 hours before each reset are a standing refactor burn window (Nathan 2026-10-04 2:44 PM)
@@ -1795,6 +1852,7 @@ Behind the scenes:
 - The Storyline Bible runner judges the STAGED diff - a line-ending false dirty no longer reports an undelivered bible
 - The Archer arc is built - quest master §8 caught up to #3977/#4214/#6787
 - The shipped salvage line in the itemization section
+- Merge-pr phantom check prints only the branch's own deletions/reverts; stale-base paths become a count
 - Rotate the test ledger by month - split the 59 MB ledger.jsonl by ts, a rejected push files its own alert
 - CODEX-REVIEW - Codex as a read-only, advisory second-family reviewer on game-code and refactor-brief PRs, a week's trial
 - Handbuilt_scrims counts the dim however it is spelled - eight copies stood unseen (rebased 1 to 9)
@@ -1811,10 +1869,11 @@ Behind the scenes:
 
 ## v0.0.28-P4775
 
-- Test_minimap_interior_one_texture failed whenever test_hero_screen_placement_contract ran first - that suite left WorldArtSet on Detailed and never handed it back, and the minimap test's 0.003 colour bound is tighter than set_pixel's 8-bit truncation (up to 1/255), which Detailed's darkened rock exceeds by 0.0033; the placement suite now restores the set and the bound is one 8-bit step (red on main 521db7ee4 with the pair, blocked #6998)
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - Dimming behind a popup has one owner - UIHelpers.make_scrim; 18 files route through it, gear menu's 0x0 dim deleted, no tap behaviour change (#5907 brief #40)
+- Test_minimap_interior_one_texture failed whenever test_hero_screen_placement_contract ran first - that suite left WorldArtSet on Detailed and never handed it back, and the minimap test's 0.003 colour bound is tighter than set_pixel's 8-bit truncation (up to 1/255), which Detailed's darkened rock exceeds by 0.0033; the placement suite now restores the set and the bound is one 8-bit step (red on main 521db7ee4 with the pair, blocked #6998)
 - The lean relay - every box relay runs as a 2-3 call Haiku delivery with no CLAUDE.md, memory, hooks, MCP or skills (#6936 item 2)
 - The Codex replay eval - replay past briefs and bugs on Codex in an isolated clone, graded by the gate, the merged PR's tests and a leak check (#6936 item 1)
 - The refactor program reads today's spend from the daily line and matches queued briefs by number
@@ -1898,9 +1957,9 @@ Behind the scenes:
 ## v0.0.28-P4727
 
 - The loot grid gets half the doll column, three full rows on the hero inspect, and a LOOT (n) count
-- The needs-nathan decision-line gate reads a body the shell resolves - a variable the command assigns, any env var, --body "$(cat file)", and a relative path after cd or against the hook cwd
 
 Behind the scenes:
+- The needs-nathan decision-line gate reads a body the shell resolves - a variable the command assigns, any env var, --body "$(cat file)", and a relative path after cd or against the hook cwd
 - One respawn-pulse clock - SpawnOverlay.any_respawning / advance_pulse at the one PULSE_HZ; both canvases route through them and the copies go (#5907 brief #37)
 
 ## v0.0.28-P4723
@@ -1928,10 +1987,10 @@ Behind the scenes:
 
 ## v0.0.28-P4706
 
-- Per-trip object split and node-class histogram
 - His skeleton stands in the outfit kit's rest, so the Ranger pauldron sits on his shoulder where the pack puts it
 
 Behind the scenes:
+- Per-trip object split and node-class histogram
 - LocalStorage reads and writes have one owner - WebJs.storage_get / storage_set / storage_remove; 15 sites in crash_beacon, cheat_manager and web_update_notifier route through it (#5907 brief #34)
 - Nathan's picks - Archer's Bow, Scythe, Sharp Scythe and Sharp Mining Pick get their paintings
 
@@ -1939,12 +1998,12 @@ Behind the scenes:
 
 - Cracked Leather ships option 2, the lighter brown
 - The web launcher compiles again - entry_shell names no game class; the portability gate derives its deny-list from the project; the deploy fails a launcher that does not compile (#6845 regression)
-- The self-check reads web lag in one time zone (a 21-min lag read as 261), and the step-4 self-test hashes outside the repo and keeps git's error
 - A stowed hip weapon hangs on the belt he wears - the anchor read off the garment's own belt, the hilt against it
 
 Behind the scenes:
 - A blockout is shown beside a layout read of the mockup, never as the look; an organic room is ONE generation cut into chunks; the look merges only on an in-game capture beside the mockup plus a blind grade (Nathan 10-02 10:34 AM, the lair board)
 - Google sign-in and the web text input call their page hooks through WebJs - the 14 remaining hand-spliced sites (#5907 brief #33 PR 2 of 2)
+- The self-check reads web lag in one time zone (a 21-min lag read as 261), and the step-4 self-test hashes outside the repo and keeps git's error
 - Web-hook-check - a headless-Chrome check that GDScript's page-hook calls fire in a real browser (#5907 brief #33 tooling)
 - The build-publish exports take a box-wide Godot slot - Windows and Android steps hold one, macOS runs its export through with-godot-slot.ps1 (15 Godot processes / 8 jobs vs budget 6 at 04:48Z 10-01)
 - Pre-push-gate - a new owner that wraps an engine call lands with callers routed, never unused (the native ratchet counts its one engine call) (#5907 brief #33)
@@ -2067,9 +2126,9 @@ Behind the scenes:
 ## v0.0.28-P4629
 
 - Pick C on every panel, a neutral torch, and the dragon's lair lit bright (#6649, #6561)
-- The owners digest names each row's co-owner and sanctioned callers - the replay's one false STOP (#6771) read a listed caller as a bypass
 
 Behind the scenes:
+- The owners digest names each row's co-owner and sanctioned callers - the replay's one false STOP (#6771) read a listed caller as a bypass
 - Nathan's 10-01 order - progression through every NPC, tutorial and area unlock, then the Fortress screen (building, production, units), then stat wiring, now that the game can be played and watched
 - Register the Itemization lane - the leather tier between Patched Hide and Rusty Plate, loot tables per mob, icons and the item docs (Nathan 2026-10-01 6:14 PM)
 - Two room kinds - box rooms keep the tile pipeline, organic rooms are one painting over the blockout render with an outline walkable map (Nathan 2026-10-01, #6796)
@@ -2086,22 +2145,22 @@ Behind the scenes:
 ## v0.0.28-P4618
 
 - The cave is a cavern - 6 m rock, stalactites of 2.5 m and 4 m hung from it, fog cleared up seen walls
-- The A token warm backs off while dark, and the self-check reports login age *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The Interiors lane is retired; the cottage and cabin layouts and their skins move to Interior Cave (Nathan 2026-10-01 3:33 PM)
 - Week of 2026-09-24 - 1 idea, 8 decisions
+- The A token warm backs off while dark, and the self-check reports login age
 - Godot-quirks - a space query reads an area's last FLUSHED transform; place before add_child or force_update_transform, and size max_results (#5907 brief #25)
 - The tap-to-act cue is one on-screen size - card item 28 and the owner row record #6777
 
 ## v0.0.28-P4612
 
 - The action icon is one on-screen size at any world zoom (#6666 part 6 NEXT)
-- Wait-pr-green reads the newest run per check - a green re-run on the same head is no longer FAILED
 
 Behind the scenes:
 - GDScript tools under tools/ are held under 1,500 lines too - tool_gd_files_over_1500 at 0
 - An oversized file can no longer grow through a green ratchet - oversized_file_lines (#6755 part A)
+- Wait-pr-green reads the newest run per check - a green re-run on the same head is no longer FAILED
 - The tap-to-act cue is institutionalized - owner row, rules card items 25-29, world_tap_handlers_off_owner held at 0 (#6666 part 6)
 
 ## v0.0.28-P4607
@@ -2133,8 +2192,6 @@ Behind the scenes:
 - The dragon's lair placeholder - one round cave of the rat cave's rock, 10 m tall, Ashkarr inside
 - The fist hole tests "inside the loop" by the loop's triangles, not the engine's grazing ray
 - The Woodsman's House is buildable once his blueprint arrives; the keep shows "!" until you collect it
-- Capture-component renders the requested surface, fills it, isolates user://, and never waits forever on a draw (#6709 part 1, #6642)
-- The hero-scale suite hands the art set back - every suite after it drew in Painterly
 - Tap a tool-gate barrier to act again, like an entrance; one name for the Mining Pick
 - A carried mob or NPC spot that a layout change made forest comes back on its mark
 - Piper Fenn waits for the Librarian's rescue, stands east of the gate and speaks when you reach her
@@ -2147,7 +2204,9 @@ Behind the scenes:
 - The 3D layer's heights read WorldScale - no metres typed a second time (#5907 brief #22b)
 - TabConfig.evaluate_check folds into LockEvaluator - the 21 tab check keys are condition data, one gate evaluator (#5907 brief #18)
 - PlayerSprite on the one size owner - object_scale("person") and foot_offset; no typed 1.75 (#5907 brief #20 seam 3)
+- Capture-component renders the requested surface, fills it, isolates user://, and never waits forever on a draw (#6709 part 1, #6642)
 - The component Escape handlers answer on the one back stack - key_escape_compares reaches 0 (#5907 brief #23, PR B)
+- The hero-scale suite hands the art set back - every suite after it drew in Painterly
 - Ten modals and sheets answer Escape on the one back stack, not their own KEY_ESCAPE compare (#5907 brief #23, PR A)
 - SpriteScale.margin_below is the one measure of the transparent rows under a body - foot_offset and the castle both call it (#6727 review, #5907 brief #22)
 
@@ -2168,21 +2227,20 @@ Behind the scenes:
 ## v0.0.28-P4566
 
 - Green Load bar on the selected save, Options 'Layout' header, 2x in the cheat bar
-- The roster row names the units tabs, not every list of N - #6695's OWNER-HIT was a shared word, not a shared job
 - The back stack stamps an is_open entry after the input that opened it, not one input late (#6699 review, #6680) *(fix attempt - still being verified)*
-- The Vale tool-gate test controls GameManager.north_tree_chopped, so an earlier suite cannot unlock its north tree
 - Retry each wrangler call, so one transient fetch failure cannot fail the web deploy
-- A release build gets a reserved Godot slot and a 90-min wait, so lane jobs cannot starve it
 - The Arena's palisade is stakes on the ring's circle, not square wall blocks
 
 Behind the scenes:
+- The roster row names the units tabs, not every list of N - #6695's OWNER-HIT was a shared word, not a shared job
+- The Vale tool-gate test controls GameManager.north_tree_chopped, so an earlier suite cannot unlock its north tree
 - B's refactor pace ceiling 12 to 20 for the surge (Nathan 2026-09-30 11:08 PM: push it hard this week til the reset)
+- A release build gets a reserved Godot slot and a 90-min wait, so lane jobs cannot starve it
 
 ## v0.0.28-P4558
 
 - Piper Fenn draws her own figure at the hero's proportions, not the big-head captive
 - A committed image .import is the one Godot wrote, never a seed
-- The worktree reaper reaps by MERGED, not by age - delivered + clean + 2 quiet hours; routine and lane homes spared
 
 Behind the scenes:
 - World_object_size_outside_owner sees a WorldScale height divided by anything and a .get_size().y divisor - the ArenaStakes shape (#6704 review, #5907 brief #20)
@@ -2190,55 +2248,56 @@ Behind the scenes:
 - ONE back stack for Escape - the top open window or view closes, so the hero view closes (#6680, #5907 brief #19)
 - Settings_path_outside_owner counts any hand-written ConfigFile save outside SettingsFile - crash_beacon and orientation_lock named as the two exceptions (#6700 review, #5907 brief #17)
 - One owner for the settings file - SettingsFile names user://settings.cfg once and every write flushes (#5907 brief #17)
+- The worktree reaper reaps by MERGED, not by age - delivered + clean + 2 quiet hours; routine and lane homes spared
 
 ## v0.0.28-P4550
 
 - The Ruins, Piper's road run, the Alpha Wolf pair and the NW path warning get their plates
 - The Arena's floor is painted mud with a banked-earth rim that covers the grid's steps
-- The pool self-check reads the LOADED display driver, not the installed one *(fix attempt - still being verified)*
-- The reviewer asks "does this job already have an owner?" on every game-code PR - proven by a replay eval first
-- The base-tree measure runs again - owners.json exported, absent counts skipped (#6685 regression)
 
 Behind the scenes:
+- The pool self-check reads the LOADED display driver, not the installed one
+- The reviewer asks "does this job already have an owner?" on every game-code PR - proven by a replay eval first
+- The base-tree measure runs again - owners.json exported, absent counts skipped (#6685 regression)
 - The live-character row is the hero only - NPCs stay 2D cards (Nathan 2026-09-30 6:51 PM, #6644)
 
 ## v0.0.28-P4544
 
 - A wall-top corner shows one beam's cut end, never both
+
+Behind the scenes:
 - The gate-reason format is held at the door - typed-in reasons count, the constants' shape is pinned
 - Every owners-registry row names the count that measures it - the unmeasured rows may only fall
 - One owner for how big ANY world object draws - props, displays and trees join characters (#6644, widened)
-
-Behind the scenes:
 - 3D NPCs parked until bodies can vary
 
 ## v0.0.28-P4539
 
 - The Vale widens west, a mountain range across the north with the avalanche in its pass, locks hold only across the trail (#6656, #6665)
-- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw *(fix attempt - still being verified)*
-- One owner for how tall a character draws, and two counts that may only fall (#6644 part 1)
-- The gates-and-popups rules become counts that may only fall (#6666 part 3)
-- A time-boxed budget surge - B's throttle off until Sat 10-03 6 AM, the refactor at 0-24 h and a ceiling of 12
 
 Behind the scenes:
+- Pool-tags -Rate prints - '+8' is not a .NET alignment, so the rate summary threw
 - The pool self-check names the display driver, and the leaking AMD version is a problem
+- One owner for how tall a character draws, and two counts that may only fall (#6644 part 1)
 - One opener for the entity inspect modal - fourteen pasted open sequences call TabBase._open_entity_inspect (#5907 brief #16)
+- The gates-and-popups rules become counts that may only fall (#6666 part 3)
+- A time-boxed budget surge - B's throttle off until Sat 10-03 6 AM, the refactor at 0-24 h and a ceiling of 12
 
 ## v0.0.28-P4532
 
 - Tap a zone ring you stand in to act again; the ring breathes while tappable
-- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak *(fix attempt - still being verified)*
 
 Behind the scenes:
+- Smart-reboot takes a memory-pressure reboot; one elevated one-shot for the kernel File leak
 - Gates, costs and popups get one owner each and a rules card (#6666 parts 1-2)
 
 ## v0.0.28-P4529
 
 - An Old framing switch and the camera's framing in Copy game data for the device-only streaks
-- "TECH-LEAD: APPROVE WITH CONDITIONS" holds the merge like BLOCK
 
 Behind the scenes:
 - The four teasers at the edge of the world - the avalanche, the western gate, the swamp, the door in the wardrobe
+- "TECH-LEAD: APPROVE WITH CONDITIONS" holds the merge like BLOCK
 
 ## v0.0.28-P4526
 
@@ -2257,6 +2316,8 @@ Behind the scenes:
 ## v0.0.28-P4520
 
 - The Vale's area lines go round the road ends
+
+Behind the scenes:
 - Subject-only hubs are a NAMED list - a subject can never drift into one
 
 ## v0.0.28-P4518
@@ -2422,11 +2483,12 @@ Behind the scenes:
 
 ## v0.0.28-P4449
 
-- Three gate suites back under budget - drawn_pose no longer errors per read, the portrait runs on the test's clock, shared frames
-- The simulated-player nightly's console echo can't cost it the post *(fix attempt - still being verified)*
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- Three gate suites back under budget - drawn_pose no longer errors per read, the portrait runs on the test's clock, shared frames
 - Regenerate Storyline Art Bible + coverage (nightly)
+- The simulated-player nightly's console echo can't cost it the post
 - Index the three content-pipeline docs and give the NW dragon path a roadmap line
 
 ## v0.0.28-P4445
@@ -2471,11 +2533,11 @@ Behind the scenes:
 - The 2D hero shows his weapon only while he is fighting *(fix attempt - still being verified)*
 - The game drops an override.cfg that does not belong to this boot, and restarts once on the base settings *(fix attempt - still being verified)*
 - Only an exported build guards against a second copy - the box's windowed tool runs no longer quit each other
-- The round-trip chief case starts from a live chief, whatever an earlier suite left cleared
 - The Woodsman's Cabin's furniture is lifted from his picked painting (#6240, #6512)
 
 Behind the scenes:
 - One 'this is an interior' - MapData.is_interior() is to_scale, so every interior draws the live hero
+- The round-trip chief case starts from a live chief, whatever an earlier suite left cleared
 - Install the game patch's override.cfg with the patch, as one unit - 1.1.64
 
 ## v0.0.28-P4422
@@ -2571,19 +2633,19 @@ Behind the scenes:
 
 ## v0.0.28-P4372
 
-- Base-locks gate diffs against the merge-base, not main's tip
 - A press on any window never walks the hero - the GUI decides, not a list
-- The Claude Code update lands with engines running - clear npm's stale retire folder, move running images aside
-- Mechanise the woken-restate rule in the Stop hook
 
 Behind the scenes:
+- Base-locks gate diffs against the merge-base, not main's tip
 - Godot-quirks - a top_level Control lets a pointer press through despite MOUSE_FILTER_STOP
 - Wait-pr-green settles from a head-scoped run list, not a silent-fail proxy for "still running"
 - One standing-issue lookup - every alert filer finds its open issue past the newest 50
 - Retire the hero view's Picture test row - the #6352 streaks are fixed
 - Lock the Woodsman's Cabin layout (gate 3, P4361); hero-base records the 2D outdoor hero on Normal and Simple
+- The Claude Code update lands with engines running - clear npm's stale retire folder, move running images aside
 - The core smoke set is a named list again - 66 to 44 suites; the arm-stretch test shares its frames
 - DailyStatsCommentary gets a contract row, an installer and a heartbeat check
+- Mechanise the woken-restate rule in the Stop hook
 
 ## v0.0.28-P4361
 
@@ -2601,34 +2663,34 @@ Behind the scenes:
 - Portrait A/B switches + GPU fields in Copy game data - instrumentation for the device-only streaks
 - The handle sits in his fist's hole, measured from his curled fingers and palm - not on the finger bones
 - A Controls settings tab - every shortcut, rebind by pressing a key, reset to defaults
-- The orphan detector skips a chat a rotation retired, and its log is writable again
-- Repo-backup never uploads a bundle to a public bucket - the only R2 bucket the box reaches is the public website *(fix attempt - still being verified)*
 
 Behind the scenes:
+- The orphan detector skips a chat a rotation retired, and its log is writable again
 - A BOX RESOURCES panel in the daily brief - yesterday by hour, the Godot peak against the budget, idle windows, disk-tier trips (#6386 item 6)
+- Repo-backup never uploads a bundle to a public bucket - the only R2 bucket the box reaches is the public website
 
 ## v0.0.28-P4349
 
 - The alpha's two popups - he blocks the trail on sight, the way opens when he dies; one spawn-beat table for every guard
 - At ease he wears his weapon - hip or back, tip down - and draws it to fight
 - One named mob per common, 5% on any spawn, gold only; commons lowercase, named and bosses capitalised
-- The disk tiers' Overwatch message reaches Overwatch - quote spaced args, and never skip or fake a send (#6386 item 3) *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The box contract names `powercfg /h off` as an elevated manual step, so a rebuild keeps hibernation off (#6386 item 4)
 - Box leaks fixed at the source - gdUnit deletes its own temp captures, a nightly sweep, 7-day backups, nightly SAFE-worktree reap, hibernation asserted off (#6386 items 4 and 5)
 - One owner picks the music bed; combat music wherever a fight happens (#5907 brief #15, #6368)
+- The disk tiers' Overwatch message reaches Overwatch - quote spaced args, and never skip or fake a send (#6386 item 3)
 
 ## v0.0.28-P4342
 
 - A Gameplay settings tab - hit text, heals, both health bars, NPC nameplates, pickup names; all on
-- Disk tiers skip a reclaim step that is already running, and give a step 45 min, not 15 (#6386 item 3) *(fix attempt - still being verified)*
 - The save records what changed it and which copy a cloud sync kept - instrumentation for the lost boulder (#6367 attempt 2)
 - The Woodsman's Cabin mockups are reference, not game art - .gdignore keeps Godot from importing them without mipmaps (red test_all_art_png_imports_generate_mipmaps)
 - Re-hide fog in the map settings - re-fogs only the map you are on (QA)
 - A locked section keeps you out but never traps you in; a new explore session starts only from the Explore button
 
 Behind the scenes:
+- Disk tiers skip a reclaim step that is already running, and give a step 45 min, not 15 (#6386 item 3)
 - Disk tiers reclaim automatically - WARN reclaims tier 1, CRITICAL flags Godot off, a fast fall alerts Overwatch with the growers (#6386 items 3 and 7)
 - A box-wide Godot slot budget at the one launch owner - every launcher takes a slot, waits, then refuses rather than overrun (#6386 item 2)
 
@@ -2638,10 +2700,10 @@ Behind the scenes:
 - The item/compare modal is as tall as its content - it re-measures once the card has its width
 - His face is the pack's own skin, the same tone as his arms - the head is no longer recoloured to the tunic's tan
 - Comparing a loot item keeps the slot filter - a replaced modal is not a back-out
-- The /box poller is single-instance with a hung-holder takeover, a /box op has a 120 s cap, and a command is marked seen before it runs (#6386 item 8) *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The interim Godot budget gate is in the repo - the console's live build, one retry-advice fix, and its selftest in box-self-check (#6386 item 2)
+- The /box poller is single-instance with a hung-holder takeover, a /box op has a 120 s cap, and a command is marked seen before it runs (#6386 item 8)
 
 ## v0.0.28-P4328
 
@@ -2669,21 +2731,21 @@ Behind the scenes:
 ## v0.0.28-P4315
 
 - Every tap of the small minimap's +/- changes the view - rungs wider than the room are passed over
-- The supervisor installer writes the launchers the box actually runs
 
 Behind the scenes:
 - Rm-glob-gate in the repo - deny critical-path rm shapes before they park a lane on an approval prompt
 - PassiveMode._process is one method per combat-tick section, same order (#5907 brief #14)
 - The log records level ups, upgrades, entering and leaving areas (Nathan 2026-09-26)
+- The supervisor installer writes the launchers the box actually runs
 
 ## v0.0.28-P4310
 
-- A function's length is its body, not everything up to the next func
 - The art modes read Detailed / Normal / Simple (Nathan's names; set ids unchanged)
 - Outdoors the hero, mobs and NPCs y-sort by their feet - a tree in front hides him (#6314 PR B)
 - The alpha's trail - a weaving path behind the alpha to the cave clearing, shut until he dies; he holds his post
 
 Behind the scenes:
+- A function's length is its body, not everything up to the next func
 - Accounts balance at natural times - every rotation picks its account on the known clock gap; the mid-week balancing pass is retired
 - Lanes.json records the live chats - GUI and Overwatch on A after tonight's moves, every rotated row's slug/uuid/cse/name
 - Detailed/Normal/Simple mapping confirmed by Nathan (Painterly/Storybook/Minimal) - no longer inferred
@@ -2757,10 +2819,10 @@ Behind the scenes:
 ## v0.0.28-P4261
 
 - A live portrait of him in his gear for any window - LiveCharacter.portrait
-- Send-to-lane matches a lane's title with or without " (work paused)"
 
 Behind the scenes:
 - Register LiveCharacter.look_for / portrait and IsoView3D.view_basis / ground_m
+- Send-to-lane matches a lane's title with or without " (work paused)"
 
 ## v0.0.28-P4258
 
@@ -2776,25 +2838,27 @@ Behind the scenes:
 
 ## v0.0.28-P4254
 
-- The delivery driver re-fires a CANCELLED required check itself, by one body edit
 - The in-game Quit saves first, as the window's X does
 - Gear layers over his own outfit, Patched Hide in its icons' colours, no hood, every weapon carried head-forward
 - Keep the 3D walls - see-through over floor, the hearth's own stone and colour
+
+Behind the scenes:
+- The delivery driver re-fires a CANCELLED required check itself, by one body edit
 - Sync-lanes-registry judges by the end state, so a merge undone by a live override is no change
 - A deploy never regresses live lane identity, and a lane's brief is its own (Nathan 09-25 12:46 PM)
+- ONE reply per turn, stamped on every prompt of every chat (Nathan 09-25 12:39 PM)
 - Lane-swap delivers its card, re-keys the lanes.json row, and never mints a second live chat (console 09-25)
 - Pick-account honours an account hold - account-hold-<A|B>.txt with an expiry (Nathan 09-25)
 - The worktree reaper can reap trees nested in a repo root, and -Apply never prompts
 - A rotated chat inherits its predecessor's worktree instead of stranding it
 
-Behind the scenes:
-- ONE reply per turn, stamped on every prompt of every chat (Nathan 09-25 12:39 PM)
-
 ## v0.0.28-P4243
 
 - Room_cottage_stone_painting import gets its mip chain back *(fix attempt - still being verified)*
-- The soak- prefix is reserved for harness saves, so no diagnostic copy becomes the nightly's subject *(fix attempt - still being verified)*
-- The nightly judges memory after the first-render ramp - warm-up 10 to 40 min *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The soak- prefix is reserved for harness saves, so no diagnostic copy becomes the nightly's subject
+- The nightly judges memory after the first-render ramp - warm-up 10 to 40 min
 
 ## v0.0.28-P4240
 
@@ -2810,9 +2874,11 @@ Behind the scenes:
 
 ## v0.0.28-P4237
 
-- Catch chat and drift problems before Nathan does - daily chat-surface count, weekly reach review
 - Each garment's cover measured once at load, unioned at equip - no ray cast and no per-combination body when he changes clothes
 - What he wears shows on him - Patched Hide dresses the live hero in his kit's leather parts
+
+Behind the scenes:
+- Catch chat and drift problems before Nathan does - daily chat-surface count, weekly reach review
 - Check-bugfix-shape gains NATIVE-CHECK and the round counter
 - Run-soak rejects an unknown parameter instead of swallowing it
 
@@ -2820,13 +2886,15 @@ Behind the scenes:
 
 - A wooden plank floor
 - Nathan's P4220 pass and C pick - true-2:1 pieces, hearth masonry, flat tops, see-through corners, windows from outside *(fix attempt - still being verified)*
-- Decision-line-gate reads the verb at a command position and the label as a flag
 - He holds every weapon THROUGH his fist - one measured grip per hand, the arm sets the angle; the bow in his left hand (Nathan 2026-09-24: "they dont actually get held in the hand like a grasping hand")
+- A mouse-wheel tick never closes a modal - four backdrops route through the one scrim owner
+
+Behind the scenes:
+- Decision-line-gate reads the verb at a command position and the label as a flag
 - WHEELTAP - a mouse handler that acts on any pressed button
 - Headless arm for the #5595 renderer discriminator
 - Decision-line-gate - a needs-nathan issue cannot be filed without its DECISION: line
 - Temporary un-pause with no PR, and a re-routed ask is one issue carrying the finder's notes
-- A mouse-wheel tick never closes a modal - four backdrops route through the one scrim owner
 - The 09-24 reach review - outputs reach their readers, success signals measure the outcome
 - The stop guard asks for a correction, never a second close - it was doubling every status block it caught
 - Every player-visible merge is build-worthy, and a background-woken turn is told not to close with the status lines
@@ -2835,25 +2903,22 @@ Behind the scenes:
 
 - All 8 weapons in his hand, a relaxed carry per weapon and the ready stance only on aggro - the sling dangles, the scythe's handle is wood, the axe's edge faces forward
 - Nathan's P4208 pass - mitred wall tops and outside faces, straight pieces, hearth-stone colour, matching windows *(fix attempt - still being verified)*
-- Five lines close the PAUSE only; recover the say-it-once stamp and daily commentary that never reached main
-- Console resume markers follow /clear - newest same-name transcript wins
-- Interim builds every 45 min, and a TEST line never waits for the cadence; the Discord structure block gains the refactor program's own state
-- Lanes Nathan does not talk to follow the account that can afford them - automatic, slow, and only when worth it
 - The club is the gnarled club Nathan picked - authored by recipe
 
 Behind the scenes:
 - The hero-weapons lock and the owners row name the pick, scythe, sling and the shared glTF writer
+- Five lines close the PAUSE only; recover the say-it-once stamp and daily commentary that never reached main
 - Slim pass 3 - world-art rules and the five build principles move verbatim into two skills; CLAUDE.md 67 KB to 58 KB
 - Slim pass 2 - DISPATCH PIPELINE moves verbatim into a pipeline skill; CLAUDE.md 85 KB to 69 KB
 - Slim pass 1 - the BOX SESSION section moves verbatim into two skills; CLAUDE.md 127 KB to 85 KB
+- Console resume markers follow /clear - newest same-name transcript wins
+- Interim builds every 45 min, and a TEST line never waits for the cadence; the Discord structure block gains the refactor program's own state
+- Lanes Nathan does not talk to follow the account that can afford them - automatic, slow, and only when worth it
 - One builder, three kinds, one theme variation (#5907 brief #10 PR B)
 
 ## v0.0.28-P4208
 
-- The pace reads the WEEK's position, and ahead of the clock HALTS the refactor (Nathan's rule)
-- The refactor pace is derived from the account meters - paced to a bit under 1/7th of the week a day, released on the last day, and it names a swap when the accounts diverge
 - The nightly log is UTF-8 throughout - PowerShell 5.1's Tee-Object -Append wrote UTF-16 into it
-- 'TECH-LEAD: BLOCK lifted' is a lift, not a new block (#6200 was held by its own lift line)
 - The club and axe wear their icons' colours - a palette read off the icon, applied by one fixed path
 - Weapons face the way he faces - the grip socket pins the head side, not just the haft; the axe is the hatchet
 - The live hero is permanent - the LIVE toggle is gone
@@ -2862,7 +2927,10 @@ Behind the scenes:
 - Nathan's P4169 pass - thick walls, straight pieces, hearth-stone room, a door and outside faces, the exit square
 
 Behind the scenes:
+- The pace reads the WEEK's position, and ahead of the clock HALTS the refactor (Nathan's rule)
+- The refactor pace is derived from the account meters - paced to a bit under 1/7th of the week a day, released on the last day, and it names a swap when the accounts diverge
 - Say it once - the five lines are the only place that states what waits on Nathan, and nothing above them repeats it
+- 'TECH-LEAD: BLOCK lifted' is a lift, not a new block (#6200 was held by its own lift line)
 - Interior rule 15 - one geometry change per interior PR (GEOMETRY-EXEMPT)
 - Slice 2 - surprised_by findings, the nightly (journeys + personas, new findings to the standing issue), task installer, Daily Brief line
 - V51 - two more parked UX questions (scroll cue, the Defend run's 4 px) (#6147, #6182)
@@ -2923,29 +2991,27 @@ Behind the scenes:
 - Full-height see-through front walls, with art on and in the block view
 - The LIVE view - a default-off toggle that draws the hero live in the cottage (#6110 cards 7-8)
 - Live-hero slice 3 - a second character is a spec, not code (#6110 card 6), and the board harness
-- Standing pages are never closed, and a new Fleet board unpins the closed one *(fix attempt - still being verified)*
 - Live-hero slice 2 - a weapon in his hand via BoneAttachment3D (#6110 card 4)
 - Live-hero spike slice 1 - drawn live from the model, card 1/2/3/5 measured
-- The rotation's mid-turn guard reads the transcript's turn, not the keepalives
 - The exit is the square inside the door, and the front walls are see-through over the room *(fix attempt - still being verified)*
 - The cottage's gate-2 positions are gated, not written down - base_locks_gate pins locked_values; walls locked; the grow step edits FOOTPRINTS_M; DECISIONS 08-13 superseded for interiors
-- Governance docs are tech-lead-held paths - stream plans, pipeline docs, interior specs, base locks (#6080/#6109/#6111 merged before their review)
 
 Behind the scenes:
 - LiveCharacter is the owner of "a rigged model drawn live in 2D" - trial, default off, with its go-live conditions
 - Board harness writes each clip frame's real game time, so clips play back at true speed
+- Standing pages are never closed, and a new Fleet board unpins the closed one
 - Four forward-work lines from closed issues
+- The rotation's mid-turn guard reads the transcript's turn, not the keepalives
 - The interior-room row records what gate 2 now enforces - positions locked by base_locks_gate (#6117), sizes grow in FOOTPRINTS_M (#6115), the stage-2 tooling (#6100/#6105/#6118)
 - Who talks to whom - the tech lead owns process; the console is reached for four things
 - Fit blocks to art - positions frozen at gate 2, sizes may grow to approved art; cottage positions LOCKED
 - The live-model plan records the tech lead's readings of the #6110 card
+- Governance docs are tech-lead-held paths - stream plans, pipeline docs, interior specs, base locks (#6080/#6109/#6111 merged before their review)
 
 ## v0.0.28-P4140
 
 - Blockout walls stand at declared metres, not the rejected wall art *(fix attempt - still being verified)*
-- A TECH-LEAD BLOCK holds its commits - a PR built on a blocked branch inherits the BLOCK (#6100 landed #6096's blocked code)
 - The blockout is one command, one spec file and an operator card
-- The collision check counts a lane's OWN unpushed changes, not main's commits it merged in (#6099's false positive)
 
 Behind the scenes:
 - Build-publish macos + publish legs run on the box - zero cloud minutes per interim build
@@ -2954,17 +3020,19 @@ Behind the scenes:
 - The live-model spike plan - Godot pieces by name, measured acceptance, tripwires
 - Interim builds on demand - a merge fires a build only when its PR names something to TEST
 - Interim builds at least 3 h apart (6 h via build-cadence.json until #6103)
+- A TECH-LEAD BLOCK holds its commits - a PR built on a blocked branch inherits the BLOCK (#6100 landed #6096's blocked code)
+- The collision check counts a lane's OWN unpushed changes, not main's commits it merged in (#6099's false positive)
 - Base locks - the wireframe under every skin, named as data and gated
 - Chats rotate by context at a clean spot - rotate-chats.ps1 every 30 min
 - The hero is the pack as its author ships it (#6094); the bone-scale-table rule is marked superseded by rule 4; #6022's remaining items named
 
 ## v0.0.28-P4127
 
-- The refactor pace cap holds merges - refactor-program.json briefsPerDay is enforced on the merge path (merge-pr.ps1 + the sweep), not only read by the nudge task
 - The Stage 2 blockout - the same room with every piece of art replaced by a flat box
 
 Behind the scenes:
 - The hero is the downloaded model, assembled the way its author says
+- The refactor pace cap holds merges - refactor-program.json briefsPerDay is enforced on the merge path (merge-pr.ps1 + the sweep), not only read by the nudge task
 - The tab-entity row gains the pool tabs, the one stat-row body and the refresh hook (brief #9, #6087); dup_pairs 22 to 21 in provenance
 - A rotated lane keeps its model, its paused suffix and its lanes.json row
 - The refactor pace holds the briefs, not only the nudges (2/day)
@@ -2978,9 +3046,7 @@ Behind the scenes:
 
 ## v0.0.28-P4119
 
-- A routine never backgrounds a pipeline - no-background-gate.ps1 blocks run_in_background while FORTRESS_ROUTINE is set
 - RENDER-EVIDENCE must carry a link or a capture path, not prose *(fix attempt - still being verified)*
-- The five bare Out-String captures the daily capture-idiom self-test names get -Width 4096 (#5559); one of them was mine
 
 Behind the scenes:
 - Roster row names the third copy of both type orders (cheat_manager.gd:1538-1539) for #8b; source_commit c770c8b4
@@ -2988,11 +3054,13 @@ Behind the scenes:
 - One roster grouping and one split-roster template on the base (#5907 brief #8)
 - Interior rows from the interior pipeline (#6080) - the room as data, the TileSet per art set, the one art path; the #6025 tile generator deprecated as a drawing script
 - The interior pipeline - Describe, Lay out, Skin (Nathan 2026-09-23 12:02 PM)
+- A routine never backgrounds a pipeline - no-background-gate.ps1 blocks run_in_background while FORTRESS_ROUTINE is set
 - Models 2026-09-23 (Nathan: yes on all): tech lead on Opus 5.5, active lanes at medium effort, refactor pace 2/day; applied on the box at 11:59 AM
 - The tab base owns the per-frame state poll (brief #7, #6076); dup_pairs 43 to 24 in provenance
 - One per-frame state poll on the base (#5907 brief #7)
 - The audit JSON carries every scored pair (dup_all), so a brief is sized on the whole family, not the top-20 window
 - The week's capture and test gotchas land where sessions read them - overlay_parent() is the root, is_visible_in_tree() under a capture Window, capture-state's six facts
+- The five bare Out-String captures the daily capture-idiom self-test names get -Width 4096 (#5559); one of them was mine
 
 ## v0.0.28-P4106
 
@@ -3006,35 +3074,37 @@ Behind the scenes:
 ## v0.0.28-P4102
 
 - Native ratchet gets the floor-is-min-of-branch-and-main notice and own-delta bar (#5944, #5955)
-- The issue pass exempts live standing pages by title/label, not closed numbers *(fix attempt - still being verified)*
+- The odd hearth was a stray frame and two rows of feather, not a bad drawing
+
+Behind the scenes:
+- The issue pass exempts live standing pages by title/label, not closed numbers
 - Box-lane terminal checks salvage first and gates COMPLETE on agent success
 - A turn-cap timeout grades INCONCLUSIVE, not FAIL, and leaves pass_all
 - Step-4 deploy carries capture-assets/ one level deep
-- The odd hearth was a stray frame and two rows of feather, not a bad drawing
-- A branch that keeps going after its own partial squash must not read STALE *(fix attempt - still being verified)*
+- A branch that keeps going after its own partial squash must not read STALE
 - Steward-handoff reads trigger clauses and marks fired items RETIRE-CANDIDATE
 
 ## v0.0.28-P4093
 
 - The dresser and washstand wear the set's OWN wood - PASS 5
-- One variant must not draw at a different WIDTH from its siblings
-- Capture-state -Content 540x1170 renders 540x1170, graded by the result *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The capture harness row records how capture-assets/ deploys (deploy_subdirs, #6053) and why it had not
+- One variant must not draw at a different WIDTH from its siblings
 - The capture harness row records #6043 resolved by #6045 - result-graded captures (read-back sidecar + Assert-CaptureSize), verified live
+- Capture-state -Content 540x1170 renders 540x1170, graded by the result
 - The capture harness row records #6043 (540x1170 renders 540x960, routed to the box lane) and the -DebugRedirect-after-driver-change rule
 
 ## v0.0.28-P4087
 
 - Redraw the cottage dresser + washstand, per-set geometry — PASS 2
 - Prop conventions are a PR gate - art a PR changes must pass validate_prop_conventions.py (tech lead ask 2026-09-23 2:00 AM)
-- A SECOND codex run for the same issue must not die at setup
-- The validator can read testing/, and a run that reads NOTHING is not a pass
 
 Behind the scenes:
 - The coming-soon modal is owned (brief #5 landed); the prop validator row catches up with #6031/#6034; G item 15 = brief #5b
 - Eight placeholder modals become one opener and data (#5907 brief #5)
+- A SECOND codex run for the same issue must not die at setup
+- The validator can read testing/, and a run that reads NOTHING is not a pass
 
 ## v0.0.28-P4081
 
@@ -3048,18 +3118,18 @@ Behind the scenes:
 ## v0.0.28-P4077
 
 - Skin the native floor and walls from the painted materials we already own
-- The tech-lead hold has ONE definition, covers the render pipeline and the vendored roots, and BLOCK holds on any path
 - USE THE SYSTEM AS SHIPPED - vendored-asset manifest gate; lane-scoped return brief so a lane sees only its own questions (Nathan 2026-09-22 11:20-11:22 PM)
-- The modularity scan is a HARD gate locally, because CI blocks on it
 
 Behind the scenes:
 - The hero's on-screen pace (a three-branch contract, #6028), the native cottage's shell tiles (#6025), and the vendored-asset gate's real paths
 - The hero frame source row records the #6022 follow-up owed on main (bone-scale knob + skin-shrink path, defaults off)
+- The tech-lead hold has ONE definition, covers the render pipeline and the vendored roots, and BLOCK holds on any path
 - Render acquired rigs as shipped: all body reshaping defaults OFF
 - Rule 4 - an acquired rig, asset, library or engine feature is used AS SHIPPED
 - The hero's body model is data - a measured proportion table, never paint over an unmeasured body (Nathan 2026-09-22 11:12 PM)
 - Management chats never address Nathan: their status block starts NEEDS CONSOLE and the console routes (Nathan 2026-09-22 11:13 PM)
 - Lanes.json: Character Models is Storybook only (Nathan 09-22 11:05 PM); Interiors' done includes the woodsman built native with the painting as reference
+- The modularity scan is a HARD gate locally, because CI blocks on it
 
 ## v0.0.28-P4066
 
@@ -3101,44 +3171,45 @@ Behind the scenes:
 ## v0.0.28-P4049
 
 - The hearth stands AGAINST the west wall, not a quarter metre inside it *(fix attempt - still being verified)*
-- The refactor is a PROGRAM - refactor-program.ps1 keeps the next brief flowing at a set pace; daily audit; program line on the board (Nathan 2026-09-22 6:17 PM)
 
 Behind the scenes:
 - Reading pass 1 - the tab family: six new rows, two corrected, the two unreachable branches and the base's own repeats recorded
 - Five lines for Nathan gain AS OF: the date and time copied from the stamp, never computed (Nathan 2026-09-22 6:44 PM)
 - The assignment sheet has an owner (#5984, brief #2), and dup_pairs is a floor - said where the number is read
 - Structure-audit: measure daily, post only when a ratcheted count moved or on Sunday (Nathan 09-22: capacity)
+- The refactor is a PROGRAM - refactor-program.ps1 keeps the next brief flowing at a set pace; daily audit; program line on the board (Nathan 2026-09-22 6:17 PM)
 - One owner for the assignment sheet (#5907 brief #2)
 - The tab level-up row is owned - #5975 put the roster row's level-up on TabBase with the entry point as a Callable
 
 ## v0.0.28-P4041
 
-- Merge-pr.ps1 holds a game-code PR for the tech lead's review line (and honours TECH-LEAD: BLOCK), so the gate applies to lane merges, not only the sweep's
-- Collision check flags real work only; audit and board find their issue by list-and-match
-- The board leads with the questions and comes INTO the chat (return brief + "board" keyword); merge list removed; Discord-as-one-surface on the roadmap (Nathan 2026-09-22 5:46 PM)
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - The hero in the game is now the downloaded model, rendered
 - Clock-context: a line on every prompt while an account's Claude login is broken (process review 2026-09-22, item 5: account B's OAuth expired for 3.5 h and only Nathan can log in)
 - Structure-audit: the report lists the named target file's own pairs
+- Merge-pr.ps1 holds a game-code PR for the tech lead's review line (and honours TECH-LEAD: BLOCK), so the gate applies to lane merges, not only the sweep's
+- Collision check flags real work only; audit and board find their issue by list-and-match
 - One owner for a roster row's level-up (#5907 brief #1)
+- The board leads with the questions and comes INTO the chat (return brief + "board" keyword); merge list removed; Discord-as-one-surface on the roadmap (Nathan 2026-09-22 5:46 PM)
 
 ## v0.0.28-P4033
 
 - The hearth is 1.00 m deep, which is what its picture draws *(fix attempt - still being verified)*
-- Refactor collision check, DECISION lines + done-in-24h on the board, steward closing arm, new-lane and decisions rules (Nathan 2026-09-22 4:37 PM)
-- Paused lanes are never quiet-checked; the Refactor lane executes what the tech lead briefs (Nathan 2026-09-22 4:17 PM)
-- Render unlit, because a flat texture does not make a flat sprite
 - One title-bar factory, so a new window cannot pick the square-cornered one
-- Five lines for Nathan on every pushed lane message; (work paused) titles; set-lane-state.py (Nathan 2026-09-22 3:55 PM)
-- Lanes registry + Fleet board + fleet naming convention (Nathan 09-22)
-- Restyle on the MODEL, because a repaint moves the geometry
 
 Behind the scenes:
+- Refactor collision check, DECISION lines + done-in-24h on the board, steward closing arm, new-lane and decisions rules (Nathan 2026-09-22 4:37 PM)
 - Fleet-board: Routines section (overnight digests, audits, sweeps) with last-run and late state
 - The stylebox row lists all 13 factories - create_subtab_style was never in it
 - Lanes.json: the cottage lane is Fort A: Lane - Interiors (Nathan 09-22; the title and launcher already were)
+- Paused lanes are never quiet-checked; the Refactor lane executes what the tech lead briefs (Nathan 2026-09-22 4:17 PM)
+- Render unlit, because a flat texture does not make a flat sprite
 - The directional wall-art row - one ladder owner since #5952, the wall-side decision still written twice
+- Five lines for Nathan on every pushed lane message; (work paused) titles; set-lane-state.py (Nathan 2026-09-22 3:55 PM)
+- Lanes registry + Fleet board + fleet naming convention (Nathan 09-22)
+- Restyle on the MODEL, because a repaint moves the geometry
 
 ## v0.0.28-P4021
 
@@ -3151,62 +3222,66 @@ Behind the scenes:
 
 ## v0.0.28-P4017
 
-- An override of a base hook is not a duplicate
 - One list says which art sets are flat - world_scale.gd stops keeping its own
 - The type-swap row paints both type words, and the capture lane can render a levelled item
-- The nightly records what its subject CONTAINED, not just how old it was *(fix attempt - still being verified)*
-- The ratchet's floor is the lower of the branch file and main's, and the weekly audit lowers the file itself
 - A stale baseline is not a loosened one, and the ratchets stop telling you to undo your own work
 - PRECONDITION - a test that bails instead of failing is caught, not caught by eye
-- The collapsed-chip Escape guard stops reading process-global viewport state
-- The pre-push gate runs all eight static-gates scans, not three *(fix attempt - still being verified)*
 
 Behind the scenes:
+- An override of a base hook is not a duplicate
+- The nightly records what its subject CONTAINED, not just how old it was
+- The ratchet's floor is the lower of the branch file and main's, and the weekly audit lowers the file itself
 - Render the hero's whole frame set from the rig, anchors and all
 - The engine owns the mob's animation, not a hand-written index
 - Refresh the registry against a day that acted on it
 - One inspect-close refresh on TabBase, and the two seams that were hiding under six copies
+- The collapsed-chip Escape guard stops reading process-global viewport state
+- The pre-push gate runs all eight static-gates scans, not three
 
 ## v0.0.28-P4004
 
 - The timers row counted the accumulate form and missed the countdown form the tree actually uses
-- An exemption GRANTED is not an exemption DISCUSSED
-- The hand position comes out of the SAME render as the frame
 - Declare the nine prop projections that were CHECKED, so the art inventory stops inferring *(fix attempt - still being verified)*
-- The art inventory measured a front elevation against depth it never draws *(fix attempt - still being verified)*
 - The navigation row read ours=0 while a live BFS router ran every frame
-- The scope gate's block names the two accepted status forms and says a subagent's look does not count
 - WINDOWRADIUS - the corner-radius rule is enforced instead of documented
 
 Behind the scenes:
 - The stylebox and override counters scan code, not comments
+- An exemption GRANTED is not an exemption DISCUSSED
+- The hand position comes out of the SAME render as the frame
 - The surface factory names the gold edge, so the settings rail stops being a special case
 - The native room already owns the footprint, and the art-set row was wrong
 - The window-surface factory takes a body tone, so the settings panel stops hand-building one
+- The art inventory measured a front elevation against depth it never draws
+- The scope gate's block names the two accepted status forms and says a subagent's look does not count
 - The owners registry - one file and one function own each shared behavior
 
 ## v0.0.28-P3990
 
-- The soak retains the field that answers the next question, not just the verdict *(fix attempt - still being verified)*
-- The green-PR sweep holds a game-code PR for the tech-lead review up to 60 idle minutes, then merges and counts the gap; DECISIONS: the company model and the structure floor (2026-09-22)
 - The structure ratchet - duplicates, oversized files/functions, code-built styles, data-in-code may only fall
-- The structure audit - structural health as numbers, a committed baseline, a weekly report with a refactor target, and a skill
 - The settings window wears the same chrome as every other window
+
+Behind the scenes:
+- The soak retains the field that answers the next question, not just the verdict
+- The green-PR sweep holds a game-code PR for the tech-lead review up to 60 idle minutes, then merges and counts the gap; DECISIONS: the company model and the structure floor (2026-09-22)
+- The structure audit - structural health as numbers, a committed baseline, a weekly report with a refactor target, and a skill
 
 ## v0.0.28-P3985
 
 - Round props stand on a disc, and a wall's grid line stops floating in front of the wall *(fix attempt - still being verified)*
 - Damage types wear their colour, the settings window has four corners, and a clicked rail item stays lit
+
+Behind the scenes:
 - The contention guard tests for a GPU contender, not for any Godot, and the reaper compares paths canonically
 
 ## v0.0.28-P3982
 
-- Run-soak gets a real -NoTabChurn switch, and its proof of work asks for scene trips, not tab presses *(fix attempt - still being verified)*
-- The clock hook adds a RETURN BRIEF when Nathan's last message in a chat is 90+ min old
 - The registered height is the WHOLE sprite, not the shoulder
-- The cron-slot self-test's "no gh" case made a REAL API call, so its REST fallback had never run *(fix attempt - still being verified)*
 
 Behind the scenes:
+- Run-soak gets a real -NoTabChurn switch, and its proof of work asks for scene trips, not tab presses
+- The clock hook adds a RETURN BRIEF when Nathan's last message in a chat is 90+ min old
+- The cron-slot self-test's "no gh" case made a REAL API call, so its REST fallback had never run
 - Post-brief's self-test is asked on every PR whether it still passes
 
 ## v0.0.28-P3977
@@ -3215,80 +3290,88 @@ Behind the scenes:
 
 ## v0.0.28-P3975
 
-- Latest-build.json only ever names a game build (v<x>.<y>.<z>-P<n>), never the launcher release
-- The conflict resolver handles the collision that actually happens
-- The scope gate's detector consumed its own evidence
-- The invisible-engine report had three producers and an exit keyed on one
-- The self-heal guard reverted every deploy of the file it guards
-- The meta-review ledger push reads its exit code, and provisioning never resets over unpushed work
-- The delivery driver keeps a log
 - A write that never happened is a failure, not a 0-file success
-- Counters carry ArtCache retention, so the census can kill its own leading suspect
-- A file that is always running never deployed - the step-4 write retries a lock (#5562 follow-up)
-- The JSON-array collapse, fixed once at a shared helper instead of a sixth time in prose
 
 Behind the scenes:
+- Latest-build.json only ever names a game build (v<x>.<y>.<z>-P<n>), never the launcher release
 - A parameter named after a PowerShell automatic variable never binds - now a guard, not a fourth comment
+- The conflict resolver handles the collision that actually happens
+- The scope gate's detector consumed its own evidence
 - The clipped-foot detector is asked on every PR whether it can still fail
+- The invisible-engine report had three producers and an exit keyed on one
+- The self-heal guard reverted every deploy of the file it guards
 - A mob's size comes from how big it really is (#5864) — DRAFT, needs Nathan on the rat
+- The meta-review ledger push reads its exit code, and provisioning never resets over unpushed work
+- The delivery driver keeps a log
+- Counters carry ArtCache retention, so the census can kill its own leading suspect
 - Step 4 says WHICH kind of nothing happened
+- A file that is always running never deployed - the step-4 write retries a lock (#5562 follow-up)
 - Week of 2026-09-17 - 5 ideas, 2 decisions
+- The JSON-array collapse, fixed once at a shared helper instead of a sixth time in prose
 
 ## v0.0.28-P3958
 
-- Restore the acquire tool SOURCES.md tells you to use
 - The lane-escape test asserts ABSENCE, over every spec, and can fail
-- A captured message must survive the console it was captured on
-- The render harness can shoot a rig that carries its OWN clips
-- The prop validator reads every declared prop, and can see a foot the canvas cut through *(fix attempt - still being verified)*
 - Delete a refuted claim that was hiding six pieces from the reach test *(fix attempt - still being verified)*
 - Mobs CAN be animated now, and none of them moved
+
+Behind the scenes:
+- Restore the acquire tool SOURCES.md tells you to use
+- A captured message must survive the console it was captured on
+- The render harness can shoot a rig that carries its OWN clips
+- The prop validator reads every declared prop, and can see a foot the canvas cut through
 - Nathan's queue reads pull requests too, and says so when it truncates
 - When nobody captured the visual change, go capture it - and never publish a frame the lane refused
 
 ## v0.0.28-P3948
 
 - A piece is drawn the size of the box that stops him *(fix attempt - still being verified)*
+
+Behind the scenes:
 - Soak-no-tab-churn, so scene transitions can be measured without tab churn
 - /box capture renders a freshly-synced tree instead of dying on C:\
 
 ## v0.0.28-P3945
 
 - The classic room's colliders leave the physics space; collision is declared data again *(fix attempt - still being verified)*
-- Read-ci-failure prints the REASON first, not 150 lines of the script that failed
 - The stick layer sizes itself, so it stops asking the engine to fight it *(fix attempt - still being verified)*
 - Tag outdoor props so the geometry sidecar can SEE the overworld
-- The component capture lane renders THIS commit, and cannot pass a blank frame
-- The leak probe reports a fitted trend with its noise, not a two-point delta
 
 Behind the scenes:
 - The hero's boots land on the point the room says he stands on
 - The capture lanes share one harness, and a blank PNG is no longer evidence in six of them
+- Read-ci-failure prints the REASON first, not 150 lines of the script that failed
+- The component capture lane renders THIS commit, and cannot pass a blank frame
+- The leak probe reports a fitted trend with its noise, not a two-point delta
 
 ## v0.0.28-P3937
 
-- The overwatch digest goes to a dedicated pinned chat, and the RDP consoles are never quiet-checked
-- The leak probe's OS summary counted a post-exit sample as its endpoint
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- The overwatch digest goes to a dedicated pinned chat, and the RDP consoles are never quiet-checked
 - Hero.png carried the hood too, and it is the texture the live sprite loads
+- The leak probe's OS summary counted a post-exit sample as its endpoint
 
 ## v0.0.28-P3934
 
-- The relay retries once on opus when the first model returns an API 5xx - account B's sonnet alias failed every call for an hour
-- An undelivered ask keeps the chat's prior state so the next pass retries; the hourly re-ask key is spent only on delivery; Stalled-chats note once per hour
-- The Stop hook's promise match ignores blockquotes and fenced code (#5817 item 14)
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - Get rid of the hood - 29 frames, verified, as an approval-gated draft
+- The relay retries once on opus when the first model returns an API 5xx - account B's sonnet alias failed every call for an hour
+- An undelivered ask keeps the chat's prior state so the next pass retries; the hourly re-ask key is spent only on delivery; Stalled-chats note once per hour
 - The keep-alive process as reviewed and rebuilt on 2026-09-21
+- The Stop hook's promise match ignores blockquotes and fenced code (#5817 item 14)
 
 ## v0.0.28-P3929
 
 - The title keeps its words, and the chip wraps between them
 - An exempted rise must also be recordable, or NATIVE-EXEMPT is unreachable
-- A chat that answered CONTINUING is not asked again until it moves; after an hour unmoved it gets one different question per hour (#5817 item 15)
 - He carries his weapon in every room, and holds the axe by its handle
+
+Behind the scenes:
+- A chat that answered CONTINUING is not asked again until it moves; after an hour unmoved it gets one different question per hour (#5817 item 15)
 - Check a PR body against the three gate contracts before opening it
 - The leak probe reaps its OWN orphans instead of being blocked by them
 - A rotated chat's builds are announced to its successor - lineage recorded at rotation, announcer follows it and the pin registry (#5817 item 5)
@@ -3302,27 +3385,33 @@ Behind the scenes:
 ## v0.0.28-P3919
 
 - Every piece's collision box is read off the art it draws; hidden overlay lines recede *(fix attempt - still being verified)*
+
+Behind the scenes:
 - Build-on-merge baseline is the latest published build's head by commit count, not the gh run listing
 - Keep-alive review batch 2 - answers need a live ask, STATUS must lead, backoff bookkeeping, dedupe, merge-path retries
 - Keep-alive review batch 1 - no mid-turn asks, relay timeout + pid lock, recycler spares live tools and honours DryRun, quotes are not build claims
 
 ## v0.0.28-P3915
 
-- The Stop hook blocks a build-number claim the box has not announced for that chat
 - The static hero is the same man as the one who walks
+
+Behind the scenes:
+- The Stop hook blocks a build-number claim the box has not announced for that chat
 
 ## v0.0.28-P3913
 
 - Escape closes an open chip from one place, and the settings window is one colour
 - The whole loot area takes a drag-out, not just the tiles in it
-- The quiet check's waiting guard counts only shell tasks under 60 min, never subagent outputs
 
 Behind the scenes:
+- The quiet check's waiting guard counts only shell tasks under 60 min, never subagent outputs
 - Nathan's 09-21 order - cottage and model, then the story remainder, then stat wiring; the full code review (one owner per shared behavior, native over home-built) after the lanes close
 
 ## v0.0.28-P3909
 
 - His weapon shows in his hand - the first visible gear swap
+
+Behind the scenes:
 - The build-landed message names the build head and each merge commit, so the receiving chat can verify ancestry before telling Nathan
 - The Playable message is three plain lines - Playable, Changed, Test
 
@@ -3333,19 +3422,25 @@ Behind the scenes:
 ## v0.0.28-P3905
 
 - The settings rail gets an edge on every side
-- The build announcer accepts the in-progress run that owns a fresh release
-- A landed build is announced to the chat that made it, with the P-number
 
 Behind the scenes:
+- The build announcer accepts the in-progress run that owns a fresh release
 - Mixed gear on the character is deferred, with the cost that defers it
+- A landed build is announced to the chat that made it, with the P-number
 
 ## v0.0.28-P3901
 
 - Back out one level at a time, and put the values beside their labels
+
+Behind the scenes:
 - The build-on-merge baseline refuses a stale run listing (two redundant builds, P3886 and P3899)
 
 ## v0.0.28-P3899
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Commit the 16 deploy-dir orphans flagged by deploy-parity
 - The overwatch change key excludes the receiving console, whose own reply changed it every pass
 - An unchanged overwatch digest is not delivered again (fresh copy every 180 min)
 - Step-4 self-test retries a short hash read; six live routines get contract rows
@@ -3356,9 +3451,6 @@ Behind the scenes:
 - Steward handoff extractor keeps whole items, plus a committed lane-ref instrument (#5744, #5772)
 - A comment naming the verdict tokens is not a verdict, and close the RENDER-EXEMPT escape hatch
 - A short-circuited nightly can no longer look like a full sweep
-
-Behind the scenes:
-- Commit the 16 deploy-dir orphans flagged by deploy-parity
 - STALE banners on game-design-world-v2 and game-design-loop-v3
 
 ## v0.0.28-P3886
@@ -3371,28 +3463,34 @@ Behind the scenes:
 ## v0.0.28-P3885
 
 - ScreenChrome closed a RefCounted cycle on itself, leaking 4 objects per mode entry
+
+Behind the scenes:
 - Run-soak can force a rendering driver, and voids a silent WARP fallback
 
 ## v0.0.28-P3883
 
 - The native cottage's collision follows what is DRAWN *(fix attempt - still being verified)*
+
+Behind the scenes:
 - Probe-scene-leak can force a rendering driver, and voids a silent WARP fallback
 - A soak with no proof of work is INCONCLUSIVE, never PASS - and the nightly picks a save that can actually churn
 
 ## v0.0.28-P3880
 
 - The axe hits for nine, and the card says so once
+
+Behind the scenes:
 - The quiet check's delivery agent has no file tools; the deployed script self-heals from a golden copy; the installer refuses a stale checkout
 - Tools/ must never ship - #5699 put 14.6 MB of it in every build
 - Overwatch - every 30 min the meta console gets every chat's last message and pushes what a script cannot judge; delivery hardened
-
-Behind the scenes:
 - Add a windowed GPU/native-memory leak probe for issue #5595
 
 ## v0.0.28-P3875
 
 - 'show collision' toggle on the cottage prompt, in both rooms
 - Character pipeline - acquire CC0 rigs, render at real-metre scale, gate the ground contact
+
+Behind the scenes:
 - The quiet check ignores the registration's busy flag - quiet is measured from the transcript only
 - Quiet check composes the exact ask; delivery agent sends it verbatim
 
@@ -3402,23 +3500,28 @@ Behind the scenes:
 
 ## v0.0.28-P3869
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - The quiet check's delivery agent gets the spec inline on stdin, never a path it can misread
 - Claude Code on the box updates itself daily at 04:30, ahead of the 05:00 recycle that adopts it
 
 ## v0.0.28-P3867
 
 - Furniture is drawn on the box you collide with, not on the cell it is filed under
+
+Behind the scenes:
 - The quiet check reads the STATUS line where it asked for it - the head of the reply, not only the tail
 - The board's freshness panel graded staging leftovers, not publish targets
 - Quiet check backs off on prose replies, persists answers, puts STATUS first; build-on-merge baselines on the last SUCCESSFUL build
 - Gate the hero's walk frames on a VERTICAL contract, with a one-way debt list
-
-Behind the scenes:
 - Two texture quirks that cost real test failures today
 
 ## v0.0.28-P3861
 
 - Size him by the man, not by his canvas
+
+Behind the scenes:
 - The 3D capture lane was burning out the props it exists to inspect
 
 ## v0.0.28-P3859
@@ -3431,8 +3534,10 @@ Behind the scenes:
 
 ## v0.0.28-P3856
 
-- Refuse a scene-cycling soak on a pre-repair save instead of measuring a bounce loop
 - The native-coverage audit counts CODE, not prose - every row was inflated by commentary
+
+Behind the scenes:
+- Refuse a scene-cycling soak on a pre-repair save instead of measuring a bounce loop
 - Name the scene the driver is stuck on, not just that it is lost
 
 ## v0.0.28-P3853
@@ -3441,37 +3546,40 @@ Behind the scenes:
 
 ## v0.0.28-P3851
 
-- Add --soak-3d mode and emission
-- Square overhead capture and proven occlusion for the 3D capture lane
-- Hide every CanvasLayer generically, tighten overhead framing, and prove per-humanoid frustum membership
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- Add --soak-3d mode and emission
 - The capacity gate's data path collapses in bash too
 - Make the routine's own printed recipes runnable
+- Square overhead capture and proven occlusion for the 3D capture lane
+- Hide every CanvasLayer generically, tighten overhead framing, and prove per-humanoid frustum membership
 
 ## v0.0.28-P3846
 
 - A modal host is identified by what opened it, not by its node name
+- Furniture is sorted against furniture, not only against the hero
+
+Behind the scenes:
 - Suppress overlays, freeze sim, and fix overhead framing in the 3D capture lane
 - Render lane + geometry sidecars for the 3D Explore layer
-- Furniture is sorted against furniture, not only against the hero
+- Delete the dead compare modal and re-point its tests at the live surface
 - The quiet check never asks a chat that is archived on claude.ai
 - Quiet check reads a STATUS answer before the busy/quiet filters, and asks in one short line
 - Quiet check at 5 quiet / 5 cadence, and a chat waiting on a background task is not quiet
 - The quiet check - ask every quiet chat Nathan's three questions instead of classifying its last message
-- Wire the three orphan self-tests into box-self-check
-- A routine's heartbeat must grade its own receipt, name its stand-down, and be readable by its successor (#5630, #5642, #5594)
-
-Behind the scenes:
-- Delete the dead compare modal and re-point its tests at the live surface
 - The Steward spec has no scratch-file clause: its banked remedy writes and reads two different files, and served this pass a 5-hour-stale board
 - A second, un-versioned copy of patrol 6's clock classifier lives in the deploy dir - the duplication #5352 exists to prevent, and the parity check runs one direction only
+- Wire the three orphan self-tests into box-self-check
+- A routine's heartbeat must grade its own receipt, name its stand-down, and be readable by its successor (#5630, #5642, #5594)
 - Correction - the Stop hook has been executing since 09-06 14:43; the 09-05 'dead' verdict was the hook-path corruption
 
 ## v0.0.28-P3832
 
-- "it'll ride the next one" is a promise, and the sweep fires the next build itself
 - Collision is answered by the physics space, not a second copy of the geometry
+
+Behind the scenes:
+- "it'll ride the next one" is a promise, and the sweep fires the next build itself
 
 ## v0.0.28-P3830
 
@@ -3483,26 +3591,33 @@ Behind the scenes:
 ## v0.0.28-P3827
 
 - The level-up confirmation draws on top, and a levelled weapon says what it gained (#5656 #5657)
+
+Behind the scenes:
 - The week-away meta batch - soak evidence, scope-gate add, vN replacements, grader negation, filing budget, idle-with-work sweep
 - Startup_failure runs are a broken-workflow-file signal, not a timeout kill
 - Chart freshness is read from the publish target, never a staging leftover
 - Classify resolved salvage refs so the -box-partial- pile can stop growing
 - The box lane's terminal strings are a closed set the driver is total over, an existing-ref update is a delivery, and a bolded bundle member still closes (#5546 #5551 #5629)
-
-Behind the scenes:
 - Two shipped capabilities have no roadmap line: the box rebuild runbook (28 days) and the green-PR sweep
 
 ## v0.0.28-P3819
 
 - Freeze the hero's bob/sway phase when blocked, not just standing
 - Cottage_chair as a real parametric GLB model
+
+Behind the scenes:
 - The full-sweep panel identifies the nightly by workflow, not run title
+- Record the shipped agent-guardrail workstream (v46)
+- Steward patrol 1 has no supersession test: 2 of its 6 'undelivered' branches were fully delivered by another PR (one within 24 minutes), restated as a decline for 25 passes
+- Correct stale modularity-gate pattern count (v45)
 - The release gate now requires evidence the suite actually ran
+- Codex usage/capacity collector found broken again this week - possible recurrence of #5067
 - Bound the nightly bundle, and end the silence on a repeat turn-cap bust
 - Release_notes.py no longer prints untyped issue-headline commits as player features
 - Post-brief.py never emits an over-cap chunk, and a mid-sequence 400 aborts cleanly instead of tracebacking
 - The cron-slot delivery backstop - restore CronDelivery, and make one due slot produce exactly one run (#5518 #5552 #5553 #5554 #5555 #5564)
 - Route the box lane's own pre-push gate through the sanctioned wrapper, and correct the rationale that kept the rule needing restating
+- Box lane can post a concurrent job's verdict comment verbatim (/tmp collision) - diagnosed 08-28, recurred 09-06 and reached main
 - The delivery driver's five silent-path defects - it waits for THIS branch's verdict, keeps its once-ever promise, escalates where someone reads, stops retrying a deliberate abort, and holds the close on executable infra (#5524 #5525 #5526 #5530 #5531)
 - The overnight audits' four gate/sweep defects (#5517 #5529 #5533 #5534)
 - One owner applies the three-day flags, needs-nathan can clear, and the >7d arm actually reaches Nathan
@@ -3510,43 +3625,39 @@ Behind the scenes:
 - The three silent disk reapers stamp a heartbeat, so a dead one stops looking quiet
 - Green-PR sweep - a green, idle Claude-session PR is merged by cron, wherever its chat lives
 
-Behind the scenes:
-- Record the shipped agent-guardrail workstream (v46)
-- Steward patrol 1 has no supersession test: 2 of its 6 'undelivered' branches were fully delivered by another PR (one within 24 minutes), restated as a decline for 25 passes
-- Correct stale modularity-gate pattern count (v45)
-- Codex usage/capacity collector found broken again this week - possible recurrence of #5067
-- Box lane can post a concurrent job's verdict comment verbatim (/tmp collision) - diagnosed 08-28, recurred 09-06 and reached main
-
 ## v0.0.28-P3796
 
 - The comparison says what it is comparing, and shows both ends
 - Place decor from its real centre, not its cell corner
-- Capture sidecar reports BOTH coordinate spaces - one number silently scaled every prop measurement by 1.71x
-- Rotation seed capture reads stdout only and verifies the seed file exists
 - Drop two mis-classifying native-coverage tells - the navigation blind spot was not real
 - A real collision world, built from the map and proven against it
 - Ui-layout tell counts Control properties only; BASELINE-REBASE path for detector redefinitions
-- Scope-gate matches git commit at command position only
 - Native-first RATCHET - hand-rolled subsystem counts may only fall
+
+Behind the scenes:
+- Capture sidecar reports BOTH coordinate spaces - one number silently scaled every prop measurement by 1.71x
+- Rotation seed capture reads stdout only and verifies the seed file exists
+- Stop-guard self-check line is informational (Stop event dead by verdict); evals spec notes hooks do not run in -p
+- Scope-gate matches git commit at command position only
 - Scope-before-commit keystroke gate (rule-audit #5428 item 1)
 - Native-first keystroke gate - prior-art-gate.ps1 with ACQUIRE + NATIVE scopes
 - Pin badge-pulse re-apply invariant by tween identity, not a raced scale snapshot
 - Detect runner-workspace ownership mismatches (item 2 of #5028)
 
-Behind the scenes:
-- Stop-guard self-check line is informational (Stop event dead by verdict); evals spec notes hooks do not run in -p
-
 ## v0.0.28-P3782
 
-- Promise sweep skips routine and sandbox transcripts
-- Rescue-chat resolves same-dir transcripts by bridge-session id
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - Escape lane triggers in more routine specs, fix steward-clock empty-timeline, log macOS import count
+- Promise sweep skips routine and sandbox transcripts
+- Rescue-chat resolves same-dir transcripts by bridge-session id
 
 ## v0.0.28-P3779
 
 - Furniture stands at a real position, and the painted pieces stand where their art is
+
+Behind the scenes:
 - The promise sweep nudges DELEGATED ASKS - a permission question is not a decision
 - Acquire-first keystroke gate + plan mode narrowly un-banned
 - Agent-evals v0 - test the agent the way we test the game
@@ -3554,13 +3665,13 @@ Behind the scenes:
 ## v0.0.28-P3775
 
 - The comparison is inline deltas in one modal
-- Promise sweep - the hook-free Stop-guard replacement
 - The card widens with the surface, and Escape backs out of anything hosted
-- Branch cleanup proves tip-on-main, never fires on a daily snapshot push
-- Steward-clock.ps1 -Issues now binds under -File
 - The hitbox is the floor the thing stands on
 
 Behind the scenes:
+- Promise sweep - the hook-free Stop-guard replacement
+- Branch cleanup proves tip-on-main, never fires on a daily snapshot push
+- Steward-clock.ps1 -Issues now binds under -File
 - Patrol 6 calls steward-clock.ps1; escape-render lane mentions in comments; codex/* verdict-comment exemption; nightly-suite release-gate truth (#5352, #5386, #5420, #5441)
 
 ## v0.0.28-P3768
@@ -3582,14 +3693,14 @@ Behind the scenes:
 ## v0.0.28-P3764
 
 - The compare uses the shared modal, and the badge escapes its clip
-- Weekly worktree reap with -Apply (janitorial autonomy, Nathan 09-04)
 - A new game starts clean because the wipe enumerates its own state instead of listing it
-- Four routines that read GitHub state wrong, and the state each one actually needs to read
 
 Behind the scenes:
+- Weekly worktree reap with -Apply (janitorial autonomy, Nathan 09-04)
 - Model releases trigger a same-week routing review (Nathan 09-04)
 - Batch-fire codex bundle (#5434 + #5386 partial)
 - Batch-fire codex bundle (#5321 + siblings)
+- Four routines that read GitHub state wrong, and the state each one actually needs to read
 
 ## v0.0.28-P3756
 
@@ -3655,6 +3766,8 @@ Behind the scenes:
 ## v0.0.28-P3732
 
 - The painted room covers the floor, and every piece stands on it
+
+Behind the scenes:
 - Stop-guard installer must not BOM the settings file it edits
 - Nightly production soak lane (churn+scenes vs current main)
 
@@ -3686,6 +3799,8 @@ Behind the scenes:
 ## v0.0.28-P3719
 
 - Storybook walk faced against travel; redraw as an adult, upright
+
+Behind the scenes:
 - Auth classifier recognizes the live expiry wording (#5348); read-only guard reads comment-fired errands (#5168 false-FAILED)
 
 ## v0.0.28-P3717
@@ -3714,17 +3829,24 @@ Behind the scenes:
 
 - Back to the last state not reported as disastrous
 - The dump proves renewal RAN, not just that nothing broke
+
+Behind the scenes:
 - The hero walk-frame contract points at the set that actually ships the frames
 - Dismiss every popup class an interior raises, and drain the narrative queue
 
 ## v0.0.28-P3702
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - The Windows build's import pass imports the project, and a crash-shaped export gets one retry
 
 ## v0.0.28-P3701
 
 - The macOS bundle, the launcher, and the identity Windows shows
 - You are not asked to leave the moment you walk in
+
+Behind the scenes:
 - The layout dump describes the frame that was captured
 - The gear capture presses the real button and proves the menu opened
 - A broken capture driver says so instead of rendering nothing
@@ -3747,9 +3869,9 @@ Behind the scenes:
 ## v0.0.28-P3689
 
 - Animation moves to Painterly; two back-view frames were front views
-- The FLAKE signature was the crash signature - a crash-shaped red must prove it is non-deterministic
 
 Behind the scenes:
+- The FLAKE signature was the crash signature - a crash-shaped red must prove it is non-deterministic
 - The Codex token panel reads the account ledger; --ephemeral stays
 - Unify screen scaling: one resolution/aspect-independent path (desktop === phone)
 
@@ -3769,6 +3891,8 @@ Behind the scenes:
 ## v0.0.28-P3680
 
 - A fit pass must not measure its own output; settings drops from the gear
+
+Behind the scenes:
 - Put the real character in the room render
 
 ## v0.0.28-P3678
@@ -3779,19 +3903,19 @@ Behind the scenes:
 
 - Frame-animated walk from mocap-derived skinned frames (Storybook)
 - Walls are 2.74 m, derived from the painting - not 1.35 tiles
-- CronDelivery - the box delivers the repo's own workflow schedule
 
 Behind the scenes:
+- CronDelivery - the box delivers the repo's own workflow schedule
 - Patrol-7 cap widened per-slot + arm-2 retirement scheduled
 
 ## v0.0.28-P3672
 
 - An open expansion can never push its close button off-screen
-- Agent-authored report comments carry the routine stamp (#5259 arm-1 gap, step 1 of its recommendation)
 - The chips claim the width the fit pass measured for them
 - Collapsed rail buttons carry a tooltip
 
 Behind the scenes:
+- Agent-authored report comments carry the routine stamp (#5259 arm-1 gap, step 1 of its recommendation)
 - Add arm 1b, the author arm, to the automation-author test
 - Add the GitHub Steward and four other unlisted box routines to Infrastructure
 - Order the dispatch-opener check between arm 1 and arm 2, and write the too-BROAD failure direction into the spec
@@ -3800,13 +3924,13 @@ Behind the scenes:
 ## v0.0.28-P3664
 
 - The cheat chip's pink is its rim and icon, not the whole panel
-- Scoped per-session vision opt-in in the image-read block (model-style saga)
 - Restore the working cottage - the room resize, wall-height and painting changes shipped broken
-- The digest self-test counted a substring; now it anchors on the heartbeat write and RUNS it
-- Steward arm 2 marker matches the timestamped opener
 
 Behind the scenes:
+- Scoped per-session vision opt-in in the image-read block (model-style saga)
 - PRIOR ART FIRST key rule - never rebuild what the world has solved (Nathan 2026-08-29)
+- The digest self-test counted a substring; now it anchors on the heartbeat write and RUNS it
+- Steward arm 2 marker matches the timestamped opener
 
 ## v0.0.28-P3658
 
@@ -3819,18 +3943,22 @@ Behind the scenes:
 ## v0.0.28-P3656
 
 - The gear behaves like the chips; the movement guard names its blocker
-- Registry-restore the root Window's surface — one leaked landscape canvas was reddening two unrelated suites
 - 'the next build will have it' is a promise too (the 08-29 4.4h merge-to-build gap)
+
+Behind the scenes:
+- Registry-restore the root Window's surface — one leaked landscape canvas was reddening two unrelated suites
 
 ## v0.0.28-P3653
 
 - Only one inline expansion is open at a time
-- Stamp every script-side issue comment; patrol 6's opener list becomes the backstop, not the path
 - An already-signed-in player gets a device key too
 - A real ceiling and door — the room was a crawlspace, not the character a giant
-- Stop hook - a turn may not end on a promise of ongoing work (08-29 meta-review)
 - A hitbox is the size of the thing you can see, and the room has one scale
 - Name the boot orphans, and record that they are not a leak
+
+Behind the scenes:
+- Stamp every script-side issue comment; patrol 6's opener list becomes the backstop, not the path
+- Stop hook - a turn may not end on a promise of ongoing work (08-29 meta-review)
 
 ## v0.0.28-P3646
 
@@ -3859,6 +3987,8 @@ Behind the scenes:
 
 - A window cannot be placed hanging below the info strip
 - A failed renewal is not a backup warning either
+
+Behind the scenes:
 - Freshen a stale PR only when a push can change its verdict
 
 ## v0.0.28-P3634
@@ -3868,32 +3998,33 @@ Behind the scenes:
 - Honor explicit do-not-merge; roadmap/DECISIONS join the review-required paths
 - Gear glyph draws at the shared chip size, at the icon-button seam
 - Pair crash beacon build stamp with delta-applied release
-- Make the Storyline Art Bible render byte-reproducible
 - Widen #4948 mapping to cover HARD-EXIT
-- Stamp bookkeeping comments, drop dead AUTHORED-BY test
-- CI-gate tooling accuracy bundle (#4969, #5124, #5128)
 
 Behind the scenes:
 - Character bar gear popover overflows screen; bar misaligned with info strip; buttons mismatch Area bar shape (device-only)
+- Make the Storyline Art Bible render byte-reproducible
 - VRAM-compress the 3 storybook cottage textures the Aug-13 sweep missed
+- Stamp bookkeeping comments, drop dead AUTHORED-BY test
 - Regenerate Storyline Art Bible + coverage (nightly)
+- CI-gate tooling accuracy bundle (#4969, #5124, #5128)
 - Widen patrol 1 to every delivery lane, define patrol 6's clock positively, close the storyline hand-off
 - Recurring cross-suite gdUnit test-pollution / static-state leaks block unrelated PRs
 
 ## v0.0.28-P3616
 
-- Patrol 7 - cron repair (Nathan-authorized, #5169)
-- A yielded daily still prunes the channel - only a FAILED run skips
-- Read the CI-throughput day-store as utf-8-sig, not utf-8
-- The auth dead-man's issue lookup ran zero times
-- Unarchive a card thread before writing into it
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - ONE bar-button widget instead of six tuned to match
+- Patrol 7 - cron repair (Nathan-authorized, #5169)
+- A yielded daily still prunes the channel - only a FAILED run skips
 - The box PAT CAN workflow-dispatch - the read-only-Actions line was stale and blocked cron repair
 - Week of 2026-08-27 — 1 idea staged
 - Arm a routine whose installer merged but whose task was never registered
+- Read the CI-throughput day-store as utf-8-sig, not utf-8
 - Conditional Closes, ATTEMPT ledger line, needs-nathan carve-out in the delivery driver
+- The auth dead-man's issue lookup ran zero times
+- Unarchive a card thread before writing into it
 
 ## v0.0.28-P3605
 
@@ -3921,14 +4052,18 @@ Behind the scenes:
 ## v0.0.28-P3596
 
 - Mason cottage is a real navigable 2:1 space - collision, depth occlusion, door at the painted door
+
+Behind the scenes:
 - Capture-state died to SingleInstanceGuard too - real-game captures never ran
 - The capture harness never rendered - SingleInstanceGuard was killing it
 
 ## v0.0.28-P3593
 
 - The keystone gave desktop the phone-LANDSCAPE canvas
-- 1-day channel window for EVERY digest grain - the same-day-handling contract
 - The soak judges private bytes, not working set
+
+Behind the scenes:
+- 1-day channel window for EVERY digest grain - the same-day-handling contract
 - Delivery driver stops crying wolf, freshener stops chasing declines (#5086, #5091)
 
 ## v0.0.28-P3589
@@ -3942,6 +4077,8 @@ Behind the scenes:
 - A wrapper-hosted window can no longer bury the OPTIONS drawer
 - The keystone — desktop uses the phone's scaling path (#4851), rebased and green
 - Pin Mergify's checks_timeout to 45 minutes
+
+Behind the scenes:
 - Monthlies clear after 3 days too (Nathan: 'i dont think it should sit for that long. a few days')
 
 ## v0.0.28-P3582
@@ -3961,16 +4098,16 @@ Behind the scenes:
 
 - Name the HUD window whose hitbox vetoes cottage movement
 - A live session stays in the silo it was opened from
-- Weekly-grain digests clear after 3 days, not 7
 - 'full sweeps not green' counts MAIN nightlies only - branch-side dispatch runs are developer-loop, not the release gate
+
+Behind the scenes:
+- Weekly-grain digests clear after 3 days, not 7
 - Make the hearth depth-coupling guard content-independent
+- Account A OAuth token only refreshes on an A-engine API call, leaving archive-sync token-dark for hours
 - Stop no-op known-bugs-sync runs from cancelling real renders
 - Detect a stale merge base once, use it twice; stop freshening PRs already in the merge queue
 - Routine-fleet reliability bundle (#5013, #5063, #5064)
 - Codex-usage token feed - name the ephemeral mechanism, fix the double count, alarm on the dark half
-
-Behind the scenes:
-- Account A OAuth token only refreshes on an A-engine API call, leaving archive-sync token-dark for hours
 - Record whole-room-painting interior path (#5049), point CLAUDE.md at it
 
 ## v0.0.28-P3564
@@ -3999,35 +4136,35 @@ Behind the scenes:
 
 - Storybook cottage skin — painterly walls, floor, furniture + mason props
 - The Builder's cottage is a rectangular long hall, not a square
+
+Behind the scenes:
+- Mason + woodsman cutscene re-author review boards
 - Render-cutscenes announces every outcome, not just success
+- CI-throughput store lost 163 runs (08-16..18) and is publishing insights computed on 4 of 30 days ΓÇö backfill, widen the collect window, alarm on the gap
 - Conversion sweep restores a converted chat's title (rename-chat.py, PUT /v1/code/sessions)
 - Pinned chats keep their names across conversions - auto-pin NAME-SYNC keeps each revival launcher's -n equal to the chat's current title
 - Batch-fire consumes the board BY STATE - cap 2/night, nightly cadence made authoritative
 - A read-only errand that posted its report is COMPLETE, not 'FAILED - no branch pushed'
+- Weekly Meta-Review moves Sunday 03:00 to Thursday 05:30; gets its own 7-day brief retention
 - Supervisor auth-hold (#5001 class) + DedupJanitor armed with its sources in the repo
 - Step4 deploys CONFIG too, and grades itself against main
 - The release gate reads ancestry, not recency
 
-Behind the scenes:
-- Mason + woodsman cutscene re-author review boards
-- CI-throughput store lost 163 runs (08-16..18) and is publishing insights computed on 4 of 30 days ΓÇö backfill, widen the collect window, alarm on the gap
-- Weekly Meta-Review moves Sunday 03:00 to Thursday 05:30; gets its own 7-day brief retention
-
 ## v0.0.28-P3544
 
-- Absorb a transient Android export crash instead of losing the release
 - A broken login beats every capacity number
-- Prior day clears again - split merged routine bursts; verify-after-prune; failed prune files an issue
-- Merged == live, no matter who merges
-- Enforce ArtCache.tex() over bare load() of art paths (ARTCACHE gate)
 - Warn before switching to an unfinished art mode
 - Watch the NPC dossier's CONTENT, not just its builder script
 - Published docs track ALL current artwork - tileset audit regenerates + publishes, silent generator failures alarm, currency in the weekly check
 
 Behind the scenes:
+- Absorb a transient Android export crash instead of losing the release
 - Mechanize the ATTEMPT ledger in check-bugfix-shape
 - Batch-fire deterministic empty-queue pre-check
+- Prior day clears again - split merged routine bursts; verify-after-prune; failed prune files an issue
+- Merged == live, no matter who merges
 - Route cutscene modal textures through ArtCache (overnight queue B)
+- Enforce ArtCache.tex() over bare load() of art paths (ARTCACHE gate)
 - Overnight-queue status - D/E done (#4984), I measured-closed (macOS 2min), B/C/G dispatched (#4987/#4988/#4989)
 - Overnight queue D+E - readable *.import diffs; compression check documents the SHIPPED policy
 - Published-currency audit - EVERY published surface verified live, weekly (Nathan 2026-08-22)
@@ -4040,15 +4177,15 @@ Behind the scenes:
 ## v0.0.28-P3527
 
 - His 2026-08-22 arrangement becomes the phone-portrait default, skinny included
-- The nine craftsman cutscene beats get a recorded recipe, and a re-author can carry its own scene forward
 - The OPTIONS drawer clears the bottom info strip
 - Modal still frame is 1.75, matching the art — not 16:9
 - Save commits the window you placed, not the re-abut's version of it
+
+Behind the scenes:
+- The nine craftsman cutscene beats get a recorded recipe, and a re-author can carry its own scene forward
 - The daily brief reads the real release P again - monotonic, no ceiling
 - A self-check that throws can no longer emit nothing
 - One digest worktree per routine label - a starting routine no longer deletes a running one's files
-
-Behind the scenes:
 - Map web CRASH on management screen to #4948
 - Tileset regen + Android download size lines (v36)
 
@@ -4066,6 +4203,9 @@ Behind the scenes:
 
 ## v0.0.28-P3512
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - MacOS leg stops fetching Docs/ — blobless sparse checkout
 
 ## v0.0.28-P3511
@@ -4078,12 +4218,12 @@ Behind the scenes:
 
 ## v0.0.28-P3509
 
-- Publish leg can't finish — blobless clone, 30→60 min budget
 - The OPTIONS drawer sits BESIDE the handle in landscape instead of starving below it
 - The layout capture reports the OPTIONS reserve and per-window PIXEL rects
 - The OPTIONS reserve pushes out the SHORT way, so a window can rest flush against it
 
 Behind the scenes:
+- Publish leg can't finish — blobless clone, 30→60 min budget
 - Walls & floors — measured scope for the interior envelope
 - Self-check detects stale RDP console markers (post-/clear rotation + 4-day backstop)
 - Art-gap loop reworked and armed — Codex queue, never Flux
@@ -4132,10 +4272,10 @@ Behind the scenes:
 
 ## v0.0.28-P1068
 
-- Discord post reads the repaired release body (single source) + authenticated PREV fetch
 - Source the release tip authoritatively; make the drift guard see it
 
 Behind the scenes:
+- Discord post reads the repaired release body (single source) + authenticated PREV fetch
 - Final lockdown — frozen-constant rule in CLAUDE.md; regen-program status + next section
 
 ## v0.0.28-P1065
@@ -4161,6 +4301,8 @@ Behind the scenes:
 
 - Scheme-aware release pick — filter legacy tags, then publish time
 - WORLD SCALE — real sizes, one conversion; ghost space purged
+
+Behind the scenes:
 - Repair notes in ALL locations - historical #releases Discord posts + builds CHANGELOG.md
 
 ## v0.0.28-P1056
@@ -4173,21 +4315,21 @@ Behind the scenes:
 
 ## v0.0.28-P1053
 
-- Deployed-versions sync fact + standing daily line (web P993 vs Android P1045 class)
 - Pick newest release by publish time, not /releases list order
-- Incremental notes for real - scheme-aware PREV pick + self-healing repair of every drifted release body
 
 Behind the scenes:
 - Fire build to catch the web game up post-#4882
+- Deployed-versions sync fact + standing daily line (web P993 vs Android P1045 class)
+- Incremental notes for real - scheme-aware PREV pick + self-healing repair of every drifted release body
 
 ## v0.0.28-P1049
 
 - Re-apply font after the reflow reparents — kills the residual bar growth on restart
 - Re-apply font after reflow reparent — residual bar-tall-on-restart
-- Annotation follows the PR ref one hop into its body (P1043 gap - subjects cite PRs, not bug issues)
 
 Behind the scenes:
 - Fire build for font-after-reflow bar fix
+- Annotation follows the PR ref one hop into its body (P1043 gap - subjects cite PRs, not bug issues)
 
 ## v0.0.28-P1045
 
@@ -4198,10 +4340,16 @@ Behind the scenes:
 
 ## v0.0.28-P1043
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - #releases stops declaring unverified fixes fixed - open-issue fix bullets get 'still being verified'
 
 ## v0.0.28-P1042
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Retry R2 mirror uploads instead of abandoning the tail
 - Thursday correctness - scoped yield markers, weekly lives its week, weekly gets merged-is-not-fixed language
 
@@ -4228,6 +4376,8 @@ Behind the scenes:
 ## v0.0.28-P1033
 
 - Minimal set goes flat-iso — sheared hearths, rhombus-top furniture
+
+Behind the scenes:
 - Self-check 19b - flag specified-but-never-armed routines (installer with no registered task)
 
 ## v0.0.28-P1031
@@ -4279,6 +4429,8 @@ Behind the scenes:
 ## v0.0.28-P1016
 
 - Interior-prop conventions — baked shadows, directional hearths, one placement path
+
+Behind the scenes:
 - Archive-sync heals chat conversions exactly and never kills a live successor
 
 ## v0.0.28-P1013
@@ -4299,6 +4451,8 @@ Behind the scenes:
 
 - Release the LineEdit's engine focus so Godot stops blurring the overlay per keystroke
 - Top-bar currencies are icon + amount only, flow left-to-right
+
+Behind the scenes:
 - Repair the full-sweep SIGNAL - the sweep itself was never broken
 
 ## v0.0.28-P1006
@@ -4313,7 +4467,6 @@ Behind the scenes:
 - Route cottage furniture through real Codex GLB models
 - Route world-decor NPCs onto the 3D humanoid rig
 - Switch Fortress is save-and-resume, not a jump to the keep (#4787 follow-up)
-- Script the planned pinned-chat transcript rotation
 - Stop re-styling the focused input every frame — the iOS blur-to-body root cause
 - Visible boxes on fixed chrome + reserve that actually blocks (incl landscape)
 
@@ -4322,6 +4475,7 @@ Behind the scenes:
 - Re-fire build for #4800 (prior macOS leg wedged)
 - Fire a build for 3D world-NPC models
 - Fire a build for the Switch Fortress save-and-resume fix
+- Script the planned pinned-chat transcript rotation
 - Capture-world.ps1 — render any game map on the box + screenshot it
 - Fire build for chrome-boxes + reserve
 
@@ -4344,6 +4498,8 @@ Behind the scenes:
 ## v0.0.28-P987
 
 - A live texture swap must RE-DERIVE what was computed from the old texture
+
+Behind the scenes:
 - Post-brief carries ALL attachments on ONE final message (08-17 fragmentation)
 
 ## v0.0.28-P985
@@ -4464,7 +4620,6 @@ Behind the scenes:
 ## v0.0.28-P941
 
 - Seat a window floating above the health bar flush to it (bottom gap)
-- Daily board audit - fix-it-or-close-it runs automatically every day (Nathan 08-16)
 - Real field migration ladder + retire the persisted stat 'cap' (#4619, #4665)
 - Tear the dialog nodes down, not just the flag, when clearing Explore's input guards
 - Size the Options edge handle on BOTH axes from the word it holds
@@ -4474,6 +4629,7 @@ Behind the scenes:
 Behind the scenes:
 - Fire a build for downward-abut bottom-gap fix
 - Lock in accounts sign-in workstream — roadmap, DECISIONS, accounts architecture (08-16)
+- Daily board audit - fix-it-or-close-it runs automatically every day (Nathan 08-16)
 - Desktop sign-in: a second sign-in attempt in the same session fails with 'localhost refused to connect'
 - In-game update notification line (moved from issue #4528, board hygiene)
 
@@ -4495,6 +4651,9 @@ Behind the scenes:
 
 ## v0.0.28-P923
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Mirror builds to R2, launcher downloads mirror-first
 
 ## v0.0.28-P922
@@ -4507,20 +4666,20 @@ Behind the scenes:
 
 ## v0.0.28-P919
 
-- Fixed section keeps a 10-day window, not a forever graveyard (Nathan 08-16)
 - Re-abut stacked windows to the real edge (close the layout gaps)
 
 Behind the scenes:
 - Fire a build for window re-abut fix
+- Fixed section keeps a 10-day window, not a forever graveyard (Nathan 08-16)
 
 ## v0.0.28-P916
 
 - Restore window chrome (slim option A did not close the gaps)
-- Weekly supersession sweep - solved-elsewhere issues/PRs get closed, not lingered (Nathan 08-16)
 - Email-code rate-limit TTL 30->60 (Cloudflare KV minimum)
 
 Behind the scenes:
 - Email sign-in: CODE flow in-game + chooser rework (ship-ready)
+- Weekly supersession sweep - solved-elsewhere issues/PRs get closed, not lingered (Nathan 08-16)
 
 ## v0.0.28-P912
 
@@ -4534,10 +4693,10 @@ Behind the scenes:
 ## v0.0.28-P908
 
 - Hearth sits on the floor; painterly hearth matches the iso chimney
-- Daily brief goes FULL AUTO - decisions to Nathan, work to the box (Nathan 08-15)
 
 Behind the scenes:
 - Fire a build for iso-interior QA batch 4
+- Daily brief goes FULL AUTO - decisions to Nathan, work to the box (Nathan 08-15)
 
 ## v0.0.28-P905
 
@@ -4596,10 +4755,10 @@ Behind the scenes:
 - Centre the art/wallet chip glyphs
 - Desktop default layout from Nathan's capture; carry captured font
 - Interiors moved ~2.1x too fast — ROOM_SCALE was applied twice (#4607 follow-up)
-- Rehook Codex usage collection to the account usage API
 
 Behind the scenes:
 - Build for the interior-speed + S Pen movement fixes
+- Rehook Codex usage collection to the account usage API
 - Add dev-debug-copy-game-data to the manifest
 
 ## v0.0.28-P880
@@ -4625,11 +4784,11 @@ Behind the scenes:
 
 ## v0.0.28-P874
 
-- One comparable-row rule for every ledger reader; isolate user:// by default
 - Round 2 for #4607 — name the input eater (raw touches, blockers, guards)
 
 Behind the scenes:
 - Build for the #4607 round-2 movement diagnostic
+- One comparable-row rule for every ledger reader; isolate user:// by default
 
 ## v0.0.28-P871
 
@@ -4663,8 +4822,10 @@ Behind the scenes:
 ## v0.0.28-P857
 
 - Desktop Google sign-in — real chooser in a chromeless app window, no served page
-- Json fields must be comma-joined with NO spaces (gh argv-split, #4610)
 - Let Google open the sign-in popup, because Google is the one that sizes it
+
+Behind the scenes:
+- Json fields must be comma-joined with NO spaces (gh argv-split, #4610)
 
 ## v0.0.28-P854
 
@@ -4859,20 +5020,20 @@ Behind the scenes:
 
 ## v0.0.28-P776
 
-- Run the Android gradle build with no daemon - it deadlocks on the runners
-- Per-runner GRADLE_USER_HOME so the Android gradle build cannot deadlock
 - Android sign-in returns to the game automatically (Gradle custom build + deep link)
 
 Behind the scenes:
+- Run the Android gradle build with no daemon - it deadlocks on the runners
+- Per-runner GRADLE_USER_HOME so the Android gradle build cannot deadlock
 - Fire build for the Android deep-link auto-return
 
 ## v0.0.28-P772
 
 - Rotation placement drift, landscape UI scale, OPTIONS tab reserve
-- Test_hud_window is 13s not 100s - kill the false budget breach at all three surfaces
 
 Behind the scenes:
 - Fire a build for the rotation round-2 fixes
+- Test_hud_window is 13s not 100s - kill the false budget breach at all three surfaces
 
 ## v0.0.28-P769
 
@@ -4930,11 +5091,11 @@ Behind the scenes:
 - Isometric interiors — one coordinate space, distinct cottages, tiling floors
 - VRAM-compress the 10 worst cutscene plates
 - COLORDUP - duplicated color literal added to the modularity known set
-- Canonical UTF-8 brief poster + routine posting rule (08-06 mojibake incident)
 
 Behind the scenes:
 - Fire build for the camera-jam fix and forest scatter
 - Strip the 9 leftover debug prints outside the cheat system
+- Canonical UTF-8 brief poster + routine posting rule (08-06 mojibake incident)
 
 ## v0.0.28-P741
 
@@ -5050,18 +5211,18 @@ Behind the scenes:
 ## v0.0.28-P694
 
 - Request a nonce on the native OAuth loopback flow
-- Benign token-skips count as reader liveness - stops the idle-window false alarm
 
 Behind the scenes:
 - Fire interim build for the native OAuth nonce fix
+- Benign token-skips count as reader liveness - stops the idle-window false alarm
 
 ## v0.0.28-P691
 
 - Single-active-session enforcement
-- The nightly's 21 failures - 3 isolation defects + a faceless-font guard
 
 Behind the scenes:
 - Fire interim build for single-active-session enforcement
+- The nightly's 21 failures - 3 isolation defects + a faceless-font guard
 
 ## v0.0.28-P688
 
@@ -5096,13 +5257,13 @@ Behind the scenes:
 ## v0.0.28-P678
 
 - Unify desktop/Android sign-in onto the same OIDC connection web uses
-- Zombie-chart alarm - self-check flags a brief chart whose data feed died (#4374 follow-through)
 - Wire the ruins/repair discovery dialog's missing image slot (P641-I)
 - Server-side Google token exchange, for desktop/Android OIDC unification
 - A minimized native app is not a freeze
 
 Behind the scenes:
 - Fire interim build for the sign-in account unification
+- Zombie-chart alarm - self-check flags a brief chart whose data feed died (#4374 follow-through)
 - The three chart fixes Nathan asked for (#4374) - per-job runner minutes, honest Codex chart, PR long timeline
 - Record the web-vs-native account fragmentation gap
 
@@ -5165,10 +5326,10 @@ Behind the scenes:
 ## v0.0.28-P647
 
 - 3D Explore is the zoom-to-max transition, not a menu entry
-- Delivery-driver stops retrying read-only dispatches that completed (#4339 lesson)
 
 Behind the scenes:
 - Fire build for the zoom-to-3D correction
+- Delivery-driver stops retrying read-only dispatches that completed (#4339 lesson)
 - GdUnit pool 2 to 4 per the #4339 controlled ladders + fix the two heuristics that misfired
 
 ## v0.0.28-P643
@@ -5204,10 +5365,11 @@ Behind the scenes:
 
 ## v0.0.28-P632
 
-- Pipeline-tests.png labels collide when two tests share a long prefix
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
 - Add 3D Explore reachable-preview line to v0.0.28 shipped
+- Pipeline-tests.png labels collide when two tests share a long prefix
 
 ## v0.0.28-P628
 
@@ -5310,17 +5472,17 @@ Behind the scenes:
 - Cartoon npc_builder gradient defect, third attempt
 - Cartoon rock3 still had a jagged spire point, redesigned
 - Minimal log.png was still green, now genuinely brown
-- Conversion-sweep - server recycles convert spawn pins with a silent sidebar dupe
-- Weekly recycle exemption for auto-pins was dead code - minted dupe chats every Sunday
-- Backfill disambiguates same-title pins by connection status
-- Benign token-staleness class (#4178) + orphan-detector runaway guards
-- Unstick the merge queue (#4177) + settle the digest posting path
 
 Behind the scenes:
 - Fire interim build for QA6 batch A (6 fixes)
 - Mark #3950 QA round 4 items closed (PART 1, 2 items 6-7, 3 items 10-11)
+- Conversion-sweep - server recycles convert spawn pins with a silent sidebar dupe
 - Cheat_manager snapshot builders: same ~95-line shape eleven times (monthly finding 8)
+- Weekly recycle exemption for auto-pins was dead code - minted dupe chats every Sunday
+- Backfill disambiguates same-title pins by connection status
+- Benign token-staleness class (#4178) + orphan-detector runaway guards
 - Follow-up: move fresh-new-game reset to GameManager + close the gaps in _reset_state_silent
+- Unstick the merge queue (#4177) + settle the digest posting path
 - Update snowflow manifest — NPC bug resolved, 4 mob types, real corpse pose
 - Update snowflow manifest — resource respawn, Fortress greeting
 - Update snowflow 3D-explore manifest — NPCs + interactions
@@ -5366,12 +5528,12 @@ Behind the scenes:
 - Tree/boulder barriers get a cleared visual
 - Cottage furniture real art + scatter-variety + cartoon tree_fallen
 - Stable loopback port for Google sign-in redirect_uri
-- Self-check's INLINE web-drift pick uses version+publish-time, not max(P)
 - Promote Nathan's picks - fortress tiers, hut, cottage, tree_fallen barrier
-- Delivery driver drops the VERIFY-SUMMARY it is supposed to carry
 
 Behind the scenes:
+- Self-check's INLINE web-drift pick uses version+publish-time, not max(P)
 - Monthly code findings: mechanical batch - div-by-zero guard, tautological check, per-frame lookup, stale TODO, dead twins
+- Delivery driver drops the VERIFY-SUMMARY it is supposed to carry
 
 ## v0.0.28-P524
 
@@ -5382,18 +5544,25 @@ Behind the scenes:
 
 ## v0.0.28-P522
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Zero-storage artifacts + a storage panel on the budget chart
 
 ## v0.0.28-P521
 
-- Purge the 175.9 GB artifact debt + 1-day retention; monthly docs post gets a plain title
-- Sibling digests coexist, yields are not failures, monthly+weekly carry the health sheets
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- Purge the 175.9 GB artifact debt + 1-day retention; monthly docs post gets a plain title
 - Rewrite building level ceilings + gear ids to config truth, flag narrative doc as stale
+- Sibling digests coexist, yields are not failures, monthly+weekly carry the health sheets
 
 ## v0.0.28-P517
 
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
 - Tag-deletion race guard on rebuilds + exempt Mergify speculative drafts from the body contract
 
 ## v0.0.28-P516
@@ -5421,7 +5590,6 @@ Behind the scenes:
 - QA round 3 - dying-man art-switch bug + graphics-mode switcher
 - Utf-8 stdout on the runner - the note's emoji crashed the log print AFTER a successful post
 - Rolling 'Roadmap updated' note in Discord - edits-in-place never light the unread badge
-- Concurrency headroom verdict windows to the last 2 days - stale regimes stop driving pool advice
 - Google sign-in failed with "network error (8)" - PlayFab gzip response Godot couldn't decompress
 
 Behind the scenes:
@@ -5430,6 +5598,7 @@ Behind the scenes:
 - Flag the stat-wiring track PARKED honestly - Nathan approved the Explore divergence
 - Record the orphan-tax kill + one-version-everywhere under Infrastructure shipped
 - Tileset-regen remaining-work continuation roadmap (issue #3950)
+- Concurrency headroom verdict windows to the last 2 days - stale regimes stop driving pool advice
 - Fire build for the PlayFab gzip sign-in fix
 
 ## v0.0.28-P493
@@ -5472,17 +5641,18 @@ Behind the scenes:
 ## v0.0.28-P480
 
 - New Fortress cloned the last save's state instead of starting fresh
-- Web-drift check picks the tip by version+publish-time and compares tag IDENTITY, never P magnitude
 
 Behind the scenes:
 - Fire interim build for the New Fortress fresh-start fix
+- Web-drift check picks the tip by version+publish-time and compares tag IDENTITY, never P magnitude
 - Bump LAUNCHER_VERSION 1.1.59 to 1.1.60 so deployed launchers self-update to the tip-identity fix
 
 ## v0.0.28-P475
 
-- One version on every surface - tip-identity updates, publish-time ordering, P1 at version close
+- Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
+- One version on every surface - tip-identity updates, publish-time ordering, P1 at version close
 - Fire interim build for the Archer patrol reframe
 
 ## v0.0.28-P473
@@ -5501,23 +5671,24 @@ Behind the scenes:
 
 ## v0.0.28-P468
 
-- Render commits stranded on the wrong branch - breaches.json blocked the silenced checkout
 - Spawn-ring redo ΓÇö small-circle color = rarity/tier, big aggro ring constant, patrol = icon at spawn point
 - Gate 2nd-tier tools behind 1st barrier, sharp tool replaces basic, builder ruins-card ordering
 - Sign-in failure was silent on the roster gate + browser tab mojibake
 - Monotonic-serve guard compares tip IDENTITY, not P magnitude - P-reset broke it
 
 Behind the scenes:
+- Render commits stranded on the wrong branch - breaches.json blocked the silenced checkout
 - Record the week's three shipped workstreams + flip Accounts Stage 1 to SHIPPED
 
 ## v0.0.28-P461
 
 - Snapshots loaded main.tscn into an empty tree - 702 orphans taxed the whole nightly
+
+Behind the scenes:
 - P-numbers restart at each version (v0.0.28 goes P2878 to P457)
 
 ## v0.0.28-P459
 
-- Nathan's five chart notes - timeout-only alarm, drop daily totals, disk on concurrency, regroup box health
 - Spawn-ring schema - rarity color, wander icon, path toggle
 - Remember-me checkbox persists sign-in across app launches
 - Wander_points was silently dropped by the bake/load round-trip
@@ -5526,122 +5697,34 @@ Behind the scenes:
 - Account gate before the roster - sign in or use local saves
 - Desktop Google sign-in redirect_uri must be localhost, not 127.0.0.1
 - Promote Alpha Wolf minimal sprite (pick #5)
-- Scale the suite timeout by SELECTION SIZE - the nightly was killed again
 - Promote Alpha Wolf painterly-terrain sprite (pick #4)
 - The Archer's northernmost wolf wanders a patrol loop
 - The Archer's wander ground — river bends west, big open glade
 - Promote Bandit Leader tiny-swords sprite (pick #2)
 - Stage 1 - Google sign-in + backup-all + boundary sync
-- The engines metric still carried a "suites" unit
 - Stats-overlay exit + convert aim-rail buttons to a real HUDWindow
-- The pool panel counts ENGINES, not slots - say so
-- Separate a KILLED run from a harmlessly superseded one
-- Emit breaches.json - every threshold, its value, and whether it is past
-- Prune to the latest RUN, not the latest DAY - the brief was doubled
-- Judge a test's cost by its BEST run, not its worst
-- Give the web<->release drift check a deploy grace period
-- Repair check 18's corrupted path + gate raw control characters
-- The release gate has been DEAD for 8 nights - raise its timeout, chart it, alert on it
 - Aim-mode facing was stomped every frame by the walk-bob
 - Forced first-defense gate — Explore greyed until one Defend
 - First-defense card + Defend's story pump + TWO popup presentations
 - Craftsman first-greeting parity + every character names himself
-- Escalation must ADD the core smoke set, not replace the impacted selection
 - Prototype aim-mode control scheme (zoom-triggered facing)
-- Name gate STARVATION in the daily check, not just gate cost
-- Raise gate slot-wait patience 4 to 7 attempts (~28 min to ~47 min)
-- No PR gate may run the whole suite - close the four remaining escalations
 - Session record
-- Reap-orphans staleness threshold matches its DAILY cadence
 - Promote Bandit Leader minimal sprite (pick #8)
-- Nightly cost guards - catch suite creep before it kills the gate again
-- No gate ever runs the whole suite again - core smoke instead, full sweep is monthly
-- The three uncovered slowness causes get charts (freshness, screen build, RAM by concurrency)
-- Column-pack the composed sheets - row alignment wasted a screen of space
-- Nightly hook stages the RENAMED sheets (spend / machine / automation)
-- Six sheets - one question each, AUTOMATION alone at the top
-- Sheets are two columns at double resolution - readable AND screen-shaped
-- Composed sheets are one FULL-WIDTH chart per row, not quartered thumbnails
-- Composer searches for its inputs - it composed NOTHING in the real nightly job
 - Mob attack-lunge animation, mirrors the hero's swing
 - Promote Bandit Leader painterly-terrain sprite (pick #9)
 - Cache textures - management screen builds 11x faster (5:04 to 28s)
-- Stop escalating every *_config.gd change to the full suite
 - Android boot mirrors the retired PC/web chooser
-- GdUnit pool back to 3 - the raise to 5 starved every suite
-- Two panels that watch the pool raise (usage vs cap, cost by concurrency)
-- GdUnit pool 3 to 5 concurrent suites (measured), + ops-cadence chart joins the machine sheet
-- Composer runs LAST - it was skipping the charts rendered after it
-- Nightly hook renders + stages the five sheets; brief spec fetches them
-- Pipeline sheets + grouped usage/machine sheets (11 images to 5)
-- Board v13 - WORK split open/done, TESTS owns file inventory, A before B; fix(docs): pre-push gate is TIERED, stop hand-running the full suite
-- Gate scripts warn when THEIR OWN tree is stale (box B's wedge)
-- Board v10 - framed panels, category bands, and RESTORE the test-files panel
-- Board v9 - categorized rows (WORK/RUNS/TESTS/MACHINE), runs-by-outcome, day-bucket bubbles, shared window
-- Board v7 - every slot a real chart (Nathan: '2 charts are just text')
-- Board v6 - cost-concentration panel + plain-numbers week summary
-- Board v5 - full-population histogram + ALL over-budget tests
 - Snapshots and throne re-evals rebuild only the LIVE screen (#3826 part 2)
-- Board v4 - plain language everywhere + suite-count context; self-check covers service worktrees
-- Pipeline-health board v3 - issue-age + run-minutes-by-tier panels, clock-time axes
-- Codex chart liveness + board readability pass
-- Codex-usage chart re-collects nightly - it was FROZEN at 07-17
 - Woodsman lead_the_way + the Fighter's arc actually closes
-- Pipeline-health board - six would-have-caught charts, each dashed at its threshold
 - Build the Scout beat + retime it ahead of Perrin
-- Self-check 16 - canonical-tree freshness, self-healing (the 439-commit box-A rot)
-- Gate wedged on raw --import; story-beat adds forced the full suite
-- Codex imagegen is the cutscene renderer, Flux becomes the fallback
 - Drop autoload/viewport signal subscriptions on _exit_tree
-- Cost-vs-information screen - self-change smoke rule, conformance test/ exemption, brief Test health block + 2x2 chart
-- Pipeline-audit decisions A+C, test-runner isolation+ratchet, brief test-health
-- The "0% CPU Godot wedge" is a measurement bug - the console binary is a relauncher
-- Retreat is a standalone milestone, not a storyline chapter
-- Nathan's 07-27 storyline pass - payoffs close their arcs
-- Restructure the Storyline Bible into Nathan's three channels
-- Capture-state stream redirects are opt-in - they caused the hangs they were built to diagnose
-- Make the visual tier testable locally and stop stale goldens reading as regressions
-- Capture driver clears retrospective popups at the shutter
-- The 44-minute full suite runs WEEKLY; nightly runs the fast net
-- A FULL suite run gets 60 min - 45 was under its measured time
-- Issue-dedupe lookups fork a new issue on every run (PS 5.1 arg splitting)
 - Beat pre-marking is a dictionary read, not a lock evaluation
 - Snapshot beats stay suppressed after the event pump
 - A snapshot no longer leaves a story popup on the screen
 - A snapshot rescue also clears the spawn that gates it
-- Dev-only cheat autoload no longer forces the full suite; probe stops adding load
-- Full-suite gate gets 45 min; the probe now samples contention
-- Self-check commented-vs-duplicate alert lookup was always failing
-- Web-sync checks read the orphaned ROOT build-id.json, not /play/
-- Ops-cadence render writes a heartbeat
-- Cut gate creep at its cause - two screen-building suites were 89% of the always-run set
-- Cut gate creep at its cause - the always-run set is state-level only
-- Generate the Ops Cadence card from live box state, nightly
-- Mergify config error - priority_rules is top-level, not under queue_rules
-- Monthly digests stamp a heartbeat on their gated no-op days
-- Make the daily brief fail loudly - account failover, artifact verification, honest heartbeat
-- Add --validate self-check to the storyline board generator
-- Kill the archive-resurrection mint - recycler exempts auto engines, archive-sync sweeps fresh shell dupes
 - Stop the COMMAND-mode capture hang - bulk gear-fill refresh storm + no-op alert revision bump (#3717, #3718)
-- Poller comments can no longer self-fire a dispatch lane
-- Storyline board generator had 3 stale-data bugs
-- Archive-sync backfill matches deliberate pins' title suffix
-- Capture-state.ps1 redirects Godot's console output to a log
-- Docs-nightly-regen didn't watch the doc-pipeline code itself
-- Usage-poll writes a heartbeat file
 - Storyline coverage tool never read PENDING_ART
-- Docs_channel_sync posts one message per section, not one for all 12
-- Harden ci-sentinel FREEZE detector against PS 5.1 array-collapse
-- Frame-pacing probe writes a heartbeat file
-- Reference-pdfs.yml literal backslash-n broke 3 of 12 docs since #3547
-- Visual-tier standing-issue dedupe swallowed gh failures, forking into 5 duplicate issues
-- Ci-sentinel gh --json args rejected by gh (comma+space)
 - Skip SystemFont in glyph fallback under headless (nightly-suite 4-nights-red)
-- Run-visual-tier.ps1 reads scenarios from its own fetched worktree
-- Root-cause the 4-day recurring box self-check alert
-- Deterministic daily-brief archive-then-prune
-- Disable gdUnit fail-fast so the full failure surface is always reported
-- Instrument archive-sync reader failures + alert on sustained outage
 - Woodsman axe wood cost 20->10 - unblock tonight's playtest for Ike
 - World Atlas uses the real in-game map render + zone lines
 - Universal "!" markers + resource respawn + Perrin retime + death-card clarity
@@ -5649,69 +5732,34 @@ Behind the scenes:
 - Craftsman quest framework + Mason + Thresher arcs (locked shape)
 - Never park a job on a 0%-headroom account inside the slack deadband
 - QA round 8 — fog redesign, Info Bar switch, skinny grab, popover dismiss, reflow, modal teardown
-- Billing self-check alerts on SLOPE not cumulative crossing
 - World fog gray-cloud, borders fog-gated, one white for popup buttons
 - Restore mipmaps on two woodsman cutscene plates — main-side defect unblocking full-suite CI
 - One alert not two — equip marks seen, aggregate badge removed
-- Mechanical Codex-first routing with Claude-Sonnet fallback (#3608/#3700)
 - Mechanically force the Codex lane for recipe bundles
 - All 12 Player Documents on the website + R2
-- State-driven PR+issue passes in box-poller - route every state, never rot silently
-- Delivery-driver step2b - the RED-PR consumer (closes the dead zone, #3608)
 - Bramble+hedge refusal popups + seal the bridge walk-around (Nathan 07-21 round 3)
 - Pin wrangler exactly + recovery build - registry race killed web run 177
 - QA round 7 — kills+time row, title-bar drag, fog-proof transparency, collapse removal, Version row, log font
-- Poller auto-merge is a DENY-list, not an allow-list (#3608 root-cause)
 - Woodsman Part 2 — practice, north tree, sharpen quest, sharp axe, town blueprint, move-in closer
-- Codex-run.ps1 - one-command Codex-lane driver
-- Merge-pr guards against admin-merging an UNSTABLE PR whose checks have not attached yet
-- Poller safety - closed-issue guard + fail-closed kill switch + self-mod deny-list
-- Pre-push-gate impacted mode - pass the test list as a real array
 - QA round 2 - markers visible+placed right, single-button cards green (Nathan 07-21)
-- Event-reactive delivery driver + per-routine digest map
-- Test-value ledger slice 1 — per-suite cost/catch capture
-- Wait-pr-green counts only LIVE runs (in_progress/queued) as running
-- Mechanical pre-mortem audit + close self-check watch-list gaps
-- Backup+snapshot redundancy layers
 - Pack s3tc for web VRAM textures + suppress OS-caused load-stalled dead-man
-- Pins created via new-pinned-chat.ps1 get a cse so archive-sync can track them
-- Capture defaults to native 540x960 portrait, not 480x8xx
-- Art-auto-promote canonical import profile + declared-plate guard
-- Daily art-gap scan loop (ArtGapScan) #3531
 - Render session_ms/save_kb on the crash report
 - Live-QA markers + barriers — aggro cue instant, equip clear, vagabond block+fire, bramble beat, log "!"
 - Retreat = End Run & Return unified — confirm modal + 25% wallet loss
-- Split 6-month dispatch bar into self-hosted vs cloud lanes
-- Weekly Meta-Review self-diagnostic routine with a closed adoption loop
-- Art-auto-promote honors autonomy kill switch, labels auto-origin
 - Crash-sweep reads a sessions-index key, not a namespace LIST
-- Ci-sentinel FREEZE detector - unfreeze stuck action_required/queued PRs
-- Box-capacity sampler + Daily Brief chart and alerts
-- Add 'steward' to digest-runner ValidateSet - map entry alone rejects the arg
-- GitHub Steward hourly routine - spec + digest-runner map entry
 - Repair renamed snapshot + dedupe nightly issue spam (#3476 #3477 #3478 #3479)
 - Single _apply_mute_state so icon and audio never disagree (#3297, #3239)
 - Builder_joined_fort + reusable Blueprint Received popup (Nathan 07-21 review bundle)
 - Mob Audit player document (mobs + NPCs) — render + interaction fixes
 - Playable Audio audit player document
-- Arc boards — correct dossier characters, descriptive beat names, encounter dialog copy; woodsman_after_tree rework flag
-- Batch-fire - the nightly backlog pump
-- Woodsman arc board includes woodsman_axe_given
 - Quest-walk fixes batch — title-case titles, axe-presentation beat, reset gap, hut plate, hygiene (#3492 walks)
-- Kill switch false-ENGAGED on empty issue list
-- Autonomy kill switch + auto-origin cooling-off (SLICE 1)
 - Death-lesson slice — first_death_rise, chief loss both ways, land renewal, respawn rule
 - Commit .import (mipmaps on) for 6 testing pngs shipped without one
 - Wake_cold_open_a-e .import mipmaps/generate=true
-- Arc review boards v2 — flow, triggers, copy + quest-master taxonomy
 - Batch-3 — watermark band, Top Bar window row, log fit-font, C4 skinny round-trip, C5 gear popover
 - #crash-reporting is a 1-day feed; GitHub is the durable crash record
-- Storyline art review boards + Storyline Art Bible PDF
 - World Atlas player document + reference-pipeline wiring
-- Autoqueue: true - queue_conditions auto-embark is OFF by default
 - Purge-qa-assets — correct secret name (BUILDS_PUBLISH_TOKEN) + fail-fast error branches
-- KV capacity chart + daily-brief attachment
-- Queue label auto-embarks via queue_conditions (modern Mergify)
 - Emoji font fallback + tofu-glyph icon replacement + glyph gate
 - A minimized tab is no longer a false "crash" (1fps = background throttle)
 - Name-entry format parity + unified dismissal contract, drop dead BottomSheetHelpers
@@ -5719,34 +5767,26 @@ Behind the scenes:
 - Tutorial touch-to-attack mechanics - soldier '!', button-free first fight, lowest-spawn cue
 - Unified size<->font model + Area/Character wide-reflow + 8-edge resize
 - One build per platform — retire TheFortressQA-* debug exports (#3459 phase 1)
-- Daily Cloudflare KV capacity audit
 - Bridge vagabond gate + scripted first bandit-chief death
 - Reframe combat tutorial to touch-to-attack (no button)
-- Mergify merge-queue config - label-gated enqueue, 7 required checks
 - Register woodsman first-seen/after-tree plates — live cutscenes were imageless
-- Branch-freshener state round-trip + pass log
-- Classify CI reds (FLAKE/STALE/REAL) + auto-freshen stale PR branches
 - Oversized windows can pan + grab raises window to front
 - Tutorial aggro-ring cue + woodsman/veil beat ordering (Nathan 07-20 QA)
-- Tiered gate - narrow full-suite escalation to what needs it
 - Edit-mode QA — grip/popover follow resize, popover flips up, skinny persists, big-map area toggle
 - Save-loss defense in depth — last-good generation, recovery ladder, pre-migration snapshots, web storage persistence
 - Bridge vagabond gate + scripted first-death lesson
 - Corner-resize shrinks the font past the text floor
 - Create_vale falls back to procedural bake source when vale_map.tscn nulls
 - Android QA pass — glyph tofu, settings dock, map labels, fade, fog gray
-- Nightly box-suite robust seeded import + vale-draft test isolation
 - The Vale's 12 named areas live - approved partition attached
 - Unseen-item "!" badges - loot marks unseen, viewing clears
 - Occlusion refactor - tool gates drop the veil, barrier faces go sight-opaque
 - Edit Mode PR2 - snapping + grid + Nathan's default layout + Reset
-- Pre-push gate gdUnit step is tiered - impacted selection, same escalations as CI (-FullSuite to force)
 - Autosave toast on every surface + cross-milestone reload change note
 - Edit Mode PR1 - Play/Customize gate, drag-anywhere, Lock retired
 - Strip baked-in contact-sheet numbers from shipped plates + flag imageless beats
 - Iter5 - touch-size resize corner, finer minimap zoom + steady centering, dbl-click big map + modal gear
 - Log north + wolf-den pack + barrier modals + 1-yield nodes + vale-enter fix
-- Tiered test gate - impacted selection on PRs, full suite nightly + release gate
 - Await the patch pack at web boot (the P2460 update loop); save-stamp QA authority; Switch Fortress + update-recovery policy
 - Tall-phone surface reaches the true bottom + drag top-bar floor + web text bridge emits text_changed
 - Stop the Librarian rescue from queuing a duplicate generic freed modal
@@ -5754,14 +5794,11 @@ Behind the scenes:
 - THE SIGHT-COST MODEL — terrain stretches and shrinks the sight bubble (v0.0.28-wip)
 - Enforce ONE PLAYABLE VERSION at the web publish choke point
 - QA5 — mobile-safe fog shader noise + snapshot spawn-ids on the expanded map + roster-aware capture driver
-- GdUnit suite cap 15->25 min + phase0 envelope 60 (cap-kills over real failures)
 - Windowing iteration 3 (opaque fog, big-map rework, scaled resize, two-section Options) — crash-fixed
 - QA4 — water is sight-transparent + reveal radius 14 (v0.0.28-wip)
 - Mason + Thresher quest beat outlines
 - QA3 — the Woodsman HARD-blocks the west walk; the NORTH tree returns (two trees) + build
-- Resource sampler reads the real CPU counter, not LoadPercentage
 - Expanded-Vale QA1+2 — data-driven story triggers, deeper fog, Woodsman #3376 wiring, north-tree gate cut + build
-- CI-throughput chart + narrated insights (queue-vs-work on the gdunit gate)
 - Monotonic update offers, session-only banner, portrait splash manifest (round 6)
 - Woodsman-first gate beats + drop stale library_discovery beat
 - Librarian quest art (locked-face re-renders) + ballista + one build
@@ -5798,7 +5835,6 @@ Behind the scenes:
 - Organic area partition — terrain-grown zones + smoothed state-map borders
 - Librarian quest part 2 - Perrin joins the fort, blueprint unlocks the Library
 - Coordinates window (Explore-only), retire minimap inline coords — windowing PR6/6
-- Web-deploy cancel-in-progress false + lock the one-release-stream invariant
 - Death modal + 50% wallet loss on explore death (gear exempt)
 - Summary-bleed fix + footstep seam + sub-state bed override API
 - Batch the downscale-revert git checkout (E14 command-length failure) — epoch E15
@@ -5828,18 +5864,14 @@ Behind the scenes:
 - Party-slot fill/clear cheats - mirror the sentry pair
 - Honest download-progress phases - verifying cached data vs downloading the update (v1.1.55)
 - Every snapshot reveals full fog + steeper gear ramp
-- #about fully carded - title-only cards, all content in threads, charts card added
 - World / Explore panel section - fog, rescues, waves, beats, spawns
 - The Modularity Pass - one engine, one source for every shared piece
 - ONE-board F5 entry — GameEntryBoard + CheatManager session QA flag (#3215 stage A)
 - Snapshots grant opening items + pre-mark opening story beats
-- Releases sync skips Discord's thread-starter system message
-- Versioned release notes in About - card + collapsible thread per version; roadmap goes future-only
 - Snapshots land arc-coherent world state
 - Round 4 — respawns, alpha wolf, glen packs, aggro tuning, NE-corner camp + interim build
 - Slice 7 tier-1 — minimap fog authority, transparency overhaul, grip=move, log toggle removal, title bars, scrim unify
 - Web completion notice mirrors desktop + settled Game row says 'current' (v1.1.54)
-- Usage-poll backs off on 429 instead of hammering every 5 min
 - Web Launcher row says 'current' like desktop, not the platform tag (v1.1.53)
 - Slice 6 — Nathan 07-16 QA batch: pulses removed, big-map polish, Esc, handle trio + Log, draggable log, popup layer
 - Nathan-approved batch — remove Ike banner, probe parked-tab fix, revert iOS redirect — epoch E13
@@ -5848,9 +5880,7 @@ Behind the scenes:
 - Mute launcher-surface load-stalled — false positive from parked tabs
 - Download copy states facts, no promises (v1.1.52)
 - Split beast-falls from armor-equip tutorial + aggro-ring marker
-- Capacity router treats a failed poll as unknown, not 100% headroom
 - Quarry ovals in every set, fields/quarry on the minimap, fog survives Fortress round-trips
-- Digest bot-posting override attaches real files via multipart; usage-poll keeps lastGood across consecutive failed polls
 - IOS Play goes straight to the game — the launcher wasm front door kills low-memory iPads
 - The world never visibly ends — off-map is an endless cloudbank
 - Download/load-phase dead-man in the probe + epoch E12
@@ -5870,23 +5900,19 @@ Behind the scenes:
 - Epoch E2->E3 — #3102 autoload rename broke patched installs (#3126) + CI autoload-epoch guard + interim build bump
 - Cap bumps draw as raised allowance, never as usage shrinking
 - Token charts v3 - Actions format (bars + sawtooths + allowance bumps)
-- Weekly docs auto-regen - fire the About-docs pipeline only on doc-source change
 - Fog QA round 2 — deeper wall sight, ruins fog-gated, rings warn from the fog, generic interior walls, visible Woodsman
-- Render charts independently - token first, Actions best-effort
 - Phone content-scale parity + mute button clears divider + honest web mute memory (v1.1.48)
 - Honest copy for the launcher-web flow — no more 'no download' promise
 - Token chart v2 - overage dollars panel + phone-readable type
 - Compress the split art-audit PDFs for the About post
 - Split the art audit into Icon+Building and Gear+Loot documents
 - Design-language slice 5 — big-map zoom rail + always-visible settings, Defend chip 3 lines, labeled Map/Options handles
-- Billing-chart-render PS5.1 parse error - ASCII-only strings
 - Token-usage chart on the daily brief + Codex offload committed to roadmap
 - #3116 hardening — mode-aware resize poll, unconditional content-scale re-poke, divergence telemetry
 - Add the popup/cutscene art audit PDF to the Player Documents post
 - Unify modal formats + hard-modal popups
 - World fog = true line-of-sight — you see only what you've seen
 - Mute audio/persist/icon + distinct tab + interim release to sync versions
-- Stop the vision sync from deleting the About "Player Documents" post
 - Enclosed cottage interiors + Woodsman's cottage + mockup-look fields
 - Mute — pref-based icon (fixes desktop first-click), bigger icon, web autoplay, v1.1.46
 - Release-driven sync — web game builds only on release, web launcher on launcher change
@@ -5968,16 +5994,12 @@ Behind the scenes:
 - Shift/Alt/Windows/Ctrl don't advance a cutscene
 - Brotli the wasm + js on deploy (37.7MB wasm to 6.3MB transfer)
 - Route @claude cloud lane by capacity
-- Phase0 skips the Godot suite on infra-only PRs (test-suite serialization #1)
-- Daily orphan-process reaper (#4 cleanup)
-- Billing-chart render as a box task (replaces the Daily box render cloud Routine)
 - Mirror the launcher's Validate + Update on the web entry shell
 - Shared entry-screen layout definition — one source, launcher + web render from it
 - Route @vzqz box dispatch lane through the capacity router (lane 3)
 - Canonical import profile + registry rows for auto-promoted cutscenes
 - Box digest tasks replace the paused cloud Routines (lane 2)
 - Route ChatHarvest through the capacity router (lane 1)
-- Auto-promote cloud-rendered cutscene art to production
 - Zoom +/- on the minimap face
 - Promote 3 world-encounter paintings (beast, caged ranger, craftsman)
 - Always-visible zoom +/- rail on the right edge
@@ -6009,15 +6031,12 @@ Behind the scenes:
 - Cutscene stills at one fixed aspect ratio + drop the VO chip's stray placeholder image
 - Region-unlock quest weapons — woodsman's axe, sharp woodsman's axe, mining pick
 - Nathan's 6 refinements — no title, opaque surround, no fog/spawn toggles, deeper zoom, center-tap modal, left-edge handle
-- Phase0 duration-creep alarm in the daily self-check
 - Validate as a board row + epoch-aware detection (1.1.38)
 - Flashing '!' marker over the beast during the tutorial
 - Storybook rat + tree/rock variants + calmer water + lusher tree3
 - Promote 3 Critical Path cutscene paintings (fortress_named, tutorial_combat, tutorial_aggro)
-- Slot-cap Godot CI suites at 3 + gh-free advisory comment poster
 - Crash beacons use text/plain so cross-origin sendBeacon isn't dropped
 - Re-baseline game epoch E1 to E2 — fixes NotificationBus autoload crash
-- Player-docs line points to the About post, not deleted #spam-updates
 - Beast-spotted intro + how-to-fight ordering + equip benefit
 - Clear one-time progression-message flags + bump Android code 24 for QA build
 - Reusable imperative alert primitive in AlertState
@@ -6074,7 +6093,6 @@ Behind the scenes:
 - Live form-factor + top-bar fit ladder — phase 1 of the unified scaling system (#2186 #2757)
 - Say 'Launcher is current.' + kill the boot window flash (1.1.32)
 - Unbuilt cards show 0/1 build axis, not 0/9
-- Routine must NEVER self-render the Actions chart — it hangs the digest
 - Save & Exit fully exits the gear overlay
 - Palette sync reads the shared entry source (entry_palette.gd)
 - Sectioned navigation + Save & Exit (N9)
@@ -6167,7 +6185,6 @@ Behind the scenes:
 - Permanent wallet icon — desktop expand/collapse toggle, currencies open the modal
 - Inspection pane is ALWAYS on for queue makers
 - IPad text-input bridge — route iOS keystrokes into LineEdit fields (P467)
-- Derived build stamp - P<commit count> at build time + build queue
 - Unified top row — one bar on both form factors, adaptive wallet + modal, card off Equipment
 - Barracks 5 levels — every level unlocks a unit type (L4 Fighter, L5 Archer)
 - Tilemap terrain rounds 1+2 — painterly ground + 2.5D tree/rock sprites, ASCII world killed
@@ -6177,38 +6194,127 @@ Behind the scenes:
 - Cap heavy-art import resolution at 512 — iPad Safari still hit the WebGL ceiling post-compression
 
 Behind the scenes:
+- Nathan's five chart notes - timeout-only alarm, drop daily totals, disk on concurrency, regroup box health
 - Test_phase3_snapshot_relock does not finish in 20 min running alone (probable hang, not slowness)
 - Log the rare/named spawn-chance idea as an open design question
 - Fire interim build for remember-me sign-in
 - Fire interim build for oauth redirect fix + account gate (#3932/#3933)
+- Scale the suite timeout by SELECTION SIZE - the nightly was killed again
 - Pull archerloop's left edge in further, clear an unrelated ring
 - Widen the archerloop preview crop, its top edge clipped the wolf
 - Add a wander-path overlay to the map preview harness
 - Fire interim build for Accounts Stage 1 (#3534/#3875)
+- The engines metric still carried a "suites" unit
+- The pool panel counts ENGINES, not slots - say so
+- Separate a KILLED run from a harmlessly superseded one
+- Emit breaches.json - every threshold, its value, and whether it is past
+- Prune to the latest RUN, not the latest DAY - the brief was doubled
+- Judge a test's cost by its BEST run, not its worst
 - Add bramble/SE region to map_preview render tool
+- Give the web<->release drift check a deploy grace period
+- Repair check 18's corrupted path + gate raw control characters
 - Fix stale blueprint-popup status + reassess Housing and idle
+- The release gate has been DEAD for 8 nights - raise its timeout, chart it, alert on it
 - Mark chapter 5 fully shipped — first-defense card + forced gate
+- Escalation must ADD the core smoke set, not replace the impacted selection
 - Correct the tiering rules in CLAUDE.md - no PR gate runs the whole suite
+- Name gate STARVATION in the daily check, not just gate cost
+- Raise gate slot-wait patience 4 to 7 attempts (~28 min to ~47 min)
+- No PR gate may run the whole suite - close the four remaining escalations
 - Record the measured lane-scaling curve on SlotCount
 - Log aim-mode prototype design pattern + open design question
 - Lock in the mob/NPC tileset renderer decision + CI-defer pattern
+- Reap-orphans staleness threshold matches its DAILY cadence
+- Nightly cost guards - catch suite creep before it kills the gate again
+- No gate ever runs the whole suite again - core smoke instead, full sweep is monthly
+- The three uncovered slowness causes get charts (freshness, screen build, RAM by concurrency)
+- Column-pack the composed sheets - row alignment wasted a screen of space
+- Nightly hook stages the RENAMED sheets (spend / machine / automation)
+- Six sheets - one question each, AUTOMATION alone at the top
+- Sheets are two columns at double resolution - readable AND screen-shaped
+- Composed sheets are one FULL-WIDTH chart per row, not quartered thumbnails
+- Composer searches for its inputs - it composed NOTHING in the real nightly job
 - Art-cache rule + narrowed tier rule in CLAUDE.md; brief posts the FIVE SHEETS only
+- Stop escalating every *_config.gd change to the full suite
+- GdUnit pool back to 3 - the raise to 5 starved every suite
+- Two panels that watch the pool raise (usage vs cap, cost by concurrency)
+- GdUnit pool 3 to 5 concurrent suites (measured), + ops-cadence chart joins the machine sheet
+- Composer runs LAST - it was skipping the charts rendered after it
+- Nightly hook renders + stages the five sheets; brief spec fetches them
+- Pipeline sheets + grouped usage/machine sheets (11 images to 5)
 - CLAUDE.md tells the truth about the gate (five checks, all on box, tiered pre-push)
+- Board v13 - WORK split open/done, TESTS owns file inventory, A before B; fix(docs): pre-push gate is TIERED, stop hand-running the full suite
+- Gate scripts warn when THEIR OWN tree is stale (box B's wedge)
+- Board v10 - framed panels, category bands, and RESTORE the test-files panel
+- Board v9 - categorized rows (WORK/RUNS/TESTS/MACHINE), runs-by-outcome, day-bucket bubbles, shared window
 - Lock the mob/NPC tileset sprite generation recipe
+- Board v7 - every slot a real chart (Nathan: '2 charts are just text')
+- Board v6 - cost-concentration panel + plain-numbers week summary
+- Board v5 - full-population histogram + ALL over-budget tests
+- Board v4 - plain language everywhere + suite-count context; self-check covers service worktrees
+- Pipeline-health board v3 - issue-age + run-minutes-by-tier panels, clock-time axes
+- Codex chart liveness + board readability pass
+- Codex-usage chart re-collects nightly - it was FROZEN at 07-17
+- Pipeline-health board - six would-have-caught charts, each dashed at its threshold
 - Retract a wrong wedge diagnosis I left in the warmup comment
+- Self-check 16 - canonical-tree freshness, self-healing (the 439-commit box-A rot)
 - One-off diagnostic to print the Android release signing SHA-1
+- Gate wedged on raw --import; story-beat adds forced the full suite
+- Codex imagegen is the cutscene renderer, Flux becomes the fallback
 - Retire the four workflows superseded by static-gates (decision A)
+- Cost-vs-information screen - self-change smoke rule, conformance test/ exemption, brief Test health block + 2x2 chart
+- Pipeline-audit decisions A+C, test-runner isolation+ratchet, brief test-health
+- The "0% CPU Godot wedge" is a measurement bug - the console binary is a relauncher
+- Retreat is a standalone milestone, not a storyline chapter
+- Nathan's 07-27 storyline pass - payoffs close their arcs
+- Restructure the Storyline Bible into Nathan's three channels
+- Capture-state stream redirects are opt-in - they caused the hangs they were built to diagnose
 - State asserts gate, pixels only inform
+- Make the visual tier testable locally and stop stale goldens reading as regressions
+- Capture driver clears retrospective popups at the shutter
 - Retire the two permanent standing-board issues
+- The 44-minute full suite runs WEEKLY; nightly runs the fast net
+- A FULL suite run gets 60 min - 45 was under its measured time
+- Issue-dedupe lookups fork a new issue on every run (PS 5.1 arg splitting)
+- Dev-only cheat autoload no longer forces the full suite; probe stops adding load
+- Full-suite gate gets 45 min; the probe now samples contention
 - Fast dead-man for expired Claude Code login (2026-07-25 incident)
+- Self-check commented-vs-duplicate alert lookup was always failing
+- Web-sync checks read the orphaned ROOT build-id.json, not /play/
+- Ops-cadence render writes a heartbeat
+- Cut gate creep at its cause - two screen-building suites were 89% of the always-run set
+- Cut gate creep at its cause - the always-run set is state-level only
+- Generate the Ops Cadence card from live box state, nightly
 - Upgrade configuration to current format
+- Mergify config error - priority_rules is top-level, not under queue_rules
+- Monthly digests stamp a heartbeat on their gated no-op days
 - Fire interim build - current build for tonight's dev/QA
+- Make the daily brief fail loudly - account failover, artifact verification, honest heartbeat
+- Add --validate self-check to the storyline board generator
+- Kill the archive-resurrection mint - recycler exempts auto engines, archive-sync sweeps fresh shell dupes
+- Poller comments can no longer self-fire a dispatch lane
+- Storyline board generator had 3 stale-data bugs
 - Finish matching Garrick/Wren/Piper text to approved art (no hedging)
 - Rewrite Garrick/Wren/Piper descriptions to match approved portraits
+- Archive-sync backfill matches deliberate pins' title suffix
+- Capture-state.ps1 redirects Godot's console output to a log
+- Docs-nightly-regen didn't watch the doc-pipeline code itself
+- Usage-poll writes a heartbeat file
+- Docs_channel_sync posts one message per section, not one for all 12
+- Harden ci-sentinel FREEZE detector against PS 5.1 array-collapse
+- Frame-pacing probe writes a heartbeat file
+- Reference-pdfs.yml literal backslash-n broke 3 of 12 docs since #3547
 - Clear the Woodsman portrait blocker + Builder ship status
+- Visual-tier standing-issue dedupe swallowed gh failures, forking into 5 duplicate issues
+- Ci-sentinel gh --json args rejected by gh (comma+space)
 - Mark heroes/guards/armaments/gear inspection in-progress (v25)
 - Record 5 design decisions recovered by the #3558 chat-harvest backfill
 - Week of 2026-07-25 -- 0 ideas, 7 decisions
+- Run-visual-tier.ps1 reads scenarios from its own fetched worktree
+- Root-cause the 4-day recurring box self-check alert
+- Deterministic daily-brief archive-then-prune
+- Disable gdUnit fail-fast so the full failure surface is always reported
+- Instrument archive-sync reader failures + alert on sustained outage
 - Refresh Mason/Thresher/Warrior/Archer status in quest-master
 - Fire interim build - axe-cost unblock for tonight's playtest
 - Android entry mirror: boot to entry board, Obtainium updating, one APK runtime QA
@@ -6216,31 +6322,62 @@ Behind the scenes:
 - Re-fire interim build - android flake retry
 - Fire interim build - v0.0.28-wip content batch
 - Promote Nathan-approved arc plates (quarry/cleared/bargain/joins/sharp-pick), re-rendered to Doran dossier
+- Billing self-check alerts on SLOPE not cumulative crossing
 - Promote Part 2 plates (north-tree found/chopped, sharp-axe, blueprint, house-built)
+- Mechanical Codex-first routing with Claude-Sonnet fallback (#3608/#3700)
+- State-driven PR+issue passes in box-poller - route every state, never rot silently
 - Promote Nathan-approved arc plates (first-seen/tree/after/trade/axe/chopped/hut)
+- Delivery-driver step2b - the RED-PR consumer (closes the dead zone, #3608)
 - Doc style unification: one shared template for the whole published set, mapped to the game style guide
 - HUD QA round 7 build for Nathan re-test
+- Poller auto-merge is a DENY-list, not an allow-list (#3608 root-cause)
 - Unify all Player Documents on the light parchment theme
 - Plain-text rule for ALL channel blocks + human crash block
 - Fire interim build - round-2 fixes + Woodsman Part 2 (PRs #3673 #3678)
 - Route recipe-shaped dispatches through Codex ΓÇö the grind is burning Fable while the Codex pool sits idle
+- Codex-run.ps1 - one-command Codex-lane driver
+- Merge-pr guards against admin-merging an UNSTABLE PR whose checks have not attached yet
+- Poller safety - closed-issue guard + fail-closed kill switch + self-mod deny-list
+- Pre-push-gate impacted mode - pass the test list as a real array
 - Woodsman board shows the specced Part 2 as outline rows
+- Event-reactive delivery driver + per-routine digest map
+- Test-value ledger slice 1 — per-suite cost/catch capture
+- Wait-pr-green counts only LIVE runs (in_progress/queued) as running
+- Mechanical pre-mortem audit + close self-check watch-list gaps
 - Fire interim build - android retry after herd-pressure crash
+- Backup+snapshot redundancy layers
+- Pins created via new-pinned-chat.ps1 get a cse so archive-sync can track them
+- Capture defaults to native 540x960 portrait, not 480x8xx
+- Art-auto-promote canonical import profile + declared-plate guard
 - Add backfill scope + archive-candidates duty to Chat Harvest
+- Daily art-gap scan loop (ArtGapScan) #3531
 - Fire interim build - QA marker/barrier fixes retest (PR #3620)
 - Billing - gate job off cloud + launcher DMG release-only
 - Lock Woodsman (Bram Thorne) redhead dossier portrait
+- Split 6-month dispatch bar into self-hosted vs cloud lanes
+- Weekly Meta-Review self-diagnostic routine with a closed adoption loop
+- Art-auto-promote honors autonomy kill switch, labels auto-origin
+- Ci-sentinel FREEZE detector - unfreeze stuck action_required/queued PRs
 - Idle-offload-lane vs saturating-cap = standing Needs-you
 - Institute holistic cross-chart read step (the point of the loop)
 - Queue-urgent priority lane - incident fixes jump the merge queue
+- Box-capacity sampler + Daily Brief chart and alerts
+- Add 'steward' to digest-runner ValidateSet - map entry alone rejects the arg
 - Plain-language CI health + dispatch-spike & cap-saturation guards
+- GitHub Steward hourly routine - spec + digest-runner map entry
 - Retire the parked-label class - 13 issues moved to roadmap/queue
 - Chore(deps)(deps): bump actions/download-artifact from 4 to 8
 - Librarian board — vagabonds in-arc, Builder in strip, Blueprint Received milestone, Archer→bramble (Nathan 07-21)
 - Fold Audio audit into ART/STORY (audio is art)
 - Distinct Woodsman appearance brief + Builder arc closer builder_joined_fort, drop fortress_enter (Nathan 07-21)
+- Arc boards — correct dossier characters, descriptive beat names, encounter dialog copy; woodsman_after_tree rework flag
+- Batch-fire - the nightly backlog pump
+- Woodsman arc board includes woodsman_axe_given
+- Kill switch false-ENGAGED on empty issue list
 - Four-section Player Documents taxonomy + Quest/Cutscene promotions + Progression tables rename
+- Autonomy kill switch + auto-origin cooling-off (SLICE 1)
 - Main Storyline spine + Woodsman resequence + milestone renames (Nathan 07-20)
+- Arc review boards v2 — flow, triggers, copy + quest-master taxonomy
 - Needs-you items are decision-shaped (problem/options/recommend)
 - Rule - bundle by iteration, split by seam (one PR per surface per QA pass)
 - Chore(deps)(deps): bump actions/setup-python from 5 to 7
@@ -6248,31 +6385,46 @@ Behind the scenes:
 - Final HUD QA build - full 07-20 GUI push in one build
 - Commit Storyline Bible nightly task install script
 - Preserve Nathan-approved Codex Mason render (mason_quarry_intro candidate)
+- Storyline art review boards + Storyline Art Bible PDF
+- Autoqueue: true - queue_conditions auto-embark is OFF by default
 - The published document set is the canonical interface (categories, format rule)
 - Capital-T title style, The Mason canon + Walls finale, hut materials, map-art roadmap line
 - Manual workflow to purge retired TheFortressQA-* assets from all releases (#3459 follow-up)
+- KV capacity chart + daily-brief attachment
 - Auto-promote 5 rendered plate(s) - wake_cold_open_a, wake_cold_open_b, wake_cold_open_c, wake_cold_open_d, wake_cold_open_e
+- Queue label auto-embarks via queue_conditions (modern Mergify)
 - Promote cold-open concept A v1 (lone survivor rising)
 - Daily brief pins the ops-cadence card source (Message 0)
 - Interim - HUD window redesign for Nathan QA
+- Daily Cloudflare KV capacity audit
 - Canonical quest-master list + log touch-combat / bake-source / channel-merge decisions
+- Mergify merge-queue config - label-gated enqueue, 7 required checks
 - Track orphan-detector in repo + 'Resurrected' naming (Nathan-approved)
+- Branch-freshener state round-trip + pass log
+- Classify CI reds (FLAKE/STALE/REAL) + auto-freshen stale PR branches
+- Tiered gate - narrow full-suite escalation to what needs it
 - Interim build - story bridge/death data layer + latest main for morning QA
+- Nightly box-suite robust seeded import + vale-draft test isolation
 - Web is a release platform — the web game compiles in build-publish from the release commit
 - Interim - HUD Edit Mode complete for device QA
 - Daily-brief CI analytics snapshot + Zapier/narration corrections
+- Pre-push gate gdUnit step is tiered - impacted selection, same escalations as CI (-FullSuite to force)
 - Auto-promote 13 rendered plate(s) - mason_after_boulder, mason_boulder_cleared, mason_joined_fort, mason_quarry_intro, mason_sharp_pick, thresher_after_hedge, thresher_bramble_cleared, thresher_field_intro, thresher_hedge_cleared, thresher_joined_fort, thresher_sharp_scythe, woodsman_after_tree, woodsman_first_seen
 - Auto-promote 1 rendered plate(s) - rescue_freed
 - Daily brief carries Nathan's queue (needs-nathan label)
+- Tiered test gate - impacted selection on PRs, full suite nightly + release gate
 - Daily brief nags stalled handoff-labeled issues - the prosthetic-memory loop closes cross-lane obligations
 - Interim - android HUD fixes for device QA
+- GdUnit suite cap 15->25 min + phase0 envelope 60 (cap-kills over real failures)
 - Interim — HUD windowing iter3 (opaque fog, big-map rework, scaled resize grip, two-section Options, leak fix)
 - GdUnit pool baseline to 3 + timeout headroom; analytics govern scaling (Nathan, 2026-07-18)
 - Content-pipeline entry-point rule (new quest work starts with Story)
 - Content pipeline (Story to Painter to Maps) + published-docs list
+- Resource sampler reads the real CPU counter, not LoadPercentage
 - In-run resource telemetry - the analytics name the binding constraint (CPU vs RAM) per concurrency level
 - GdUnit gate → pool of 2 concurrent suites + concurrency-headroom analytics
 - IsolateUserDir - per-run user:// isolation for gdUnit suites (the 2x-concurrency unblocker, #3381)
+- CI-throughput chart + narrated insights (queue-vs-work on the gdunit gate)
 - Run-gdunit-headless gains -SkipWarmup / -SlotWaitMinutes / -FailIfNoSlot (defaults unchanged)
 - Interim build — THE EXPANDED VALE live (v0.0.28-wip)
 - Fix stale Library-unlock gate descriptions in popup-audit
@@ -6293,6 +6445,7 @@ Behind the scenes:
 - Interim — HUD windowing complete (all 6 windows + Actions + visible resize grip)
 - Interim build — organic area partition + curved state-map borders (v0.0.28)
 - Interim build — Librarian quest + explore-death modal + club balance (v0.0.28)
+- Web-deploy cancel-in-progress false + lock the one-release-stream invariant
 - Interim build — telemetry trust pass + iPad memory drop (v0.0.28)
 - Interim build — push unified roster to all surfaces (v0.0.28, base-E4)
 - Gnarled club to 1 damage (match other starters; equipped-clamp still guarantees the tutorial win)
@@ -6309,12 +6462,15 @@ Behind the scenes:
 - Web is sign-in only - Nathan's override of the auto-minted web guest design
 - Backend refinements - checkpoints, time envelope, cap/leash dial, web has no local-only mode
 - Fold What's-in-the-game into the v0 to v0.0.27 card - one cumulative release card
+- #about fully carded - title-only cards, all content in threads, charts card added
 - Daily brief attaches the Codex/ChatGPT usage chart (box-rendered, same branch mechanics)
 - Open v0.0.28 - VERSION to 0.0.28, CLAUDE.md milestone to stat wiring and inspections
 - Backend vendor doc - trail mechanics + fabrication-resistance explainer (ledger not snapshot, era split, perfect-play envelope)
 - Backend vendor doc - replace generous reconciliation with bounded replay-verified admission (Nathan's integrity correction)
 - Backend vendor doc - lazy-creation practice section (server-witnessed rule, feature map, milestone nudges, test-save/no-redo framing)
 - ZERO green on the roadmap - every done item sweeps into the v0.0.27 release; intro reads v0.0.28
+- Releases sync skips Discord's thread-starter system message
+- Versioned release notes in About - card + collapsible thread per version; roadmap goes future-only
 - 6-arc structure - fold Builder+Woodsman into Opening, merge library chain into Librarian, reorder
 - Ratify D-50 - PlayFab backend + lazy server-account creation (Nathan, 2026-07-17)
 - Clearer summary-track prompts + swap-never-stack rule
@@ -6325,6 +6481,7 @@ Behind the scenes:
 - Lock/unlock through ONE evaluator - derived building unlock, shared reason lists (#2564 #1387 #2418)
 - One active play session per logged-in account - multi-instance duping resolved at the account layer, not now (Nathan 2026-07-17)
 - Backend vendor decision doc v1 - research summary + PlayFab-primary recommendation, awaiting ratification
+- Usage-poll backs off on 429 instead of hammering every 5 min
 - Week of 2026-07-17 — 4 ideas, 1 decision flag, 1 status update
 - Interim build - HUD slice 6 + keyboard-focus fix for Nathan's Launcher QA
 - Make the VERIFY-SUMMARY block REQUIRED on game-code PRs
@@ -6334,6 +6491,8 @@ Behind the scenes:
 - Re-capture encounter/rescue popups at the #3170 width fix + add missing discovery panel + surface library-unlock chain
 - Add a "discovery" kind to the popup capture harness
 - Self-check catches silent harvest deaths; fold deployed-ahead drift into repo
+- Capacity router treats a failed poll as unknown, not 100% headroom
+- Digest bot-posting override attaches real files via multipart; usage-poll keeps lastGood across consecutive failed polls
 - ONE game-version source = the release feed - web bakes the release's P, never a local count + converging interim release
 - Rebuild popup audit with full text + real captures
 - Art-pool coverage count + startup-hints catalog
@@ -6342,8 +6501,12 @@ Behind the scenes:
 - Popup-aware capture harness for the full popup audit rebuild
 - Auto-promote 7 rendered plate(s) - enc_stone, enc_straw, forge_discovery, library_discovery, rescue_freed, retreat_unlocked, throne_transition
 - Hygiene batch D — delete dead loading-shell lane, truthful SPEC, stale refs
+- Weekly docs auto-regen - fire the About-docs pipeline only on doc-source change
 - Roadmap - add vision range skill (extends fog-of-war clear distance in Explore), v22
+- Render charts independently - token first, Actions best-effort
+- Billing-chart-render PS5.1 parse error - ASCII-only strings
 - Expand Sonnet model routing per Nathan's cap-conservation directive
+- Stop the vision sync from deleting the About "Player Documents" post
 - Central popup-art registry — one id->plate table for every popup
 - Activate dead-man switch — CRASH_KV binding + epoch E9→E10
 - Scope VERIFY-SUMMARY to game-code PRs + advisory block-presence check
@@ -6375,9 +6538,13 @@ Behind the scenes:
 - Weekly mechanical art-compression check
 - Chat Harvest capture (week of 2026-07-13) — staged ideas for review
 - Correct dispatch/conformance/digest/Discord model for the 2026-07-14 rebalance
+- Phase0 skips the Godot suite on infra-only PRs (test-suite serialization #1)
+- Daily orphan-process reaper (#4 cleanup)
+- Billing-chart render as a box task (replaces the Daily box render cloud Routine)
 - Auto-promote 10 rendered plate(s) - duel_lost, duel_won, enc_arena_enter, enc_dying_man, enc_fighter, enc_fortress_enter, first_hero_archer, first_hero_fighter, first_passive_run, tutorial_spawn
 - Installer for the ArtAutoPromote scheduled task
 - Auto-promote 1 rendered plate(s) - fortress_repaired
+- Auto-promote cloud-rendered cutscene art to production
 - Move conformance required check to the box (headless npx + capacity router)
 - Interim build code 34 — sword-swing + fortress-exterior re-entry (P2180 F5)
 - Canonical cutscene/popup image registry + drift-lock test
@@ -6391,8 +6558,11 @@ Behind the scenes:
 - Content-scale in root viewport (kills SubViewport) + QA build code 30
 - Interim build code 29 — staged one-map Vale
 - Milestone build — opening through fortress-repair for QA (version/code 27->28)
+- Phase0 duration-creep alarm in the daily self-check
 - Interim build code 27 — art variants, fixed rat, calmer water/tree3
+- Slot-cap Godot CI suites at 3 + gh-free advisory comment poster
 - Repeatable sound-coverage audit + committed Suf request list
+- Player-docs line points to the About post, not deleted #spam-updates
 - Interim build — version/code 24->25 for device QA
 - Capacity router — pick the account with the most headroom (prep, unused)
 - Record cutscene painterly art pipeline + decisions
@@ -6420,6 +6590,7 @@ Behind the scenes:
 - Interim phone build — explore movement + tutorial rooms + minimap (Android code 8)
 - Interim build — Android version/code 6->7 for on-device QA
 - Shared card-width clamp + clipped-label factory — leaf pass of the unified scaling system
+- Routine must NEVER self-render the Actions chart — it hangs the digest
 - N6 uniformity sweep — one factory per shape (columns, rounding, green CTAs)
 - Discord-posting playbook (memory) + daily brief fetches box-rendered real billing chart
 - Story-harness item - replay the storyline across all orders, verify every message (Nathan 07-12)
@@ -6439,6 +6610,7 @@ Behind the scenes:
 - Game-design-audio-v1 — sound+notification spec + music/voice map
 - CLAUDE.md tells the truth about spawn mode — same-dir (Artifact) + worktree discipline + never tree-kill live spawns
 - Map-layout changes require Nathan's confirmation (process rule, 2026-07-10)
+- Derived build stamp - P<commit count> at build time + build queue
 - Serialize gdUnit box-wide via Global mutex - kills the load-induced exit=-1 flake
 
 ## v0.0.27-P464
@@ -6485,11 +6657,9 @@ Behind the scenes:
 
 ## v0.0.27-P448
 
-- Game delta assets — epoch base + cumulative patch per release (phase 2c)
 - Game delta-update client — download the patch, not the build (phase 2b)
 - Truthful lock messages + lock-message Auditor suite
 - Delta-update boot overlay — first-autoload patch mount (phase 2a)
-- Restore VCAP_CLEAN (regressed by #2530) — capture-driver repo/deployed now identical
 - 3-column nav — thin top bar, tri-state buildings column, pip width controls
 - Built-building modals go info-complete — real ladder, Effect/Total, maxed pill preserved (#1736 superseded)
 - Remember the desktop window's position, not just its monitor
@@ -6498,30 +6668,23 @@ Behind the scenes:
 - Progression fuzzer runs full sweep in nightly, light smoke per-PR
 - Delta self-update via boot-time patch overlay (delta engine, part A)
 - TYPECARD — per-type build-card/open-detail fork shape added to the modularity known set
-- Archive-sync covers cse-less pins; tombstone+skip by cse
 - Scaler buildings to 99 levels + vault cap = gear-equipping unit count
 - Speedup family routed through CheatManager — CHEAT FINISH unreachable in release
-- Merge-pr.ps1 - the sanctioned merge; stop advisory reds hanging auto-merge
 - Show release notes on the self-update screen
 - Credit game-icons.net, drop the 'everything handmade' overclaim
 - Host player docs on R2 + link them from the site Codex
 - Tip-truth pass — tournament tips pulled, Leveling renamed Units
 - Site-only unless a real release; seed import cache before export
-- Archive-driven chat machinery - archive status IS the lifecycle signal
 - Fresh non-maxed marketing screenshots + recover clean-capture mode
 - Flush-left fill + Option-A detail pane (density pass v1)
 - Wide-viewport overlay floats with a bottom gap instead of butting the bottom edge
 - Grid gallery + lightbox, drop false expand-chevrons
-- Digest dead-man check — silent #daily-brief morning alerts and self-announces
-- Retired chats get tombstones so AutoPin cannot resurrect them
 - Render cost/price as real flat-icon chips, not emoji (web tofu)
-- Decode git-diff subprocess output as utf-8 in gate scripts
 - Mipmaps on ALL art imports — completes the small-icon clarity fix tree-wide
 - Icon-audit PDF in the Player Documents post + box dead-man check
 - Re-gate QA snapshots 02-10 to the new Builder spine + Auditor gate lock-tests
 - Rail label fits natively (no PRODUCTION clip) + native-first rule
 - Mipmap-aware default texture filter — small icons render crisp, not muddy
-- Conformance back to ubuntu — Claude Code CLI can't install on the box runners
 - MARCH mode-bar action slot gets its walking-boot icon
 - Read the box token file, not the pasted secret
 - QA round 12 — smooth badges, recruit-picker damage badges, Capacity wording, assign-sheet icons (#2322 iter 12)
@@ -6531,18 +6694,27 @@ Behind the scenes:
 - Auto-deploy pipeline - Web export preset + deploy script + CI
 
 Behind the scenes:
+- Game delta assets — epoch base + cumulative patch per release (phase 2c)
+- Restore VCAP_CLEAN (regressed by #2530) — capture-driver repo/deployed now identical
+- Archive-sync covers cse-less pins; tombstone+skip by cse
 - Location pins on every open row — weekly re-verification jumps straight to each finding
 - Illustrate the player documents with in-game icons + art (deferred)
 - Multi-AI execution offload — deferred parking-lot entry
+- Merge-pr.ps1 - the sanctioned merge; stop advisory reds hanging auto-merge
+- Archive-driven chat machinery - archive status IS the lifecycle signal
 - Schematic was never retired — five discovery types restored across all claim sites
 - Delta downloads — native patch-PCK chosen, zsync parked (roadmap v12)
 - Seed rides the Technical review as an attachment — 🌱 message retired
 - 2026-07-09 Weekly Digest bookkeeping — roadmap v11, D-68, ledger, doll-anchors v1
 - Auto-retire window back to 7 days - Nathan travels
 - Unify mode-button styling across the bar AND rail (one shared definition)
+- Digest dead-man check — silent #daily-brief morning alerts and self-announces
+- Retired chats get tombstones so AutoPin cannot resurrect them
 - Auto-retire spawned chats after 2 idle days, not 7
 - Desktop rail — consistent row boxes; MARCH drops its green box
+- Decode git-diff subprocess output as utf-8 in gate scripts
 - Gut #spam-updates — documents become a fixed About post, alerts go to issues/daily-brief
+- Conformance back to ubuntu — Claude Code CLI can't install on the box runners
 - PR checks run on the box's self-hosted runners
 - Move the seven PR checks to the box's self-hosted runners
 - Remove the fat-context Discord sentinel
@@ -6578,7 +6750,6 @@ Behind the scenes:
 - Snapshots build capacity buildings; Improve reaches the rendered card (#2322 iter 11)
 - Improve button on building cards + real effect/total (#2322 iter 10)
 - Itemization redesign + loot art final state — earrings/tabard, 6 sets, flavor text, seed library, audit v25
-- Nightly real-game visual regression tier
 - Show on every launch with a Continue button (all platforms + Godot)
 
 Behind the scenes:
@@ -6602,6 +6773,7 @@ Behind the scenes:
 - Mode bar shipped (icon-first #8 design); roadmap v8
 - Knotted Sling + Rusty Sabatons promotions; registry picks recorded
 - Seeded-round candidates + noun-seed registry draft + cuffs/girdle promotions
+- Nightly real-game visual regression tier
 
 ## v0.0.27-P402
 
@@ -6629,7 +6801,6 @@ Behind the scenes:
 - Loot itemization — 4 sets, 18 new items, renames, staged slots
 - DEFENSE picker section + camp art wired (#2322 iter 6, v2)
 - Watermark visible at window top-left — drop the stretch-inverse transform
-- Remove the .gdignore #2344 re-added to the zztest portrait fixture
 - Portrait tier cadence audit - real caps, maxed=T5, UNITS levels wired (#2322 iter 5)
 
 Behind the scenes:
@@ -6641,6 +6812,7 @@ Behind the scenes:
 - Watch cloud Actions minutes vs the free cap (corrects #2338 target)
 - Cover page, THE-FORTRESS in COMMAND, silhouettes third + gear-slot mockups
 - P391 + wire character painterly tiers to resolver naming
+- Remove the .gdignore #2344 re-added to the zztest portrait fixture
 - SUB_PATCH set at merge time from main's live value
 - Worklist item 1 + party/camp/character model + audit restructure
 - User-level bypass assertion; harness-owned tree settings excluded
@@ -6681,7 +6853,6 @@ Behind the scenes:
 ## v0.0.27-P384
 
 - Icon/label resolution fix + regression test (rescued from dead chat)
-- Remove the .gdignore that un-imported the zztest portrait fixture
 - Commander #8 + pixel, approval-gate convention, state-doc rewrite, regen
 
 Behind the scenes:
@@ -6690,6 +6861,7 @@ Behind the scenes:
 - Monthly-cadence-aware reference-PDF check
 - Require in the dispatch verdict comment
 - Box-local driver art.py + promote primitives + 147 .import stub backfill
+- Remove the .gdignore that un-imported the zztest portrait fixture
 - RC four-engine infra sync + always-on hardening
 - Roadmap v5 - art workstream items (silhouettes, doll layout, loot, box-local pipeline)
 - Supervisor-managed Remote Control engines (best-practice self-heal)
@@ -6711,8 +6883,6 @@ Behind the scenes:
 - Built buildings never show locked in mode picker
 - Missing-art placeholder when painterly absent (Outriders portrait)
 - Promote 10 assets, large-font sheets, pagination, gear fix
-- One dispatch run per issue (stop parallel duplicate re-fires)
-- Drive-to-state visual capture (real-game tier)
 - Redesign generator, promote 12 flats, generate candidates, rename sheets
 - Wrap empty-state flavor text; cap Improve button width (P364)
 - First-open picker stacking (P364)
@@ -6722,7 +6892,6 @@ Behind the scenes:
 - Quit nav item + comprehensive high-contrast mode
 - Relocate never-ending tracks from Library to buildings
 - Unsaved-changes detection, popup cancel, bottom bar, window modes, HC toggle
-- Reap orphan Godot on normal gdunit completion — the tail-wedge
 - Remove resolution control from mobile tab
 - Retire launcher-picker shared-submodule line
 - Enable resolution control on PC tab; remove window-size workaround
@@ -6732,15 +6901,9 @@ Behind the scenes:
 - Launcher picker as a true shared component (deferred infrastructure)
 - Set content_scale_size to PICKER_RES; host screen in MarginContainer
 - Picker window — 480x440 at picker stage, resize to profile on selection
-- Daily box self-check — PAT expiry + poller/watchdog heartbeats → alert
-- Mechanical chat↔box coordination poller (live)
 - F5 picker — brand styling, mobile window sizing, profile-aware display defaults
-- Box reads CI logs directly via gh + read-only PAT
-- AUTOLOAD-HANG rule — a boot-pausing autoload can't silently hang CI
 - F5 launcher mode picker (Prod/QA, Desktop/Mobile), CI-safe
 - Phase B building art reorg — single-tree consolidation
-- Single pre-push-gate.ps1 keystone + fix box-only pytest unicode false-fail
-- Full-suite floor on the gdunit pre-push gate so a subset can't false-green
 - Building-lock single-source line + Character pre-throne portrait art line
 - Change placeholder text to "Coming soon."
 - P342 device-test bug batch — cold-start, icons, heroes, overflow, locked-flavor, Esc-back
@@ -6748,8 +6911,6 @@ Behind the scenes:
 - Four settings-panel follow-up fixes
 - One combined card across all four modes + overflow/cold-start/empty-state
 - Settings panel layout, rail collapse, icon color fix
-- Bring main's watchdog to the validated safe-detector (auto-recycle live)
-- Npx stderr-abort + guaranteed terminal-outcome comment
 - Roadmap - gear menu/settings marked in-progress
 - Gear menu cleanup
 - Gear menu shell + Mobile/Desktop settings switch
@@ -6778,7 +6939,9 @@ Behind the scenes:
 - Lock icon-audit format: 5-column sheets, slot recolor, LOOT, audit PDF
 - Revert desktop full-width margin layer (black-screen regression); keep other display fixes
 - Record session infra wins (7 runners, drive-to-state, dispatch dedup) + watchdog gap
+- One dispatch run per issue (stop parallel duplicate re-fires)
 - Infinity tracks: queue wiring + D-39 cheat-placement fix
+- Drive-to-state visual capture (real-game tier)
 - Exclude .runner_migrated from runner clone (the real runner-5/6/7 cure)
 - Install scripts register tasks windowless (no console flash on reinstall)
 - Runner-add clean-slate + child-process isolation (real fix)
@@ -6791,6 +6954,7 @@ Behind the scenes:
 - Visual-testing channel built; drive-to-state next
 - Lock in the /box capture visual channel + the --branch rule
 - Art-review: structural promoted-archive dedupe
+- Reap orphan Godot on normal gdunit completion — the tail-wedge
 - Weekly committed-art PDF publish to Discord (planned, v0.1.0)
 - Art-review: visual-match dedupe + single-element stone/straw flat candidates
 - Art-review: promote 6 pixel icons + content-hash dedupe + stone/straw glyph options
@@ -6809,12 +6973,18 @@ Behind the scenes:
 - Archive Project Instructions v128
 - Mark engine-file split shipped, move to #about built record
 - Art-gen: repoint flat-icon generator + regen lane to assets/art testing/ layout
+- Daily box self-check — PAT expiry + poller/watchdog heartbeats → alert
 - Finish open-issues/impl-plan retirement
+- Mechanical chat↔box coordination poller (live)
 - Unify mobile profile into single source of truth
 - Two homes only — collapse implementation-plan + design-backlog into roadmap.md
 - Art-gen: extract icon glyph definitions into icon_defs.py (data-only, behavior-preserving)
+- Box reads CI logs directly via gh + read-only PAT
 - Single-source roadmap.md, design-backlog rename, bug routing, archive PI v127
+- AUTOLOAD-HANG rule — a boot-pausing autoload can't silently hang CI
+- Single pre-push-gate.ps1 keystone + fix box-only pytest unicode false-fail
 - Extract HeroesBarracksState slice — final D-78 slice
+- Full-suite floor on the gdunit pre-push gate so a subset can't false-green
 - Session continuity: QA launcher on roadmap + implementation plan v86
 - Add art-manifest-v1 — full repo image inventory
 - Extract BuildingsMilestonesState slice
@@ -6836,6 +7006,8 @@ Behind the scenes:
 - Document workflow-file versioning gotcha for in-flight box runs
 - Correct self-heal timing to ~15-20 min, promote modularity-gate to required
 - Correct runner pool to 4, update watchdog to safe-detector + live recycle, add terminal-signal / visibility-split / npx-fix / add-runner facts
+- Bring main's watchdog to the validated safe-detector (auto-recycle live)
+- Npx stderr-abort + guaranteed terminal-outcome comment
 - Fold watchdog tooling to repo; disable auto-recycle (detection-only)
 - Godot import cache + per-ref concurrency on check workflows
 - Box pre-push gate, run CI checks locally and self-correct before push
@@ -6988,7 +7160,6 @@ Behind the scenes:
 ## v0.0.27-P306
 
 - Per-device window mode/resolution with boot validation
-- Exempt the test harness from the fork heuristic
 - Add art-style toggle (ASCII / flat icons / painterly) to Placeholder
 - Promote display settings to active (v0.0.29), per-device
 - Render the cap-rise caption in green, not muted
@@ -7001,6 +7172,7 @@ Behind the scenes:
 - QA setup: rewrite cards with real markdown for readability
 - Separate build-state from level (derived)
 - Art-gen: walls orthographic low-wide iterative; fix battlements t1 and t5
+- Exempt the test harness from the fork heuristic
 - QA setup: re-fire the sync now the bot has permission
 - Art-gen: split castle-section framing into walls (side elevation) and battlements (3/4)
 - Delete superseded game-design-economy-v1
@@ -7143,9 +7315,7 @@ Behind the scenes:
 ## v0.0.27-P290
 
 - Shared per-platform icon lookup
-- Truly-headless gdUnit suite runner for the @vzqz lane
 - Add self-updating Windows install to the infrastructure track
-- Valid watchdog repetition duration + fail-loud registration
 - Add shared combat-HUD-button component to v0.1 Enhance Explore
 - Move passive readout to its own layer below the buttons (P286)
 - Move gear/CHEAT chrome onto its own CanvasLayer above the HUD (P285)
@@ -7154,7 +7324,9 @@ Behind the scenes:
 
 Behind the scenes:
 - Wire queue-leveling into the gathering and utility building tabs (single-source)
+- Truly-headless gdUnit suite runner for the @vzqz lane
 - Wrap the top mode-tab bar onto a second row (native flow, no scroll arrows)
+- Valid watchdog repetition duration + fail-loud registration
 - Fold box diagnostics & routing into BOX SESSION
 - Runner health probe + draft diagnostics doctrine
 - Runner self-heal watchdog (recycle script + installer)
@@ -7172,11 +7344,11 @@ Behind the scenes:
 ## v0.0.27-P283
 
 - Explore button hit-rect + press overlay (diagnostic, P283)
-- Release notes show only the delta since the previous build
-- Run macOS verify only on version-closes
 
 Behind the scenes:
+- Release notes show only the delta since the previous build
 - Trigger v0.0.27-P282 QA build
+- Run macOS verify only on version-closes
 
 ## v0.0.27-P282
 
@@ -7311,7 +7483,6 @@ Behind the scenes:
 - Poller reads the bug-reports forum's posts (threads), not channel messages
 - #about self-sync by channel name + milestone-tree roadmap
 - Remove dead build-queue-slot text from Builder alerts
-- Point branch-cleanup at github.repository, not the pre-transfer repo path
 - Watcher matches non-closing Bug-loop-fixes: #N
 - Known-bug label + confirm-to-close on the poller
 - Known-bugs list publisher (with tests)
@@ -7385,6 +7556,7 @@ Behind the scenes:
 - Add proportional humanoid silhouette for gear doll (wip)
 - Stage premium-currency and discovery-item placeholder icons in art/icons-wip
 - Stage live-currency placeholder icons in art/icons-wip (gdignored)
+- Point branch-cleanup at github.repository, not the pre-transfer repo path
 - Correct the #spam-updates mute state in WATCHTOWER.md
 - Docs reconciliation: rarity removed, research multi-slot, Library level 9
 - Spec the full lifecycle and conventions
