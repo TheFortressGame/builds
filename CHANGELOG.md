@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5677
+
+- The hero sits while he rests - set_resting seats his sprite
+
 ## v0.0.28-P5676
 
 - Rest - a resting hero heals 5x, and walking, a hit or an attack stands him up
