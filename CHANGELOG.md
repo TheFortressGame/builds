@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5684
+
+- Gdunit-smoke's changed-file diff survives git's multiple-merge-bases warning on a stacked PR
+
+Behind the scenes:
+- The four slot-cheat forwarders to CheatRoster fill_slots(kind) / clear_slots(kind) (#5907 Refactor Systems S11)
+- Pull the guard/armament inspect skeleton up into UnitInspectContent (#5907 brief #92)
+- _apply_all_state to four named steps (#5907 brief #91)
+- The token ledger relays to the Meta Desk through send-to-lane, not the RDP console (#8247 gap)
+
 ## v0.0.28-P5677
 
 - The hero sits while he rests - set_resting seats his sprite
