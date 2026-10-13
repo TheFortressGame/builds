@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5830
+
+- The 29 cells the painting shows open are floor (#8423, #8407) *(fix attempt - still being verified)*
+- The painted Vale's log, north tree, hedge and bramble open as their painted broken selves
+- The Quarryman stands where Nathan stood the PC, up and left of the pit
+
+Behind the scenes:
+- The lanes deploy merge takes a PR-landed rotation over the retired predecessor
+- A message named to a not-acting RDP console reaches Fort B: console, not the other RDP
+- The Desk worker owns the daily commentary cron's one output file
+- GitHub Cleanup v2 takes the github-cleanup row (B, sonnet/medium), for the Other GitHub tab to 0
+- The gamepad-bindings row names the D-pad's starting highlight and its look (#8198 seam 4)
+- The controls suite puts back the runtime pad and walk actions it wipes
+
 ## v0.0.28-P5821
 
 - Every failed cloud call is logged with its reason, kept across launches
@@ -127,7 +141,7 @@ Behind the scenes:
 
 ## v0.0.28-P5742
 
-- The Loot rules' item and named chances, commons capped at 15%, the cave counted with the Vale *(fix attempt - still being verified)*
+- The Loot rules' item and named chances, commons capped at 15%, the cave counted with the Vale
 - A cost pill's number keeps its full width; the clip and overrun trim belong to the wrapping row only *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -398,7 +412,7 @@ Behind the scenes:
 
 ## v0.0.28-P5580
 
-- The see-through circle's radius carries the zoom - it was set in room px and measured in canvas px *(fix attempt - still being verified)*
+- The see-through circle's radius carries the zoom - it was set in room px and measured in canvas px
 
 Behind the scenes:
 - A stopped background task ("") is over - the Stop guard and the sweep no longer count it as a live wait
@@ -998,7 +1012,7 @@ Behind the scenes:
 - Walk only the painted path - the floor hand-traced on O1, a cell walkable at 3/4 cover *(fix attempt - still being verified)*
 - Kept no longer lists XP, and an XP ledger rides Copy game data *(fix attempt - still being verified)*
 - The Fighter's gift is The Sergeant's Longsword
-- Snow-glade log spans the river (#7284 item 80a) *(fix attempt - still being verified)*
+- Snow-glade log spans the river (#7284 item 80a)
 - No queue maker opens the pane unasked - one routed slot tap in TabBase for Builder, Library, Forge, Barracks; queue slot content clears its rounded border *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -2742,7 +2756,7 @@ Behind the scenes:
 
 ## v0.0.28-P4404
 
-- The wall layer reads its packed mask atlas linear, no mipmaps (Tech Lead, #6320) *(fix attempt - still being verified)*
+- The wall layer reads its packed mask atlas linear, no mipmaps (Tech Lead, #6320)
 - Tappable pieces are room data - the cabin's locked chest and both wardrobes
 - The chopped log shows real cut art, not the MISSING ART card
 - A project setting change starts a new epoch - E9, and the guard covers every setting
