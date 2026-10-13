@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5882
+
+- A closing save up to ten minutes past the base takes a cloud copy that holds its flags
+- The cave is dark again, with his own-colour pool around him *(fix attempt - still being verified)*
+- Every forest square at the wood's edge draws a tree, so no solid square reads as walkable grass
+
 ## v0.0.28-P5879
 
 - The Fortress Grows plate's keep is the map's keep - its own lift, its body size, on the road's centre *(fix attempt - still being verified)*
