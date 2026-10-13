@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5774
+
+- The rat cave is ONE whole-room painting, like the lair
+
+Behind the scenes:
+- Delete 21 confirmed-dead scripts, cap three scheduled tasks at install (#8016 findings 11,12,13)
+- Two static rules - no print() in a per-frame callback, no untimed self-hosted job (#8016 findings 8,3)
+- Gdunit runner round 2 - stdout read once, reports/ and .godot under the disk cap, dead -BudgetGate gone, exit table complete (#8016 findings 5,6b,7,19,21)
+- Tier frames judged by one bar - a fresh frame's verdict uses acceptable(), as the retry and KEPT checks do (#7296 item 62)
+- Retire verify-shell-resize.ps1, an orphan that killed every Godot on the machine (#8016 finding 4)
+
 ## v0.0.28-P5767
 
 - One HeroOutline - the hero's yellow outline through painted rock in the cave and the lair, as in the arena
