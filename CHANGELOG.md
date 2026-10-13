@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5805
+
+- The pad's LB / RB step the management tabs and Back opens Equipment (#8198 seam 2a)
+- A start-up pull retry dropped for a changed account says so in the last pull record *(fix attempt - still being verified)*
+- A failed start-up pull is asked twice more before the Load opens (#8444, #8362) *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The nightly soak stops writing its unread latest.json and history.jsonl record (#8172 item 3)
+- Bank the runtime budget rise from the cave painting, Vale barrier panels and six story plates
+
 ## v0.0.28-P5800
 
 - A run on a stale copy closes at its first refused upload, saved, with the reason shown *(fix attempt - still being verified)*
@@ -2678,7 +2688,7 @@ Behind the scenes:
 
 ## v0.0.28-P4416
 
-- ShellMaterials refuses a texture built in code a row - warns, asserts in debug, never grows per mount *(fix attempt - still being verified)*
+- ShellMaterials refuses a texture built in code a row - warns, asserts in debug, never grows per mount
 - The map - fog hides a cave's shape, door icons, dotted area lines, wander paths, mob names and timers, tier-coloured mob dots
 
 Behind the scenes:
@@ -2686,7 +2696,7 @@ Behind the scenes:
 
 ## v0.0.28-P4413
 
-- The wall shell builds each material once and shares it - no per-entry memory growth *(fix attempt - still being verified)*
+- The wall shell builds each material once and shares it - no per-entry memory growth
 
 ## v0.0.28-P4412
 
@@ -3459,7 +3469,7 @@ Behind the scenes:
 ## v0.0.28-P3945
 
 - The classic room's colliders leave the physics space; collision is declared data again
-- The stick layer sizes itself, so it stops asking the engine to fight it *(fix attempt - still being verified)*
+- The stick layer sizes itself, so it stops asking the engine to fight it
 - Tag outdoor props so the geometry sidecar can SEE the overworld
 
 Behind the scenes:
