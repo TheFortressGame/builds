@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5852
+
+- The three lone squares Nathan marked go to rock; the middle run stays open *(fix attempt - still being verified)*
+- The Fortress Grows shows the keep it grew into
+- Chests are solid furniture you open and loot, never picked up
+- A short cost shows have/need on the wrapping cost row too (#7296 line 68) *(fix attempt - still being verified)*
+- The seven north-camp cells go back to forest so every spring leaves room for the wave *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The green-PR sweep never merges a version close
+- A Vale map cell edit selects the camp suites (#8437 to #8534)
+- The hero tier generator names its frames, spends at most its budget and stops when Codex brings back nothing (#7296 item 62)
+- Pad-tab-step row - PadTabStep owns when a tab bar answers LB / RB (#8503, #8198 seam 5b)
+- Drop capture-state's dead -Screen flag (VCAP_SCREEN was never read)
+- Codex image callers park on the daily image window instead of failing
+
 ## v0.0.28-P5840
 
 - 20x, 50x and 100x game speeds for Defend testing
@@ -306,7 +322,7 @@ Behind the scenes:
 
 - The repaired keep is the one door a fight never holds - it is how he flees
 - The lair's cave mouth is a cleft in the lair's own basalt, Nathan's design 3
-- No wall faces the camera and the rock is solid everywhere - the lair's low rim, repainted *(fix attempt - still being verified)*
+- No wall faces the camera and the rock is solid everywhere - the lair's low rim, repainted
 - The Equipment window stands in the window area once - no dead space above or below *(fix attempt - still being verified)*
 - The lair's door climbs to the cave painted at the top of the steps
 
