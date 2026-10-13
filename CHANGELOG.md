@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5753
+
+- A wrapping cost row's number keeps its full width *(fix attempt - still being verified)*
+- A monster with no picture in Simple or Detailed draws its Normal picture, not its letter *(fix attempt - still being verified)*
+- The outdoor ground is one cached texture, not a rect per cell - the 8 Hz minimap redraw was a 40-55 ms hitch every 0.12 s in Explore and Defend *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat a-a-tech-lead-v46)
+- The Codex reviewer never reads the echoed format line as a verdict, and nits go on one uncounted NITS line
+- Capture-state refuses a -Worktree that is on a branch - a lane's own tree was force-checked-out to main and rendered main (relay 8207b533)
+- The lanes record follows the live registry (rotate-pinned-chat b-fb-interiors-v27)
+- A pinned lane's resume marker follows its /clear - supervisor marker sync covers every pinned row
+- Raw gh issue create call sites outside standing-issue.lib.ps1 may only fall - raw_issue_creates_off_owner (#8345 seam 4); the token canary rides the sonnet alias
+- The Vale painting chunks import with high-quality GPU compression (BPTC/ASTC), less block blur at play zoom
+- Lanes' ASK lines reach Fort B auto: Desk (-Peer desk), console rows get a resume line they accept, and the cost-chips owner row
+
 ## v0.0.28-P5742
 
 - The Loot rules' item and named chances, commons capped at 15%, the cave counted with the Vale *(fix attempt - still being verified)*
