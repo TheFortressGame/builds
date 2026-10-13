@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5800
+
+- A run on a stale copy closes at its first refused upload, saved, with the reason shown *(fix attempt - still being verified)*
+- A card shown is saved as shown - a restart never hands the plans over again
+- The pad moves to layout B - D-pad on the menu highlight, X shoots, Y map; walking reads move_* only (#8198 seam 1)
+- Making and breaking camp each log a line saying what happens to regen
+- The painting lines up with the floor, the pit stays, and no rock is pasted on it (#8401, #8407) *(fix attempt - still being verified)*
+- The gear doll's pink QA pill reads "Items +10"
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-b-walkthrough-debugging-v22)
+- Gamepad-bindings row follows layout B - D-pad on ui_*, X shoot, Y map, no pad zoom (#8433, #8198)
+- The cave fresh-boot cases pin the 2D PC style they assert outdoors
+- The popup door capture seeds gdUnit4 and quits when the door suite does not load, instead of hanging
+
 ## v0.0.28-P5790
 
 - The Area buttons' glyph leads its word instead of drawing over it; the fit measures the real icon, gap and margins
