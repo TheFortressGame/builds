@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5864
+
+- The castle's yellow ring is centred on the keep, not the steps in front *(fix attempt - still being verified)*
+- The action bar's slots get keys 1-0, shown in each button's corner and rebindable in Controls
+- A ring is stood in by his feet, so the rat cave offers Enter *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A rotated desk asks once to be pinned in the sidebar
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-auto-tech-lead-v47)
+
 ## v0.0.28-P5859
 
 - Mobs route round the trees and the river to the keep, held only with no route *(fix attempt - still being verified)*
