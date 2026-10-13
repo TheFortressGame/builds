@@ -4,6 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5873
+
+- A mob latches when the hero's feet cross its drawn ring, not his middle *(fix attempt - still being verified)*
+- With his feet on the walk point, the cells that stand him on the tan boulder close *(fix attempt - still being verified)*
+- Game speeds above 10x are Defend only
+- The bar is GAME, MOVE, INSTA-KILL and PANEL; its switches move to the panel
+
+Behind the scenes:
+- The alpha trail's weave is measured on the drawn dirt, not the shortest walk over painted grass
+- The lanes record follows the live registry (rotate-pinned-chat a-fort-a-lane-itemization-v7)
+- Scan everything bound for the Pip mailbox outbox before a push
+- Rewritten build release notes apply through a token-holding workflow
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-auto-desk-v2)
+
 ## v0.0.28-P5864
 
 - The castle's yellow ring is centred on the keep, not the steps in front *(fix attempt - still being verified)*
