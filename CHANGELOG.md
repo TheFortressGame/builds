@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5879
+
+- The Fortress Grows plate's keep is the map's keep - its own lift, its body size, on the road's centre *(fix attempt - still being verified)*
+- Snapshot presets record received blueprints, resident houses and the Storage Chest so no card piles up on arrival
+
+Behind the scenes:
+- The alpha's blocking-card test stands his feet outside the aggro ring
+- Issue-dupe-gate and file-report-issue set gh's TZ like every gh entry point, so the gh-tz selftest is green again
+- The transit journey stands his feet in the ring and clear of the entrance body
+
 ## v0.0.28-P5873
 
 - A mob latches when the hero's feet cross its drawn ring, not his middle *(fix attempt - still being verified)*
@@ -126,7 +136,7 @@ Behind the scenes:
 
 ## v0.0.28-P5800
 
-- A run on a stale copy closes at its first refused upload, saved, with the reason shown *(fix attempt - still being verified)*
+- A run on a stale copy closes at its first refused upload, saved, with the reason shown
 - A card shown is saved as shown - a restart never hands the plans over again
 - The pad moves to layout B - D-pad on the menu highlight, X shoots, Y map; walking reads move_* only (#8198 seam 1)
 - Making and breaking camp each log a line saying what happens to regen
@@ -144,7 +154,7 @@ Behind the scenes:
 - The Area buttons' glyph leads its word instead of drawing over it; the fit measures the real icon, gap and margins
 - Two PC styles decide the outdoor hero - HeroDrawRule.pc_style / set_pc_style, saved, on every art set (#8414, #8235)
 - The mosquito field's wood moves to the top, apart from the stone *(fix attempt - still being verified)*
-- The Two Copies choice marks the newer copy and puts its button first (#8362, #8361) *(fix attempt - still being verified)*
+- The Two Copies choice marks the newer copy and puts its button first (#8362, #8361)
 - The huts, the cave mouths and the keep are solid - walk up to them and into their rings, never through them
 
 Behind the scenes:
