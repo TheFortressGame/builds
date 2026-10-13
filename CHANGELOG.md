@@ -4,6 +4,24 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5790
+
+- The Area buttons' glyph leads its word instead of drawing over it; the fit measures the real icon, gap and margins
+- Two PC styles decide the outdoor hero - HeroDrawRule.pc_style / set_pc_style, saved, on every art set (#8414, #8235)
+- The mosquito field's wood moves to the top, apart from the stone *(fix attempt - still being verified)*
+- The Two Copies choice marks the newer copy and puts its button first (#8362, #8361) *(fix attempt - still being verified)*
+- The huts, the cave mouths and the keep are solid - walk up to them and into their rings, never through them
+
+Behind the scenes:
+- Every published build sends the desk a test row for each player-visible PR it carries
+- Medium tier is a stiff hide jerkin with shoulder caps, judged by material not girth (#7296 item 62)
+- The four queue-progress clamps to QueueProgress (#5907 Refactor Systems S10)
+- PlayerSprite._process to an orchestrator over four steps
+- Nathan's chat gets only what he must hear - meta notices, ASK lines and promise-check replies go to Fort B auto: Desk
+- Explore3DDecorBuilder._build_interior_shell to an orchestrator over its wall-cell and wall-build steps
+- Every popup the door lists, rendered at 540x1170 with the door's verdict (#5907 brief #98)
+- The colour bar holds only the plain look - an armoured swing frame's drift is the garment (#7296 item 62)
+
 ## v0.0.28-P5776
 
 - The mosquito field's wood and stone move up, off the road *(fix attempt - still being verified)*
