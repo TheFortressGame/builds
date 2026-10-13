@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5840
+
+- 20x, 50x and 100x game speeds for Defend testing
+- Re-pin rigs/SOURCES.md and judge only the paths a PR changes in the vendored gate
+- LB and RB step the top open window's own tabs (#8198 seam 5b)
+- He sits on the ground - the pack's floor sit on his whole body
+- Load says it is checking the cloud mid-pull and asks when the start-up pull failed
+- The Vale and progression so far - sign-in and cloud saves, the grown Vale, painted interiors, the deeper opening story
+- Settings > Controls lists what the controller does, read from the one GamepadBindings table (#8198 seam 5a)
+- The painted clearings open where collision blocked them *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-auto-desk-v1)
+- The desk-worker's areas name the daily commentary file the shared-paths gate checks
+
 ## v0.0.28-P5830
 
 - The 29 cells the painting shows open are floor (#8423, #8407) *(fix attempt - still being verified)*
@@ -1744,7 +1759,7 @@ Behind the scenes:
 ## v0.0.28-P4921
 
 - Piper's and the Ranger's first meetings read full screen, the 3D warning locks its chrome, the door words come from GameStrings, and the Storyline Art Bible prints presentation and event (#6816 PR b)
-- A mob looks where it walks whichever way its drawing faces - per-set art facing *(fix attempt - still being verified)*
+- A mob looks where it walks whichever way its drawing faces - per-set art facing
 
 ## v0.0.28-P4919
 
