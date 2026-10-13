@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5814
+
+- The first D-pad press lands on a button and focus draws as a gold ring (#8198 seam 2b)
+- Detailed leaves the art-set picker; a saved Detailed moves to Normal
+
 ## v0.0.28-P5812
 
 - Coming back to the front checks the cloud, closing a run another device moved past
