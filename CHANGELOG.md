@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5812
+
+- Coming back to the front checks the cloud, closing a run another device moved past
+- The Vale's Fortress grows in 8 stages by Fortress level
+
+Behind the scenes:
+- Art-gap-scan reads a painted room's panels/*.webp as promoted, not a DRAFT
+- The floor follows main - floor followed main by the weekly audit: dup_pairs 16 to 15, oversized_file_lines 7160 to 7157, raw_issue_creates_off_owner 29 to 28. Every count may only fall from here
+- The roster half of the front check is covered
+- The disk reapers stop missing the gate caches, the owner-eval selftest repos and gdUnit user-dir stamps
+- The sweep looks past a merge-from-main tip for the session trailer, so refactor PRs reach the oldest-first queue
+
 ## v0.0.28-P5805
 
 - The pad's LB / RB step the management tabs and Back opens Equipment (#8198 seam 2a)
