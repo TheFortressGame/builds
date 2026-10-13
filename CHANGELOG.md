@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5776
+
+- The mosquito field's wood and stone move up, off the road *(fix attempt - still being verified)*
+- Outdoors the hero's collision box rides his feet *(fix attempt - still being verified)*
+
 ## v0.0.28-P5774
 
 - The rat cave is ONE whole-room painting, like the lair
