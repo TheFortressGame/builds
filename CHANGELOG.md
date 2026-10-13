@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5821
+
+- Every failed cloud call is logged with its reason, kept across launches
+- The Vale's Fortress moves 2 squares south onto the crossroads (#8251, #8430)
+- The right stick zooms and turns the camera and R3 brings the pointer back (#8198 seam 3)
+- A call that needs a renewal while one is in flight waits for it *(fix attempt - still being verified)*
+- A PC 3D / PC 2D row under the art-style picker
+
+Behind the scenes:
+- The retired Detailed set's folder and every painterly row go (#8235 PR4)
+- The Discord roadmap goes broad and roadmap ideas are promoted before they are built
+
 ## v0.0.28-P5814
 
 - The first D-pad press lands on a button and focus draws as a gold ring (#8198 seam 2b)
