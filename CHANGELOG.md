@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.28-P5859
+
+- Mobs route round the trees and the river to the keep, held only with no route *(fix attempt - still being verified)*
+- He glides along walls at the push's speed and rounds square corners
+- Indoors the hero's feet stand on his walk point, not his middle *(fix attempt - still being verified)*
+
+Behind the scenes:
+- End the save session the ManagementScreen test seam leaves armed (v0.0.28 release-gate red)
+- Ashkarr's depth test sorts by the hero's true feet - the two cells up-screen of him stand behind
+- The cave sheets and Vale mockup image helpers write the Codex image ledger and park on the daily window
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-console)
+
 ## v0.0.28-P5852
 
 - The three lone squares Nathan marked go to rock; the middle run stays open *(fix attempt - still being verified)*
@@ -215,7 +227,7 @@ Behind the scenes:
 
 ## v0.0.28-P5714
 
-- A QA snapshot keeps the run's names instead of renaming it Debug *(fix attempt - still being verified)*
+- A QA snapshot keeps the run's names instead of renaming it Debug
 - Six story-beat plates promoted - first salvage, Ashkarr slain, the Ranger draws off, the chest started, a building built, the Mason's Walls
 - Alert cards the player has not read yet survive a reload (#8017 finding 11) *(fix attempt - still being verified)*
 - The crash beacon sizes the running session's own save (#8012 finding 2) *(fix attempt - still being verified)*
